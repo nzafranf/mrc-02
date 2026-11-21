@@ -11,11 +11,23 @@
 \usepackage{graphicx}
 \usepackage{booktabs}
 \usepackage{xcolor}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{longtable}
+% light tints per error category (error-analysis tables)
+\definecolor{ecorrect}{HTML}{C8E6C9}
+\definecolor{elong}{HTML}{FFE0B2}
+\definecolor{eshort}{HTML}{FFF9C4}
+\definecolor{ewsent}{HTML}{C5CAE9}
+\definecolor{ewspan}{HTML}{E1BEE7}
+\definecolor{enoans}{HTML}{FFCDD2}
 \usepackage[numbers]{natbib}
 \usepackage[hidelinks]{hyperref}
 % \usepackage[indonesian]{babel}  % uncomment for an Indonesian report
 
-Laporan ini bisa ditreat sbg log dan penemuan eksperimen kita seiring berjalan. Jadi, ketika kita nyoba model X, motivasinya, yang dituangkan ke dalam sutdi literatur, eda, error analysis, itu berkesinambungan dair perocbaan model sebelumnya yang sudah ada di laporan ini. Jadi, -- at least gw --  gw prefernya nyobain model itu hasilnya paralel buat studi ltieratur hingga error analysis etika dituangkan ke laporan.
+% Laporan ini bisa ditreat sbg log dan penemuan eksperimen kita seiring berjalan. Jadi, ketika kita nyoba model X, motivasinya, yang dituangkan ke dalam sutdi literatur, eda, error analysis, itu berkesinambungan dair perocbaan model sebelumnya yang sudah ada di laporan ini. Jadi, -- at least gw --  gw prefernya nyobain model itu hasilnya paralel buat studi ltieratur hingga error analysis etika dituangkan ke laporan.
+
+% Sebagai contoh, gw (atau siapapun nanti) pegnen nunukkin dari hasil EDA kata-kata mana yang ada di pertanyaan tetapi gaada di konteks. Ada kata pada pertanyaan yang mangarahkan ke jawabannya (siapa PEMIMPIN vs PRESIDEN Indonesia) tapi kata eksaknya ada gaada di korpus. Ada juga kata-kata yang agak jauh dan kurang bisa menjadi sinonim antara kata di pertnayana sama kotneks, misalnya nanya "BERAPA", tentunya di konteks ngga ada kata yang bersinonim layaknya "presiden" dengna "pemimpin", paling-paling adanya "jumlah penduduk Indonesia adalah ..." secara tidak langsung. Ini buat motivasi kenapa ngga make rule base dan kenapa harus make embedding, perhaps bukan embedding biasa tapi juga harus make attention mechanism biarrelasi yang lebih kompeks kayak pertanyaan "berapa" dengan teks yg menyatakan kuantitias di teks konteks itu bisa ketangkep. Kemudian, dari hasil implementasi word embedding atau trasnformer, tulis error analysisnay dan jadikan ini motivasi buat perkemabngan selanjutnya.
 
 \graphicspath{{../assets/figures/}{../../eda/outputs/figures/}}
 \newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
@@ -127,6 +139,45 @@ no-answer score.}
   \caption{Error types per model (seed 13). \todo{interpretation}}
   \label{fig:errors}
 \end{figure}
+\subsection{Analisis berdasarkan contoh jawaban model}
+\label{sec:ea-examples}
+Tabel~\ref{tab:examples} pada Lampiran~\ref{app:examples} membandingkan jawaban setiap model (seed 13) pada contoh dev
+yang dijawab oleh seluruh model utama, lengkap dengan konteksnya, dan dikelompokkan ke dalam empat sekat sesuai penyebab
+error-nya. Warna sel menunjukkan jenis error sehingga pola antarmodel mudah dibandingkan.
+
+\paragraph{Lebih dari satu jawaban valid.}
+Pada pertanyaan ``Dimana letak Düsseldorf?'', gold-nya hanya \textit{Jerman}, padahal kalimat kedua pada konteks juga
+menjawab pertanyaan yang sama secara valid (\textit{tepi Sungai Rhein}). Hampir semua model, yaitu \textit{classical
+pipeline}, IndoBERT, Nemotron, dan Gemini, memilih jawaban kedua dan dihitung sebagai \texttt{wrong\_sentence} dengan
+F1 $0$, sedangkan BiDAF hanya memperoleh kredit parsial (F1 $0{,}50$ untuk \textit{Jerman bagian Barat}). Error ini
+lebih mencerminkan keterbatasan anotasi dengan satu jawaban acuan daripada kegagalan pemahaman model, sehingga EM dan F1
+menghukum jawaban yang sebenarnya dapat diterima.
+
+\paragraph{Inkonsistensi ekspektasi jawaban.}
+Konteks Papua yang sama muncul dengan dua pertanyaan yang hampir identik, tetapi gold-nya berbeda: \texttt{808.105km}
+pada ``Berapa luas Papua?'' dan \texttt{808.105km persegi} pada ``berapakah luas Papua?''. Seluruh model, termasuk
+Nemotron, selalu menjawab \textit{808.105km persegi}. Akibatnya jawaban yang sama dianggap \texttt{boundary\_too\_long}
+(F1 $0{,}67$) pada kasus pertama dan benar sepenuhnya pada kasus kedua. Pada contoh Kanada dan Gorontalo, gold juga
+memuat satuan (\textit{kilometer persegi}, \textit{km$^2$}) sehingga seluruh model benar. Pola ini menunjukkan bahwa
+model mempelajari konvensi ``angka beserta satuannya'', dan error batas pada kasus Papua pertama merupakan
+inkonsistensi anotasi, bukan kesalahan model.
+
+\paragraph{Tanda baca konteks yang ambigu.}
+Pada ``apakah nama ibukota Afganistan?'', konteks hanya berbunyi ``Di samping ibu kotanya Kabul, Herat, Jalalabad,
+Mazar-e Sharif dan Kandahar ialah kota-kota utama negara ini''. Koma yang sama memisahkan apositif (\textit{Kabul}) dan
+daftar kota lain sehingga batas jawaban tidak terlihat dari tanda bacanya. Hanya \textit{classical pipeline} yang
+menjawab benar (\textit{Kabul}); BiDAF-noattn memilih daftar kota tanpa \textit{Kabul} (\texttt{wrong\_span\_same\_sentence}),
+sedangkan BiDAF dan IndoBERT memperpanjang \textit{span} hingga seluruh daftar (\texttt{boundary\_too\_long}).
+
+\paragraph{Konteks berupa daftar tanpa penanda jabatan.}
+Pada ``Siapa presiden pertama Nauru?'', konteks adalah tabel yang terflatten menjadi daftar nama dan tanggal
+(``NamaMasa jabatan 1.\ Hammer DeRoburt (1922-1992) 31 Januari 1968 -- \ldots{}'') tanpa satu pun kata \textit{presiden}
+atau keterangan jabatan lain yang menunjukkan siapa mereka. Model harus menyimpulkan bahwa nama pertama pada daftar adalah
+presiden pertama. Akibatnya \textit{classical pipeline}, BiDAF-noattn, IndoBERT, dan Gemini memilih tidak menjawab
+(\texttt{false\_no\_answer}), BiDAF memilih judul kolom \textit{NamaMasa jabatan1} (\texttt{wrong\_sentence}), dan hanya
+Nemotron yang menjawab mendekati benar (\textit{Hammer DeRoburt (1922-1992)}, F1 $0{,}80$). Ini contoh kasus yang
+memerlukan penalaran struktur dokumen, bukan pencocokan leksikal antara pertanyaan dan konteks.
+
 \todo{Correct and wrong examples, strengths and weaknesses of each model, error causes, reasoning challenges
 (manual labels from the error samples).}
 
@@ -134,6 +185,78 @@ no-answer score.}
 \todo{What worked, limits (dev-tuned thresholds, partial LLM API runs), future work.}
 
 \appendix
+\begin{landscape}
+\section{Contoh jawaban model}
+\label{app:examples}
+{\scriptsize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.25}
+\begin{longtable}{p{2.0cm}p{1.6cm}p{5.2cm}p{1.9cm}p{1.9cm}p{1.9cm}p{1.9cm}p{2.1cm}p{2.1cm}}
+  \caption{Jawaban setiap model pada contoh dev yang dijawab oleh semua model utama (seed 13), dibahas pada
+  Subbab~\ref{sec:ea-examples}. Teks tebal pada konteks adalah jawaban gold. Warna sel menunjukkan jenis error:
+  \colorbox{ecorrect}{benar}, \colorbox{elong}{batas terlalu panjang}, \colorbox{ewsent}{kalimat salah},
+  \colorbox{ewspan}{span salah pada kalimat yang sama}, \colorbox{enoans}{tidak menjawab}. ``--'' berarti model API tidak
+  dijalankan pada contoh tersebut.}
+  \label{tab:examples} \\
+    \toprule
+    Pertanyaan & Gold & Konteks & Classical & BiDAF-noattn & BiDAF & IndoBERT & Nemotron (API) & Gemini (API) \\
+    \midrule
+    \endfirsthead
+    \multicolumn{9}{l}{\textit{Tabel~\ref{tab:examples} (lanjutan)}} \\
+    \toprule
+    Pertanyaan & Gold & Konteks & Classical & BiDAF-noattn & BiDAF & IndoBERT & Nemotron (API) & Gemini (API) \\
+    \midrule
+    \endhead
+    \midrule
+    \multicolumn{9}{r}{\textit{berlanjut di halaman berikutnya}} \\
+    \endfoot
+    \bottomrule
+    \endlastfoot
+    \multicolumn{9}{l}{\cellcolor{black!8}\textit{Lebih dari satu jawaban valid}} \\*
+    Dimana letak Düsseldorf? & Jerman
+      & Düsseldorf adalah ibu kota Negara Bagian Nordrhein-Westfalen di \textbf{Jerman} dan (bersama-sama dengan Köln dan Wilayah Ruhr) merupakan pusat ekonomi Jerman bagian Barat. Düsseldorf terletak di tepi Sungai Rhein dan merupakan salah satu pusat utama dari daerah Rhein-Ruhr \ldots
+      & \cellcolor{ewsent}Sungai Rhein
+      & \cellcolor{elong}pusat ekonomi Jerman bagian Barat
+      & \cellcolor{elong}Jerman bagian Barat
+      & \cellcolor{ewsent}tepi Sungai Rhein
+      & \cellcolor{ewsent}Düsseldorf terletak di tepi Sungai Rhein
+      & \cellcolor{ewsent}tepi Sungai Rhein \\
+    \midrule
+    \multicolumn{9}{l}{\cellcolor{black!8}\textit{Inkonsistensi ekspektasi jawaban}} \\*
+    Berapa luas Papua? & 808.105km
+      & \ldots{} Papua memiliki luas \textbf{808.105km} persegi dan merupakan pulau terbesar kedua di dunia dan terbesar pertama di Indonesia.
+      & \cellcolor{elong}808.105km persegi & \cellcolor{elong}808.105km persegi & \cellcolor{elong}808.105km persegi
+      & \cellcolor{elong}808.105km persegi & \cellcolor{elong}808.105km persegi & -- \\
+    berapakah luas Papua? & 808.105km persegi
+      & (Konteks sama:) \ldots{} Papua memiliki luas \textbf{808.105km persegi} dan merupakan pulau terbesar kedua di dunia \ldots
+      & \cellcolor{ecorrect}808.105km persegi & \cellcolor{ecorrect}808.105km persegi & \cellcolor{ecorrect}808.105km persegi
+      & \cellcolor{ecorrect}808.105km persegi & -- & -- \\
+    berapakah luas Kanada? & 9.970.610 kilometer persegi
+      & \ldots{} Kanada merupakan negara terluas di Amerika Utara. Luas negara Kanada adalah \textbf{9.970.610 kilometer persegi}. Kanada digolongkan negara maju \ldots
+      & \cellcolor{ecorrect}9.970.610 kilometer persegi & \cellcolor{ecorrect}9.970.610 kilometer persegi
+      & \cellcolor{ecorrect}9.970.610 kilometer persegi & \cellcolor{ecorrect}9.970.610 kilometer persegi & -- & -- \\
+    Berapa luas provinsi Gorontalo? & 12.435,00km$^2$
+      & Provinsi Gorontalo terletak pada Semenanjung Gorontalo di Pulau Sulawesi \ldots{} Luas wilayah provinsi ini \textbf{12.435,00km$^2$} dengan jumlah penduduk sebanyak 1.133.237 jiwa (2016) \ldots
+      & \cellcolor{ecorrect}12.435,00km$^2$ & \cellcolor{ecorrect}12.435,00km$^2$ & \cellcolor{ecorrect}12.435,00km$^2$
+      & \cellcolor{ecorrect}12.435,00km$^2$ & -- & -- \\
+    \midrule
+    \multicolumn{9}{l}{\cellcolor{black!8}\textit{Tanda baca konteks yang ambigu}} \\*
+    apakah nama ibukota Afganistan? & Kabul
+      & Di samping ibu kotanya \textbf{Kabul}, Herat, Jalalabad, Mazar-e Sharif dan Kandahar ialah kota-kota utama negara ini. Lihat juga Kota-kota di Afganistan.
+      & \cellcolor{ecorrect}Kabul
+      & \cellcolor{ewspan}Herat, Jalalabad, Mazar-e Sharif dan Kandahar ialah kota-kota utama negara ini
+      & \cellcolor{elong}Kabul, Herat, Jalalabad, \ldots{} Lihat juga Kota-kota di Afganistan
+      & \cellcolor{elong}Kabul, Herat, Jalalabad, Mazar-e Sharif dan Kandahar & -- & -- \\
+    \midrule
+    \multicolumn{9}{l}{\cellcolor{black!8}\textit{Konteks berupa daftar tanpa penanda jabatan}} \\*
+    Siapa presiden pertama Nauru? & Hammer DeRoburt
+      & NamaMasa jabatan 1.\ \textbf{Hammer DeRoburt} (1922-1992) 31 Januari 1968 -- 22 Desember 1976 2.\ Bernard Dowiyogo (1946-2003) 22 Desember 1976 -- 19 April 1978 3.\ Lagumot Harris (1938-1999) \ldots{} 30.\ Baron Waqa (1959-) 11 Juni 2013 -- Sekarang
+      & \cellcolor{enoans}(tidak menjawab) & \cellcolor{enoans}(tidak menjawab)
+      & \cellcolor{ewsent}NamaMasa jabatan1 & \cellcolor{enoans}(tidak menjawab)
+      & \cellcolor{elong}Hammer DeRoburt (1922-1992) & \cellcolor{enoans}(tidak menjawab) \\
+\end{longtable}
+}
+\end{landscape}
 \section{External resources}
 \todo{Pretrained models, libraries and data used (miscellaneous/docs/decisions.md).}
 \section{AI use declaration}
