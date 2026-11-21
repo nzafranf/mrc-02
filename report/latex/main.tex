@@ -133,6 +133,26 @@ no-answer score.}
 \section{Error analysis}
 % Per experiment: experiments/NN-*/analysis/ (outcomes, slices, error samples for manual labels).
 % Across models: eda/notebooks/model_errors.ipynb and report/assets/tables/.
+% Definitions mirror classify() in experiments/global/mrc/analysis/compare.py.
+\textbf{Definisi jenis error.}
+Misalkan $A$ adalah jawaban acuan (gold) dan $\hat{A} = \mathcal{M}(C, Q)$ jawaban model, keduanya berupa \textit{span}
+$\{c_m, \dots, c_n\}$ pada konteks $C$ atau himpunan kosong $\emptyset$ bila tidak ada jawaban. Misalkan
+$\tau(\cdot)$ adalah deret token setelah normalisasi (huruf kecil, tanpa tanda baca dan penanda sitasi seperti \texttt{[1]}) dan $G = \tau(A)$,
+$P = \tau(\hat{A})$. Bila terdapat beberapa gold, dipakai gold dengan F1 tertinggi terhadap $\hat{A}$. Notasi
+$X \sqsubseteq Y$ berarti $X$ adalah sub-deret kontigu dari $Y$, dan $s(\cdot)$ adalah indeks kalimat pada $C$ yang memuat
+awal \textit{span}. Setiap jawaban salah ($\mathrm{EM}(\hat{A}, A) = 0$) diklasifikasikan ke tepat satu jenis berikut,
+diperiksa berurutan. (1)~\textit{False answer on unanswerable}: $A = \emptyset$ tetapi $P \neq \emptyset$, yaitu model menjawab pada
+pertanyaan yang tidak dapat dijawab. (2)~\textit{False no answer}: $A \neq \emptyset$ tetapi $P = \emptyset$, yaitu model
+abstain padahal jawaban ada. Selanjutnya, untuk $G \neq \emptyset$ dan $P \neq \emptyset$:
+(3)~\textit{Boundary too long}: $G \sqsubseteq P$ dan $G \neq P$, yaitu jawaban model memuat seluruh gold ditambah token berlebih;
+(4)~\textit{Boundary too short}: $P \sqsubseteq G$ dan $P \neq G$, yaitu jawaban model hanya sebagian dari gold;
+(5)~\textit{Partial overlap}: $\mathrm{F1}(P, G) > 0$ tetapi tidak berlaku (3) maupun (4);
+(6)~\textit{Wrong span, same sentence}: $\mathrm{F1}(P, G) = 0$ dan $s(\hat{A}) = s(A)$, yaitu \textit{span} salah pada kalimat yang benar;
+(7)~\textit{Wrong sentence}: $\mathrm{F1}(P, G) = 0$ dan $s(\hat{A}) \neq s(A)$, yaitu \textit{span} berasal dari kalimat lain.
+Jawaban dengan $\mathrm{EM} = 1$ disebut \textit{correct}. Dalam kode, jenis ini tertulis sebagai \texttt{false\_answer\_on\_unanswerable},
+\texttt{false\_no\_answer}, \texttt{boundary\_too\_long}, \texttt{boundary\_too\_short}, \texttt{partial\_overlap},
+\texttt{wrong\_span\_same\_sentence}, dan \texttt{wrong\_sentence}.
+
 \begin{figure}[t]
   \centering
   \includegraphics[width=\linewidth]{error_taxonomy_stacked.png}
