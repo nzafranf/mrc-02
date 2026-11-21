@@ -1,0 +1,25 @@
+{"id": "qa_006703b670a2de86a02f", "pred": "tahun 1993", "score": 0.0, "start_char": 236, "raw_output": "tahun 1993", "grounding": "exact"}
+{"id": "qa_00e198cdbe7a6db9fff7", "pred": "", "score": 0.0, "start_char": -1, "raw_output": "TIDAK ADA JAWABAN", "grounding": "noans"}
+{"id": "qa_00ff25c8418d611dec83", "pred": "", "score": 0.0, "start_char": -1, "raw_output": "TIDAK ADA JAWABAN", "grounding": "noans"}
+{"id": "qa_01364a9092f96eb6e2be", "pred": "Teheran", "score": 0.0, "start_char": 330, "raw_output": "Teheran", "grounding": "exact"}
+{"id": "qa_019cc3e2fe995662f0ec", "pred": "", "score": 0.0, "start_char": -1, "raw_output": "TIDAK ADA JAWABAN", "grounding": "noans"}
+{"id": "qa_032e963768b50c42794c", "pred": "Dar-es-Salam", "score": 0.0, "start_char": 184, "raw_output": "Dar-es-Salam", "grounding": "exact"}
+{"id": "qa_0349eeca8eb4cae07506", "pred": "", "score": 0.0, "start_char": -1, "raw_output": "TIDAK ADA JAWABAN", "grounding": "noans"}
+{"id": "qa_03f1db958d34894d9e06", "pred": "", "score": 0.0, "start_char": -1, "raw_output": "TIDAK ADA JAWABAN", "grounding": "noans"}
+{"id": "qa_0406f9996f7eb6dcd774", "pred": "Hammer DeRoburt (1922-1992)", "score": 0.0, "start_char": 19, "raw_output": "Hammer DeRoburt (1922-1992)", "grounding": "exact"}
+{"id": "qa_04b38b92e0a507d36cd7", "pred": "Siswono Yudo Husodo", "score": 0.0, "start_char": 154, "raw_output": "Siswono Yudo Husodo", "grounding": "exact"}
+{"id": "qa_05170124bc738c0a36a9", "pred": "", "score": 0.0, "start_char": -1, "raw_output": "TIDAK ADA JAWABAN", "grounding": "noans"}
+{"id": "qa_05472ac12e5fdcef4ee0", "pred": "Düsseldorf terletak di tepi Sungai Rhein", "score": 0.0, "start_char": 164, "raw_output": "Düsseldorf terletak di tepi Sungai Rhein", "grounding": "exact"}
+{"id": "qa_056cd52e558d20724ced", "pred": "", "score": 0.0, "start_char": -1, "raw_output": "TIDAK ADA JAWABAN", "grounding": "noans"}
+{"id": "qa_05aed54e82bdb9edebf5", "pred": "Port Moresby", "score": 0.0, "start_char": 126, "raw_output": "Port Moresby", "grounding": "exact"}
+{"id": "qa_0674f81bcf68276feae4", "pred": "prosedur langkah-demi-langkah untuk penghitungan", "score": 0.0, "start_char": 53, "raw_output": "prosedur langkah-demi-langkah untuk penghitungan", "grounding": "exact"}
+{"id": "qa_06c9c5c2f0f891b0e163", "pred": "", "score": 0.0, "start_char": -1, "raw_output": "TIDAK ADA JAWABAN", "grounding": "noans"}
+{"id": "qa_074634b2eae86659178f", "pred": "", "score": 0.0, "start_char": -1, "raw_output": "TIDAK ADA JAWABAN", "grounding": "noans"}
+{"id": "qa_07b2bea085cd5a148a56", "pred": "28 September 1945", "score": 0.0, "start_char": 13, "raw_output": "28 September 1945", "grounding": "exact"}
+{"id": "qa_08d2b4d14fb91aadc8be", "pred": "988", "score": 0.0, "start_char": 714, "raw_output": "988", "grounding": "exact"}
+{"id": "qa_08e83cbae802d30d772a", "pred": "", "score": 0.0, "start_char": -1, "raw_output": "TIDAK ADA JAWABAN", "grounding": "noans"}
+{"id": "qa_0986961735e0c79ff572", "pred": "Paus", "score": 0.0, "start_char": 0, "raw_output": "Paus", "grounding": "exact"}
+{"id": "qa_09df0b3461ac400e9981", "pred": "sesudah tahun 6 SM", "score": 0.0, "start_char": 173, "raw_output": "sesudah tahun 6 SM", "grounding": "exact"}
+{"id": "qa_0a266524498967311c7b", "pred": "Banjarmasin", "score": 0.0, "start_char": 132, "raw_output": "Banjarmasin", "grounding": "exact"}
+{"id": "qa_0a3867b0e2c4601ee016", "pred": "808.105km persegi", "score": 0.0, "start_char": 427, "raw_output": "808.105km persegi", "grounding": "exact"}
+{"id": "qa_0aa5f7a3a28d2168f810", "pred": "", "score": 0.0, "start_char": -1, "raw_output": "TIDAK ADA JAWABAN", "grounding": "noans"}

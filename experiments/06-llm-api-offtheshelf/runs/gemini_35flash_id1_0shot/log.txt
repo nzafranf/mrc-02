@@ -1,0 +1,19 @@
+run gemini_35flash_id1_0shot; backend gemini; model gemini-3.5-flash; n=22; rpm 10.0; mock False; cache gemini-3.5-flash.jsonl (22 entries)
+1/22 calls=0 cached=1
+11/22 calls=0 cached=11
+21/22 calls=0 cached=21
+{
+ "exact": 54.54545454545455,
+ "f1": 54.54545454545455,
+ "HasAns_f1": 33.333333333333336,
+ "NoAns_acc": 100.0,
+ "pred_noans_rate": 72.72727272727273,
+ "grounding_counts": {
+  "exact": 6,
+  "snapped": 0,
+  "ungrounded": 0,
+  "noans": 16
+ },
+ "api_calls_this_run": 0,
+ "api_cache_hits": 22
+}

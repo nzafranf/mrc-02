@@ -1,0 +1,55 @@
+[project]
+name = "mrc-02"
+version = "0.1.0"
+description = "Indonesian extractive MRC (SQuAD v2 style): classical pipeline, BiDAF, IndoBERT, LLMs"
+readme = "README.md"
+requires-python = "==3.12.*"
+# Exact versions of the environment every reported result was produced with (CPU machine, Python 3.12.4).
+# The full resolved tree, with hashes, is in uv.lock.
+dependencies = [
+    "torch==2.14.1",
+    "transformers==5.4.0",
+    "tokenizers==0.22.2",
+    "huggingface-hub==1.8.0",
+    "safetensors==0.8.0",
+    "accelerate==1.13.0",
+    "peft==0.21.3",
+    "datasets==4.8.4",
+    "sentencepiece==0.2.0",
+    "numpy==2.5.4",
+    "scipy==1.18.1",
+    "pandas==2.3.3",
+    "scikit-learn==1.9.1",
+    "lightgbm==4.6.0",
+    "rank-bm25==0.2.2",
+    "pyyaml==6.0.2",
+    "matplotlib==3.9.2",
+    "seaborn==0.13.2",
+    "requests==2.32.3",
+]
+
+[project.optional-dependencies]
+# 4-bit loading of 7B LLMs (05-llm-local-qwen) on a CUDA GPU: uv sync --extra gpu
+gpu = ["bitsandbytes==0.44.1"]
+
+[dependency-groups]
+# Installed by default with `uv sync`: notebooks (eda/notebooks) and the Kaggle CLI (04-plm-indobert/kaggle)
+dev = [
+    "ipykernel==7.4.0",
+    "nbformat==5.11.1",
+    "nbconvert==7.17.1",
+    "kaggle==2.2.5",
+]
+
+[tool.uv]
+package = false  # a project, not an installable library; scripts find the shared code themselves
+
+# CPU-only torch on Windows and Linux (the PyPI Linux wheel pulls several GB of CUDA libraries).
+# GPU runs happen on Kaggle/Colab with their preinstalled CUDA torch, see experiments/04-plm-indobert/kaggle.
+[tool.uv.sources]
+torch = [{ index = "pytorch-cpu", marker = "sys_platform != 'darwin'" }]
+
+[[tool.uv.index]]
+name = "pytorch-cpu"
+url = "https://download.pytorch.org/whl/cpu"
+explicit = true

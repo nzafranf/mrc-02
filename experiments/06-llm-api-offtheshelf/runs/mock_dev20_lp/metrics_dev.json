@@ -1,0 +1,41 @@
+{
+  "n": 20,
+  "exact": 5.0,
+  "f1": 12.40909090909091,
+  "HasAns_n": 13,
+  "HasAns_exact": 0.0,
+  "HasAns_f1": 11.398601398601398,
+  "NoAns_n": 7,
+  "NoAns_acc": 14.285714285714286,
+  "pred_noans_rate": 20.0,
+  "missing_preds": 0,
+  "best_na_threshold": -1000000000.0,
+  "at_best_threshold": {
+    "n": 20,
+    "exact": 35.0,
+    "f1": 35.0,
+    "HasAns_n": 13,
+    "HasAns_exact": 0.0,
+    "HasAns_f1": 0.0,
+    "NoAns_n": 7,
+    "NoAns_acc": 100.0,
+    "pred_noans_rate": 100.0
+  },
+  "grounding_rates": {
+    "exact": 0.3,
+    "snapped": 0.35,
+    "ungrounded": 0.15,
+    "noans": 0.2
+  },
+  "grounding_counts": {
+    "exact": 6,
+    "snapped": 7,
+    "ungrounded": 3,
+    "noans": 4
+  },
+  "hallucination_rate_ungrounded": 0.15,
+  "format_failure_rate": 0.0,
+  "na_prob_available": true,
+  "api_calls_this_run": 20,
+  "api_cache_hits": 0
+}

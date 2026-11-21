@@ -1,0 +1,106 @@
+{
+ "majority_dev_acc": 0.5379825653798256,
+ "majority_train_acc": 0.5606837606837607,
+ "variants": {
+  "question": {
+   "dev_acc": 0.8057,
+   "dev_auc": 0.9012,
+   "cv_acc": 0.7944,
+   "cv_acc_sd": 0.0095,
+   "cv_auc": 0.8794,
+   "cv_auc_sd": 0.0088
+  },
+  "question+format": {
+   "dev_acc": 0.8157,
+   "dev_auc": 0.9061,
+   "cv_acc": 0.7984,
+   "cv_acc_sd": 0.0093,
+   "cv_auc": 0.8904,
+   "cv_auc_sd": 0.0057
+  },
+  "format_only": {
+   "dev_acc": 0.746,
+   "dev_auc": 0.7968,
+   "cv_acc": 0.7138,
+   "cv_acc_sd": 0.0103,
+   "cv_auc": 0.784,
+   "cv_auc_sd": 0.0106
+  },
+  "context": {
+   "dev_acc": 0.538,
+   "dev_auc": 0.5106,
+   "cv_acc": 0.558,
+   "cv_acc_sd": 0.0016,
+   "cv_auc": 0.5171,
+   "cv_auc_sd": 0.0057
+  },
+  "question+overlap": {
+   "dev_acc": 0.8232,
+   "dev_auc": 0.902,
+   "cv_acc": 0.7988,
+   "cv_acc_sd": 0.0092,
+   "cv_auc": 0.8832,
+   "cv_auc_sd": 0.0072
+  }
+ },
+ "format_cues": {
+  "space_before_q": {
+   "rate": 0.177,
+   "imp_rate_if_1": 0.026,
+   "imp_rate_if_0": 0.531
+  },
+  "ends_q": {
+   "rate": 0.999,
+   "imp_rate_if_1": 0.442,
+   "imp_rate_if_0": 0.1
+  },
+  "dbl_space": {
+   "rate": 0.016,
+   "imp_rate_if_1": 0.061,
+   "imp_rate_if_0": 0.448
+  },
+  "starts_lower": {
+   "rate": 0.16,
+   "imp_rate_if_1": 0.115,
+   "imp_rate_if_0": 0.504
+  }
+ },
+ "pairs": {
+  "n_2q_contexts": 1631,
+  "exactly_one_unanswerable": 1592
+ },
+ "top_unans_tokens": [
+  "terakhir",
+  "inggris",
+  "menurut",
+  "dilarang",
+  "ditutup",
+  "di mana",
+  "non",
+  "dihancurkan",
+  "yang",
+  "dibubarkan",
+  "pada tahun",
+  "di",
+  "yang bukan",
+  "radar",
+  "bagian"
+ ],
+ "top_ans_tokens": [
+  "dimana",
+  "berapakah",
+  "pendidikan terakhir",
+  "dimanakah",
+  "siapakah",
+  "indonesia",
+  "yang di",
+  "ke indonesia",
+  "terbesar",
+  "pertama",
+  "dimulai",
+  "yang digunakan",
+  "didirikan",
+  "berasal",
+  "dibentuk"
+ ]
+}

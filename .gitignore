@@ -1,0 +1,34 @@
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Secrets: API keys come from the environment only
+.env
+*.env
+kaggle.json
+access_token
+*.key
+
+# Build outputs (regenerated)
+report/latex/build/
+report/*.pdf
+report/latex/*.pdf
+experiments/04-plm-indobert/kaggle/build/
+experiments/04-plm-indobert/kaggle/out/
+
+# Models are pushed with git LFS, unless otherwise mentioned (ex. LLMs may just be loaded directly from their weight source)
+
+# Sealed internal test split: never committed. Rebuild with `python experiments/global/run.py mrc.prepare_data`
+# (deterministic, hash-checked against data/splits/hashes.json).
+data/processed/itest*.jsonl
+data/processed/slices_itest.jsonl
+experiments/global/final_test_eval_log.json
+
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

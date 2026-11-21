@@ -1,0 +1,142 @@
+% Final report, Proyek Akhir NLP Gasal 2026: extractive MRC (Indonesian, SQuAD v2 style).
+% Render: python miscellaneous/scripts/render_latex.py report/latex/main.tex report/main.pdf
+% Paths are relative to this folder. Generated tables and figures are pulled in directly, so rerunning the
+% analysis updates the report: cross-model -> ../assets/, EDA -> ../../eda/outputs/, per experiment ->
+% ../../experiments/NN-*/analysis/. Lines marked TODO are for the team to write.
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage[numbers]{natbib}
+\usepackage[hidelinks]{hyperref}
+% \usepackage[indonesian]{babel}  % uncomment for an Indonesian report
+
+\graphicspath{{../assets/figures/}{../../eda/outputs/figures/}}
+\newcommand{\todo}[1]{\textcolor{red}{[TODO: #1]}}
+\newcommand{\expdir}[1]{\texttt{experiments/#1}}
+
+\title{Extractive Machine Reading Comprehension for Indonesian:\\
+Classical Pipeline, BiDAF, IndoBERT and LLMs}
+\author{Muhammad Aldo Fahrezy \\
+Naufal Zafran Fadil \\
+Fernando Lawrence}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+\todo{Task, data (Indonesian Wikipedia passages, 44\% unanswerable), the models, the headline result
+(IndoBERT 73.5 F1 on our dev split) and the main error-analysis finding.}
+\end{abstract}
+
+\section{Introduction}
+\todo{Task definition (span extraction or abstain, SQuAD v2 \citep{rajpurkar2018know}), why answerability is the
+hard part, and the contributions.}
+
+\subsection{Definisi Task}
+
+Secara umum, merujuk pada ~\cite{Zeng2020}, MRC pada tugas ini merupakan MRC dengan tipe pertanyaan 'Natural', yaitu berupa kalimat pertanyaan yang sahih secara grammar bahasa Indonesia, serta bertipe jawaban 'Span', yaitu jawabannya merupakan bagian dari teks konteks. Adapun definisi task dari MRC pada tugas ini adalah:
+
+Diberikan konteks $C = \{c_0, \dots, c_k, \dots, c_{lc}\}$, pertanyaan $Q = \{q_0, \dots, q_j, \dots, q_{lq}\}$ dan jawaban $A = \{c_m, \dots, c_n\}$, dengan $lc$ dan $lq$ merepresentasikan panjang (atau banyak kata) pada konteks dan pertanyaan, $c_k$ dan $q_j$ merupakan kata dalam \textit{vocabulary} atau bisa dinotasikan sebagai $c_k, q_j \in V$, $C$ dan $Q$ membentuk teks yang mematuhi grammar alami bahasa Indonesia, serta $0 \leq m \leq n \leq lc$. Kita ingin membuat model $\mathcal{M}$ sedemikian sehingga $\mathcal{M}(C, Q) = A$ untuk setiap pasangan $(C, Q, A)$ pada dataset.
+
+
+\section{Studi Literatur}
+
+\subsection{Dataset dan Leaderboard}
+
+~\cite{Zeng2020} menjabarkan beberapa data \textit{open source} beserta taksonomi jenis-jenisnya. Berhubung data MRC pad atugas ini berupa pertanyaan 'Natural' dan jawaban 'Span', ada beberapa dataset yang dapat menjadi refernsi dan perbandingan hasil atau EDA seperti pada Gambar~\ref{fig:zeng_taxonomy}. Selain itu, kami menggunakan \textit{leaderboard} yang dipublikasikan oleh dataset tersebut sebagai target dan inspirasi untuk epngembangan model kami. Sebagai contoh, pada \textit{leaderboard} SQuAD2.0 \footnote{https://rajpurkar.github.io/SQuAD-explorer/}, terlihat bahwa \textit{human-level performance} (HLP) memiliki EM $86{,}831$ dan F1 $89{.}452$ dan terdapat $30$ model yang berhasil melampaui HLP. Hal ini bisa menjadi target \textit{upper-bound} hasil model kami serta inspirasi untuk memperbaiki error pada model kami. Beberapa di antara model yang melampaui HLP sering kali memakai model yang sama seperti ALBERTA dan ELECTRA dan peringkat $10$ teratas \textit{leaderboard} merupakan \textit{ensemble}.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{Zeng2020_dataset_taxonomy.jpeg}
+  \caption{Taksonomi dataset MRC \textit{open source} menurut \cite{Zeng2020}.}
+  \label{fig:zeng_taxonomy}
+\end{figure}
+
+\todo{\begin{itemize}
+\item coba cari literatur juga terkait pengaruh pergantian bahasa (FT BERT jadi IndoBERT) ke pengaruh model beserta error pointsnya. Mungkin juga refer ke paper yg datanya ada culture2nya, kita-kira weakpointnya di mana dan dibanding sm error analysis kita gimana, sama suggested improvements serta limitasi mereka di mana.
+\end{itemize}}
+
+\section{Data and exploratory analysis}
+\label{sec:data}
+% Source: eda/README.md, miscellaneous/docs/data_card.md, eda/outputs/
+\todo{Split (grouped by passage: 6435/803/804 train/dev/internal test), passage, question and answer
+statistics, answer types and positions.}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=0.8\linewidth]{eda_unanswerable_rate.png}
+  \caption{Share of unanswerable questions. \todo{interpretation}}
+  \label{fig:unans}
+\end{figure}
+
+\paragraph{Dataset artifacts.} \todo{A question-only classifier predicts answerability with AUC 0.90
+(eda/outputs/tables/artifact\_probe.json); unanswerable questions are minimal edits of answerable ones.}
+
+\section{Models}
+\label{sec:models}
+% Each model maps to one experiment folder; its summary.md has architecture, input and prediction details.
+\subsection{Baselines (\expdir{01-baseline-trivial})}
+Always no-answer, and a sliding-window baseline \citep{richardson2013mctest}.
+\subsection{Classical pipeline with feature engineering (\expdir{02-classical-pipeline-lgbm})}
+\todo{Three stages: answerability (LightGBM \citep{ke2017lightgbm}), sentence retrieval (TF-IDF, BM25
+\citep{robertson2009probabilistic}, logistic regression), span ranking (LightGBM lambdarank). Features.}
+\subsection{BiDAF (\expdir{03-nn-bidaf})}
+\todo{BiDAF-lite \citep{seo2017bidirectional} trained from scratch with a NULL position; the no-attention ablation.}
+\subsection{Pretrained encoder (\expdir{04-plm-indobert})}
+\todo{IndoBERT-base-p1 \citep{wilie2020indonlu}, BERT-style QA head \citep{devlin2019bert}, sliding windows,
+no-answer score.}
+\subsection{Large language models (\expdir{05-llm-local-qwen}, \expdir{06-llm-api-offtheshelf})}
+\todo{Prompting, parsing and grounding to a passage span; local models and off-the-shelf API models.}
+
+\section{Experimental setup}
+\todo{Metrics (EM, F1, HasAns F1, NoAns accuracy), the no-answer threshold tuned on dev (dev-optimistic),
+3 seeds, paired bootstrap for significance, hardware.}
+
+\section{Results}
+\begin{table}[t]
+  \centering
+  \small
+  \input{../assets/tables/main_table.tex}
+  \caption{Dev results, mean $\pm$ std over seeds; the no-answer threshold is tuned on dev.
+  Generated by \texttt{mrc.analysis.compare}.}
+  \label{tab:main}
+\end{table}
+\todo{Discuss table~\ref{tab:main} and the significance tests (report/assets/tables/significance.md).}
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{heatmap_q_type.png}
+  \caption{F1 by question type. \todo{interpretation}}
+  \label{fig:qtype}
+\end{figure}
+
+\section{Error analysis}
+% Per experiment: experiments/NN-*/analysis/ (outcomes, slices, error samples for manual labels).
+% Across models: eda/notebooks/model_errors.ipynb and report/assets/tables/.
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\linewidth]{error_taxonomy_stacked.png}
+  \caption{Error types per model (seed 13). \todo{interpretation}}
+  \label{fig:errors}
+\end{figure}
+\todo{Correct and wrong examples, strengths and weaknesses of each model, error causes, reasoning challenges
+(manual labels from the error samples).}
+
+\section{Discussion and conclusion}
+\todo{What worked, limits (dev-tuned thresholds, partial LLM API runs), future work.}
+
+\appendix
+\section{External resources}
+\todo{Pretrained models, libraries and data used (miscellaneous/docs/decisions.md).}
+\section{AI use declaration}
+\todo{Which AI tools were used, for what, and how the output was checked.}
+
+\bibliographystyle{plainnat}
+\bibliography{references}
+\end{document}

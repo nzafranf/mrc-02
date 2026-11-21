@@ -1,0 +1,16 @@
+vocab words=25047 chars=596
+truncation at 400 tokens: gold answers lost train 4/3608 (0.11%), dev 0/432 (0.00%); train examples with truncated context 20
+params=2968440 emb=100 hidden=64 dropout=0.2 rnn=lstm char=True attention=False lr=0.002 bs=32
+[overfit-1-batch] step 1 loss 8.9430
+[overfit-1-batch] step 50 loss 0.0393
+[overfit-1-batch] step 55 loss 0.0194 (reached <0.02)
+epoch 1 loss 5.6337 devEM 46.20 devF1 46.20 HasF1 0.00 NoAcc 100.00 predNA 100.0% gradnorm {"embed": 0.624, "encoder": 0.712, "modeling": 0.648, "output": 2.192} time 175s
+epoch 2 loss 4.2066 devEM 46.45 devF1 46.99 HasF1 2.62 NoAcc 98.65 predNA 96.5% gradnorm {"embed": 0.925, "encoder": 0.879, "modeling": 0.489, "output": 1.539} time 152s
+epoch 3 loss 3.5975 devEM 44.46 devF1 48.15 HasF1 19.83 NoAcc 81.13 predNA 68.0% gradnorm {"embed": 0.972, "encoder": 0.968, "modeling": 0.571, "output": 1.427} time 135s
+epoch 4 loss 3.0883 devEM 49.56 devF1 53.01 HasF1 21.69 NoAcc 89.49 predNA 72.6% gradnorm {"embed": 1.099, "encoder": 1.176, "modeling": 0.781, "output": 1.324} time 136s
+epoch 5 loss 2.6487 devEM 51.56 devF1 55.55 HasF1 31.26 NoAcc 83.83 predNA 62.6% gradnorm {"embed": 1.178, "encoder": 1.228, "modeling": 0.802, "output": 1.212} time 136s
+epoch 6 loss 2.2579 devEM 51.18 devF1 55.18 HasF1 33.36 NoAcc 80.59 predNA 56.7% gradnorm {"embed": 1.312, "encoder": 1.331, "modeling": 0.818, "output": 1.084} time 134s
+epoch 7 loss 1.9369 devEM 50.81 devF1 55.02 HasF1 27.74 NoAcc 86.79 predNA 64.1% gradnorm {"embed": 1.312, "encoder": 1.344, "modeling": 0.811, "output": 0.963} time 137s
+epoch 8 loss 1.7072 devEM 50.56 devF1 54.16 HasF1 23.59 NoAcc 89.76 predNA 68.6% gradnorm {"embed": 1.344, "encoder": 1.396, "modeling": 0.842, "output": 0.93} time 121s
+early stop at epoch 8, best epoch 5 devF1 55.55
+best epoch 5: EM 51.56 F1 55.55 HasAns_f1 31.26 NoAns_acc 83.83; at best threshold F1 55.67

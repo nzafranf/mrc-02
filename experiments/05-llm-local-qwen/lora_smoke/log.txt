@@ -1,0 +1,5 @@
+step 1/5 loss 0.7793 elapsed 15.9s
+step 2/5 loss 0.1808 elapsed 40.3s
+step 3/5 loss 0.1910 elapsed 60.1s
+step 4/5 loss 0.8975 elapsed 75.2s
+step 5/5 loss 1.1944 elapsed 102.3s

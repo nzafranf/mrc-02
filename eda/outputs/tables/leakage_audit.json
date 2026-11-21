@@ -1,0 +1,130 @@
+{
+ "counts": {
+  "context:dev->train": {
+   "n_unique": 291,
+   "exact": 0,
+   "near_gt_0_8": 0,
+   "near_gt_0_6": 0,
+   "max_sim": 0.477
+  },
+  "context:itest->train": {
+   "n_unique": 347,
+   "exact": 0,
+   "near_gt_0_8": 1,
+   "near_gt_0_6": 1,
+   "max_sim": 0.998
+  },
+  "context:itest->dev": {
+   "n_unique": 347,
+   "exact": 0,
+   "near_gt_0_8": 1,
+   "near_gt_0_6": 1,
+   "max_sim": 0.986
+  },
+  "question:dev->train": {
+   "n_unique": 803,
+   "exact": 2,
+   "near_gt_0_8": 16,
+   "near_gt_0_6": 92,
+   "max_sim": 1.0
+  },
+  "question:itest->train": {
+   "n_unique": 803,
+   "exact": 9,
+   "near_gt_0_8": 21,
+   "near_gt_0_6": 85,
+   "max_sim": 1.0
+  },
+  "question:itest->dev": {
+   "n_unique": 803,
+   "exact": 2,
+   "near_gt_0_8": 2,
+   "near_gt_0_6": 13,
+   "max_sim": 1.0
+  },
+  "id_overlap": {
+   "train&dev": 0,
+   "train&itest": 0,
+   "dev&itest": 0
+  },
+  "pair_overlap": {
+   "train&dev": 0,
+   "train&itest": 0,
+   "dev&itest": 0
+  }
+ },
+ "examples": {
+  "context:dev->train": [
+   [
+    0.477,
+    "pertempuran tanjung esperance atau dikenal sebagai pertempuran pulau savo kedua, dan menurut sumber jepang sebagai pertempuran laut pulau savo(サボ島沖海戦,sabo-tō ok",
+    "pertempuran pulau rennell(レンネル島沖海戦) adalah pertempuran laut yang terjadi pada 29-30 januari 1943 di pasifik selatan antara pulau rennell dan guadalkanal di sela"
+   ],
+   [
+    0.451,
+    "berikut adalah daftar kecamatan dan kelurahan di provinsi kalimantan selatan, indonesia. provinsi kalimantan selatan terdiri dari 11 kabupaten, 2 kota, 153 keca",
+    "berikut adalah daftar kecamatan dan kelurahan di provinsi jawa tengah, indonesia. provinsi jawa tengah terdiri dari 29 kabupaten, 6 kotamadya, 537 kecamatan, 75"
+   ]
+  ],
+  "context:itest->train": [
+   [
+    0.998,
+    "'abdullah bin abu quhafah (arabic: عبد الله بن أبي قحافة‎; 572 – 23 agustus 634/21 jumadil akhir 13 h) atau yang lebih dikenal dengan abu bakar ash-shiddiq (ara",
+    "abdullah bin abu quhafah (arabic: عبد الله بن أبي قحافة‎; 572 – 23 agustus 634/21 jumadil akhir 13 h) atau yang lebih dikenal dengan abu bakar ash-shiddiq (arab"
+   ],
+   [
+    0.539,
+    "kabupaten demak, adalah salah satu kabupaten di provinsi jawa tengah. ibukotanya adalah demak. kabupaten ini berbatasan dengan laut jawa di barat, kabupaten jep",
+    "jepara adalah salah satu kabupaten di provinsi jawa tengah. ibukotanya adalah jepara. kabupaten ini berbatasan dengan laut jawa di barat dan utara, kabupaten pa"
+   ]
+  ],
+  "context:itest->dev": [
+   [
+    0.986,
+    "kimi no shiranai monogatari(君の知らない物語, lit. \"cerita yang tidak kamu ketahui\") adalah sebuah lagu j-pop yang dibawakan oleh grup musik asal jepang supercell, yang",
+    "\"kimi no shiranai monogatari\"(君の知らない物語, lit. \"cerita yang tidak kamu ketahui\") adalah sebuah lagu j-pop yang dibawakan oleh grup musik asal jepang supercell, ya"
+   ],
+   [
+    0.336,
+    "supercell adalah grup musik jepang yang terdiri dari 11 anggota dipimpin oleh komposer dan penulis lirik ryo yang terbentuk pada tahun 2007 sebagai grup musik d",
+    "\"kimi no shiranai monogatari\"(君の知らない物語, lit. \"cerita yang tidak kamu ketahui\") adalah sebuah lagu j-pop yang dibawakan oleh grup musik asal jepang supercell, ya"
+   ]
+  ],
+  "question:dev->train": [
+   [
+    1.0,
+    "berapakah luas jepang ?",
+    "berapakah luas jepang ?"
+   ],
+   [
+    1.0,
+    "berapa luas kota strasbourg?",
+    "berapa luas kota strasbourg?"
+   ]
+  ],
+  "question:itest->train": [
+   [
+    1.0,
+    "kapankah abu bakar ash-shiddiq dilahirkan?",
+    "kapankah abu bakar ash-shiddiq dilahirkan?"
+   ],
+   [
+    1.0,
+    "apa itu dna?",
+    "apa itu dna?"
+   ]
+  ],
+  "question:itest->dev": [
+   [
+    1.0,
+    "kapan istilah teknologi dilarang?",
+    "kapan istilah teknologi dilarang?"
+   ],
+   [
+    1.0,
+    "apakah bahasa indonesia dari kimi no shiranai monogatari?",
+    "apakah bahasa indonesia dari kimi no shiranai monogatari?"
+   ]
+  ]
+ }
+}

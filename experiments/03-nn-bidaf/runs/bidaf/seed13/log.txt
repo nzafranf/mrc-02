@@ -1,0 +1,20 @@
+vocab words=25047 chars=596
+truncation at 400 tokens: gold answers lost train 4/3608 (0.11%), dev 0/432 (0.00%); train examples with truncated context 20
+params=2985465 emb=100 hidden=64 dropout=0.2 rnn=lstm char=True attention=True lr=0.002 bs=32
+[overfit-1-batch] step 1 loss 8.9573
+[overfit-1-batch] step 50 loss 0.0205
+[overfit-1-batch] step 51 loss 0.0165 (reached <0.02)
+epoch 1 loss 5.5830 devEM 46.20 devF1 46.20 HasF1 0.00 NoAcc 100.00 predNA 100.0% gradnorm {"embed": 0.651, "encoder": 0.692, "attention": 0.175, "modeling": 0.546, "output": 2.362} time 303s
+epoch 2 loss 4.0814 devEM 45.33 devF1 47.43 HasF1 15.01 NoAcc 85.18 predNA 79.2% gradnorm {"embed": 0.913, "encoder": 0.973, "attention": 0.605, "modeling": 0.492, "output": 1.703} time 809s
+epoch 3 loss 3.4705 devEM 47.07 devF1 49.74 HasF1 19.30 NoAcc 85.18 predNA 75.8% gradnorm {"embed": 1.012, "encoder": 1.033, "attention": 0.838, "modeling": 0.539, "output": 1.594} time 249s
+epoch 4 loss 3.0374 devEM 48.44 devF1 52.63 HasF1 30.70 NoAcc 78.17 predNA 62.1% gradnorm {"embed": 1.108, "encoder": 1.079, "attention": 0.88, "modeling": 0.598, "output": 1.523} time 247s
+epoch 5 loss 2.6569 devEM 47.82 devF1 51.76 HasF1 26.08 NoAcc 81.67 predNA 63.4% gradnorm {"embed": 1.194, "encoder": 1.178, "attention": 0.821, "modeling": 0.626, "output": 1.419} time 235s
+epoch 6 loss 2.3159 devEM 50.56 devF1 54.17 HasF1 28.01 NoAcc 84.64 predNA 65.5% gradnorm {"embed": 1.248, "encoder": 1.226, "attention": 0.819, "modeling": 0.656, "output": 1.333} time 244s
+epoch 7 loss 2.0515 devEM 48.07 devF1 53.16 HasF1 27.98 NoAcc 82.48 predNA 58.5% gradnorm {"embed": 1.292, "encoder": 1.258, "attention": 0.796, "modeling": 0.68, "output": 1.234} time 250s
+epoch 8 loss 1.7985 devEM 49.69 devF1 54.94 HasF1 32.22 NoAcc 81.40 predNA 57.3% gradnorm {"embed": 1.334, "encoder": 1.29, "attention": 0.712, "modeling": 0.669, "output": 1.139} time 208s
+epoch 9 loss 1.5601 devEM 49.81 devF1 54.17 HasF1 24.07 NoAcc 89.22 predNA 68.1% gradnorm {"embed": 1.346, "encoder": 1.284, "attention": 0.757, "modeling": 0.66, "output": 1.051} time 232s
+epoch 10 loss 1.3959 devEM 46.82 devF1 52.10 HasF1 28.80 NoAcc 79.25 predNA 54.3% gradnorm {"embed": 1.311, "encoder": 1.264, "attention": 0.735, "modeling": 0.655, "output": 0.992} time 216s
+epoch 11 loss 1.2247 devEM 48.44 devF1 53.37 HasF1 29.75 NoAcc 80.86 predNA 55.0% gradnorm {"embed": 1.294, "encoder": 1.257, "attention": 0.721, "modeling": 0.654, "output": 0.897} time 224s
+early stop at epoch 11, best epoch 8 devF1 54.94
+best epoch 8: EM 49.69 F1 54.94 HasAns_f1 32.22 NoAns_acc 81.40; at best threshold F1 56.18
+saved attention for 20 dev ids to experiments/bidaf/attn_seed13.npz

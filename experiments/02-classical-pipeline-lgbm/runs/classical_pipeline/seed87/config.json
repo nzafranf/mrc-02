@@ -1,0 +1,50 @@
+{
+  "model": "classical_pipeline",
+  "seed": 87,
+  "objective": "lambdarank",
+  "top_k_sentences": 2,
+  "max_words": 8,
+  "A_params": {
+    "objective": "binary",
+    "learning_rate": 0.05,
+    "num_leaves": 15,
+    "min_data_in_leaf": 20,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 1,
+    "lambda_l2": 1.0,
+    "verbose": -1,
+    "seed": 87,
+    "bagging_seed": 87,
+    "feature_fraction_seed": 87,
+    "deterministic": true,
+    "force_row_wise": true,
+    "num_threads": 4
+  },
+  "A_rounds": 250,
+  "C_params": {
+    "objective": "lambdarank",
+    "learning_rate": 0.05,
+    "num_leaves": 31,
+    "min_data_in_leaf": 20,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.7,
+    "bagging_freq": 1,
+    "lambda_l2": 1.0,
+    "verbose": -1,
+    "seed": 87,
+    "bagging_seed": 87,
+    "feature_fraction_seed": 87,
+    "deterministic": true,
+    "force_row_wise": true,
+    "num_threads": 4,
+    "metric": "ndcg",
+    "eval_at": [
+      1
+    ],
+    "lambdarank_truncation_level": 10
+  },
+  "C_rounds": 300,
+  "na_threshold": 0.419593051737369,
+  "timestamp": "2026-11-13T23:42:00"
+}

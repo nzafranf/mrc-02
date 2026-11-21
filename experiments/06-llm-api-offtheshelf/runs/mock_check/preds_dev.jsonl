@@ -1,0 +1,5 @@
+{"id": "qa_006703b670a2de86a02f", "pred": "Maaf, saya tidak yakin tentang zxqv wvut", "score": 0.0, "start_char": -1, "raw_output": "Maaf, saya tidak yakin tentang zxqv wvut.", "grounding": "ungrounded"}
+{"id": "qa_00e198cdbe7a6db9fff7", "pred": "Yen Hsi-shan", "score": 0.0, "start_char": 17, "raw_output": "Jawaban: yen hsi-shan, sekitar", "grounding": "snapped"}
+{"id": "qa_00ff25c8418d611dec83", "pred": "II, Boganda didesak", "score": 0.0, "start_char": 21, "raw_output": "II, Boganda didesak", "grounding": "exact"}
+{"id": "qa_01364a9092f96eb6e2be", "pred": "pertumbuhan penduduk", "score": 0.0, "start_char": 23, "raw_output": "Jawaban: pertumbuhan penduduk sekitar", "grounding": "snapped"}
+{"id": "qa_019cc3e2fe995662f0ec", "pred": "", "score": 0.0, "start_char": -1, "raw_output": "TIDAK ADA JAWABAN", "grounding": "noans"}

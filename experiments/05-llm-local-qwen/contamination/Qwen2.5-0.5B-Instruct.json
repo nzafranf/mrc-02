@@ -1,0 +1,515 @@
+{
+ "summary": {
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "n": 50,
+  "original_mean_rougeL_recall": 0.11398290602754411,
+  "control_shuffled_mean_rougeL_recall": 0.12204136560858297,
+  "original_frac_ge_0.5": 0.0,
+  "control_frac_ge_0.5": 0.0,
+  "seconds": 1869.6767354011536
+ },
+ "original": [
+  {
+   "rouge_l_recall": 0.10714285714285714,
+   "continuation": "Quezón, lahir di Baler di distrik El Príncipe[1] (yang kemudian menjadi Baler, Tayabas, sekarang Baler, Aurora). Orang tuanya berasal dari Spanyol, mereka adalah Lucio Quezón dan María.",
+   "reference": "Dolores Molina. Ayahnya adalah seorang guru sekolah dasar dari Paco, Manila dan pensiunan Sersan tentara kolonial Spanyol, sementara ibunya adalah seorang guru sekolah dasar di kampung halaman mereka."
+  },
+  {
+   "rouge_l_recall": 0.07894736842105263,
+   "continuation": "Para teolog berusaha menggunakan wacana untuk mengejar tujuan mereka dalam kehidupan. Wacana ini mencakup berbagai aspek agama, termasuk pengetahuan tentang Tuhan, pengajaran, dan praktik spiritual. Sebuah teolog mungkin juga melakukan pen",
+   "reference": "analisis dan argumen-argumen rasional untuk mendiskusikan, menafsirkan dan mengajar dalam salah satu bidang dari topik-topik agama. Teologi memampukan seseorang untuk lebih memahami tradisi keagamaannya sendiri ataupun tradisi keagamaan lainnya, menolong membuat perbandingan antara berbagai tradisi, melestarikan, memperbarui suatu"
+  },
+  {
+   "rouge_l_recall": 0.0625,
+   "continuation": "Artefak atau artefak adalah benda arkeologi atau peningalan benda-benda bersejarah, termasuk semua benda yang dibuat atau dimodifikasi oleh manusia untuk dihindari dari penghancuran. Artefak ini bisa mencakup benda-benda",
+   "reference": "prasasti lempeng dan kertas, senjata-senjata logam (anak panah, mata panah, dll), terracotta dan tanduk binatang. Barang yang bersejarah ini sangatlah penting untuk diletakkan di museum sehingga semua orang dapat melihat dan mempelajarinya."
+  },
+  {
+   "rouge_l_recall": 0.10526315789473684,
+   "continuation": "Rasa yang dapat ditambahkan dalam vodka biasanya meliputi paprika, jahe, buah-buahan, vanilla, coklat (tanpa pemanis), dan kayu manis. Ini merupakan beberapa cara yang efektif untuk meningkatkan kualitas rasa vodka. Sel",
+   "reference": "Rusia, vodka diberi rasa madu dan lada dengan brand pertsovka juga sangat populer. Orang Polandia dan Belarus menambahkan daun rumput bison lokal untuk memproduksi vodka zubrówka (Polandia) dan zubrovka (Belarus), dengan sedikit rasa manis dan berwarna sedikit kuning(light"
+  },
+  {
+   "rouge_l_recall": 0.10714285714285714,
+   "continuation": "Dalam peristiwa yang sangat mempengaruhi dunia sejarah, pada 1 Mei 1960, pesawat mata-mata U-2 Amerika Serikat ditembak jatuh oleh pasukan pertahanan udara Soviet. Pesawat ini bergerak",
+   "reference": "Francis Gary Powers, pesawat tersebut dihantam oleh sebuah misil permukaan udara S-75 Dvina (SA-2 Guideline) dan jatuh di dekat Sverdlovsk (sekarang Yekaterinburg). Powers berparasut dengan selamat dan ditangkap."
+  },
+  {
+   "rouge_l_recall": 0.10344827586206896,
+   "continuation": "Tapir Asia (Tapirus indicus) adalah salah satu jenis tapir. Tapir Asia merupakan jenis yang terbesar dari keempat jenis tapir dan satu-satunya yang berasal dari Asia. Nama ilmiahnya \"indicus\" merujuk kepada lokasi atau habitat yang d",
+   "reference": "pada Hindia Timur, yaitu habitat alami jenis ini. Di Sumatra tapir umumnya disebut tenuk or seladang, gindol, babi alu, kuda ayer, kuda rimbu, kuda arau, marba, cipan, dan sipan.[1]"
+  },
+  {
+   "rouge_l_recall": 0.07894736842105263,
+   "continuation": "Angelo Roncalli dilahirkan di Sotto il Monte, sebuah kota kecil di Provinsi Bergamo, Italia pada 25 November 1881. Dia merupakan anak ke-4 dari 14 bersaudara dari ayahnya Giovanni Battista Roncalli dan ibunya Mari",
+   "reference": "the Faith Pada 1925, Paus Pius XI menunjuknya sebagai nuncio ke Bulgaria. Pada 1935, dijadikan nuncio ke Turki dan Yunani. Roncalli menggunakan kantornya untuk menolong orang Yahudi dan menyelamatkan ribuan pengungsi di Eropa. Pada 1944, pada Perang Dunia"
+  },
+  {
+   "rouge_l_recall": 0.05714285714285714,
+   "continuation": "Berikut adalah awal sebuah paragraf yang lanjut dari teks aslinya:\n\n1483 - Martin Luther, tokoh pembentuk Kristen Protestan asal Jerman (m. 1546) 1759 - Friedrich Schiller, penulis Jerman (",
+   "reference": "F. Engle, ahli ekonomi Amerika Serikat, penerima hadiah Nobel 1942 - Hans-Rudolf Merz, Konselir federal Swiss 1947 - Maulana Al-Habib Muhammad Luthfi bin Ali bin Yahya, Tokoh Ulama Nasionalisme Karismatik asal Pekalongan, Jawa Tengah[1] 1955 - Roland Emmerich,"
+  },
+  {
+   "rouge_l_recall": 0.09375,
+   "continuation": "Polandia (Polish: Polska) (secara resmi: Republik Polandia, (Polish: Rzeczpospolita Polska[lower-alpha 1] [ʐɛt͡ʂpɔˈspɔlitaˈpɔlska](listen)) adalah sebuah",
+   "reference": "di sebelah selatan, Rusia (Kaliningrad), Lituania di sebelah timur laut dan Belarus serta Ukraina di sebelah barat (Garis Curzon). Polandia adalah negara anggota Uni Eropa. Ibukota Polandia dan kota terbesar adalah Warsawa."
+  },
+  {
+   "rouge_l_recall": 0.03333333333333333,
+   "continuation": "Muhammad Saleh Werdisastro, putera asli Sumenep, lahir 15 Februari 1908 dari pasangan R. Musaid Werdisastro dan R. Ayu Aminatuszuhra. Ayahnya adalah seorang cendekiawan dan buday",
+   "reference": "buku ”Babad Songenep” (Sejarah Sumenep), yang banyak mengungkap berbagai fenomena kehidupan di daerah tempat kelahirannya. Buku tersebut pernah diterbitkan oleh Balai Pustaka, pada 1914 dengan menggunakan bahasa Madura, berhuruf Jawa."
+  },
+  {
+   "rouge_l_recall": 0.13157894736842105,
+   "continuation": "Luxor adalah sebuah hotel dan kasino yang terletak di Las Vegas Strip di Paradise, Nevada. Merupakan salah satu megaresor pertama yang bertema secara menyeluruh. Tanah dibuka untuk Luxor tahun 1991, pembangunan pada tahun itu juga dilakukan pada Treasure",
+   "reference": "dan berisi 4.407 kamar mengikuti dinding interior piramida dan terletak di antara dua menara ziggurat yang dibangun sebagai tambahan. Hotel ini dinamai setelah kota Luxor (Thebes kuno) di Mesir, situs Lembah Para Raja, Karnak dan Kuil Luxor, dan"
+  },
+  {
+   "rouge_l_recall": 0.18421052631578946,
+   "continuation": "Austria didominasi oleh Wangsa Habsburg dari tahun 1273 dan berstatus Kadipaten Utama. Kemudian, setelah kekalahan Napoleon dan diadakannya Kongres Wina pada tahun 1815, Austria menjadi wilayah utama Kekaisaran",
+   "reference": "tahun 1867. Setelah kekalahan kekaisaran ini dalam Perang Dunia I pada tahun 1918, wilayah Austria yang tersisa adalah wilayah utamanya yang mayoritas penduduknya menuturkan bahasa Jerman. Mereka membentuk Republik Jerman-Austria dengan harapan agar mereka dapat bergabung dengan Republik"
+  },
+  {
+   "rouge_l_recall": 0.1,
+   "continuation": "Gunung Fuji (富士山) adalah salah satu gunung terbesar di Jepang yang terletak di Perbatasan Prefektur Shizuoka dan Yamanashi, di sebelah barat Tokyo. Gunung Fuji terletak dekat pesisir Pasifik di pusat Hon",
+   "reference": "dikelilingi oleh tiga kota yaitu Gotemba (timur), Fuji-Yoshida (utara) dan Fujinomiya (barat daya). Gunung setinggi 3.776 m[1] ini dikelilingi juga oleh lima danau yaitu Kawaguchi, Yamanaka, Sai, Motosu dan Shoji."
+  },
+  {
+   "rouge_l_recall": 0.15384615384615385,
+   "continuation": "Berikut adalah paragraf yang telah diatur dengan cara yang sama dengan teks aslinya:\n\nQissai Emr Hamza, atau \"Kitab Qissai\" dalam bahasa Arab, merupakan salah satu kitab terkenal yang diterbitkan oleh kota-kota besar Persia pada",
+   "reference": "bahasa Jawanya, kitab ini lebih dulu dikenal dalam kesusastraan Melayu, dengan judul Hikayat Amir Hamzah. Versi bahasa Jawanya, isi kitab itu sudah berbaur dengan cerita-cerita Panji."
+  },
+  {
+   "rouge_l_recall": 0.11764705882352941,
+   "continuation": "Berikut adalah paragraf yang telah diperbarui:\n\nSuhani Si Ek Ladki adalah serial televisi India, yang ditayangkan di Star Plus pada 9 Juni 2014. Ini merupakan acara pertama yang dimainkan oleh Suhani Si Ek Ladki, yang juga",
+   "reference": "pada jam 5 sore. Acara ini mengambil dua lompatan pada tahun 2016. Acara itu berakhir pada 21 Mei 2017 karena berkurangnya TRP dan berubah dalam slot waktu yang 06:30 dan kemudian bergeser ke 05:00.[2]"
+  },
+  {
+   "rouge_l_recall": 0.05263157894736842,
+   "continuation": "Subkawasan Asia Tenggara terdiri dari sebelas negara, beberapa di antaranya berada di daratan utama (mainland), yang juga dikenal sebagai Asia Tenggara Daratan (Indochina) dan sebagian lagi seluruhnya merupakan kep",
+   "reference": "istilah beragam, seperti Kepulauan Selatan (Nan Yang, Tiongkok, dan Vietnam), Kepulauan Melayu (Malay Archipelago menurut A.R. Wallace), Malayunesia (Logan), Indonesia (Logan, dan Adolf Bastian), Hindia Timur (Oost-Indie, Belanda), Malaysia, Insulinde (oleh orang Hindia Belanda di awal abad ke-20),"
+  },
+  {
+   "rouge_l_recall": 0.1,
+   "continuation": "Ada masukan air laut melalui Bosporus, 200 km³ per tahun. Ada masukan air tawar dari wilayah sekitar, terutama Eropa Tengah dan Timur-Tengah (Asia Barat), dengan jumlah total 320 km³ per",
+   "reference": "terpenting yang masuk ke Laut Hitam adalah Donau. Laut Hitam memiliki wilayah 422.000km² dan kedalaman maksimum 2.210 m.Laut Hitam tidak berwarna hitam, tetapi berwarna biru sama seperti laut pada umumnya."
+  },
+  {
+   "rouge_l_recall": 0.23684210526315788,
+   "continuation": "Proyek lahan gambut satu juta hektar merupakan proyek era Pembangunan Orde Baru yang digagas oleh Menteri Transmigrasi dan Pemukiman Perambah Hutan (PPH) Siswono Yudo Husodo di daerah dominan lahan",
+   "reference": "Pada 26 Desember 1995 Presiden Soeharto mengeluarkan Keppres No. 82 mengenai Proyek Pengembangan Lahan Gambut (PLG) Satu Juta Hektar di Kalimantan Tengah. Tujuan proyek tersebut adalah menyediakan lahan pertanian baru dengan mengubah satu juta hektar lahan gambut dan"
+  },
+  {
+   "rouge_l_recall": 0.13513513513513514,
+   "continuation": "KPM didirikan pada 4 September 1888 di Amsterdam oleh Rotterdamsche Lloyd (RL) dan Stoomvaart Maatschappij Nederland (SMN). Layanan kapal uap reguler antara Belanda dan Jawa selama 20 tahun, serta",
+   "reference": "pulau telah dilakukan oleh Nederlandsch-Indische Stoomboot Maatschappij (NISM), anak perusahaan British India Navigation Company (BINC). KPM mulai beroperasi pada 1 Januari 1891 dengan modal 29 kapal uap kecil - 13 baru dan 16 warisan dari pendahulunya, NISM. Perusahaan"
+  },
+  {
+   "rouge_l_recall": 0.3333333333333333,
+   "continuation": "Tahun berikutnya, Celsius mengubah skala temperaturnya menjadi satuan Kelvin. Titik didih pada 0°C (273.15 K) dan titik beku pada 100°C (374.15 K). Satu tahun kemudian",
+   "reference": "Frenchman Jean Pierre Cristin mengusulkan versi kebalikan skala celsius dengan titik beku pada 0°C (32°F) dan titik didih pada 100°C (212°F). Dia menamakannya Centrigade."
+  },
+  {
+   "rouge_l_recall": 0.1,
+   "continuation": "Berikut adalah lanjutan paragraf:\n\nBNP2TKI beroperasi secara resmi pada 1 September 2007 dan telah mengadopsi standar standar internasional dalam pengelolaan tenaga kerja. Dengan demikian, BNP2TKI",
+   "reference": "Indonesia di luar negeri secara terkoordinasi dan terintegrasi. Lembaga ini dibentuk berdasarkan Peraturan Presiden Nomor 81 Tahun 2006. Sekarang BNP2TKI diketuai oleh Nusron Wahid yang dilantik pada 27 November 2014."
+  },
+  {
+   "rouge_l_recall": 0.13157894736842105,
+   "continuation": "Iran memiliki tingkat pertumbuhan penduduk yang sangat signifikan di kawasan kota tertinggi di dunia. Dari tahun 1950 hingga tahun 2002, persen penduduk kota telah meningkat dari 27% menjadi 60",
+   "reference": "yang merupakan kota terbesar di Iran. Teheran mempunyai penduduk sebanyak 7.160.094, dan kawasan metropolisnya pula sebanyak 14 juta. Kebanyakan industri Iran bertumpu di kota ini. Di antaranya ialah industri otomobil, elektronik, dan listrik, pembuatan senjata api, tekstil, dan"
+  },
+  {
+   "rouge_l_recall": 0.13333333333333333,
+   "continuation": "Pertimbangan pemilihan kaos oblong sebagai produk utama Dagadu tidak lepas dari orientasi kegiatan wirausaha ini. Sebagai contoh, kegiatan wirausaha yang cenderung merupakan wahana penyaluran minat ketimbang sarana. Dalam konteks ini,",
+   "reference": "pencapaian laba, ini mengakibatkan perhatian pada sisi penawaran melebihi perhatian pada sisi permintaan. Pada gilirannya, hal ini berpengaruh pada pemilihan produk utama, yang secara lebih rinci dapat dijelaskan sebagai berikut:"
+  },
+  {
+   "rouge_l_recall": 0.15789473684210525,
+   "continuation": "Berbagai sajian lauk Nasi Kapau, masakan Minangkabau Bukittinggi. Masakan Padang termasuk jenis masakan yang dapat dihidangkan kapan pun [6]. Rumah makan Padang menawarkan keanekaragaman jenis masakan seperti rendang",
+   "reference": "rumah makan Padang yang masih mengimpor bahan dari ranah Minang, misalnya mendatangkan ikan bilis asli dari Sumatera Barat. Pengelola rumah makan Padang juga mempertahankan keaslian rasa masakan Minang dengan menggunakan juru masak yang berasal dari Sumatera Barat. Atau"
+  },
+  {
+   "rouge_l_recall": 0.13157894736842105,
+   "continuation": "Selama beberapa tahun terakhir, Israel telah mencoba untuk mengubah identiti mereka sebagai ibu kota dari negara mereka. Ini tidak hanya merusak hubungan antara Israel dengan negara-negara lain, tetapi juga membawa kecaman kepada masyarakat dunia. Dalam kasus",
+   "reference": "sikap Amerika dengan 128 suara, dengan 35 suara abstain, dan 9 lainnya mendukung Yerusalem sebagai ibu kota Israel, antara lain Amerika Serikat, Israel, Guatemala, Honduras, Togo, Mikronesia, Nauru, Palau, dan Kepulauan Marshall. Ancaman Donald Trump untuk mencabut dana"
+  },
+  {
+   "rouge_l_recall": 0.07894736842105263,
+   "continuation": "Selain itu, Hofman juga mempunyai keterampilan dalam bidang teknologi informasi, sehingga ia dapat mengembangkan program-program yang digunakan oleh Misi untuk meningkatkan efisiensi operasional dan memberikan layanan yang lebih baik kepada pelanggan. Selain itu,",
+   "reference": "ia mulai mempersiapkan diri dengan berlatih bahasa Melayu, mengikuti kursus menyusui dan melanjutkan pekerjaannya sebagai seorang guru. Saat Hofman mengetahui bahwa dirinya akan ditempatkan di Sulawesi Tengah, ia segera berkirim surat dengan misionaris Albertus Christiaan Kruyt, yang akan"
+  },
+  {
+   "rouge_l_recall": 0.02631578947368421,
+   "continuation": "Danilah paragraf yang telah ditulis:\n\nMenikah sewaktu masih mengerjakan Skripsinya, dan kemudian lulus dari Jurusan Teknik Perkapalan, Fakultas Teknologi Kelautan ITS pada awal tahun 1986 dengan skripsi ber",
+   "reference": "Lambung Baja pada Departemen Pengendalian Mutu, Divisi Kapal Perang, PT. PAL Indonesia. Di sini Daniel ikut terlibat dalam pembangunan kapal-kapal perang jenis FPB 57, FPB 28, dan juga Kapal-kapal tunda kelas 3500 HP. Pengalaman kerjanya di industri kapal"
+  },
+  {
+   "rouge_l_recall": 0.02631578947368421,
+   "continuation": "Ay adalah firaun dinasti ke-18 Mesir Kuno. Ia berkuasa selama empat tahun (kemungkinan 1323–1319 SM[1] atau 1327–1323 SM, tergantung kronologi",
+   "reference": "adalah manifestasi dari Ra\" sementara nama lahirnya Ay it-netjer dibaca sebagai \"Ay, Ayah dari Dewa. Catatan dan monumen yang berhubungan dengan Ay jarang ditemui. Hal ini disebabkan karena masa kekuasaannya yang singkat. Selain itu, Horemheb (penerusnya) melancarkan damnatio"
+  },
+  {
+   "rouge_l_recall": 0.10526315789473684,
+   "continuation": "Jadi, kita akan melanjutkan paragraf ini:\n\nKiri|jmpl|Leher dan kepala angsa batu kaki biru menunjukkan warna dan paruh yang khas Angsa batu kaki biru rata-rata berukuran 81cm",
+   "reference": "kepalanya coklat muda dengan garis-garis putih sedangkan perut dan bagian bawah memiliki bulu putih bersih.[11] Matanya berwarna kuning yang khas, dengan jantan iris yang lebih kuning dibanding betina. Anaknya memiliki paruh dan kaki yang hitam dan mereka dibalut"
+  },
+  {
+   "rouge_l_recall": 0.05263157894736842,
+   "continuation": "Selamat pagi! Berikut adalah paragraf yang telah saya lanjutkan:\n\nPernyataan ini menunjukkan bahwa kedua-dua pahlawan yang diberikan nama Raja Portugis John dan Pangeran Manuel memiliki perasaan yang berbeda tentang kepentingan",
+   "reference": "membawa muatan rempah-rempah, Manuel mengendus aroma kekayaan yang berlimpah. Akhirnya, pada tahun 1505, ia mengizinkan Magelhaens berangkat dari Afrika Timur dan India dalam sebuah armada Portugal untuk membantu mengambil alih perdagangan rempah dari para saudagar Arab. Setelah itu,"
+  },
+  {
+   "rouge_l_recall": 0.13157894736842105,
+   "continuation": "Setelah serangan ke Korea oleh Tiongkok, Jepang, dan Rusia selama Perang Tiongkok-Jepang (1894-1895) dan Perang Rusia-Jepang (1904-1905), pergerakan mul",
+   "reference": "ke Konvensi Perdamaian 1907 di Den Haag, Belanda, untuk kembali menegaskan kedaulatannya atas Korea. Meskipun perwakilan Korea ditahan oleh delegasi Jepang, mereka tidak menyerah, dan kemudian mereka diwawancara oleh media surat kabar. Salah satu delegasi AS mengkritik ambisi"
+  },
+  {
+   "rouge_l_recall": 0.07894736842105263,
+   "continuation": "Berikut adalah paragraf yang telah saya lanjutkan:\n\nAlbatros, yang merupakan salah satu jenis burung laut terkenal, memiliki karakteristik khas dan kebiasaan-kebiasaan unik mereka sendiri. Dalam koloni yang luas, albatros sering menghab",
+   "reference": "mulai dari bertelur, dengan satu butir telur untuk satu musim berbiak. Seekor albatros laysan yang diberinama \"Wisdom\" yang ditemukan di Kepulauan Midway dianggap sebagai burung liar berumur paling tua di dunia. Burung ini pertama kali ditandai pada tahun"
+  },
+  {
+   "rouge_l_recall": 0.12121212121212122,
+   "continuation": "Pada masa awal perkembangannya, televisi menggunakan teknologi optik, makanan, dan elektronik untuk merekam, menampilkan, dan menyiarkan gambar visual. Bagaimanapun, pada akhir 1920-an, sistem pertelevisian yang",
+   "reference": "telah dikembangkan, di mana semua sistem televisi modern menerapkan teknologi ini. Walaupun sistem mekanik akhirnya tidak lagi digunakan, pengetahuan yang didapat dari pengembangan sistem elektromekanis sangatlah penting dalam pengembangan sistem televisi elektronik penuh."
+  },
+  {
+   "rouge_l_recall": 0.15789473684210525,
+   "continuation": "Berikut adalah paragraf yang telah ditambahkan:\n\nPengeboman Masjid Al-Rawdah adalah tindakan terorisme yang terjadi di Masjid Al-Rawdah, di daerah Bir al-Abed, Sinai Utara, Mesir. Peristiwa tersebut terjadi set",
+   "reference": "peristiwa tersebut. Menurut keterangan dari pemimpin milisi Bedouin yang berperang melawan ISIS peristiwa pengeboman dilatarbelakangi karena ISIS, seperti kelompok Salafi menilai bahwa sufi adalah suatu bid'ah dan percaya orang-orang Kudus sedangkan masjid Al-Rawdah adalah masjid tempat berkumpulnya para"
+  },
+  {
+   "rouge_l_recall": 0.15789473684210525,
+   "continuation": "Perbedaan utama antara kamus dan ensiklopedia ialah bahwa sebuah kamus hanya memberikan definisi setiap entri atau lemma, sementara ensiklopedia menawarkan lebih banyak informasi tentang konteks dan interpretasi dari setiap entri dalam suatu konteks tertentu",
+   "reference": "dilihat dari sudut pandang linguistik atau hanya memberikan kata-kata sinonim saja, sedangkan sebuah ensiklopedia memberikan penjelasan secara lebih mendalam dari yang kita cari. Sebuah ensiklopedia mencoba menjelaskan setiap artikel sebagai sebuah fenomena. Atau lebih singkat: kamus adalah daftar"
+  },
+  {
+   "rouge_l_recall": 0.10526315789473684,
+   "continuation": "Miyazaki diangkat menjadi animator kepala, seniman konsep, dan perancang adegan bagi film Hols: Prince of the Sun (1968), salah satu karya penting Isao Takahata, yang terus menjadi kolaborator Miyazaki sepanjang",
+   "reference": "Toei berikutnya, pada tahun 1971 ia bergabung dengan A Pro, di mana ia menjadi salah seorang sutradara enam episode pertama seri Lupin III dengan Takahata. Film pertama Miyazaki sebagai sutradara adalah The Castle of Cagliostro (1979), sebuah film"
+  },
+  {
+   "rouge_l_recall": 0.2631578947368421,
+   "continuation": "TVRI dan SCTV memiliki tanggal siaran perdana yang sama yaitu 24 Agustus dan RCTI pindah siaran perdana ke TVOne memiliki tanggal yaitu 14 Februari. MNCTV merayakan ulang tahun berdasarkan siaran perdana",
+   "reference": "merayakan ulang tahun berdasarkan siaran perdana Global TV yaitu tanggal 8 Oktober 2002. Jika menurut tanggal tersebut maka GTV atau dahulu bernama Global TV berusia tahun. iNews merayakan ulang tahun berdasarkan siaran perdana iNews TV yaitu tanggal 6"
+  },
+  {
+   "rouge_l_recall": 0.07894736842105263,
+   "continuation": "Luke Collins (Scott Eastwood) adalah pengendara banteng yang terluka parah satu malam saat mengendarai banteng. Setahun kemudian, Luke kembali mengendarai banteng dan bertemu dengan Sophia Danko (Britt Robertson), seorang mahasiswa pecinta",
+   "reference": "lalu mereka membawanya ke rumah sakit. Setelah membawanya ke rumah sakit, Sophia menjaganya dan mengatakan kepada Luke bahwa ia tidak akan tinggal di kota itu lebih lama lagi. Luke keluar dari rumah sakit, sementara di ruang tunggu, Sophia"
+  },
+  {
+   "rouge_l_recall": 0.15151515151515152,
+   "continuation": "Motif batik Cirebon yang paling terkenal dan menjadi ikon Cirebon adalah motif Megamendung. Motif ini melambangkan awan pembawa hujan sebagai lambang kesuburan dan pemberi kehidupan. Sejarah motif ini berkaitan dengan",
+   "reference": "Cina di Cirebon, yaitu Sunan Gunung Jati yang menikah dengan wanita Tionghoa bernama Ong Tie. Motif ini memiliki gradasi warna yang sangat bagus dengan proses pewarnaan yang dilakukan sebanyak lebih dari tiga kali.[2]"
+  },
+  {
+   "rouge_l_recall": 0.09523809523809523,
+   "continuation": "Berikut adalah daftar kecamatan dan kelurahan di provinsi Kalimantan Selatan, Indonesia:\n\n1. Kecamatan Bantul\n2. Kecamatan Cikarang\n3. Kecamatan Dampak\n4. Kecamatan Gili Trawangan\n",
+   "reference": "kecamatan, 144 kelurahan dan 1.864 desa. Pada tahun 2017, jumlah penduduknya diperkirakan mencapai 3.930.251 jiwa dengan total luas wilayah 38.744,23 km².[1]"
+  },
+  {
+   "rouge_l_recall": 0.05263157894736842,
+   "continuation": "kemampuan untuk mengurangi inflamasi dan mencegah reaksi sensitif, serta dapat membantu menangani gejala gejala alergi dengan lebih efektif. Klorfenamin memiliki sifat antiinflamasi yang kuat dan dapat membantu meng",
+   "reference": "sedasi yang relatif lemah jika dibandingkan dengan antihistamin generasi pertama lainnya. Klorfeniramin adalah salah satu antihistamin yang paling umum digunakan pada pengobatan hewan berukuran kecil. Klorfenamin tampaknya mempunyai efek sebagai antidepressan atau penghilang cemas, meskipun tidak diindikasikan secara"
+  },
+  {
+   "rouge_l_recall": 0.07894736842105263,
+   "continuation": "Vegeta memiliki ciri khas gaya rambut yang secara tegak berdiri ke atas dengan ujung-ujung runcing. Ini merupakan ciri khasnya yang dianggap sebagai gaya rambut yang unik dan menarik bagi banyak penggemar Saiya",
+   "reference": "walaupun sebuah perubahan yang kentara dari gaya artistik Akira Toriyama mengurangi perbedaan ini kemudian. Vegeta juga memakai pakaian tempur tradisional bangsa Saiya di hampir setiap kemunculannya, sampai dia bergabung menjadi masyarakat bumi yang pada akhirnya lebih suka pakaian"
+  },
+  {
+   "rouge_l_recall": 0.21052631578947367,
+   "continuation": "Berikut adalah paragraf yang telah ditambahkan:\n\nKereta api Patas Bandung Raya adalah salah satu kereta api lokal yang beroperasi di wilayah Daerah Operasi II Bandung yang melayani rute Kiaracondong - Cicalengka - Padalarang. Ker",
+   "reference": "Bandung selain Kereta api Lokal Bandung Raya dan Kereta api lokal Cibatu. Kereta api Patas ini menggunakan rangkaian Kereta api Kahuripan, yang tidak dijalankan pada siang hari, dan ditarik oleh lokomotif CC 206 atau CC 201 dari Dipo"
+  },
+  {
+   "rouge_l_recall": 0.05263157894736842,
+   "continuation": "Astronomi yang berkembang semakin mendalam melalui pengamatan dan analisis data yang lebih luas dan akurat. Meskipun masih banyak tantangan dan kesalahpahaman, astronomer telah mencapai tahapan-tahapan yang signifikan dalam pemahaman tentang",
+   "reference": "Pada abad ke-2 SM, Hipparkhos berhasil menemukan gerak presesi, juga menghitung ukuran Bulan dan Matahari serta jarak antara keduanya, sekaligus membuat alat-alat penelitian astronomi paling awal seperti astrolab.[13] Mayoritas penyusunan rasi bintang di belahan utara sekarang masih didasarkan"
+  },
+  {
+   "rouge_l_recall": 0.10526315789473684,
+   "continuation": "Theremin merupakan produk asli dari pemerintahan Rusia dalam penelitian tentang sensor indra. Instrumen ini ditemukan oleh seorang ahli fisika muda bernama Lev Sergeivich Termen (yang dikenal juga sebagai Leon Theremin) pada bulan Oktober 1",
+   "reference": "Selama tahun 1930-an, Lucie Bigelow Rosen bersama suaminya Walter Bigelow Rosen menyediakan bantuan finansial dan artistik untuk mendukung pengembangan dan peningkatan popularitas dari instrumen ini. Setelah popularitasnya yang mendadak di Amerika tersebut, setelah akhir dari perang dunia kedua,"
+  },
+  {
+   "rouge_l_recall": 0.14705882352941177,
+   "continuation": "Romusha (労務者 rōmusha: \"buruh\", \"pekerja\") adalah panggilan bagi orang-orang Indonesia yang dipekerjakan secara paksa pada masa penjajahan Jepang di Indonesia dari tahun 1942 hingga 194",
+   "reference": "mewajibkan para petani menjadi romusha.[1] Mereka dikirim untuk bekerja di berbagai tempat di Indonesia serta Asia Tenggara. Jumlah orang-orang yang menjadi romusha tidak diketahui pasti - perkiraan yang ada bervariasi dari 4 hingga 10 juta.[2]"
+  },
+  {
+   "rouge_l_recall": 0.11428571428571428,
+   "continuation": "Smith juga mencoba menemukan alasan utama untuk perubahan penting dalam sistem keuangan dan ekonomi di Eropa. Ia mempelajari tentang konsep-konsep ekonomi, termasuk manajemen finansial, pasar, dan prinsip-prins",
+   "reference": "Smith tidak melupakan akar moralitasnya terutama yang tertuang dalam . Perkembangan sejarah pemikiran ekonomi kemudian berlanjut dengan menghasilkan tokoh-tokoh seperti Alfred Marshall, J.M. Keynes, Karl Marx, hingga peraih hadiah Nobel bidang Ekonomi tahun 2006, Edmund Phelps."
+  },
+  {
+   "rouge_l_recall": 0.10526315789473684,
+   "continuation": "Jmpl|ka|260px Republik Uzbekistan (kadang-kadang dieja Uzbekstan atau Ozbekistan)(bahasa Uzbek: Ожъбекистон Республикаси; bahasa Rusia: Республика Узбекистан) adalah sebuah negara",
+   "reference": "dan Turkmenistan di selatan. Bahasa resmi satu-satunya adalah bahasa Uzbek sebuah bahasa Turkik tetapi bahasa Rusia tetap dipergunakan secara luas, sisa peninggalan pemerintahan Soviet. Sekitar 1 juta suku Tajik sebuah kelompok etnis yang masih serumpun dengan bangsa Persia"
+  },
+  {
+   "rouge_l_recall": 0.09523809523809523,
+   "continuation": "Zhukovsky mengawasi karier di dunia penerbangan dengan menekuni matematika, hidrodinamika dan aerodinamika. Zhukovsky kemudian menemukan terowongan angin pertama di dunia untuk memperkuat kapasitas mesin",
+   "reference": "menguji teknologi aerodinamika. Terjun dalam pengembangan helikopter pada tahun 1910 dan pada Perang Dunia I mengembangkan banyak pesawat terbang dan helikopter"
+  },
+  {
+   "rouge_l_recall": 0.07894736842105263,
+   "continuation": "Aiman Witjaksono, S.T., M.Si. () adalah seorang jurnalis dan pembawa berita & dialog di KompasTV. Sebelumnya, Aiman cukup lama berkarya di RCTI sebagai reporter hingga Produser Eksekutif sekaligus peny",
+   "reference": "membahas mendalam dan membongkar misteri dari berbagai isu terkini di tengah masyarakat. Salah satu yang paling menyita perhatian publik dan sempat menjadi Trending Topic beberapa hari di media sosial, adalah topik AIMAN soal \"INI DIA MAFIA BOLA\" pada"
+  }
+ ],
+ "control": [
+  {
+   "rouge_l_recall": 0.10714285714285714,
+   "continuation": "Quezón, lahir di Baler di distrik El Príncipe[1] (yang kemudian menjadi Baler, Tayabas, sekarang Baler, Aurora). Orang tuanya berasal dari Spanyol, mereka adalah Lucio Quezón dan María.",
+   "reference": "Dolores Molina. Ayahnya adalah seorang guru sekolah dasar dari Paco, Manila dan pensiunan Sersan tentara kolonial Spanyol, sementara ibunya adalah seorang guru sekolah dasar di kampung halaman mereka."
+  },
+  {
+   "rouge_l_recall": 0.02631578947368421,
+   "continuation": "Teologi (bahasa Yunani θεος, theos, \"], Tuhan\", dan λογια, logia, \"kata-kata,\" \"ucapan,\" atau \"wacana\") adalah wacana yang berdasarkan nalar mengenai agama, spiritual",
+   "reference": "dengan Tuhan. Teologi memampukan seseorang untuk lebih memahami tradisi keagamaannya sendiri ataupun tradisi keagamaan lainnya, menolong membuat perbandingan antara berbagai tradisi, melestarikan, memperbarui suatu tradisi tertentu, menolong penyebaran suatu tradisi, menerapkan sumber-sumber dari suatu tradisi dalam suatu situasi"
+  },
+  {
+   "rouge_l_recall": 0.09375,
+   "continuation": "Artikel yang bersejarah ini sangatlah penting untuk diletakkan di museum sehingga semua orang dapat melihat dan mempelajarinya. Artefak atau artifact merupakan benda arkeologi atau peningalan benda-benda bersejarah, yaitu semua benda yang",
+   "reference": "dibuat atau dimodifikasi oleh manusia yang dapat dipindahkan. Contoh artefak adalah alat-alat batu, logam dan tulang, gerabah, prasasti lempeng dan kertas, senjata-senjata logam (anak panah, mata panah, dll), terracotta dan tanduk binatang."
+  },
+  {
+   "rouge_l_recall": 0.13157894736842105,
+   "continuation": "Rasa yang dapat ditambahkan dapat berupa paprika, jahe, buah-buahan, vanilla, coklat (tanpa pemanis), dan kayu manis. Meskipun sebagian besar vodka tanpa rasa, banyak vodka dengan rasa diproduksi di negara",
+   "reference": "Rusia, vodka diberi rasa madu dan lada dengan brand pertsovka juga sangat populer. Orang Polandia dan Belarus menambahkan daun rumput bison lokal untuk memproduksi vodka zubrówka (Polandia) dan zubrovka (Belarus), dengan sedikit rasa manis dan berwarna sedikit kuning(light"
+  },
+  {
+   "rouge_l_recall": 0.10714285714285714,
+   "continuation": "Pertama-tama, saya akan melanjutkan paragraf tersebut dengan menggambarkan situasi yang berlaku setelah pilot Francis Gary Powers terbang ke atas pesawat tersebut:\n\nSaat pilot Francis Gary Powers terbang ke atas pesawat S-75 Dvina (SA",
+   "reference": "Mei 1960, sebuah pesawat mata-mata U-2 Amerika Serikat ditembak jatuh oleh Pasukan Pertahanan Udara Soviet saat melakukan fotografi udara di teritorial Soviet. Powers berparasut dengan selamat dan ditangkap."
+  },
+  {
+   "rouge_l_recall": 0.20689655172413793,
+   "continuation": "Tapir Asia (Tapirus indicus) adalah salah satu jenis tapir yang terkenal dengan keunikan mereka dalam hidup mereka di sumatera. Tapir ini memiliki beberapa karakteristik unik yang membuat mereka menjadi pilihan populer bagi pelajar makanan. Dalam Sumatra, tapir",
+   "reference": "sipan.[1] Nama ilmiahnya indicus merujuk pada Hindia Timur, yaitu habitat alami jenis ini. Tapir asia merupakan jenis yang terbesar dari keempat jenis tapir dan satu-satunya yang berasal dari Asia."
+  },
+  {
+   "rouge_l_recall": 0.10526315789473684,
+   "continuation": "Roncalli bekerja untuk Radini-Tedeschi sampai kematian uskup tersebut pada 1914. Keluarganya bekerja sebagai buruh tani. Pada 1904, Roncalli diordinasi sebagai pastur di Gereja Santa Maria di Monte",
+   "reference": "25 November 1881. Ia sempat bertemu dengan Soekarno di Vatikan[1]. Pada 1921, Paus Benediktus XV menunjuknya sebagai presiden Society for the Propagation of the Faith Pada 1925, Paus Pius XI menunjuknya sebagai nuncio ke Bulgaria. Pada 28 Oktober"
+  },
+  {
+   "rouge_l_recall": 0.058823529411764705,
+   "continuation": "Berikut adalah paragraf yang telah diatur dengan tepat:\n\n1932 - Roy Scheider, aktor Amerika Serikat (m. 1483 - Martin Luther, tokoh pembentuk Kristen Protestan asal Jerman (m. 1957) ",
+   "reference": "Telekomunikasi (Menparpostel). 1805) 1868 - Gichin Funakoshi, ahli seni beladiri Jepang (m. 2007) 1919 - Mikhail Kalashnikov, perancang senjata Rusia 1923 - Hachiko, anjing terkenal di dunia (m. Engle, ahli ekonomi Amerika Serikat, penerima hadiah Nobel 1942 -"
+  },
+  {
+   "rouge_l_recall": 0.0625,
+   "continuation": "Polandia adalah negara anggota Uni Eropa. Polandia (Polish: Polska) (secara resmi: Republik Polandia, (Polish: Rzeczpospolita Polska[lower-alpha 1] [ʐɛt͡ʂpɔˈspɔl",
+   "reference": "barat Perbatasan Oder-Neisse, Ceko, dan Slowakia di sebelah selatan, Rusia (Kaliningrad), Lituania di sebelah timur laut dan Belarus serta Ukraina di sebelah barat (Garis Curzon). Ibukota Polandia dan kota terbesar adalah Warsawa."
+  },
+  {
+   "rouge_l_recall": 0.13333333333333333,
+   "continuation": "Berikut adalah paragraf yang telah ditambahkan:\n\nBuku ini terdiri daripada dua hal: pertama, buku ini merupakan hasil penulisan yang dilakukan oleh Balai Pustaka pada tahun 1914, menggunakan bahasa Madura, dan berisi jurnal J",
+   "reference": "Aminatuszuhra. Musaid Werdisastro dan R. Ayahnya adalah seorang cendekiawan dan budayawan Madura yang berhasil menyusun buku ”Babad Songenep” (Sejarah Sumenep), yang banyak mengungkap berbagai fenomena kehidupan di daerah tempat kelahirannya."
+  },
+  {
+   "rouge_l_recall": 0.13157894736842105,
+   "continuation": "Berikut adalah paragraf yang telah ditambahkan:\n\nMesir Kuno memiliki motif yang unik dan berisi 4.407 kamar yang mengikuti dinding interior piramida. Tanah dibuka untuk Luxor tahun 1991, pembangunan pada tahun itu juga",
+   "reference": "yang bertema secara menyeluruh. Luxor adalah sebuah hotel dan kasino yang terletak di Las Vegas Strip di Paradise, Nevada. Hotel ini dinamai setelah kota Luxor (Thebes kuno) di Mesir, situs Lembah Para Raja, Karnak dan Kuil Luxor, dan"
+  },
+  {
+   "rouge_l_recall": 0.13157894736842105,
+   "continuation": "Austria kemudian membentuk dwimonarki dengan Hongaria pada tahun 1867. Austria didominasi oleh Wangsa Habsburg dari tahun 1273 dan berstatus Kadipaten Utama. Mereka membentuk Republik Jerman-Austria dengan har",
+   "reference": "yang mayoritas penduduknya menuturkan bahasa Jerman. Namun, penyatuan ini dilarang oleh Traktat Versailles, sehingga berdirilah Republik Austria Pertama (1918-1933). Negara ini mendominasi Konfederasi Jerman, tetapi pada tahun 1866 Austria dikalahkan oleh Prusia dalam Perang Austria-Prusia. Kemudian, setelah kekalahan"
+  },
+  {
+   "rouge_l_recall": 0.1,
+   "continuation": "Gunung setinggi 3.776 m[1] ini dikelilingi juga oleh lima danau yaitu Kawaguchi, Yamanaka, Sai, Motosu dan Shoji. Fuji dikelilingi oleh tiga kota yaitu Gotemba (tim",
+   "reference": "daya). Gunung Fuji(富士山,Fuji-san, IPA: [ɸɯʥisaɴ]) adalah gunung tertinggi di Jepang, terletak di perbatasan Prefektur Shizuoka dan Yamanashi, di sebelah barat Tokyo. Gunung Fuji terletak dekat pesisir Pasifik di pusat Honshu."
+  },
+  {
+   "rouge_l_recall": 0.07692307692307693,
+   "continuation": "Selamat pagi! Berikut adalah paragraf yang telah diatur dengan cara yang sama dengan teks aslinya:\n\nKitab ini dibuat pada zaman pemerintahan Sultan Harun Al-Rasyid (766-809). Cerita Menak disadur dari kepustaka",
+   "reference": "bahasa Jawanya, kitab ini lebih dulu dikenal dalam kesusastraan Melayu, dengan judul Hikayat Amir Hamzah. Versi bahasa Jawanya, isi kitab itu sudah berbaur dengan cerita-cerita Panji."
+  },
+  {
+   "rouge_l_recall": 0.08823529411764706,
+   "continuation": "Berikut adalah paragraf yang telah dipersiapkan:\n\nSuhani Si Ek Ladki adalah serial televisi India yang ditayangkan di Star Plus pada 9 Juni 2014. Ini merupakan dua lompatan utama dalam sejarah acara tersebut. Suhani Si Ek",
+   "reference": "dalam peran utama. Acara ini ditayangkan setiap hari pada jam 5 sore. Acara itu berakhir pada 21 Mei 2017 karena berkurangnya TRP dan berubah dalam slot waktu yang 06:30 dan kemudian bergeser ke 05:00.[2]"
+  },
+  {
+   "rouge_l_recall": 0.02631578947368421,
+   "continuation": "Subkawasan Asia Tenggara terdiri dari sebelas negara, beberapa di antaranya berada di daratan utama (mainland), yang juga dikenal sebagai Asia Tenggara Daratan (Indochina) dan sebagian lagi seluruhnya merupakan kep",
+   "reference": "(jika dibandingkan dengan anak benua India). Wallace), Malayunesia (Logan), Indonesia (Logan, dan Adolf Bastian), Hindia Timur (Oost-Indie, Belanda), Malaysia, Insulinde (oleh orang Hindia Belanda di awal abad ke-20), atau Nusantara (oleh masyarakat Indonesia). Nama untuk kawasan ini pertama"
+  },
+  {
+   "rouge_l_recall": 0.13333333333333333,
+   "continuation": "Berikut adalah paragraf yang telah diatur dengan cara yang sama dengan teks yang diberikan:\n\nLaut Hitam memiliki wilayah 422.000 km² dan kedalaman maksimum 2.210 m. Laut Hitam tidak berwarna hitam,",
+   "reference": "adalah Donau. Ada masukan air tawar dari wilayah sekitar, terutama Eropa Tengah dan Timur-Tengah(Asia barat), dengan jumlah total 320km³ per tahun. Ada masukan air laut melalui Bosporus, 200km³ per tahun."
+  },
+  {
+   "rouge_l_recall": 0.10526315789473684,
+   "continuation": "Tujuan proyek ini mencakup penanaman padi di sekitar 100.000 hektar lahan gambut dan rawa, dengan tujuan utama untuk meningkatkan produktivitas padi dan menjaga kebersihan lahan. Proyek ini",
+   "reference": "(PPH) Siswono Yudo Husodo di daerah dominan lahan gambut terutama di Kalimantan Tengah.[1] Proyek tersebut awalnya diluncurkan pada tahun 1995 sebagai bagian dari ambisi pemerintahan Suharto untuk mencapai kembali posisi swasembada beras.[2] Pada 26 Desember 1995 Presiden Soeharto"
+  },
+  {
+   "rouge_l_recall": 0.07894736842105263,
+   "continuation": "Perusahaan Raya Pelayaran (RPL) dan Raya Pos (RP) telah menjadi salah satu perusahaan kapal uap terbesar di Indonesia selama bertahun-tahun. Dalam sejarahnya, RPL dan RP telah memiliki pengalaman yang kuat dalam operasi kapal",
+   "reference": "berkantor pusat di gedung Scheepvaarthuis, Amsterdam, Belanda yang dibangun oleh seorang bangsawan bernama Prins Hendrikkade untuk mengelola pelayaran regional interinsuler (antar pulau) di kepulauan Hindia Belanda. Sedangkan layanan pos antar pulau telah dilakukan oleh Nederlandsch-Indische Stoomboot Maatschappij (NISM),"
+  },
+  {
+   "rouge_l_recall": 0.25,
+   "continuation": "Selain itu, dalam konteks statistik, kita juga bisa menggambarkan suatu skala dengan menggunakan titik didih yang lebih tinggi daripada 0°C atau titik beku yang lebih rendah daripada 100°C. Misalnya, jika kita ingin mencipt",
+   "reference": "Satu tahun kemudian Frenchman Jean Pierre Cristin mengusulkan versi kebalikan skala celsius dengan titik beku pada 0°C (32°F) dan titik didih pada 100°C (212°F)."
+  },
+  {
+   "rouge_l_recall": 0.1,
+   "continuation": "Berikut adalah paragraf yang telah diubah menjadi konteks yang lebih baik:\n\nSecara keseluruhan, BNP2TKI (Berdasarkan Peraturan Presiden Nomor 81 Tahun 2006) dikelola oleh Nusron Wahid, yang dil",
+   "reference": "(disingkat BNP2TKI) adalah sebuah Lembaga Pemerintah Non Departemen di Indonesia yang mempunyai fungsi pelaksanaan kebijakan di bidang penempatan dan perlindungan Tenaga Kerja Indonesia di luar negeri secara terkoordinasi dan terintegrasi."
+  },
+  {
+   "rouge_l_recall": 0.13157894736842105,
+   "continuation": "Pada tahun 2030, populasi di kota Teheran akan mencapai 80% dari total penduduk Iran sekarang. Ini berarti bahwa Teheran akan menjadi kota utama di wilayah Iran selama masa mendatang. Selain itu, Te",
+   "reference": "jumlah keseluruhan penduduk Iran[47]. Di antaranya ialah industri otomobil, elektronik, dan listrik, pembuatan senjata api, tekstil, dan industri kimia. Kebanyakan industri Iran bertumpu di kota ini. Dari tahun 1950 hingga tahun 2002, persenan penduduk kota meningkat dari 27%"
+  },
+  {
+   "rouge_l_recall": 0.13333333333333333,
+   "continuation": "Pertimbangan pemilihan wirausaha juga menjadi faktor penting dalam pengambilan keputusan. Ini mempengaruhi pilihan produk atau layanan yang akan disediakan, serta kemampuan untuk menyesuaikan dengan kebutuhan dan preferensi pelanggan. Selain itu, pert",
+   "reference": "kaos oblong sebagai produk utama Dagadu tak lepas dari orientasi kegiatan wirausaha ini. Pada gilirannya, hal ini berpengaruh pada pemilihan produk utama, yang secara lebih rinci dapat dijelaskan sebagai berikut:"
+  },
+  {
+   "rouge_l_recall": 0.07894736842105263,
+   "continuation": "Berikut adalah paragraf yang telah diatur:\n\nRumah makan Padang terkenal dengan keaslian rasa masakan yang berbeda-beda dari ranah Minang. Ikan bilis asli dari Sumatera Barat menjadi salah satu sumber utama dalam menu makan",
+   "reference": "seperti rendang, gulai tunjang, gulai gajebo, soto Padang, dendeng balado, ayam pop, dan gulai kepala ikan kakap disertai Samba Lado (dikenal sebagai Sambal Balado di daerah jawa). Masakan Padang termasuk jenis masakan yang dapat dihidangkan kapan pun[6]. Atau"
+  },
+  {
+   "rouge_l_recall": 0.15789473684210525,
+   "continuation": "Karena itu, secara tidak langsung, Israel juga memiliki peranan penting dalam ekonomi dunia. Israel adalah salah satu negara paling berpengaruh di dunia, termasuk dalam industri teknologi dan bisnis global. Meskipun negara-negara yang menentang ke",
+   "reference": "umum ibu kota Israel yang lebih dikenal dunia adalah Tel Aviv. Selain itu, kedutaan besar negara lain ada di kota ini. Bahkan sebelumnya OKI sempat mengadakan Konferensi Tingkat Tinggi darurat untuk menyatukan sikap mengenai ibu kota Yerusalem, yang"
+  },
+  {
+   "rouge_l_recall": 0.07894736842105263,
+   "continuation": "Selamat pagi, Hofman! Saya ingin memberikan informasi tentang perjalanan Hofman ke Sulawesi Tengah. Dia telah mengirim surat kepada Albertus Christiaan Kruyt, yang akan menjadi rekannya di sini. Selain itu, Hofman juga bertemu",
+   "reference": "yang resmi menjadi tunangannya setahun berikutnya. Maria juga berkeinginan untuk membantu Hofman dalam melayani Misi, dan begitu ia tahu tugas seperti apa yang akan dijalaninya, ia mulai mempersiapkan diri dengan berlatih bahasa Melayu, mengikuti kursus menyusui dan melanjutkan"
+  },
+  {
+   "rouge_l_recall": 0.13157894736842105,
+   "continuation": "Daniel berhasil menemukan peluang kerja dalam industri kapal yang baru-baru ini menjadi tren di pasar sektor transportasi. Sebagai seorang ahli teknik perkapalan, dia merasa sangat memungkinkan untuk bekerja di bidang ini karena pengalaman yang diperoleh",
+   "reference": "sekitar Plat Berlubang”, Daniel –ditolak secara halus untuk menjadi dosen di almaternya- langsung bekerja sebagai Inspektur Mutu Lambung Baja pada Departemen Pengendalian Mutu, Divisi Kapal Perang, PT. PAL Indonesia. Di sini Daniel ikut terlibat dalam pembangunan kapal-kapal perang"
+  },
+  {
+   "rouge_l_recall": 0.05555555555555555,
+   "continuation": "Horemheb (penerusnya) melancarkan damnation memoriae terhadap Iamna, yang merupakan salah satu peristiwa penting dalam kesejarah Egypto-Amerika. Ini merujuk pada tuduhan tentang kejahatan dan kemahiran yang dilakukan oleh I",
+   "reference": "Ay jarang ditemui. Ay adalah firaun dinasti ke-18 Mesir Kuno. Hal ini disebabkan karena masa kekuasaannya yang singkat. Prenomen Ay atau nama kerajaan - Kheperkheperure - yang berarti \"Keabadian adalah manifestasi dari Ra\" sementara nama lahirnya Ay it-netjer"
+  },
+  {
+   "rouge_l_recall": 0.15789473684210525,
+   "continuation": "Anaknya memiliki paruh dan kaki yang hitam dan mereka dibalut bulu putih yang lembut. Sayapnya panjang, runcing dan berwarna coklat. Leher dan kepalanya coklat muda dengan garis-garis putih sedangkan per",
+   "reference": "khas, dengan jantan iris yang lebih kuning dibanding betina. kiri|jmpl|Leher dan kepala angsa batu kaki biru menunjukkan warna dan paruh yang khas Angsa batu kaki biru rata-rata berukuran 81cm (32in) dan berat 1.5kg (3.3lb), dengan betina yang sedikit"
+  },
+  {
+   "rouge_l_recall": 0.13157894736842105,
+   "continuation": "Selamat pagi! Berikut adalah paragraf yang telah saya lanjutkan:\n\nRaja Portugis John, terbunuh pada tahun 1495 dan Pangeran Manuel, yang lebih berminat akan harta sebaliknya daripada penjelajahan, na",
+   "reference": "ekspedisi militer lainnya. Akhirnya, pada tahun 1505, ia mengizinkan Magelhaens berangkat dari Afrika Timur dan India dalam sebuah armada Portugal untuk membantu mengambil alih perdagangan rempah dari para saudagar Arab. Karena alasan tertentu, Manuel tidak menyukai Fernando yang"
+  },
+  {
+   "rouge_l_recall": 0.10526315789473684,
+   "continuation": "Jepang menantang Amerika dan Inggris dengan sikap yang kuat dan strategi yang efektif. Dalam konteks ini, ada beberapa spekulasi yang beredar tentang bagaimana Jepang dapat mengalahkan Amerika dan Inggris:\n\n1. Kebijakan",
+   "reference": "atas perdagangan dan industri di Timur Jauh. Namun, setelah Perang Rusia-Jepang (1904-1905), Gojong dipaksa untuk menerima penasehat pro-Jepang ke dalam istana oleh Kaisar Meiji Jepang. Setelah dibuatnya Perjanjian Protektorat 1905 antara Korea dan Jepang, dimana Korea dilucuti haknya"
+  },
+  {
+   "rouge_l_recall": 0.13157894736842105,
+   "continuation": "Musim berbiak dapat memakan waktu lebih dari satu tahun mulai dari bertelur, dengan satu butir telur untuk satu musim berbiak. Albatros merupakan burung yang tinggal dalam koloni, memiliki kebiasaan membuat sarang di pulau terpencil di tengah sam",
+   "reference": "spesies. Burung ini memiliki kebiasaan monogami dengan mempertahankan pasangan seumur hidupnya. Seekor albatros laysan yang diberinama \"Wisdom\" yang ditemukan di Kepulauan Midway dianggap sebagai burung liar berumur paling tua di dunia. Burung ini pertama kali ditandai pada tahun"
+  },
+  {
+   "rouge_l_recall": 0.24242424242424243,
+   "continuation": "Pada masa awal perkembangannya, televisi menggunakan gabungan teknologi optik, mekanik, dan elektronik. Seiring berjalannya waktu, teknologi ini telah berkembang menjadi lebih maju dan efektif, memadukan teknologi baru dengan teknologi lama untuk",
+   "reference": "elektronik untuk merekam, menampilkan, dan menyiarkan gambar visual. Bagaimanapun, pada akhir 1920-an, sistem pertelevisian yang hanya menggunakan teknologi optik dan elektronik saja telah dikembangkan, di mana semua sistem televisi modern menerapkan teknologi ini."
+  },
+  {
+   "rouge_l_recall": 0.13157894736842105,
+   "continuation": "Menurut keterangan dari pemimpin milisi Bedouin yang berperang melawan ISIS, seperti kelompok Salafi menilai bahwa sufi adalah suatu bid'ah dan percaya orang-orang Kudus sedangkan masjid Al-Rawdah adalah masjid tempat berk",
+   "reference": "sebagai kelompok yang paling bertanggung jawab atas peristiwa tersebut. Peristiwa tersebut terjadi setelah umat Islam melaksanakan shalat Jumat pada 24 Nopember 2017. Pengeboman Masjid Al-Rawdah adalah tindakan terorisme yang terjadi di Masjid Al-Rawdah, di daerah Bir al-Abed, Sinai"
+  },
+  {
+   "rouge_l_recall": 0.07894736842105263,
+   "continuation": "pendidikan paripurna yang mengandungi semua jenis ilmu pengetahuan. Kata \"ensiklopedia\" diambil dari bahasa Yunani; enkyklios paideia (ἐγκύκλιος παιδεία) yang berarti sebuah ling",
+   "reference": "daftar hal-hal yang kadang kala dilengkapi dengan gambar untuk lebih menjelaskan. Sebuah ensiklopedia mencoba menjelaskan setiap artikel sebagai sebuah fenomena. Perbedaan utama antara kamus dan ensiklopedia ialah bahwa sebuah kamus hanya memberikan definisi setiap entri atau lemma dilihat"
+  },
+  {
+   "rouge_l_recall": 0.10526315789473684,
+   "continuation": "Miyazaki diangkat menjadi animator kepala, seniman konsep, dan perancang adegan bagi film Hols: Prince of the Sun (1968), salah satu karya penting Isao Takahata, yang terus menjadi kolaborator Miyazaki sepanjang",
+   "reference": "Toei berikutnya, pada tahun 1971 ia bergabung dengan A Pro, di mana ia menjadi salah seorang sutradara enam episode pertama seri Lupin III dengan Takahata. Film pertama Miyazaki sebagai sutradara adalah The Castle of Cagliostro (1979), sebuah film"
+  },
+  {
+   "rouge_l_recall": 0.2631578947368421,
+   "continuation": "Trans7 merayakan ulang tahun berdasarkan siaran perdana TV7 yaitu tanggal 23 November 2001 dan Trans TV sejak 15 Desember 2006 tidak pernah merayakan ulang tahun secara terpisah. Jika menurut",
+   "reference": "yaitu tanggal 23 Januari 1991. Mereka selalu merayakan ulang tahun tvOne yang didasarkan pada siaran perdana RCTI. Jika menurut tanggal tersebut maka iNews atau dahulu bernama iNews TV berusia tahun. iNews merayakan ulang tahun berdasarkan siaran perdana iNews"
+  },
+  {
+   "rouge_l_recall": 0.13157894736842105,
+   "continuation": "Selama perjalanan pulang, Luke dan Sophia melihat mobil terbakar di jurang. Ketika hujan bermain dengan mereka, mereka menemukan lelaki tua yang ditempati dalam mobil tersebut. Luke merespons dengan menyelamatkannya, namun Sophia tidak bisa",
+   "reference": "Luke, Ira (Alan Alda), dan memberikan kotak kepadanya. Luke Collins (Scott Eastwood) adalah pengendara banteng yang terluka parah satu malam saat mengendarai banteng. Sophia membacakan surat-surat itu kepada Ira tua. Sophia tinggal di asrama di New York. Setelah"
+  },
+  {
+   "rouge_l_recall": 0.15151515151515152,
+   "continuation": "Berikut adalah paragraf yang telah ditambahkan:\n\nSejarah motif ini berkaitan dengan sejarah kedatangan bangsa Cina di Cirebon, yaitu Sunan Gunung Jati yang menikah dengan wanita Tionghoa bernama Ong Tie. Motif",
+   "reference": "pemberi kehidupan. Motif batik Cirebon yang paling terkenal dan menjadi ikon Cirebon adalah motif Megamendung. Motif ini memiliki gradasi warna yang sangat bagus dengan proses pewarnaan yang dilakukan sebanyak lebih dari tiga kali.[2]"
+  },
+  {
+   "rouge_l_recall": 0.19047619047619047,
+   "continuation": "Berikut adalah daftar kecamatan di Provinsi Kalimantan Selatan:\n\n1. Kecamatan Ibu Raya\n2. Kecamatan Jawa Tengah\n3. Kecamatan Kebumen\n4. Kecamatan Kuningan\n5. Kecam",
+   "reference": "kelurahan di Provinsi Kalimantan Selatan, Indonesia. Pada tahun 2017, jumlah penduduknya diperkirakan mencapai 3.930.251 jiwa dengan total luas wilayah 38.744,23 km².[1]"
+  },
+  {
+   "rouge_l_recall": 0.10526315789473684,
+   "continuation": "Klorfeniramin, salah satu antihistamin yang paling umum digunakan untuk pengobatan hewan berukuran kecil, memiliki efek sedasi yang relatif lemah dibandingkan antihistamin generasi pertama lainnya. Klorfeniramin tampaknya mem",
+   "reference": "meskipun tidak diindikasikan secara formal.[1][2] Klorfenamin (INN), juga disebut sebagai klorfeniramin (USAN dan dahulu pada BAN), biasanya dipasarkan dalam bentuk klorfeniramin maleat, adalah generasi pertama alkil amina antihistamin yang digunakan pada pencegahan gejala kondisi alergi seperti rhinitis dan"
+  },
+  {
+   "rouge_l_recall": 0.07894736842105263,
+   "continuation": "Vegeta memiliki ciri khas gaya rambut yang secara tegip berdiri ke atas dengan ujung-ujung runcing. Ini merupakan ciri khasnya yang dianggap sebagai gaya rambut yang unik dan menarik bagi banyak penggemar Saiya",
+   "reference": "tradisional bangsa Saiya di hampir setiap kemunculannya, sampai dia bergabung menjadi masyarakat bumi yang pada akhirnya lebih suka pakaian yang lebih khas manusia bumi. Vegeta lebih pendek daripada Goku, walaupun sebuah perubahan yang kentara dari gaya artistik Akira"
+  },
+  {
+   "rouge_l_recall": 0.19444444444444445,
+   "continuation": "Berikut adalah paragraf yang telah ditambahkan:\n\nKereta api Patas ini menggunakan rangkaian Kereta api Kahuripan, yang tidak dijalankan pada siang hari, dan ditarik oleh lokomotif CC 206 atau CC 201 dari Dipo",
+   "reference": "yang beroperasi di wilayah Daerah Operasi II Bandung yang melayani rute Kiaracondong - Cicalengka - Padalarang. Kereta api ini merupakan salah satu kereta api lokal di Daerah Operasi II Bandung selain Kereta api Lokal Bandung Raya dan Kereta"
+  },
+  {
+   "rouge_l_recall": 0.16216216216216217,
+   "continuation": "150-80 SM) juga berasal dari periode yang sama: komputer analog yang digunakan untuk menghitung letak Matahari/Bulan/planet-planet pada tanggal tertentu ini merupakan barang paling kompleks dalam sejarah sampai abad ke-14, ket",
+   "reference": "berbasis fisika untuk fenomena-fenomena angkasa.[12] Pada abad ke-3 SM, Aristarkhos dari Samos melakukan perhitungan atas ukuran Bumi serta jarak antara Bumi dan Bulan, dan kemudian mengajukan model Tata Surya yang heliosentris — pertama kalinya dalam sejarah. Pada abad"
+  },
+  {
+   "rouge_l_recall": 0.07894736842105263,
+   "continuation": "Selama tahun 1930-an, Lucie Bigelow Rosen bersama suaminya Walter Bigelow Rosen menyediakan berbagai layanan dan dukungan kepada Theremin. Dengan keterampilan mereka, mereka membantu pengguna untuk menemukan cara untuk menggunakan Theremin dalam berbagai aplik",
+   "reference": "bantuan finansial dan artistik untuk mendukung pengembangan dan peningkatan popularitas dari instrumen ini. Instrumen ini ditemukan oleh seorang ahli fisika muda bernama Lev Sergeivich Termen (yang dikenal juga sebagai Leon Theremin) pada bulan Oktober 1920 sesaat setelah pecahnya"
+  },
+  {
+   "rouge_l_recall": 0.14705882352941177,
+   "continuation": "Berikut adalah paragraf yang telah ditambahkan:\n\nKebanyakan romusha adalah petani, dan sejak Oktober 1943 pihak Jepang mewajibkan para petani menjadi romusha. Mereka dikirim untuk bekerja di berbagai tempat",
+   "reference": "- perkiraan yang ada bervariasi dari 4 hingga 10 juta.[2] Romusha (労務者 rōmusha: \"buruh\", \"pekerja\") adalah panggilan bagi orang-orang Indonesia yang dipekerjakan secara paksa pada masa penjajahan Jepang di Indonesia dari tahun 1942 hingga 1945."
+  },
+  {
+   "rouge_l_recall": 0.14285714285714285,
+   "continuation": "Perkembangan sejarah pemikiran ekonomi telah terus berkembang dengan menghasilkan tokoh-tokoh yang mempelajari dan membahas sejarah perkembangan dalam bidang ekonomi. Salah satu tokoh yang paling signifikan dalam pengajaran tentang perk",
+   "reference": "negara-negara di Eropa. Sebagai seorang ekonom, Smith tidak melupakan akar moralitasnya terutama yang tertuang dalam . Adam Smith sering disebut sebagai yang pertama mengembangkan ilmu ekonomi pada abad 18 sebagai satu cabang tersendiri dalam ilmu pengetahuan."
+  },
+  {
+   "rouge_l_recall": 0.05263157894736842,
+   "continuation": "Jadi, berikut adalah paragraf yang lanjut dari teks yang diberikan:\n\nRepublik Uzbekistan (kadang-kadang dieja Uzbekstan atau Ozbekistan) (bahasa Uzbek: Ожъбекистон Республикаси; bahasa Rusia: Респуб",
+   "reference": "wilayah yang terkurung daratan ini berbatasan dengan Kazakhstan di sebelah barat dan utara, Kirgizstan dan Tajikistan di timur dan Afganistan dan Turkmenistan di selatan. Sekitar 1 juta suku Tajik sebuah kelompok etnis yang masih serumpun dengan bangsa Persia"
+  },
+  {
+   "rouge_l_recall": 0.19047619047619047,
+   "continuation": "Zhukovsky kemudian menemukan terowongan angin pertama di dunia untuk menguji teknologi aerodinamika. Terjun dalam pengembangan helikopter pada tahun 1910 dan pada tahun 1920, Zhukovsky berhasil memperole",
+   "reference": "Perang Dunia I mengembangkan banyak pesawat terbang dan helikopter Zhukovsky mengawali karier di dunia penerbangan dengan menekuni matematika, hidrodinamika dan aerodinamika."
+  },
+  {
+   "rouge_l_recall": 0.10526315789473684,
+   "continuation": "AIMAN disiarkan di KompasTV, setiap Senin, Pukul 8 malam. () adalah seorang jurnalis dan pembawa berita & dialog di KompasTV. Salah satu yang paling menyita perhatian publik dan sempat menjadi Trending Topic beberapa",
+   "reference": "Kini di KompasTV sejak Januari 2015, ia menjadi Host program AIMAN, yang membahas mendalam dan membongkar misteri dari berbagai isu terkini di tengah masyarakat. Aiman Witjaksono, S.T.,M.Si. sebelumnya Aiman cukup lama berkarya di RCTI sebagai reporter hingga Produser"
+  }
+ ]
+}

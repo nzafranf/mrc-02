@@ -1,0 +1,30 @@
+{
+  "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "split_file": "data/processed/dev.jsonl",
+  "train_file": "data/processed/train.jsonl",
+  "limit": 100,
+  "prompt_id": "id1",
+  "shots": 3,
+  "demo_mode": "fixed",
+  "demo_order_seed": null,
+  "demo_seed": 1234,
+  "system": null,
+  "max_new_tokens": 24,
+  "batch_size": 4,
+  "device": "cpu",
+  "dtype": "auto",
+  "load_4bit": false,
+  "adapter_dir": null,
+  "run_name": "qwen0.5b_id1_3shot_fixed_n100",
+  "out_root": "experiments/llm_qa/runs",
+  "seed": 13,
+  "prompts_file": null,
+  "timestamp": "2026-11-14T00:44:11",
+  "fixed_demo_ids": [
+    "qa_ab191268d6bb8d871c3b",
+    "qa_2e46849dd01d917659df",
+    "qa_2a91740eac31ffb985f0"
+  ],
+  "n_examples": 100,
+  "snap_min_f1": 0.5
+}

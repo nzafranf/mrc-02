@@ -1,0 +1,16 @@
+{
+  "model_name": "Qwen/Qwen2.5-0.5B-Instruct",
+  "train_file": "data/processed/train.jsonl",
+  "prompt_id": "id1",
+  "device": "cpu",
+  "load_4bit": false,
+  "epochs": 1.0,
+  "max_steps": 5,
+  "batch_size": 2,
+  "grad_accum": 1,
+  "lr": 0.0002,
+  "max_len": 512,
+  "rank": 16,
+  "seed": 13,
+  "out_dir": "experiments/llm_qa/lora_smoke"
+}

@@ -1,0 +1,7 @@
+run nemotron35_super_id1_0shot; backend openrouter; model nvidia/nemotron-3.5-super-vl:free; n=100; rpm 15.0; mock False; cache nvidia_nemotron-3.5-super-vl_free.jsonl (25 entries)
+1/100 calls=0 cached=1
+11/100 calls=0 cached=11
+21/100 calls=0 cached=21
+31/100 calls=6 cached=25
+41/100 calls=16 cached=25
+51/100 calls=26 cached=25

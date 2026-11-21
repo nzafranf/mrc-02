@@ -1,0 +1,30 @@
+stage B fitted 5.1s
+train featurized: A (6435, 27), C (931231, 56), pos 2828 55.3s
+stages A, C fitted 71.9s
+dev threshold 0.3827
+DEV EM 51.31 F1 53.60 HasAns_F1 28.34 NoAns_acc 83.02
+{
+ "A": {
+  "auc": 0.7484151941699111,
+  "acc_at_thr": 0.6674968866749689,
+  "acc_at_0.5": 0.6924034869240349,
+  "threshold": 0.38273106699920023
+ },
+ "B": {
+  "n_answerable": 432,
+  "recall@1": 0.6203703703703703,
+  "recall@3": 0.9606481481481481,
+  "recall@1_tfidf_only": 0.5185185185185185,
+  "recall@1_bm25_only": 0.5370370370370371,
+  "recall@2": 0.8865740740740741
+ },
+ "C": {
+  "candidate_recall": 0.7337962962962963,
+  "avg_candidates_per_question": 152.00996264009962,
+  "span_em_given_gold_sentence_in_topk": 0.48825065274151436,
+  "span_f1_given_gold_sentence_in_topk": 0.5736260476200815,
+  "span_em_given_gold_sentence_rank1": 0.458955223880597,
+  "span_em_on_answerable_unconditional": 0.44212962962962965
+ }
+}
+{"A_false_answer": 63, "A_false_no_answer": 204, "B": 23, "C_gen": 47, "C_rank": 54, "total_errors": 391, "n": 803}

@@ -1,0 +1,29 @@
+{
+  "n": 22,
+  "exact": 54.54545454545455,
+  "f1": 54.54545454545455,
+  "HasAns_n": 15,
+  "HasAns_exact": 33.333333333333336,
+  "HasAns_f1": 33.333333333333336,
+  "NoAns_n": 7,
+  "NoAns_acc": 100.0,
+  "pred_noans_rate": 72.72727272727273,
+  "missing_preds": 0,
+  "grounding_rates": {
+    "exact": 0.2727272727272727,
+    "snapped": 0.0,
+    "ungrounded": 0.0,
+    "noans": 0.7272727272727273
+  },
+  "grounding_counts": {
+    "exact": 6,
+    "snapped": 0,
+    "ungrounded": 0,
+    "noans": 16
+  },
+  "hallucination_rate_ungrounded": 0.0,
+  "format_failure_rate": 0.0,
+  "na_prob_available": false,
+  "api_calls_this_run": 0,
+  "api_cache_hits": 22
+}

@@ -1,0 +1,2 @@
+{"id": "naufalzafranfadil/pbm-mrc-indobert-full", "title": "pbm-mrc-indobert-full", "code_file": "run.py", "language": "python", "kernel_type": "script",
+ "is_private": true, "enable_gpu": true, "enable_internet": true, "dataset_sources": ["naufalzafranfadil/pbm-mrc-proj"], "competition_sources": [], "kernel_sources": []}

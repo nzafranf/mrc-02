@@ -1,0 +1,8 @@
+{
+  "model": "sliding_window_thr",
+  "seed": 13,
+  "overlap_na_threshold_on_na_prob": 0.09388329039158194,
+  "split": "data/processed/dev.jsonl",
+  "timestamp": "2026-11-21T14:14:52",
+  "deterministic": true
+}

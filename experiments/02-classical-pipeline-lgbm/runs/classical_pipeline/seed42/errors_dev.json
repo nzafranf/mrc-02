@@ -1,0 +1,3557 @@
+[
+  {
+    "id": "qa_00e198cdbe7a6db9fff7",
+    "stage": "B",
+    "question": "Kapan Yan Xishan diangkat menjadi panglima perang Tiongkok ?",
+    "gold": "1911",
+    "pred": "pemerintah Republik Tiongkok",
+    "f1": 0.0,
+    "na_prob": 0.37688507670326066
+  },
+  {
+    "id": "qa_032e963768b50c42794c",
+    "stage": "C_rank",
+    "question": "Apakah ibu kota Tanzania?",
+    "gold": "Dar-es-Salam",
+    "pred": "United Republic",
+    "f1": 0.0,
+    "na_prob": 0.3616053274011561
+  },
+  {
+    "id": "qa_0349eeca8eb4cae07506",
+    "stage": "A_false_no_answer",
+    "question": "kapankah papua nugini melepaskan diri dari indonesia?",
+    "gold": "1 Juli 1971",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6154487469593614
+  },
+  {
+    "id": "qa_0406f9996f7eb6dcd774",
+    "stage": "A_false_no_answer",
+    "question": "Siapa presiden pertama Nauru?",
+    "gold": "Hammer DeRoburt",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7584498143321138
+  },
+  {
+    "id": "qa_04b38b92e0a507d36cd7",
+    "stage": "C_rank",
+    "question": "Siapakah Menteri Transmigrasi dan Pemukiman Proyek lahan gambut satu juta hektar?",
+    "gold": "Siswono Yudo Husodo",
+    "pred": "Kalimantan Tengah",
+    "f1": 0.0,
+    "na_prob": 0.2868792952562123
+  },
+  {
+    "id": "qa_05170124bc738c0a36a9",
+    "stage": "A_false_answer",
+    "question": "Apakah pendidikan pertama Gladys Emerson'?",
+    "gold": "",
+    "pred": "gelar Ph",
+    "f1": 0.0,
+    "na_prob": 0.16161588627793047
+  },
+  {
+    "id": "qa_05472ac12e5fdcef4ee0",
+    "stage": "C_rank",
+    "question": "Dimana letak Düsseldorf?",
+    "gold": "Jerman",
+    "pred": "Sungai Rhein",
+    "f1": 0.0,
+    "na_prob": 0.06093342779063966
+  },
+  {
+    "id": "qa_05aed54e82bdb9edebf5",
+    "stage": "A_false_no_answer",
+    "question": "Apakah ibukota Papua Nugini?",
+    "gold": "Port Moresby",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5938871222537053
+  },
+  {
+    "id": "qa_074634b2eae86659178f",
+    "stage": "A_false_no_answer",
+    "question": "Berapa luas Pulau Serangan?",
+    "gold": "panjang maksium 2,9 km dan lebar 1 km",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5340897333494621
+  },
+  {
+    "id": "qa_08d2b4d14fb91aadc8be",
+    "stage": "A_false_no_answer",
+    "question": "Kapan Vladimir Sviatoslavich pindah agama menjadi Kristen ?",
+    "gold": "988",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5932373445660873
+  },
+  {
+    "id": "qa_09df0b3461ac400e9981",
+    "stage": "A_false_no_answer",
+    "question": "kapankah Yesus Kristus dilahirkan?",
+    "gold": "sesudah tahun 6 SM",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5679496588475799
+  },
+  {
+    "id": "qa_0a266524498967311c7b",
+    "stage": "B",
+    "question": "apakah ibukota provinsi  Kalimantan Selatan?",
+    "gold": "Banjarmasin",
+    "pred": "pulau Kalimantan",
+    "f1": 0.0,
+    "na_prob": 0.31269715299695106
+  },
+  {
+    "id": "qa_0a3867b0e2c4601ee016",
+    "stage": "C_rank",
+    "question": "Berapa luas Papua?",
+    "gold": "808.105km",
+    "pred": "808.105km persegi",
+    "f1": 0.6666666666666666,
+    "na_prob": 0.02797026845257105
+  },
+  {
+    "id": "qa_0aa5f7a3a28d2168f810",
+    "stage": "A_false_answer",
+    "question": "Di manakah penemu aljabar?",
+    "gold": "",
+    "pred": "Arab",
+    "f1": 0.0,
+    "na_prob": 0.19945506192715803
+  },
+  {
+    "id": "qa_0bbd9bca8cd9a31983f7",
+    "stage": "A_false_answer",
+    "question": "Kapan anak Parlindoengan Loebis lahir?",
+    "gold": "",
+    "pred": "31 Desember 1994",
+    "f1": 0.0,
+    "na_prob": 0.29693202173757727
+  },
+  {
+    "id": "qa_0c1a521ee90994faf8d3",
+    "stage": "A_false_answer",
+    "question": "Kapan koran Kompas diterbitkan?",
+    "gold": "",
+    "pred": "Kompas Gramedia",
+    "f1": 0.0,
+    "na_prob": 0.06402717577861672
+  },
+  {
+    "id": "qa_0d3166a8ccb592c32956",
+    "stage": "C_rank",
+    "question": "Apa nama suku asli masyarakat Banyuwangi ?",
+    "gold": "Suku Using",
+    "pred": "Suku Osing",
+    "f1": 0.5,
+    "na_prob": 0.37384415641184154
+  },
+  {
+    "id": "qa_0d82790c6d3244970680",
+    "stage": "A_false_no_answer",
+    "question": "siapakah orang tua Mahasthavira Vajragiri?",
+    "gold": "Ayahnya bernama The Tjai Gwan dan ibunya Liem Kiat Nio",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6329153294660078
+  },
+  {
+    "id": "qa_0e2de9da8e47e8e3bce2",
+    "stage": "A_false_no_answer",
+    "question": "Bahasa apa yang digunakan oleh Wayang Golek Menak?",
+    "gold": "Jawa",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5972826653881742
+  },
+  {
+    "id": "qa_0fd14e04b7219bdf46fc",
+    "stage": "A_false_answer",
+    "question": "Di mana gitaris Boys Like Girls?",
+    "gold": "",
+    "pred": "Andover, MA",
+    "f1": 0.0,
+    "na_prob": 0.29152082688184483
+  },
+  {
+    "id": "qa_117ffbb8cd4ed821d9e9",
+    "stage": "C_rank",
+    "question": "apakah nama ibukota Vietnam?",
+    "gold": "Hanoi",
+    "pred": "Kota Ho Chi Minh",
+    "f1": 0.0,
+    "na_prob": 0.17391254625056116
+  },
+  {
+    "id": "qa_120d3e2aeafdd83b1379",
+    "stage": "A_false_no_answer",
+    "question": "Kapan Minecraft pertama kali diciptakan?",
+    "gold": "17 Mei 2011",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.42531394522326593
+  },
+  {
+    "id": "qa_12a96c12a171ddb1849c",
+    "stage": "B",
+    "question": "Apa yang tidak ada di kereta ekonomi sebelum tahun 2010?",
+    "gold": "AC",
+    "pred": "PT KA",
+    "f1": 0.0,
+    "na_prob": 0.37313467394126604
+  },
+  {
+    "id": "qa_1381e371016dcc40f018",
+    "stage": "A_false_no_answer",
+    "question": "Kapan layar sentuh pada handphone pertama kali diciptakan ?",
+    "gold": "1992",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5904743470987662
+  },
+  {
+    "id": "qa_140ea77136a742b49cea",
+    "stage": "A_false_no_answer",
+    "question": "berapakah jumlah jenis fauna yang ada di Indonesia?",
+    "gold": "147 spesies mamalia, 114 burung, 91 ikan dan 2 invertebrata",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6262134688474635
+  },
+  {
+    "id": "qa_14b925e5c6d46c010913",
+    "stage": "A_false_no_answer",
+    "question": "negara manakah yang mempunyai jaringan Internet pertama kali?",
+    "gold": "Amerika Serikat",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6819480842324708
+  },
+  {
+    "id": "qa_14c02949ccea2ed9dabd",
+    "stage": "A_false_no_answer",
+    "question": "Kapan Kinetoskop diciptakan ?",
+    "gold": "1889",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.481144455363335
+  },
+  {
+    "id": "qa_1736e82de25b5f57abdc",
+    "stage": "A_false_no_answer",
+    "question": "Pada suhu berapa air mendidih ?",
+    "gold": "0°C",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.47357523178903416
+  },
+  {
+    "id": "qa_175e4e7028a6638527bf",
+    "stage": "C_gen",
+    "question": "dimanakah letak gunung Fuji di Jepang ?",
+    "gold": "perbatasan Prefektur Shizuoka dan Yamanashi, di sebelah barat Tokyo",
+    "pred": "Prefektur Shizuoka",
+    "f1": 0.3636363636363636,
+    "na_prob": 0.16250497493212968
+  },
+  {
+    "id": "qa_17e01bfa1eeedaf3a2be",
+    "stage": "A_false_no_answer",
+    "question": "Kapan ilmu astronomi diperkenalkan ?",
+    "gold": "abad ke-3 SM",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4794126220037009
+  },
+  {
+    "id": "qa_180f09da0a4c0a1fd302",
+    "stage": "C_rank",
+    "question": "Apa warna asli Angsa batu kaki biru?",
+    "gold": "coklat",
+    "pred": "81cm",
+    "f1": 0.0,
+    "na_prob": 0.3646490496027773
+  },
+  {
+    "id": "qa_195a889e959cd03a8d8f",
+    "stage": "A_false_no_answer",
+    "question": "Apa nama brand handphone pertama yang menggunakan sistem layar sentuh ?",
+    "gold": "Simon",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6544624187371959
+  },
+  {
+    "id": "qa_1aaf53e8bdeae8febcd3",
+    "stage": "C_rank",
+    "question": "Siapa penemu Aljabar?",
+    "gold": "Al-Khwārizmī",
+    "pred": "Buku",
+    "f1": 0.0,
+    "na_prob": 0.13718433648446693
+  },
+  {
+    "id": "qa_1bf541a82aecf51fa9c7",
+    "stage": "A_false_answer",
+    "question": "Berapa luas bagian selatan dari Kalimantan Timur?",
+    "gold": "",
+    "pred": "129.066,64 km²",
+    "f1": 0.0,
+    "na_prob": 0.2553714862055606
+  },
+  {
+    "id": "qa_1c8a15cd9ed413c6ac4b",
+    "stage": "A_false_no_answer",
+    "question": "Kapan Masjid Shah  dibangun ?",
+    "gold": "1611",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4271908509569377
+  },
+  {
+    "id": "qa_1cafbf04e5059f20d957",
+    "stage": "A_false_no_answer",
+    "question": "siapakah karakter uatama anime One Piece?",
+    "gold": "Monkey D. Luffy",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5620225023419146
+  },
+  {
+    "id": "qa_1dceb67de26ebed5520b",
+    "stage": "A_false_answer",
+    "question": "Apa saja kota di Iran?",
+    "gold": "",
+    "pred": "PBB",
+    "f1": 0.0,
+    "na_prob": 0.27613459278983427
+  },
+  {
+    "id": "qa_1e4ba2c2a06dde242174",
+    "stage": "A_false_no_answer",
+    "question": "Kapan kekaisaran Romawi Timur runtuh?",
+    "gold": "29 Mei 1453",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6048793772417231
+  },
+  {
+    "id": "qa_1e53abdcb86f5d50175c",
+    "stage": "C_gen",
+    "question": "Apakah yang dimaksud Gelombang gravitasi?",
+    "gold": "riak dalam lengkung ruang-waktu yang bergerak dalam bentuk gelombang menjauhi sumbernya",
+    "pred": "sumbernya",
+    "f1": 0.16666666666666669,
+    "na_prob": 0.2927077636518523
+  },
+  {
+    "id": "qa_214ca9b6b63b3090911d",
+    "stage": "A_false_no_answer",
+    "question": "Apa penyebab utama Penyakit pulmonari obstruktif kronis?",
+    "gold": "Merokok tembakau",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.70453494661511
+  },
+  {
+    "id": "qa_215981b00544ba9a3c1c",
+    "stage": "A_false_no_answer",
+    "question": "Apakah kesenian tradisional khas Gunungkidul yang mencerminkan bahwa kehidupan manusia tidak jauh dari alam?",
+    "gold": "Rinding Gumbeng",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7488928012113109
+  },
+  {
+    "id": "qa_2235e9532c952b3717f9",
+    "stage": "A_false_no_answer",
+    "question": "Komponen apakah yang tidak pernah gagal membunuh bakteri gram positif dan bakteri gram negatif?",
+    "gold": "Peptida antimikrobial",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6573616264688695
+  },
+  {
+    "id": "qa_233a408f80fd80b4c302",
+    "stage": "A_false_no_answer",
+    "question": "Apakah nama ibukota Jepang?",
+    "gold": "Tokyo",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5105406472828147
+  },
+  {
+    "id": "qa_24041b11d835d85aa0ca",
+    "stage": "A_false_no_answer",
+    "question": "Apa nama bandara pertama di Indonesia?",
+    "gold": "Bandar Udara Kemayoran",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5941576473529443
+  },
+  {
+    "id": "qa_244f531e28dd211e2fb1",
+    "stage": "A_false_no_answer",
+    "question": "Siapakah tokoh antagonis dalam sinetron Mutiara Hati ?",
+    "gold": "Marchia Caroline Pohan",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5431596770477815
+  },
+  {
+    "id": "qa_24919d8a11cb4ba5d678",
+    "stage": "A_false_no_answer",
+    "question": "Siapa yang pertama kali menjual telepon cerdas?",
+    "gold": "BellSouth",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5336747542678267
+  },
+  {
+    "id": "qa_2548a969bbcdbeb6bc0d",
+    "stage": "A_false_no_answer",
+    "question": "Kapan telegram pertama ditemukan?",
+    "gold": "1837",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5821244329985569
+  },
+  {
+    "id": "qa_2601cd3cac7fadee10ec",
+    "stage": "C_rank",
+    "question": "apakah bilangan riil?",
+    "gold": "bilangan yang bisa dituliskan dalam bentuk desimal",
+    "pred": "rasional",
+    "f1": 0.0,
+    "na_prob": 0.041551611012789536
+  },
+  {
+    "id": "qa_26894a3c6a0f94d12325",
+    "stage": "A_false_no_answer",
+    "question": "Kapan tabel periodik diciptakan?",
+    "gold": "1869",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4109302393843043
+  },
+  {
+    "id": "qa_272256b9d38d709e7306",
+    "stage": "A_false_no_answer",
+    "question": "siapakah perdana menteri Israel terlama?",
+    "gold": "Benjamin Netanyahu",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6212891863872236
+  },
+  {
+    "id": "qa_294089cdda34ce86f758",
+    "stage": "A_false_no_answer",
+    "question": "Kapan senjata nuklir pertama diciptakan?",
+    "gold": "1939",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5499803977439109
+  },
+  {
+    "id": "qa_2974feb915bb33a854a7",
+    "stage": "A_false_no_answer",
+    "question": "Bagaimanakah sistem pemerintahan di Lebanon ?",
+    "gold": "republik demokratis parlementer, yang memberlakukan sebuah sistem khusus yang dikenal sebagai konfesionalisme",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6804087891885539
+  },
+  {
+    "id": "qa_2983119eb40424537018",
+    "stage": "A_false_no_answer",
+    "question": "Kapan H. Dony Ahmad Munir lahir?",
+    "gold": "5 Desember 1973",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7075066703276752
+  },
+  {
+    "id": "qa_29d0a7c0fab97a43d667",
+    "stage": "A_false_no_answer",
+    "question": "Kapan serial Accel World pertama kali terbit ?",
+    "gold": "Februari 2009",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4848631338651567
+  },
+  {
+    "id": "qa_2aca9fba5bfa7da54856",
+    "stage": "A_false_no_answer",
+    "question": "siapakah orang tua Manuel Luis Quezón y Molina?",
+    "gold": "Lucio Quezón dan María Dolores Molina",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5761725028480101
+  },
+  {
+    "id": "qa_2c4c27a5a8bcb0111545",
+    "stage": "A_false_no_answer",
+    "question": "siapakah karakter antagonis di Beauty and the Beast?",
+    "gold": "Gaston",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7035942430235183
+  },
+  {
+    "id": "qa_2c972759fd87895a33a0",
+    "stage": "C_rank",
+    "question": "Apakah produk pertama dari Dagadu ?",
+    "gold": "kaos oblong",
+    "pred": "Pertimbangan",
+    "f1": 0.0,
+    "na_prob": 0.10535745182947542
+  },
+  {
+    "id": "qa_2d18bb959e557f8aaa25",
+    "stage": "A_false_no_answer",
+    "question": "Kapankah Prof. Drs. Lafran Pane lahir ?",
+    "gold": "5 Februari 1922",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5454658843741335
+  },
+  {
+    "id": "qa_2d847c2fce06ae2834bc",
+    "stage": "A_false_no_answer",
+    "question": "Siapa ibu Bolesław I Chrobry?",
+    "gold": "Bohemia, Dobrawa",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5748100697540244
+  },
+  {
+    "id": "qa_2e16ab57a1e97c77b7e7",
+    "stage": "A_false_no_answer",
+    "question": "Siapakah yang menciptakan alat Terowongan angin?",
+    "gold": "Zhukovsky",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5667016245807228
+  },
+  {
+    "id": "qa_2e655af0a7dc66753066",
+    "stage": "C_gen",
+    "question": "Dimanakah letak Babilonia ?",
+    "gold": "selatan Mesopotamia (sekarang Irak), di wilayah Sumeria dan Akkadia",
+    "pred": "selatan Mesopotamia",
+    "f1": 0.3636363636363636,
+    "na_prob": 0.106158196712743
+  },
+  {
+    "id": "qa_2ef3d7a0095a4d975ecc",
+    "stage": "A_false_no_answer",
+    "question": "Berapa jumlah provinsi di pulau Jawa ?",
+    "gold": "enam",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4416044611899874
+  },
+  {
+    "id": "qa_2fc6ed350da29088157a",
+    "stage": "B",
+    "question": "Kapan Proyek lahan gambut satu juta hektar dijalankan?",
+    "gold": "1995",
+    "pred": "26 Desember 1995",
+    "f1": 0.5,
+    "na_prob": 0.1933516425321591
+  },
+  {
+    "id": "qa_2fc72530a5f4f797681f",
+    "stage": "C_rank",
+    "question": "Siapa nama ibu Bolesław ?",
+    "gold": "Bohemia, Dobrawa",
+    "pred": "Christian Daniel Rauch",
+    "f1": 0.0,
+    "na_prob": 0.2342993433806077
+  },
+  {
+    "id": "qa_2fd984d50629f95babff",
+    "stage": "C_gen",
+    "question": "Siapakah yang disebut dengan Paus ?",
+    "gold": "Uskup Roma dan pemimpin Gereja Katolik di seluruh dunia",
+    "pred": "Paus Fransiskus",
+    "f1": 0.0,
+    "na_prob": 0.06942292176348654
+  },
+  {
+    "id": "qa_30158b7027e04ca18b5b",
+    "stage": "C_rank",
+    "question": "Berapa luas Provinsi  Papua ?",
+    "gold": "808.105km persegi",
+    "pred": "808.105km",
+    "f1": 0.6666666666666666,
+    "na_prob": 0.030632648498999916
+  },
+  {
+    "id": "qa_30fcf258db102f58045e",
+    "stage": "A_false_answer",
+    "question": "Kapan Yusak Pakage meninggal?",
+    "gold": "",
+    "pred": "1979",
+    "f1": 0.0,
+    "na_prob": 0.20507368281867086
+  },
+  {
+    "id": "qa_31b649d119e2f3f44290",
+    "stage": "A_false_no_answer",
+    "question": "Siapakah raja pertama Dinasti Tang ?",
+    "gold": "Li Yuan",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.448343842682667
+  },
+  {
+    "id": "qa_3297f3ae804b5cb37763",
+    "stage": "A_false_answer",
+    "question": "Apa itu eukariot?",
+    "gold": "",
+    "pred": "Peptida antimikrobial",
+    "f1": 0.0,
+    "na_prob": 0.19115949722577957
+  },
+  {
+    "id": "qa_339b0a849a7c78803613",
+    "stage": "A_false_no_answer",
+    "question": "siapakah raja pertama Dinasti Tang?",
+    "gold": "Li Yuan",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.448343842682667
+  },
+  {
+    "id": "qa_33aa257fb184c1389e45",
+    "stage": "B",
+    "question": "Siapakah ayah Li Jiancheng?",
+    "gold": "Li Yuan",
+    "pred": "Jenderal Yuchi Jingde",
+    "f1": 0.0,
+    "na_prob": 0.23052834099006558
+  },
+  {
+    "id": "qa_34326bd9112e23273c59",
+    "stage": "A_false_answer",
+    "question": "Apakah Kamera Perekam terakhir di dunia?",
+    "gold": "",
+    "pred": "Sony",
+    "f1": 0.0,
+    "na_prob": 0.24664712693788296
+  },
+  {
+    "id": "qa_343645a3c70b99a9a379",
+    "stage": "A_false_no_answer",
+    "question": "kapan kah Bahasa Sanskerta masuk ke idnonesia?",
+    "gold": "ribuan tahun lalu",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.47000013783579175
+  },
+  {
+    "id": "qa_34eb39b7a2bf971efe9a",
+    "stage": "A_false_answer",
+    "question": "Apa nama pemerintahan nisbi militer feodalisme di Jepang yang didirikan oleh Tokugawa Ieyasu dan secara turun temurun dipimpin oleh shogun keluarga Tokugawa?",
+    "gold": "",
+    "pred": "Keshogunan Tokugawa",
+    "f1": 0.0,
+    "na_prob": 0.3331315775915944
+  },
+  {
+    "id": "qa_35ee441f328f27f59fd2",
+    "stage": "A_false_no_answer",
+    "question": "siapakah karakter utama dalam One Piece?",
+    "gold": "Monkey D. Luffy",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4678076159744797
+  },
+  {
+    "id": "qa_3613ed18aa06c112d456",
+    "stage": "C_gen",
+    "question": "Apa definisi teologi?",
+    "gold": "Teologi (bahasa Yunani θεος, theos, \"], Tuhan\", dan λογια, logia, \"kata-kata,\" \"ucapan,\" atau \"wacana\") adalah wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan (Lih. bawah, \"Teologi dan agama-agama lain di luar agama Kristen\").",
+    "pred": "luar agama Kristen",
+    "f1": 0.16666666666666669,
+    "na_prob": 0.182150068564875
+  },
+  {
+    "id": "qa_362ebc710383ad2b56a3",
+    "stage": "A_false_no_answer",
+    "question": "Apa penyebab kematian Sri Maharaja Kertanagara?",
+    "gold": "pemberontakan Jayakatwang",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4409214996978495
+  },
+  {
+    "id": "qa_366e3d7982e314f7b1ac",
+    "stage": "C_rank",
+    "question": "terbuat dari apakah Genta ?",
+    "gold": "logam",
+    "pred": "Sedangkan Duo",
+    "f1": 0.0,
+    "na_prob": 0.1012850876322481
+  },
+  {
+    "id": "qa_36a216acaca9ceefb4b6",
+    "stage": "A_false_no_answer",
+    "question": "Apa nama ibu kota Provinsi Kalimantan Selatan?",
+    "gold": "Banjarmasin",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.3982476648949886
+  },
+  {
+    "id": "qa_36ccb52481e5ee20d345",
+    "stage": "A_false_answer",
+    "question": "Siapakah yang menolak Aljabar?",
+    "gold": "",
+    "pred": "Buku",
+    "f1": 0.0,
+    "na_prob": 0.2673057018721597
+  },
+  {
+    "id": "qa_370f6c83441012cce36f",
+    "stage": "A_false_answer",
+    "question": "Tumbuhan apakah yang kehadirannya diinginkan pada lahan pertanian?",
+    "gold": "",
+    "pred": "Gulma",
+    "f1": 0.0,
+    "na_prob": 0.1995394734410766
+  },
+  {
+    "id": "qa_3732f2d7713ba80b8fb0",
+    "stage": "A_false_no_answer",
+    "question": "Bagaimana bentuk khas Batik cirebon?",
+    "gold": "memiliki gradasi warna yang sangat bagus dengan proses pewarnaan yang dilakukan sebanyak lebih dari tiga kali",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7814112505113991
+  },
+  {
+    "id": "qa_3756dd03ea79c52b0a61",
+    "stage": "A_false_no_answer",
+    "question": "Siapa nama pendiri Yahoo! Inc.?",
+    "gold": "Jerry Yang dan David Filo",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.60287696283623
+  },
+  {
+    "id": "qa_3788a2134ea673917590",
+    "stage": "A_false_no_answer",
+    "question": "apakah yang dimaksud dengan teknologi komunikasi analog?",
+    "gold": "sinyal data dalam bentuk gelombang yang yang kontinyu , yang membawa informasi dengan mengubah karakteristik gelombang",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.534963441983623
+  },
+  {
+    "id": "qa_38532476af8f567f6c1a",
+    "stage": "A_false_answer",
+    "question": "Apa itu algoritme internasional?",
+    "gold": "",
+    "pred": "prosedur langkah-demi-langkah untuk penghitungan",
+    "f1": 0.0,
+    "na_prob": 0.1847438739260555
+  },
+  {
+    "id": "qa_385a83a5e0dc556f4fc5",
+    "stage": "A_false_answer",
+    "question": "Apakah manfaat longsor salju pada manusia?",
+    "gold": "",
+    "pred": "alami atau aktivitas manusia",
+    "f1": 0.0,
+    "na_prob": 0.2813421784963865
+  },
+  {
+    "id": "qa_38c2f37407bdde530b31",
+    "stage": "A_false_no_answer",
+    "question": "dimanakah Martin Luther dilahirkan?",
+    "gold": "Eisleben",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5793772534060321
+  },
+  {
+    "id": "qa_39d119dfef45812d53ba",
+    "stage": "C_gen",
+    "question": "Apa yang dimaksud dengan neokonservatif ?",
+    "gold": "aliran politik yang lahir di Amerika Serikat pada tahun 1960-an di kalangan Demokrat yang tidak sepakat dengan kebijakan dalam dan luar negeri partainya",
+    "pred": "Neokonservatisme",
+    "f1": 0.0,
+    "na_prob": 0.2110874794220642
+  },
+  {
+    "id": "qa_3a0cdfd7ea9e6c2d98ef",
+    "stage": "A_false_no_answer",
+    "question": "Kapan Dinasti Tang berdiri?",
+    "gold": "18 Juni 618",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4456084078569234
+  },
+  {
+    "id": "qa_3baba691b0e77400cfe2",
+    "stage": "A_false_no_answer",
+    "question": "Kapan Raja Carlo I lahir?",
+    "gold": "24 Februari 1500",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5538077423226049
+  },
+  {
+    "id": "qa_3c0aad94510547076e78",
+    "stage": "A_false_no_answer",
+    "question": "Siapa pendiri perusahaan Yahoo!?",
+    "gold": "Jerry Yang dan David Filo",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.48339754832965376
+  },
+  {
+    "id": "qa_3c25caa2144718d10532",
+    "stage": "A_false_no_answer",
+    "question": "Siapa yang menyusun tabel periodik?",
+    "gold": "Dmitri Mendeleev",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4557381911958195
+  },
+  {
+    "id": "qa_3c53d39bcf7ebf5ada38",
+    "stage": "B",
+    "question": "Apakah bahaya longsor salju pada manusia?",
+    "gold": "memiliki kemampuan untuk membawa es, batu, pohon, dan bahan lain yang ada pada lereng",
+    "pred": "alami atau aktivitas manusia",
+    "f1": 0.0,
+    "na_prob": 0.15517741841604477
+  },
+  {
+    "id": "qa_3c6252982b4bfd1779b3",
+    "stage": "C_gen",
+    "question": "Apa yang dimaksud dengan sinetron?",
+    "gold": "istilah untuk program drama bersambung produksi Indonesia yang disiarkan oleh stasiun televisi di Indonesia",
+    "pred": "stasiun televisi di Indonesia",
+    "f1": 0.4444444444444445,
+    "na_prob": 0.12034096787163685
+  },
+  {
+    "id": "qa_3e03c5397c43a12f569b",
+    "stage": "A_false_answer",
+    "question": "Di mana letak Nordrhein-Westfalen?",
+    "gold": "",
+    "pred": "Sungai Rhein",
+    "f1": 0.0,
+    "na_prob": 0.3375906761381613
+  },
+  {
+    "id": "qa_3ece0ed84215faf3e474",
+    "stage": "B",
+    "question": "Menceritakan tentang apakah Surah Luqman?",
+    "gold": "kisah tentang Luqman yang diceritakan dalam surah ini tentang bagaimana ia mendidik anaknya",
+    "pred": "surah ke-31 dalam al-Qur'an",
+    "f1": 0.23529411764705882,
+    "na_prob": 0.05622784774173258
+  },
+  {
+    "id": "qa_3f221c1282b41380f11b",
+    "stage": "A_false_no_answer",
+    "question": "apakah bahasa Indonesia dari Kimi no Shiranai Monogatari?",
+    "gold": "Cerita yang Tidak Kamu Ketahui",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.46448014994039233
+  },
+  {
+    "id": "qa_3fa9988c0127978fe68b",
+    "stage": "C_gen",
+    "question": "Apa yang dimaksud dengan membran ?",
+    "gold": "selaput, kulit tipis, atau lembaran bahan tipis, yang berfungsi sebagai pemisah selektif",
+    "pred": "selaput",
+    "f1": 0.15384615384615385,
+    "na_prob": 0.14747658067792066
+  },
+  {
+    "id": "qa_401e868a0b3336a4a150",
+    "stage": "C_rank",
+    "question": "Apa nama stasiun TV pertama di Indonesia ?",
+    "gold": "TVRI dan SCTV",
+    "pred": "TV7",
+    "f1": 0.0,
+    "na_prob": 0.3749914681186332
+  },
+  {
+    "id": "qa_40255ee6d66b50647719",
+    "stage": "A_false_no_answer",
+    "question": "berapakah luas Republik Afrika Selatan?",
+    "gold": "1.219.912km²",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7221202844724667
+  },
+  {
+    "id": "qa_40c1b2229a8f6ea98185",
+    "stage": "A_false_answer",
+    "question": "Kapan Red Hot Chili Peppers dibubarkan?",
+    "gold": "",
+    "pred": "1983",
+    "f1": 0.0,
+    "na_prob": 0.30936359182974343
+  },
+  {
+    "id": "qa_41208226ab3c33e9d749",
+    "stage": "A_false_no_answer",
+    "question": "Kapan PlayStation pertama kali diperkenalkan di dunia?",
+    "gold": "3 Desember 1994",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6971740474490528
+  },
+  {
+    "id": "qa_4123c386a0cb47681619",
+    "stage": "C_gen",
+    "question": "Apakah yang dimaksud dengan sinetron ?",
+    "gold": "istilah untuk program drama bersambung produksi Indonesia yang disiarkan oleh stasiun televisi di Indonesia",
+    "pred": "stasiun televisi di Indonesia",
+    "f1": 0.4444444444444445,
+    "na_prob": 0.12034096787163685
+  },
+  {
+    "id": "qa_4222a319cccf1eedfe96",
+    "stage": "A_false_no_answer",
+    "question": "kapankah tabel periodik diciptakan pertama kali?",
+    "gold": "1869",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.457301988065107
+  },
+  {
+    "id": "qa_42d9c8b9a812035074f1",
+    "stage": "A_false_no_answer",
+    "question": "Di ketinggian berapa Paro Taktsang terletak ?",
+    "gold": "3,120 metres",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6220240433833145
+  },
+  {
+    "id": "qa_42f041bc8cb47f10f874",
+    "stage": "A_false_answer",
+    "question": "Apa yang dimaksud gelombang gravitasi?",
+    "gold": "",
+    "pred": "sumbernya",
+    "f1": 0.0,
+    "na_prob": 0.31055162144432763
+  },
+  {
+    "id": "qa_43026cd6c292f893b1c6",
+    "stage": "A_false_no_answer",
+    "question": "Kapan ilmu ekonomi pertama dipelajari?",
+    "gold": "abad 18",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.45926616144018767
+  },
+  {
+    "id": "qa_43a412cf74a5d737c700",
+    "stage": "C_rank",
+    "question": "Apakah ibukota Vietnam?",
+    "gold": "Hanoi",
+    "pred": "Kota Ho Chi Minh",
+    "f1": 0.0,
+    "na_prob": 0.08353666163032808
+  },
+  {
+    "id": "qa_43c0b7ee1155daca4614",
+    "stage": "A_false_no_answer",
+    "question": "dimanakah Piala FA 2017–2018 berlangsung?",
+    "gold": "Rusia",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7434762953730236
+  },
+  {
+    "id": "qa_44435a218d7826a0378f",
+    "stage": "A_false_no_answer",
+    "question": "Apa nama badan pemerintah yang mengurus tentang sumber daya manusiadi Indonesia ?",
+    "gold": "Badan Pengembangan Sumber Daya Manusia Kementerian Dalam Negeri Republik Indonesia",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6687332722407533
+  },
+  {
+    "id": "qa_4589d4b70a6d2878fb39",
+    "stage": "C_gen",
+    "question": "Apa yang dimaksud dengan ELO?",
+    "gold": "metode untuk menghitung tingkat keterampilan (skill) relatif pemain pada permainan antara dua pemain seperti catur dan igo",
+    "pred": "Árpád Élő",
+    "f1": 0.0,
+    "na_prob": 0.18763709176034546
+  },
+  {
+    "id": "qa_461137445ddeca0fc804",
+    "stage": "B",
+    "question": "Siapa drummer Boys Like Girls?",
+    "gold": "John Keefe",
+    "pred": "Andover, MA",
+    "f1": 0.0,
+    "na_prob": 0.1368775823541741
+  },
+  {
+    "id": "qa_47315b061d42f8ae3a22",
+    "stage": "A_false_answer",
+    "question": "Apa yang ada di kereta ekonomi sebelum tahun 2010?",
+    "gold": "",
+    "pred": "PT KA",
+    "f1": 0.0,
+    "na_prob": 0.381272803871197
+  },
+  {
+    "id": "qa_47750562df49de8537fa",
+    "stage": "A_false_answer",
+    "question": "Siapakah yang sedikit memberikan kontribusi bagi berdirinya Dinasti Tang?",
+    "gold": "",
+    "pred": "Li Jiancheng",
+    "f1": 0.0,
+    "na_prob": 0.2767826185235138
+  },
+  {
+    "id": "qa_4846aa8fab5271ab544d",
+    "stage": "A_false_no_answer",
+    "question": "Kapankah pemekaran Kabupaten Pasaman terjadi ?",
+    "gold": "1991",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6036203579789767
+  },
+  {
+    "id": "qa_48defd21b1ed20fa9fbb",
+    "stage": "A_false_answer",
+    "question": "Siapa orang pertama Dinasti Tang?",
+    "gold": "",
+    "pred": "Li Yuan",
+    "f1": 0.0,
+    "na_prob": 0.3601147326742746
+  },
+  {
+    "id": "qa_48ebb5112d59ca9bbe6f",
+    "stage": "A_false_no_answer",
+    "question": "Mengapa emas batangan digunakan untuk tujuan investasi?",
+    "gold": "Harga emas di prediksi akan terus mengalami kenaikan karena tidak adanya kepastian kapan berakhirnya krisis hutang yang melilit negara-negara eropa, dan penurunan tingkat ekonomi dari 9 negara anggota uni-Eropa, sehingga harga saham di berbagai bursa di dunia mengalami kejatuhan",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.782194378505895
+  },
+  {
+    "id": "qa_4a1b12a281fcdc8a3589",
+    "stage": "C_rank",
+    "question": "Apakah yang dimaksud dengan ilmu teologi?",
+    "gold": "mempelajari segala sesuatu yang berkaitan dengan keyakinan beragama",
+    "pred": "luar agama Kristen",
+    "f1": 0.0,
+    "na_prob": 0.3196602045525261
+  },
+  {
+    "id": "qa_4b1b34abe018e7c8a821",
+    "stage": "A_false_no_answer",
+    "question": "Kapan perusahaan Yahoo! berdiri ?",
+    "gold": "Januari 1994",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6501086928008819
+  },
+  {
+    "id": "qa_4b976ffdf1e2a6607ee9",
+    "stage": "C_rank",
+    "question": "Apa nama ibukota Vietnam ?",
+    "gold": "Hanoi",
+    "pred": "Kota Ho Chi Minh",
+    "f1": 0.0,
+    "na_prob": 0.17391254625056116
+  },
+  {
+    "id": "qa_4b9cc9d3bbe1a393e607",
+    "stage": "A_false_no_answer",
+    "question": "Kota apakah yang disebutkan dalam Alkitab Ibrani yang memiliki sumber air yang tidak sedikit?",
+    "gold": "Yericho",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6919134059622419
+  },
+  {
+    "id": "qa_4c67693b7af9ea04ac62",
+    "stage": "B",
+    "question": "Apa pengertian dari teologi ?",
+    "gold": "ilmu yang mempelajari segala sesuatu yang berkaitan dengan keyakinan beragama",
+    "pred": "luar agama Kristen",
+    "f1": 0.0,
+    "na_prob": 0.17005495741325938
+  },
+  {
+    "id": "qa_4d39f15fbf199da40c52",
+    "stage": "A_false_no_answer",
+    "question": "Kapan internet pertama kali ditemukan ?",
+    "gold": "1969",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5054416703393682
+  },
+  {
+    "id": "qa_4e27f0a18166fece2bdc",
+    "stage": "C_rank",
+    "question": "Kapan Parlindoengan Loebis lahir?",
+    "gold": "30 Juni 1910",
+    "pred": "31 Desember 1994",
+    "f1": 0.0,
+    "na_prob": 0.04415943307845571
+  },
+  {
+    "id": "qa_4fd387d86d77dba05607",
+    "stage": "A_false_answer",
+    "question": "Berapa luas Burj Khalifa?",
+    "gold": "",
+    "pred": "828 meter",
+    "f1": 0.0,
+    "na_prob": 0.10396835409396821
+  },
+  {
+    "id": "qa_5010e80f562c3173d0cb",
+    "stage": "A_false_no_answer",
+    "question": "kapankah sistem operasi Windows yang pertama dibuat?",
+    "gold": "20 November 1985",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4336131274959838
+  },
+  {
+    "id": "qa_51033fdf96a3d0a3e237",
+    "stage": "A_false_no_answer",
+    "question": "Apakah ibukota negara Jepang ?",
+    "gold": "Tokyo",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5105406472828147
+  },
+  {
+    "id": "qa_5185efbb57090268f017",
+    "stage": "A_false_answer",
+    "question": "Di mana Peperangan Bulgaria-Latin dimulai?",
+    "gold": "",
+    "pred": "Kekaisaran Latin",
+    "f1": 0.0,
+    "na_prob": 0.2511944837349384
+  },
+  {
+    "id": "qa_51c7159a8e72a21f29c6",
+    "stage": "A_false_no_answer",
+    "question": "Dimana  Sultan Rakyatullah lahir ?",
+    "gold": "Tambangan",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6768659069252243
+  },
+  {
+    "id": "qa_523d3faca7a3973a90e9",
+    "stage": "C_rank",
+    "question": "Dimana Pertempuran Yerikho terjadi?",
+    "gold": "Yericho",
+    "pred": "Kanaan",
+    "f1": 0.0,
+    "na_prob": 0.18827071136295226
+  },
+  {
+    "id": "qa_5274ee0aff43927a76aa",
+    "stage": "A_false_no_answer",
+    "question": "Di siaran tv apa Hikmah Fajar ditayangkan?",
+    "gold": "RCTI",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6658812228427167
+  },
+  {
+    "id": "qa_54632f89873b922fb5b1",
+    "stage": "A_false_no_answer",
+    "question": "Dari mana pasukan Keshogunan Tokugawa berasal ?",
+    "gold": "Jepang",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.422303222233301
+  },
+  {
+    "id": "qa_54e77c19cb22054f41d1",
+    "stage": "A_false_answer",
+    "question": "Kapan Pertempuran Yerikho terjadi?",
+    "gold": "",
+    "pred": "orang Israel",
+    "f1": 0.0,
+    "na_prob": 0.3305558364344621
+  },
+  {
+    "id": "qa_553b1aab811d4bbd9010",
+    "stage": "A_false_no_answer",
+    "question": "Kapan aksara Lontara digunakan dalam adat masyrakat bugis ?",
+    "gold": "terbatas dalam upacara seperti pernikahan",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6524298231868318
+  },
+  {
+    "id": "qa_55c265fddc947c3e0132",
+    "stage": "A_false_no_answer",
+    "question": "apa yang dimaksud dengan hormon estrogen?",
+    "gold": "sekelompok senyawa steroid yang berfungsi terutama sebagai hormon seks wanita",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4488265008913923
+  },
+  {
+    "id": "qa_56b0b3098e1039fdbe1d",
+    "stage": "A_false_no_answer",
+    "question": "apakah yang dimaksud dengan Teologi Kristiani?",
+    "gold": "ilmu yang mempelajari segala sesuatu yang berkaitan dengan keyakinan beragama",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6338432577339618
+  },
+  {
+    "id": "qa_56f272b5758492c87f78",
+    "stage": "A_false_no_answer",
+    "question": "siapakah karakter utama dalam manga One Piece?",
+    "gold": "Monkey D. Luffy",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5802067691503758
+  },
+  {
+    "id": "qa_57285df83a163c1768fc",
+    "stage": "A_false_no_answer",
+    "question": "Apa film pertama yang disutradarai Hayao Miyazaki?",
+    "gold": "The Castle of Cagliostro",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.699060777531501
+  },
+  {
+    "id": "qa_5898b985c46be9bdfb19",
+    "stage": "A_false_answer",
+    "question": "Berapa luas Kabupaten Belitang?",
+    "gold": "",
+    "pred": "5.444,30 Km²",
+    "f1": 0.0,
+    "na_prob": 0.15130875742153788
+  },
+  {
+    "id": "qa_58fa82bc031ec0e1b384",
+    "stage": "C_gen",
+    "question": "Apa itu peptida anionik?",
+    "gold": "komponen yang telah berevolusi dan terdapat secara permanen pada sistem imun bawaan dan ditemukan di seluruh kelas kehidupan",
+    "pred": "antimikrobial",
+    "f1": 0.0,
+    "na_prob": 0.20588907831888115
+  },
+  {
+    "id": "qa_591c18186c6f5a9251f8",
+    "stage": "A_false_no_answer",
+    "question": "Apa maksud kata jutsu dalam bahasa Jepang?",
+    "gold": "teknik",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.8165668317165373
+  },
+  {
+    "id": "qa_598226d9ce4bb0b2f7ca",
+    "stage": "A_false_no_answer",
+    "question": "Siapa pendiri Koninklijke Paketvaart Maatschappij ?",
+    "gold": "Rotterdamsche Lloyd (RL) dan Stoomvaart Maatschappij Nederland",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6169349267459306
+  },
+  {
+    "id": "qa_5984cf656035630401fb",
+    "stage": "C_rank",
+    "question": "Kapan Ay meninggal?",
+    "gold": "1319 SM",
+    "pred": "1323",
+    "f1": 0.0,
+    "na_prob": 0.3577637063724229
+  },
+  {
+    "id": "qa_5a5b6f446420d9b234ee",
+    "stage": "A_false_answer",
+    "question": "Siapa yang tidak membuat tabel periodik?",
+    "gold": "",
+    "pred": "Dmitri Mendeleev",
+    "f1": 0.0,
+    "na_prob": 0.35130752487129485
+  },
+  {
+    "id": "qa_5a76cd92a8d363adf4d8",
+    "stage": "A_false_no_answer",
+    "question": "Kapan alat musik Theremin pertama kali digunakan?",
+    "gold": "Oktober 1920",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.728070369974868
+  },
+  {
+    "id": "qa_5a78245fc0320b5c6789",
+    "stage": "A_false_answer",
+    "question": "Kapan ROMusha tidak terjadi di Indonesia?",
+    "gold": "",
+    "pred": "1942",
+    "f1": 0.0,
+    "na_prob": 0.2802080425959697
+  },
+  {
+    "id": "qa_5acc15d6e37745c157c2",
+    "stage": "A_false_no_answer",
+    "question": "Apakah penyebab kematian kaisar Gojong?",
+    "gold": "diracuni oleh pejabat militer Jepang",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.3901032608121515
+  },
+  {
+    "id": "qa_5dffa87eaa882d1cf17c",
+    "stage": "A_false_no_answer",
+    "question": "Apakah pekerjaan pertama Prof. Daniel M. Rosyid PhD, M.RINA?",
+    "gold": "Inspektur Mutu Lambung Baja pada Departemen Pengendalian Mutu, Divisi Kapal Perang",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5066717784897121
+  },
+  {
+    "id": "qa_5f9a7f08aa0f1cd7fe77",
+    "stage": "A_false_no_answer",
+    "question": "apakah nama Pesawat yang terbesar pernah dibuat?",
+    "gold": "Airbus A380",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4337214130209803
+  },
+  {
+    "id": "qa_5fc10b68e873144d2a90",
+    "stage": "A_false_no_answer",
+    "question": "Kapan serial Transformers mulai muncul di televisi ?",
+    "gold": "1984",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5787326893854343
+  },
+  {
+    "id": "qa_5fee0406326e532feb18",
+    "stage": "A_false_no_answer",
+    "question": "Siapa tokoh wali yang menyebarkan Islam di tanah Jawa?",
+    "gold": "Walisongo",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6283048689680275
+  },
+  {
+    "id": "qa_61436c47ce3a71a5ae42",
+    "stage": "A_false_no_answer",
+    "question": "Ada berapa provinsi yang terdapat di pulau Jawa ?",
+    "gold": "enam",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.550647856901954
+  },
+  {
+    "id": "qa_61ae8aefc0588d86dc51",
+    "stage": "A_false_no_answer",
+    "question": "Apa yang menyebabkan terjadinya perang Pasifik ?",
+    "gold": "Insiden Jembatan Marco Polo",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7327633587408291
+  },
+  {
+    "id": "qa_61babf8c22ebd5168a34",
+    "stage": "A_false_no_answer",
+    "question": "Kapan tanggal rilis Uchuu Sentai Kyuuranger ?",
+    "gold": "2017",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4512111722913707
+  },
+  {
+    "id": "qa_61c3e56bd13e083abb1e",
+    "stage": "A_false_answer",
+    "question": "Siapa ibu istri Bolelaw I Chrobry?",
+    "gold": "",
+    "pred": "Christian Daniel Rauch",
+    "f1": 0.0,
+    "na_prob": 0.3318283853047286
+  },
+  {
+    "id": "qa_61c5b2c5e59d32144ba0",
+    "stage": "A_false_no_answer",
+    "question": "kapankah tabel periodik dibuat pertama kali?",
+    "gold": "1869",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4708561172417999
+  },
+  {
+    "id": "qa_6208ace2e14f69fbe301",
+    "stage": "A_false_no_answer",
+    "question": "Berapa jumlah cabang dalam klan Minamoto?",
+    "gold": "21",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4831143637809434
+  },
+  {
+    "id": "qa_622f4b0ec72f1bad4313",
+    "stage": "A_false_no_answer",
+    "question": "Kapan PT Kereta api Indonesia  berdiri ?",
+    "gold": "28 September 1945",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6194763994270007
+  },
+  {
+    "id": "qa_624ee153001f990fd37c",
+    "stage": "C_rank",
+    "question": "Siapakah juara kedua D'Academy (Musim 3)?",
+    "gold": "Weni",
+    "pred": "Weni dari Pontianak, Kalimantan Barat",
+    "f1": 0.33333333333333337,
+    "na_prob": 0.33483792752902714
+  },
+  {
+    "id": "qa_628cf6c7947d7c9534a3",
+    "stage": "C_rank",
+    "question": "Tahun berapa orde lama berakhir?",
+    "gold": "1965",
+    "pred": "1945",
+    "f1": 0.0,
+    "na_prob": 0.3694920870485132
+  },
+  {
+    "id": "qa_62b11e750d1584c4c670",
+    "stage": "A_false_no_answer",
+    "question": "Siapa pendiri hotel Hyatt Regency?",
+    "gold": "Hyatt von Dehn dan Jack D. Crouch",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5250667992944686
+  },
+  {
+    "id": "qa_633dfc536c5d0ce4931b",
+    "stage": "C_rank",
+    "question": "tahun berapakah Elizabeth Angela Marguerite Bowes-Lyon meninggal?",
+    "gold": "2002",
+    "pred": "1952",
+    "f1": 0.0,
+    "na_prob": 0.18378349845650568
+  },
+  {
+    "id": "qa_63b2480041519683ef99",
+    "stage": "C_gen",
+    "question": "Apakah yang dimaksud dengan Ordo mendikan?",
+    "gold": "ordo monastik atau tarekat religius Kristen yang bergantung penuh pada bantuan/sumbangan/pemberian dari pihak lain dalam menjalankan kelangsungan kehidupan mereka",
+    "pred": "Kristen",
+    "f1": 0.1,
+    "na_prob": 0.30061495100951996
+  },
+  {
+    "id": "qa_63b302053f75015e6e5a",
+    "stage": "C_gen",
+    "question": "apakah yang dimaksud  Abnormalitas?",
+    "gold": "kondisi emosional seperti kecemasan dan depresi yang tidak sesuai dengan situasinya",
+    "pred": "Perilaku Abnormal",
+    "f1": 0.0,
+    "na_prob": 0.30910891258646983
+  },
+  {
+    "id": "qa_63cad10d623d47f4f4dd",
+    "stage": "A_false_no_answer",
+    "question": "Apa sebutan untuk pemerintahan Soekarno yang tidak digunakan pada tahun 1945-1965?",
+    "gold": "Orde Lama",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5754496091003872
+  },
+  {
+    "id": "qa_63f4bd17f984eaa778d3",
+    "stage": "A_false_no_answer",
+    "question": "kapankah bom atom pertama kali ditemukan?",
+    "gold": "1939",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4364292458708883
+  },
+  {
+    "id": "qa_652cec17cb662134ab25",
+    "stage": "A_false_no_answer",
+    "question": "Siapakah yang menemukan tabel periodik ?",
+    "gold": "Dmitri Mendeleev",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.3990888950117695
+  },
+  {
+    "id": "qa_66c05d72f58258483422",
+    "stage": "C_gen",
+    "question": "Apakah kegunaan Dihidroksilasi asimetris Sharpless?",
+    "gold": "untuk membentuk suatu diol visinal",
+    "pred": "reaksi kimia alkena",
+    "f1": 0.0,
+    "na_prob": 0.057185952042325315
+  },
+  {
+    "id": "qa_6854b46cc8bb192ac47f",
+    "stage": "A_false_answer",
+    "question": "Siapa drummer Boys Girls kedua yang direkrut?",
+    "gold": "",
+    "pred": "Andover, MA",
+    "f1": 0.0,
+    "na_prob": 0.3849201819565135
+  },
+  {
+    "id": "qa_69f6a16d35464f387eda",
+    "stage": "A_false_no_answer",
+    "question": "kapankah tabel periodik di buat pertama kali?",
+    "gold": "1869",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6721386467934979
+  },
+  {
+    "id": "qa_6b118239ae41d93a1968",
+    "stage": "A_false_no_answer",
+    "question": "Kapan ilmu Ekonomi pertama kali ditemukan ?",
+    "gold": "abad 18",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.43643827989192313
+  },
+  {
+    "id": "qa_6d10ec16b0ee8198199a",
+    "stage": "B",
+    "question": "Siapa itu Tu Di Gong ?",
+    "gold": "\"Kakek\", yang menggambarkan kedekatan hubungan dengan masyarakat awam",
+    "pred": "tua pek kong",
+    "f1": 0.0,
+    "na_prob": 0.11525446379254564
+  },
+  {
+    "id": "qa_6e248b8d00c8be17cf51",
+    "stage": "C_gen",
+    "question": "apa yang dimaksud dengan alat elektronik ?",
+    "gold": "alat yang dibuat berdasarkan prinsip elektronika serta hal atau benda yang menggunakan alat tersebut",
+    "pred": "Elektronik",
+    "f1": 0.0,
+    "na_prob": 0.3770209801229842
+  },
+  {
+    "id": "qa_6e4056487c18b7bb4fb7",
+    "stage": "A_false_answer",
+    "question": "Berapa luas provinsi kalimantan barat?",
+    "gold": "",
+    "pred": "129.066,64 km²",
+    "f1": 0.0,
+    "na_prob": 0.1344559985979411
+  },
+  {
+    "id": "qa_6fe9a1fe49adc634133e",
+    "stage": "B",
+    "question": "Siapa gitaris Boys Like Girls?",
+    "gold": "Paul DiGiovanni",
+    "pred": "Andover, MA",
+    "f1": 0.0,
+    "na_prob": 0.1184577196442476
+  },
+  {
+    "id": "qa_71cf843af66040cb211f",
+    "stage": "A_false_no_answer",
+    "question": "berapakah jumlah provinsi di pulau Jawa?",
+    "gold": "enam",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4416044611899874
+  },
+  {
+    "id": "qa_720429566614bd39d3ab",
+    "stage": "A_false_no_answer",
+    "question": "Apa tugas utama malaikat Mikail menurut Islam ?",
+    "gold": "mengatur air, menurunkan hujan/petir, membagikan rezeki pada manusia, tumbuh-tumbuhan juga hewan-hewan dan lain-lain di muka bumi ini",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6095561796194816
+  },
+  {
+    "id": "qa_7291e0ad6646cc976a58",
+    "stage": "C_rank",
+    "question": "Apa fungsi utama usus besar?",
+    "gold": "menyerap air dari feses",
+    "pred": "bagian usus antara usus buntu dan rektum",
+    "f1": 0.0,
+    "na_prob": 0.25038319453514135
+  },
+  {
+    "id": "qa_72aa719a1d4361fc2454",
+    "stage": "C_rank",
+    "question": "Siapakah pendiri Yahoo.inc?",
+    "gold": "Jerry Yang dan David Filo",
+    "pred": "Marissa Mayer",
+    "f1": 0.0,
+    "na_prob": 0.2479915281392649
+  },
+  {
+    "id": "qa_73297d8842bc7a59ce3a",
+    "stage": "C_gen",
+    "question": "Apa itu glikoprotein ?",
+    "gold": "protein yang mengandung rantai oligosakarida yang mengikat glikan [1] dengan ikatan kovalen pada rantai polipeptida bagian samping",
+    "pred": "English: glycoprotein",
+    "f1": 0.0,
+    "na_prob": 0.0706900825541955
+  },
+  {
+    "id": "qa_737e6d2f538c42027574",
+    "stage": "C_gen",
+    "question": "Apa definisi dari dimensi ?",
+    "gold": "jumlah minimal koordinat yang dibutuhkan untuk menentukan titik-titik yang ada di dalamnya",
+    "pred": "Jadi",
+    "f1": 0.0,
+    "na_prob": 0.2183185426800699
+  },
+  {
+    "id": "qa_7383cf53551157472547",
+    "stage": "A_false_no_answer",
+    "question": "siapakah vokalis Bad Religion?",
+    "gold": "Greg Graffin",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4179735889570755
+  },
+  {
+    "id": "qa_73bd265e65393e1bd22c",
+    "stage": "A_false_answer",
+    "question": "Kapan Aceh dibatalkan menjadi daerah Istimewa?",
+    "gold": "",
+    "pred": "UU 44/1999",
+    "f1": 0.0,
+    "na_prob": 0.38040176260798503
+  },
+  {
+    "id": "qa_779e78c3e8925009ef93",
+    "stage": "C_rank",
+    "question": "apakah arti kata Romusha?",
+    "gold": "buruh",
+    "pred": "pekerja",
+    "f1": 0.0,
+    "na_prob": 0.25005842171532916
+  },
+  {
+    "id": "qa_77b92c93fa798c70ce4d",
+    "stage": "A_false_no_answer",
+    "question": "Apakah judul single pertama girlband Secret?",
+    "gold": "I Want You Back",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.585264184462554
+  },
+  {
+    "id": "qa_78b44ef45d2e38e26d29",
+    "stage": "A_false_no_answer",
+    "question": "berapakah jumlah populasi di seoul?",
+    "gold": "10 juta",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4735092084321327
+  },
+  {
+    "id": "qa_78cf4177a903a1df9b88",
+    "stage": "C_rank",
+    "question": "Siapakah Aiman Witjaksono?",
+    "gold": "jurnalis dan pembawa berita & dialog di KompasTV",
+    "pred": "S.T.,M.Si",
+    "f1": 0.0,
+    "na_prob": 0.05099356333529744
+  },
+  {
+    "id": "qa_78e21ac9cb011f32e831",
+    "stage": "A_false_no_answer",
+    "question": "berapakah jenis senjata mesin yang digunakan di PD II?",
+    "gold": "Bren",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6586798360117303
+  },
+  {
+    "id": "qa_7a9ae3a52f5b38b76bb8",
+    "stage": "A_false_no_answer",
+    "question": "apakah nama mata uang yang digunakan oleh Estonia?",
+    "gold": "euro",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5025007423898946
+  },
+  {
+    "id": "qa_7af7e743fb3416524247",
+    "stage": "A_false_no_answer",
+    "question": "Siapakah nama tokoh utama dalam Suhani Si Ek Ladki",
+    "gold": "Sahil Mehta, Rajshri Rani dan Karan Jotwani",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4602962010904054
+  },
+  {
+    "id": "qa_7b104df52eb65a10912e",
+    "stage": "A_false_no_answer",
+    "question": "Apakah Kamera Perekam pertama yang di dunia ?",
+    "gold": "Betacam",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.416432074745559
+  },
+  {
+    "id": "qa_7d0fb351a543a2df0c9e",
+    "stage": "A_false_no_answer",
+    "question": "Kapan film Phobia dirilis?",
+    "gold": "25 April 2008",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7678853870672593
+  },
+  {
+    "id": "qa_7d12d25387c9e5445d56",
+    "stage": "C_rank",
+    "question": "Dimana letak negara Papua Nugini?",
+    "gold": "bagian timur Pulau Papua",
+    "pred": "sebelah barat",
+    "f1": 0.0,
+    "na_prob": 0.10055688718668197
+  },
+  {
+    "id": "qa_7e1f4dcc0664d5f72c7e",
+    "stage": "A_false_no_answer",
+    "question": "dimanakah Santo Athanasius meninggal?",
+    "gold": "Hippo",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6861876311355779
+  },
+  {
+    "id": "qa_7f0cb9a804989fe83fc0",
+    "stage": "C_rank",
+    "question": "berapakah luas kota Payakumbuh?",
+    "gold": "80,43km²",
+    "pred": "30km",
+    "f1": 0.0,
+    "na_prob": 0.07618928409215255
+  },
+  {
+    "id": "qa_80143586cdfc777f2909",
+    "stage": "C_rank",
+    "question": "Siapa pemimpin pertama Dinasti Qin?",
+    "gold": "Xiang dari Qin",
+    "pred": "Raja Yingzheng",
+    "f1": 0.0,
+    "na_prob": 0.37309492331901994
+  },
+  {
+    "id": "qa_80d3e11910a512c13d13",
+    "stage": "A_false_no_answer",
+    "question": "Apa itu algoritma?",
+    "gold": "algoritme adalah prosedur langkah-demi-langkah untuk penghitungan",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4891070238620238
+  },
+  {
+    "id": "qa_818f6182c9ebaf5a645b",
+    "stage": "A_false_no_answer",
+    "question": "Apakah nama huruf yang digunakan oleh para tunanetra ?",
+    "gold": "Braille",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6959767469224081
+  },
+  {
+    "id": "qa_81924560de50eae0a69b",
+    "stage": "A_false_no_answer",
+    "question": "Apa kejuaraan pertama Robert Lindstedt?",
+    "gold": "antar-universitas di Amerika Serikat",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.666247725909891
+  },
+  {
+    "id": "qa_8233393e0876332daef1",
+    "stage": "A_false_answer",
+    "question": "Apakah kesamaan komputer dan tab?",
+    "gold": "",
+    "pred": "Galaxy Tab 7",
+    "f1": 0.0,
+    "na_prob": 0.18427735934788486
+  },
+  {
+    "id": "qa_8315b0ab8b045aaa5053",
+    "stage": "C_gen",
+    "question": "apa yang dimaksud dengan teologi?",
+    "gold": "wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan",
+    "pred": "luar agama Kristen",
+    "f1": 0.16666666666666666,
+    "na_prob": 0.15255796881458558
+  },
+  {
+    "id": "qa_8344ccacf58d65d81ef6",
+    "stage": "C_gen",
+    "question": "siapakah yang membangun Masjid Sultan Riau?",
+    "gold": "Orang-orang dari seluruh pelosok teluk, ceruk, dan pulau di kawasan Riau Lingga",
+    "pred": "Pulau Penyengat",
+    "f1": 0.14285714285714285,
+    "na_prob": 0.3615444472042098
+  },
+  {
+    "id": "qa_8368a37e2ef36ea6ae1b",
+    "stage": "C_gen",
+    "question": "Apa nama pakaian adat suku dayak ?",
+    "gold": "sapei sapaq untuk kaum laki-laki dan ta'a untuk kaum perempuan",
+    "pred": "Suku Dayak Kenyah Kalimantan Timur",
+    "f1": 0.0,
+    "na_prob": 0.3653636169943793
+  },
+  {
+    "id": "qa_8370d0368fce7a39699b",
+    "stage": "C_gen",
+    "question": "dari manakah asal kata Ensiklopedia ?",
+    "gold": "bahasa Yunani; enkyklios paideia",
+    "pred": "Yunani",
+    "f1": 0.4,
+    "na_prob": 0.2763805147433203
+  },
+  {
+    "id": "qa_842ddd329f8f21bf2d35",
+    "stage": "A_false_no_answer",
+    "question": "kapankah Sony PlayStation 3 dirilis?",
+    "gold": "11 November 2006",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6175594055791941
+  },
+  {
+    "id": "qa_8583b01984a3d045d577",
+    "stage": "A_false_no_answer",
+    "question": "Apa jabatan terakhir Antasari Azhar sebelum didakwa ?",
+    "gold": "ketua KPK",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.65842943191568
+  },
+  {
+    "id": "qa_865560aef2f62261d2dd",
+    "stage": "A_false_no_answer",
+    "question": "Berapa luas negara Jepang ?",
+    "gold": "377.835km²",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5728923737722741
+  },
+  {
+    "id": "qa_868423baef8cc055a432",
+    "stage": "A_false_no_answer",
+    "question": "siapakah penerus Erlangga?",
+    "gold": "Marakata sebagai raja Bali, dan Marakata kemudian digantikan adik yang lain yaitu Anak Wungsu",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7610783601236839
+  },
+  {
+    "id": "qa_86aeb726e123e7cbb57e",
+    "stage": "A_false_no_answer",
+    "question": "Berapakah populasi Kristen di Indonesia tahun 2010 ?",
+    "gold": "6,96% dari penduduk Indonesia adalah Protestan dan 2.91% beragama Katolik",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6615346933321536
+  },
+  {
+    "id": "qa_86ddb8ff9fd5b660e8c0",
+    "stage": "C_gen",
+    "question": "dimanakah letak Polandia?",
+    "gold": "Eropa Tengah yang berbatasan dengan Jerman di sebelah barat Perbatasan Oder-Neisse, Ceko, dan Slowakia di sebelah selatan, Rusia (Kaliningrad), Lituania di sebelah timur laut dan Belarus serta Ukraina di sebelah barat (Garis Curzon)",
+    "pred": "Eropa Tengah",
+    "f1": 0.1142857142857143,
+    "na_prob": 0.11981089805950106
+  },
+  {
+    "id": "qa_88ebde639e610f7116e7",
+    "stage": "A_false_no_answer",
+    "question": "Berapa banyak daerah Indonesia yang tidak dihuni dan ditutupi hutan tropis?",
+    "gold": "45%",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5830811886558918
+  },
+  {
+    "id": "qa_8a618b17b0b39fb36921",
+    "stage": "C_gen",
+    "question": "Berapa besar wilayah kekuasaan Dinasti Tang?",
+    "gold": "Vietnam utara di selatan hingga titik di sebelah utara Kashmir yang berbatasan dengan Persia di barat dan Korea utara di timur laut",
+    "pred": "abad ke-8",
+    "f1": 0.0,
+    "na_prob": 0.3428640388457343
+  },
+  {
+    "id": "qa_8aa8ee2049dcd319d28e",
+    "stage": "A_false_answer",
+    "question": "Apa nama album pertama Taylor Taylor?",
+    "gold": "",
+    "pred": "Taylor Swift",
+    "f1": 0.0,
+    "na_prob": 0.3713976547951663
+  },
+  {
+    "id": "qa_8bd98a0c46adcbbb1769",
+    "stage": "A_false_answer",
+    "question": "Kapan Ibn Hujr lahir?",
+    "gold": "",
+    "pred": "1332 M",
+    "f1": 0.0,
+    "na_prob": 0.1623537517319923
+  },
+  {
+    "id": "qa_8be0b49367e90a0b1023",
+    "stage": "A_false_answer",
+    "question": "Kapan serial Accel World terakhir terbit?",
+    "gold": "",
+    "pred": "Februari 2009",
+    "f1": 0.0,
+    "na_prob": 0.2844954302394747
+  },
+  {
+    "id": "qa_8c1758c4b2d82ee441e7",
+    "stage": "A_false_answer",
+    "question": "Apa tujuan utama Proyek lahan tiga juta hektar?",
+    "gold": "",
+    "pred": "Pembangunan Orde Baru",
+    "f1": 0.0,
+    "na_prob": 0.3790655750645864
+  },
+  {
+    "id": "qa_8c8c46814f2c21f912c8",
+    "stage": "A_false_no_answer",
+    "question": "Bagaimana Cara kerja BJT?",
+    "gold": "dua diode yang terminal positif atau negatifnya berdempet, sehingga ada tiga terminal",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7112985730880647
+  },
+  {
+    "id": "qa_8d0bdad2140158c9620d",
+    "stage": "A_false_answer",
+    "question": "apakah tujuan dari teknologi komunikasi analog?",
+    "gold": "",
+    "pred": "sinyal data dalam bentuk gelombang yang yang kontinyu",
+    "f1": 0.0,
+    "na_prob": 0.3355581438436299
+  },
+  {
+    "id": "qa_8e4039a55c2f7624c9d9",
+    "stage": "A_false_no_answer",
+    "question": "Kapan PT Indonesia Asahan Aluminium didirikan?",
+    "gold": "6 Januari 1976",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5483255964286502
+  },
+  {
+    "id": "qa_8ebc04389b675eab3f00",
+    "stage": "C_rank",
+    "question": "Kapan Purnawarman lahir?",
+    "gold": "16 Maret 372 Masehi",
+    "pred": "294 Saka",
+    "f1": 0.0,
+    "na_prob": 0.1177619967358529
+  },
+  {
+    "id": "qa_8f733a9a71654aea4b91",
+    "stage": "B",
+    "question": "Apakah ibukota negara Polandia?",
+    "gold": "Warsawa",
+    "pred": "Uni Eropa",
+    "f1": 0.0,
+    "na_prob": 0.08947408621342225
+  },
+  {
+    "id": "qa_90a01ae766c532a5a236",
+    "stage": "C_gen",
+    "question": "Apakah yang dimaksud dengan Ekaristi ?",
+    "gold": "suatu ritus yang dipandang oleh kebanyakan Gereja dalam Kekristenan sebagai suatu sakramen",
+    "pred": "Perjamuan Kudus",
+    "f1": 0.0,
+    "na_prob": 0.1776390297051216
+  },
+  {
+    "id": "qa_90e4b38c9b4143c07aef",
+    "stage": "A_false_no_answer",
+    "question": "apakah yang dimaksud dengan gelar Pangeran Dipati?",
+    "gold": "gelar berganda yaitu seorang Pangeran yang menjabat sebagai Dipati (Pangeran senior anggota Dewan Mahkota)",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5878576343053129
+  },
+  {
+    "id": "qa_91494e02742adf1de48f",
+    "stage": "A_false_answer",
+    "question": "Apa suku asli penduduk barat?",
+    "gold": "",
+    "pred": "Sunda",
+    "f1": 0.0,
+    "na_prob": 0.2694394322531457
+  },
+  {
+    "id": "qa_91f6cb002059f73c7de2",
+    "stage": "C_gen",
+    "question": "Kapan Yusak Pakage lahir ?",
+    "gold": "c. 197",
+    "pred": "c. 1979",
+    "f1": 0.5,
+    "na_prob": 0.02509572722632841
+  },
+  {
+    "id": "qa_92ee56c0af75543edbaa",
+    "stage": "B",
+    "question": "apakah nama Komputer tablet pertama ?",
+    "gold": "Tablet PC",
+    "pred": "Galaxy Tab 7",
+    "f1": 0.0,
+    "na_prob": 0.058835824585647734
+  },
+  {
+    "id": "qa_93cbad812eb24ee1ec7e",
+    "stage": "A_false_no_answer",
+    "question": "Apakah fungsi konsulat jenderal di suatu negara?",
+    "gold": "membantu dan melindungi warga negaranya serta menfasilitasi hubungan perdagangan dan persahabatan (hal ini yang membedakan tugas antara seorang konsul dengan seorang duta besar yang mewakili sebuah negara) yang ditugaskan di luar wilayah metropolitan atau ibu kota sebuah negara di luar negeri dan berkewajiban menjaga kepentingan negara serta rakyatnya yang berada di negara luar negeri tersebut",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.3910643517241409
+  },
+  {
+    "id": "qa_94940c9fa1996638c38b",
+    "stage": "A_false_no_answer",
+    "question": "Apa sistem pemerintahan yang digunakan di Libanon?",
+    "gold": "republik demokratis parlementer",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7409848282501899
+  },
+  {
+    "id": "qa_94a7b3fc569d0cbcf96c",
+    "stage": "A_false_no_answer",
+    "question": "Siapakah yang menemukan tabel periodik?",
+    "gold": "Dmitri Mendeleev",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.3990888950117695
+  },
+  {
+    "id": "qa_95431735ce9d589eb2bf",
+    "stage": "C_rank",
+    "question": "apakah makanan khas Banyuwangi ?",
+    "gold": "Nasi tempong",
+    "pred": "Sego",
+    "f1": 0.0,
+    "na_prob": 0.08032704086083733
+  },
+  {
+    "id": "qa_969cf8b12aa80d716698",
+    "stage": "C_gen",
+    "question": "dimanakah letak Yunani?",
+    "gold": "ujung selatan Semenanjung Balkan, di bagian timur Laut Tengah (Mediterania)",
+    "pred": "ujung selatan Semenanjung Balkan",
+    "f1": 0.5714285714285715,
+    "na_prob": 0.08681143071520503
+  },
+  {
+    "id": "qa_973f6b297dc38d2bcfcd",
+    "stage": "C_rank",
+    "question": "Apa warna bendera Norwegia ?",
+    "gold": "latar merah dengan salib bewarna biru",
+    "pred": "warna putih",
+    "f1": 0.0,
+    "na_prob": 0.07084248797810351
+  },
+  {
+    "id": "qa_974277f9424b4f973122",
+    "stage": "A_false_no_answer",
+    "question": "Mengapa Li Jiancheng tak pernah berkesempatan menduduki tahtanya?",
+    "gold": "prestasi dan popularitasnya tidak mampu menyaingi adiknya sendiri, Li Shimin",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5791648782395351
+  },
+  {
+    "id": "qa_981abd2dceccf3213d45",
+    "stage": "C_gen",
+    "question": "Apakah yang dimaksud dengan alamat IP?",
+    "gold": "deretan angka biner antara 32 bit sampai 128 bit yang dipakai sebagai alamat identifikasi untuk tiap komputer host dalam jaringan Internet",
+    "pred": "tiap komputer host dalam jaringan Internet",
+    "f1": 0.4444444444444445,
+    "na_prob": 0.3236466657887211
+  },
+  {
+    "id": "qa_982abab2869938bd3454",
+    "stage": "A_false_no_answer",
+    "question": "Siapa yang dimaksud dengan orang-orang Majus ?",
+    "gold": "orang dari kerajaan Media, mungkin pendeta Zoroastrian, atau mungkin juga magi (bentuk plural dari magus) yang mengenal astrologi dari Persia kuno",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6262289061214972
+  },
+  {
+    "id": "qa_990c9c869679b1b1befa",
+    "stage": "A_false_no_answer",
+    "question": "Apa nama pemerintahan non-nisbi militer feodalisme di Jepang yang didirikan oleh Tokugawa Ieyasu dan secara turun temurun dipimpin oleh shogun keluarga Tokugawa?",
+    "gold": "Keshogunan Tokugawa(徳川幕府,Tokugawa bakufu, 1603—1868) atau Keshogunan Edo (Edo bakufu)",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.40434551626167003
+  },
+  {
+    "id": "qa_9922a12ee8974d55615d",
+    "stage": "A_false_no_answer",
+    "question": "Kapankah tabel periodik diciptakan ?",
+    "gold": "1869",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4109302393843043
+  },
+  {
+    "id": "qa_9937e3b715c4bd70301d",
+    "stage": "A_false_no_answer",
+    "question": "Kapan PT Kereta api Indonesia berdiri?",
+    "gold": "28 September 1945",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6194763994270007
+  },
+  {
+    "id": "qa_9b79c2477fd68de1c1d4",
+    "stage": "A_false_no_answer",
+    "question": "Kapan perdagangan melalui armada mulai dilakukan oleh bangsa Eropa ?",
+    "gold": "1505",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7515728585276416
+  },
+  {
+    "id": "qa_9ced23a4a89f17c6aa78",
+    "stage": "A_false_no_answer",
+    "question": "siapakah yang menciptakan tabel periodik pertama kali?",
+    "gold": "Dmitri Mendeleev",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6842058102924382
+  },
+  {
+    "id": "qa_9d65b984492d3d396359",
+    "stage": "A_false_no_answer",
+    "question": "Mengapa pesawat U-2 ditembak jatuh oleh Uni Soviet?",
+    "gold": "melakukan fotografi udara di teritorial Soviet",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6801154675633138
+  },
+  {
+    "id": "qa_9e393c78800700dbabf7",
+    "stage": "A_false_no_answer",
+    "question": "Apa tugas utama malaikat Israfil menurut Islam ?",
+    "gold": "meniup sangkakala pada hari kiamat",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.45652662931933163
+  },
+  {
+    "id": "qa_9e39ad1a1c2b4ea5eef2",
+    "stage": "A_false_answer",
+    "question": "Siapa yang tidak terbunuh dalam pembunuhan keluarga Sakamoto?",
+    "gold": "",
+    "pred": "Tsutsumi Sakamoto",
+    "f1": 0.0,
+    "na_prob": 0.12001113407513289
+  },
+  {
+    "id": "qa_9e3a77bf307825e21957",
+    "stage": "A_false_no_answer",
+    "question": "kapankah papua new guinea melepaskan diri dari Indonesia?",
+    "gold": "1 Juli 1971",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6903580212293383
+  },
+  {
+    "id": "qa_9e5adf741d64e129b1b0",
+    "stage": "A_false_answer",
+    "question": "Sejak tanggal berapakah Jepang berhak mencampuri urusan perkeretaapian di Indonesia?",
+    "gold": "",
+    "pred": "28 September 1945",
+    "f1": 0.0,
+    "na_prob": 0.20272791100937398
+  },
+  {
+    "id": "qa_9e8d76fa765843fb097b",
+    "stage": "A_false_no_answer",
+    "question": "Kapan Televisi ditemukan ?",
+    "gold": "akhir 1920-an",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.3920672146328843
+  },
+  {
+    "id": "qa_9ebbc0061407eb46c8b3",
+    "stage": "B",
+    "question": "apakah ibukota dari Kalimantan Selatan?",
+    "gold": "Banjarmasin",
+    "pred": "pulau Kalimantan",
+    "f1": 0.0,
+    "na_prob": 0.25502177292528455
+  },
+  {
+    "id": "qa_9ef5058c89bdf843889f",
+    "stage": "C_rank",
+    "question": "apakah siaran TV tertua di Indonesia?",
+    "gold": "TVRI dan SCTV",
+    "pred": "2 Stasiun Televisi Nasional",
+    "f1": 0.0,
+    "na_prob": 0.26111141462539517
+  },
+  {
+    "id": "qa_9f1494b142bd50a5011d",
+    "stage": "A_false_no_answer",
+    "question": "Kapan aplikasi LangitMusik dirilis?",
+    "gold": "18 Januari 2010",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.42009782481674
+  },
+  {
+    "id": "qa_9f3599f5d8e1b95b976e",
+    "stage": "A_false_no_answer",
+    "question": "Kapan tabel periodik diciptakan ?",
+    "gold": "1869",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4109302393843043
+  },
+  {
+    "id": "qa_9fa90a1c537ee2f9f762",
+    "stage": "C_rank",
+    "question": "Berapa luas kota Bandung ?",
+    "gold": "8.000 ha",
+    "pred": "1 April 1906",
+    "f1": 0.0,
+    "na_prob": 0.08635518808518544
+  },
+  {
+    "id": "qa_9ff685aaed6662845232",
+    "stage": "C_gen",
+    "question": "Apakah ciri khas bangsa Saiya?",
+    "gold": "gaya rambut yang secara tegap berdiri ke atas dengan ujung-ujung runcing",
+    "pred": "Vegeta",
+    "f1": 0.0,
+    "na_prob": 0.14981268949121648
+  },
+  {
+    "id": "qa_a048cf9716b335850939",
+    "stage": "C_gen",
+    "question": "Dimanakah letak Babilonia?",
+    "gold": "selatan Mesopotamia (sekarang Irak), di wilayah Sumeria dan Akkadia",
+    "pred": "selatan Mesopotamia",
+    "f1": 0.3636363636363636,
+    "na_prob": 0.106158196712743
+  },
+  {
+    "id": "qa_a063fa34fff0c49fe6c0",
+    "stage": "C_gen",
+    "question": "apakah yang dimaksud dengan toksikologi ?",
+    "gold": "pemahaman mengenai pengaruh-pengaruh bahan kimia yang merugikan bagi organisme hidup",
+    "pred": "pengaruh-pengaruh bahan kimia yang merugikan bagi organisme hidup",
+    "f1": 0.888888888888889,
+    "na_prob": 0.1758022023424874
+  },
+  {
+    "id": "qa_a0bd9037bcf9e47f1d7e",
+    "stage": "A_false_no_answer",
+    "question": "Dimana Henri Laurent Rivière lahir?",
+    "gold": "Paris",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5089155489979555
+  },
+  {
+    "id": "qa_a0d35f48e78fa798abfc",
+    "stage": "A_false_no_answer",
+    "question": "Tahun berapa Sony meliris sistem unit tunggal kamera perekam?",
+    "gold": "1982",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7504201206965236
+  },
+  {
+    "id": "qa_a12aacd6a9b3b1583d3a",
+    "stage": "A_false_no_answer",
+    "question": "Apa itu hipertropi otot?",
+    "gold": "peningkatan ukuran sel-sel otot",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4712854265531303
+  },
+  {
+    "id": "qa_a1b5261511c3dfc09298",
+    "stage": "C_rank",
+    "question": "Apakah fungsi utama vitamin B?",
+    "gold": "pelepasan energi saat beraktivitas",
+    "pred": "hal pelepasan energi saat beraktivitas",
+    "f1": 0.888888888888889,
+    "na_prob": 0.33011211302195775
+  },
+  {
+    "id": "qa_a28d9d58a14a24edaf2d",
+    "stage": "C_gen",
+    "question": "Apakah fungsi dari Badan Nasional Penempatan dan Perlindungan Tenaga Kerja Indonesia ?",
+    "gold": "pelaksanaan kebijakan di bidang penempatan dan perlindungan Tenaga Kerja Indonesia di luar negeri secara terkoordinasi dan terintegrasi",
+    "pred": "Badan Nasional Penempatan dan Perlindungan Tenaga Kerja Indonesia",
+    "f1": 0.48,
+    "na_prob": 0.18567971139584655
+  },
+  {
+    "id": "qa_a324677a7be676eead7f",
+    "stage": "C_gen",
+    "question": "Apakah beda komputer dan tab?",
+    "gold": "penggunaan layar sebagai peranti masukan dengan menggunakan stilus, pena digital, atau ujung jari, alih-alih menggunakan papan ketik atau tetikus",
+    "pred": "Sabak",
+    "f1": 0.0,
+    "na_prob": 0.2003153523921616
+  },
+  {
+    "id": "qa_a34f8d360ca43b5da17a",
+    "stage": "A_false_no_answer",
+    "question": "Kapan Hayao Miyazaki mulai menjadi sutradara ?",
+    "gold": "1971",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.43629204226530544
+  },
+  {
+    "id": "qa_a5ddb1e9782ae1c27719",
+    "stage": "C_rank",
+    "question": "Apa nama museum pertama di Indonesia ?",
+    "gold": "Museum Gajah",
+    "pred": "Museum Nasional Republik Indonesia",
+    "f1": 0.3333333333333333,
+    "na_prob": 0.1975377243097841
+  },
+  {
+    "id": "qa_a5ef40bf3b04da92660c",
+    "stage": "A_false_no_answer",
+    "question": "Kapan serial Transformers pertama kali tayang ?",
+    "gold": "1984",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4650551354903028
+  },
+  {
+    "id": "qa_a62b7545d71fb68f6528",
+    "stage": "C_rank",
+    "question": "Kapan Yahoo! Inc. berdiri ?",
+    "gold": "Januari 1994",
+    "pred": "16 Juli 2012",
+    "f1": 0.0,
+    "na_prob": 0.377831505557589
+  },
+  {
+    "id": "qa_a7494ade20dc9413887d",
+    "stage": "B",
+    "question": "berapakah umur negara  Kanada?",
+    "gold": "1867",
+    "pred": "paling utara",
+    "f1": 0.0,
+    "na_prob": 0.24895600937373344
+  },
+  {
+    "id": "qa_a76f0a7b2628abd9205e",
+    "stage": "A_false_answer",
+    "question": "Apa itu gulma yang jenisnya rerumputan?",
+    "gold": "",
+    "pred": "tanaman produksi",
+    "f1": 0.0,
+    "na_prob": 0.3873519404738149
+  },
+  {
+    "id": "qa_a801b3ed590685d30eb7",
+    "stage": "C_gen",
+    "question": "Apakah warna bendera Myanmar ?",
+    "gold": "tiga jalur warna horizontal: kuning, hijau, merah, dengan sebuah bintang segilima bewarna putih di tengah-tengahnya",
+    "pred": "putih di tengah-tengahnya",
+    "f1": 0.42857142857142855,
+    "na_prob": 0.08367854787898697
+  },
+  {
+    "id": "qa_a81f0483a9c744c98354",
+    "stage": "A_false_no_answer",
+    "question": "Kulit tidak tebal yang berfungsi sebagai pemisah selektif disebut apa?",
+    "gold": "Membran",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4780173155925655
+  },
+  {
+    "id": "qa_a8db628a19a80f542b4b",
+    "stage": "C_rank",
+    "question": "Berapa luas Kecamatan Trucuk?",
+    "gold": "3.380,6 hektar",
+    "pred": "1.908,9 hektar",
+    "f1": 0.5,
+    "na_prob": 0.05514924816242121
+  },
+  {
+    "id": "qa_a990fc1e30b603148c27",
+    "stage": "A_false_no_answer",
+    "question": "Apa nama ikan paus terbesar di dunia ?",
+    "gold": "Paus biru",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6455026974320281
+  },
+  {
+    "id": "qa_a9959f4ce2824c0935b4",
+    "stage": "A_false_answer",
+    "question": "Siapa musuh AIMAN?",
+    "gold": "",
+    "pred": "S.T.,M.Si",
+    "f1": 0.0,
+    "na_prob": 0.24077429159996433
+  },
+  {
+    "id": "qa_aa7e13f1133f6df82fc3",
+    "stage": "A_false_no_answer",
+    "question": "Apa senyawa yang punya efek sedasi yang tidak kuat dibandingkan anthistamin generasi pertama yang lain?",
+    "gold": "Klorfenamin",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5779281541829221
+  },
+  {
+    "id": "qa_aae76cc5818cc6b665ca",
+    "stage": "B",
+    "question": "apakah penyebab  Dipati Ukur meninggal?",
+    "gold": "di hukum mati di alun-alun Mataram",
+    "pred": "Tumenggung Narapaksa keburu datang untuk menangkapnya",
+    "f1": 0.0,
+    "na_prob": 0.3242499243775931
+  },
+  {
+    "id": "qa_ab042e4720d9cdf36645",
+    "stage": "A_false_answer",
+    "question": "Di manakah Tole Iskandar meninggal?",
+    "gold": "",
+    "pred": "Cikasintu, Sukabumi, Jawa Barat",
+    "f1": 0.0,
+    "na_prob": 0.18178950469041394
+  },
+  {
+    "id": "qa_ab2439f718afc7f620e8",
+    "stage": "A_false_no_answer",
+    "question": "kapankah internet di ciptakan?",
+    "gold": "1969",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.39653701555075604
+  },
+  {
+    "id": "qa_abcbee9813c03a5fab4d",
+    "stage": "A_false_no_answer",
+    "question": "Siapakah arsitek Masjid Kaisar?",
+    "gold": "Nawab Zen Yar Jang Bahadur",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.46442973577095237
+  },
+  {
+    "id": "qa_ad7dc1b3bcea945c1043",
+    "stage": "B",
+    "question": "kapankah vaksin polio ditemukan?",
+    "gold": "1955",
+    "pred": "1938",
+    "f1": 0.0,
+    "na_prob": 0.15079076152649762
+  },
+  {
+    "id": "qa_adef9adc99d69cfa06ef",
+    "stage": "A_false_no_answer",
+    "question": "Kapan ilmu ekonomi ditemukan ?",
+    "gold": "abad 18",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.42977971895006195
+  },
+  {
+    "id": "qa_af82758bdc641e771222",
+    "stage": "A_false_no_answer",
+    "question": "Siapa yang mneyusun tabel periodik?",
+    "gold": "Dmitri Mendeleev",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4891092755171563
+  },
+  {
+    "id": "qa_b01e73db008d03117814",
+    "stage": "A_false_answer",
+    "question": "Apa nama stasiun TV pertama di China?",
+    "gold": "",
+    "pred": "TV7",
+    "f1": 0.0,
+    "na_prob": 0.3759838836170623
+  },
+  {
+    "id": "qa_b0649843e3180ce5d07c",
+    "stage": "A_false_no_answer",
+    "question": "Siapa yang menemukan Bakteri Leptospira ?",
+    "gold": "Adolf Weil",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4800746580822736
+  },
+  {
+    "id": "qa_b0829ed3197cd89b03b0",
+    "stage": "C_gen",
+    "question": "apakah yang di maksud dengan membran ?",
+    "gold": "selaput, kulit tipis, atau lembaran bahan tipis, yang berfungsi sebagai pemisah selektif",
+    "pred": "selaput",
+    "f1": 0.15384615384615385,
+    "na_prob": 0.2185300531936796
+  },
+  {
+    "id": "qa_b0f06687d40312ef13d3",
+    "stage": "C_rank",
+    "question": "berapa lamakah zaman Orde Lama berlangsung?",
+    "gold": "1945 hingga 1965",
+    "pred": "1945",
+    "f1": 0.5,
+    "na_prob": 0.388716442773671
+  },
+  {
+    "id": "qa_b142f0aa2c49e3246d5a",
+    "stage": "C_rank",
+    "question": "Apakah fungsi utama Klorfenamin?",
+    "gold": "pencegahan gejala kondisi alergi seperti rhinitis dan urticaria",
+    "pred": "INN",
+    "f1": 0.0,
+    "na_prob": 0.3126172911985037
+  },
+  {
+    "id": "qa_b163a13a0b594684b68d",
+    "stage": "A_false_no_answer",
+    "question": "Siapakah pemeran utama The Longest Ride?",
+    "gold": "Scott Eastwood",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4457703337211592
+  },
+  {
+    "id": "qa_b20814de92058c7b01f0",
+    "stage": "A_false_no_answer",
+    "question": "Apa itu Operasi Eliminasi Gauss-Jordan?",
+    "gold": "algoritme versi dari eliminasi Gauss",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4347957585914499
+  },
+  {
+    "id": "qa_b2b96c518881381e1b21",
+    "stage": "C_rank",
+    "question": "Dimana letak Uzbekistan?",
+    "gold": "sebagian di Asia Tengah dan Eropa Timur",
+    "pred": "Asia Tengah",
+    "f1": 0.4444444444444445,
+    "na_prob": 0.09591299377206056
+  },
+  {
+    "id": "qa_b2c1076fcbca2405e51e",
+    "stage": "A_false_no_answer",
+    "question": "Kapan Koninklijke Paketvaart Maatschappij  berdiri ?",
+    "gold": "4 September 1888",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.640327655786388
+  },
+  {
+    "id": "qa_b3917e9009f0d2cf37a9",
+    "stage": "A_false_answer",
+    "question": "Kapan komputer dihancurkan?",
+    "gold": "",
+    "pred": "1941",
+    "f1": 0.0,
+    "na_prob": 0.2601898543162386
+  },
+  {
+    "id": "qa_b3c7acc08d515f4ea4c5",
+    "stage": "A_false_answer",
+    "question": "Siapa yang tidak disebut Paus?",
+    "gold": "",
+    "pred": "Paus Fransiskus",
+    "f1": 0.0,
+    "na_prob": 0.06942292176348654
+  },
+  {
+    "id": "qa_b40ca827d710530e5523",
+    "stage": "A_false_no_answer",
+    "question": "Apa tugas Malaikat Mikhael dalam Islam?",
+    "gold": "mengatur air, menurunkan hujan/petir, membagikan rezeki pada manusia, tumbuh-tumbuhan juga hewan-hewan dan lain-lain di muka bumi ini",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5845056911138321
+  },
+  {
+    "id": "qa_b447b32d8614b5af9993",
+    "stage": "C_gen",
+    "question": "Apa maksud kata Wangsa?",
+    "gold": "kelanjutan kekuasaan pemerintahan yang dipegang oleh satu garis keturunan",
+    "pred": "Sailendra",
+    "f1": 0.0,
+    "na_prob": 0.3696173132568323
+  },
+  {
+    "id": "qa_b457e8254b410aa8fec6",
+    "stage": "A_false_no_answer",
+    "question": "Apa ilmu yang mempelajari pengaruh bahan kimia yang tidak menguntungkan bagi organisme hidup?",
+    "gold": "Toksikologi",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6408218589532914
+  },
+  {
+    "id": "qa_b50c10793f5247801e7a",
+    "stage": "A_false_answer",
+    "question": "Siapa kekasih gitaris Boys Like Girls?",
+    "gold": "",
+    "pred": "Andover, MA",
+    "f1": 0.0,
+    "na_prob": 0.38338868880947274
+  },
+  {
+    "id": "qa_b56c2d485cffc63334a1",
+    "stage": "A_false_answer",
+    "question": "Apakah produk kedua dari Dagadu?",
+    "gold": "",
+    "pred": "Pertimbangan",
+    "f1": 0.0,
+    "na_prob": 0.18952498414604835
+  },
+  {
+    "id": "qa_b5b485ff8cc5a90b6722",
+    "stage": "A_false_answer",
+    "question": "Kapan Paus Yohanes XXIII dilahirkan?",
+    "gold": "",
+    "pred": "25 November 1881",
+    "f1": 0.0,
+    "na_prob": 0.04896087197768591
+  },
+  {
+    "id": "qa_b5f736204c350720bf41",
+    "stage": "B",
+    "question": "Vitamin apa yang terdapat dalam kentang?",
+    "gold": "A, B-kompleks, hingga C",
+    "pred": "orang sebagai makanan pokok di luar negeri",
+    "f1": 0.0,
+    "na_prob": 0.2683979968959096
+  },
+  {
+    "id": "qa_b6e5a387b47c2b4b7527",
+    "stage": "C_rank",
+    "question": "Siapakah yang terbunuh dalam pembunuhan keluarga Sakamoto?",
+    "gold": "Tsutsumi Sakamoto dan juga membunuh istri dan anaknya",
+    "pred": "Tsutsumi Sakamoto",
+    "f1": 0.4,
+    "na_prob": 0.09458584081766973
+  },
+  {
+    "id": "qa_b6e8938a300d20dc70ca",
+    "stage": "A_false_no_answer",
+    "question": "kelahiran tahun berapakah orang-orang yang lahir pada generasi Baby boomers ?",
+    "gold": "1946 - 1964",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7905777605150379
+  },
+  {
+    "id": "qa_b85333e25846800def4f",
+    "stage": "A_false_no_answer",
+    "question": "Apa ibukota Jepang ?",
+    "gold": "Tokyo",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.45004989252199173
+  },
+  {
+    "id": "qa_b9927f2c5ea117d7be0d",
+    "stage": "A_false_no_answer",
+    "question": "Kapan Aceh diangkat menjadi daerah Istimewa ?",
+    "gold": "1999",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.41246181091265505
+  },
+  {
+    "id": "qa_b9a769f922417f0e9695",
+    "stage": "A_false_answer",
+    "question": "Apa nama museum terbesar di dunia?",
+    "gold": "",
+    "pred": "Museum Nasional Republik Indonesia",
+    "f1": 0.0,
+    "na_prob": 0.2684182295022178
+  },
+  {
+    "id": "qa_b9db5ea2c565365e1e84",
+    "stage": "A_false_answer",
+    "question": "Apa ibukota Kalimantan Timur yang berbatasan dengan Sulawesi?",
+    "gold": "",
+    "pred": "Kalimantan Timur",
+    "f1": 0.0,
+    "na_prob": 0.295889431472162
+  },
+  {
+    "id": "qa_bbfedcf5d341b6d9c263",
+    "stage": "C_rank",
+    "question": "apakah pendidikan terakhir Gladys Emerson'?",
+    "gold": "Ph.D",
+    "pred": "gelar Ph",
+    "f1": 0.0,
+    "na_prob": 0.15014148379286402
+  },
+  {
+    "id": "qa_bc820c9eb576d544bd6e",
+    "stage": "C_rank",
+    "question": "Termasuk kedalam provinsi apakah Kepulauan Raja Ampat?",
+    "gold": "Papua Barat",
+    "pred": "salah satu kabupaten di provinsi Papua Barat, Indonesia",
+    "f1": 0.4,
+    "na_prob": 0.23354569080545595
+  },
+  {
+    "id": "qa_bc9f1441c522c0dbbfd1",
+    "stage": "A_false_no_answer",
+    "question": "Kapan istilah teknologi ditemukan ?",
+    "gold": "1706",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4982561752191652
+  },
+  {
+    "id": "qa_bdd91388a03a47dc9154",
+    "stage": "A_false_no_answer",
+    "question": "Berapa populasi Kristen Indonesia tahun 2010 ?",
+    "gold": "6,96% dari penduduk Indonesia adalah Protestan dan 2.91% beragama Katolik",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5792619246447248
+  },
+  {
+    "id": "qa_be3f4d6ffd221757d3c0",
+    "stage": "A_false_answer",
+    "question": "Tahun berapakah Elizabeth Angela Marguerite Bowes-Lyon dibebaskan?",
+    "gold": "",
+    "pred": "1952",
+    "f1": 0.0,
+    "na_prob": 0.21377380942780166
+  },
+  {
+    "id": "qa_bee75e453bc56a97e4b2",
+    "stage": "A_false_no_answer",
+    "question": "Tanggal berapa Henri Laurent Rivière lahir?",
+    "gold": "12 Juli 1827",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.465744375597722
+  },
+  {
+    "id": "qa_c07ce12e35ca93812533",
+    "stage": "C_rank",
+    "question": "Apakah agama mayoritas penduduk Italia ?",
+    "gold": "Katholik",
+    "pred": "Meskipun Katolik Roma",
+    "f1": 0.0,
+    "na_prob": 0.13874957859774156
+  },
+  {
+    "id": "qa_c0df58e1a6fd7173c003",
+    "stage": "A_false_no_answer",
+    "question": "Apakah faktor penyebab evolusi Industri?",
+    "gold": "terjadinya revolusi ilmu pengetahuan pada abad ke 16 dengan munculnya para ilmuwan seperti Francis Bacon, René Descartes, Galileo Galilei serta adanya pengembangan riset dan penelitian dengan pendirian lembaga riset seperti The Royal Improving Knowledge, The Royal Society of England, dan The French Academy of Science. Adapula faktor dari dalam seperti ketahanan politik dalam negeri, perkembangan kegiatan wiraswasta, jajahan Inggris yang luas dan kaya akan sumber daya alam",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5055145961486487
+  },
+  {
+    "id": "qa_c1106b88a226dcd9130d",
+    "stage": "C_rank",
+    "question": "Apa warna bendera Portugal ?",
+    "gold": "hijau-merah",
+    "pred": "menggantikan bendera kerajaan yang digunakan sebelumnya",
+    "f1": 0.0,
+    "na_prob": 0.07072836260932053
+  },
+  {
+    "id": "qa_c2c5231b4b9d9352b6c4",
+    "stage": "A_false_no_answer",
+    "question": "kapankah Alkitab pertama kali datang ke Indonesia?",
+    "gold": "abad ke-10",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7429772561309215
+  },
+  {
+    "id": "qa_c2d49e475192f137fc24",
+    "stage": "B",
+    "question": "Apa itu stimulus netral?",
+    "gold": "stimulus yang tidak atau belum menghasilkan sebuah respon tertentu",
+    "pred": "Menurut Pavlov",
+    "f1": 0.0,
+    "na_prob": 0.07793759002240327
+  },
+  {
+    "id": "qa_c3386184cd312b3056ac",
+    "stage": "C_rank",
+    "question": "Dimana Perjamuan Kudus harus dilakukan?",
+    "gold": "Gereja",
+    "pred": "Perjamuan Paskah",
+    "f1": 0.0,
+    "na_prob": 0.27945862722504194
+  },
+  {
+    "id": "qa_c4a0449abf43d37042f0",
+    "stage": "A_false_no_answer",
+    "question": "Apakah kepercayaan mayoritas penduduk Bangkok?",
+    "gold": "Buddha",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5011628576025918
+  },
+  {
+    "id": "qa_c4e66edf89401031a7e4",
+    "stage": "A_false_no_answer",
+    "question": "Kapan internet ditemukan ?",
+    "gold": "1969",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.41451538740395016
+  },
+  {
+    "id": "qa_c64d37a1d080ee072a43",
+    "stage": "A_false_answer",
+    "question": "Siapa yang menemukan Qere dan Ketiv?",
+    "gold": "",
+    "pred": "Aram",
+    "f1": 0.0,
+    "na_prob": 0.2709187992512768
+  },
+  {
+    "id": "qa_c6ca7a0dbe871080ed60",
+    "stage": "A_false_no_answer",
+    "question": "Apa yang dimaksud dengan gereja Katolik Oriental ?",
+    "gold": "dua puluh tiga Gereja partikular Kristen Timur sui iuris dalam persekutuan paripurna dengan Sri Paus di Roma, sebagai bagian dari Gereja Katolik sedunia",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4984219799591714
+  },
+  {
+    "id": "qa_c6f04f1634372f57109f",
+    "stage": "A_false_answer",
+    "question": "Terbuat dari apakah kerangka Genta?",
+    "gold": "",
+    "pred": "Sedangkan Duo",
+    "f1": 0.0,
+    "na_prob": 0.28441737050746213
+  },
+  {
+    "id": "qa_c7ecb81ad26f8581a178",
+    "stage": "B",
+    "question": "Apa ibukota Kalimantan Selatan ?",
+    "gold": "Banjarmasin",
+    "pred": "pulau Kalimantan",
+    "f1": 0.0,
+    "na_prob": 0.20681078987782445
+  },
+  {
+    "id": "qa_c9c3c8449528f6291714",
+    "stage": "B",
+    "question": "Kapan Pertempuran Semenanjung Kerch terjadi ?",
+    "gold": "18 Mei 1942",
+    "pred": "bagian timur Krimea",
+    "f1": 0.0,
+    "na_prob": 0.07202573311293382
+  },
+  {
+    "id": "qa_c9d6c31ac01999266fc6",
+    "stage": "A_false_answer",
+    "question": "Apakah nama komputer tablet terakhir?",
+    "gold": "",
+    "pred": "Galaxy Tab 7",
+    "f1": 0.0,
+    "na_prob": 0.0644845427044924
+  },
+  {
+    "id": "qa_caf556f887b1d6622edc",
+    "stage": "A_false_no_answer",
+    "question": "Siapa pendiri PT Indonesia Asahan Aluminium?",
+    "gold": "12 perusahaan Kimia dan Metal dari Jepang",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6791964917810235
+  },
+  {
+    "id": "qa_caf715eb4cf27f7727bc",
+    "stage": "A_false_no_answer",
+    "question": "berapakah luas  Jepang ?",
+    "gold": "377.835km²",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5404946921762531
+  },
+  {
+    "id": "qa_cba66807faaf7844022c",
+    "stage": "C_gen",
+    "question": "apakah makanan khas Minangkabau ?",
+    "gold": "rendang, gulai tunjang, gulai gajebo, soto Padang, dendeng balado, ayam pop, dan gulai kepala ikan kakap disertai Samba Lado",
+    "pred": "Padang",
+    "f1": 0.1,
+    "na_prob": 0.38249999506714655
+  },
+  {
+    "id": "qa_cc203686a7c515caaaab",
+    "stage": "A_false_answer",
+    "question": "Apa penyebab Dipati Ukur gagal?",
+    "gold": "",
+    "pred": "Bagus Sutapura",
+    "f1": 0.0,
+    "na_prob": 0.35642933530960097
+  },
+  {
+    "id": "qa_cca3bea09e75907fa206",
+    "stage": "C_rank",
+    "question": "Kapan Pertempuran Tanjung Esperance terjadi ?",
+    "gold": "11 Oktober hingga 12 Oktober 1942",
+    "pred": "12 Oktober 1942",
+    "f1": 0.6666666666666666,
+    "na_prob": 0.04820492514829676
+  },
+  {
+    "id": "qa_cd1b03ee6bba5cd06e5f",
+    "stage": "C_rank",
+    "question": "dimanakah letak YPBB?",
+    "gold": "Bandung",
+    "pred": "Universitas Bale Bandung",
+    "f1": 0.5,
+    "na_prob": 0.09420427184011464
+  },
+  {
+    "id": "qa_cd326330237d5784242c",
+    "stage": "A_false_answer",
+    "question": "Apa itu stimulus semi?",
+    "gold": "",
+    "pred": "Menurut Pavlov",
+    "f1": 0.0,
+    "na_prob": 0.23196555669227245
+  },
+  {
+    "id": "qa_cf9d0f6fcfdc43e7a073",
+    "stage": "A_false_no_answer",
+    "question": "Berapa lama Gorm yang Tua berkuasa di Denmark ?",
+    "gold": "936 sampai kematiannya pada sekitar tahun 958",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.47853637552920075
+  },
+  {
+    "id": "qa_d0d4511d2f72e7e5f3e0",
+    "stage": "C_gen",
+    "question": "Apa itu peptida antimikrobial?",
+    "gold": "komponen yang telah berevolusi dan terdapat secara permanen pada sistem imun bawaan dan ditemukan di seluruh kelas kehidupan",
+    "pred": "bakteri gram positif dan bakteri gram negatif",
+    "f1": 0.08,
+    "na_prob": 0.05675510474500237
+  },
+  {
+    "id": "qa_d284ec24d6b2730cdc5a",
+    "stage": "A_false_no_answer",
+    "question": "berapakah jumlah album Red Hot Chili Peppers?",
+    "gold": "sembilan",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4650782350916746
+  },
+  {
+    "id": "qa_d2a6e12f209bf3a30b23",
+    "stage": "A_false_no_answer",
+    "question": "Apakah maksud istilah Shengnü?",
+    "gold": "wanita sisa",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7283277843129763
+  },
+  {
+    "id": "qa_d2e7749732fb24a5f06d",
+    "stage": "C_gen",
+    "question": "Apa tujuan utama Proyek lahan gambut satu juta hektar?",
+    "gold": "menyediakan lahan pertanian baru dengan mengubah satu juta hektar lahan gambut dan rawa untuk penanaman padi",
+    "pred": "Pembangunan Orde Baru",
+    "f1": 0.10526315789473684,
+    "na_prob": 0.22239566722151066
+  },
+  {
+    "id": "qa_d4484ae5033c33a372fe",
+    "stage": "A_false_no_answer",
+    "question": "Apakah kesenian tradisional dari Gunung Kidul ?",
+    "gold": "Rinding Gumbeng",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6572216427051836
+  },
+  {
+    "id": "qa_d509e14f88c949d14a59",
+    "stage": "C_rank",
+    "question": "dimanakah internet pertama kali diciptakan?",
+    "gold": "Amerika Serikat",
+    "pred": "Departemen Pertahanan Amerika Serikat",
+    "f1": 0.6666666666666666,
+    "na_prob": 0.34062999337335137
+  },
+  {
+    "id": "qa_d62941b133d198c7e7bb",
+    "stage": "C_rank",
+    "question": "Berapakah penduduk São Paulo pada tahun 2009?",
+    "gold": "19.889.559",
+    "pred": "19.889.559 jiwa",
+    "f1": 0.6666666666666666,
+    "na_prob": 0.26601506989002216
+  },
+  {
+    "id": "qa_d7889b13d5e6508e3986",
+    "stage": "A_false_no_answer",
+    "question": "Berapa lama Pertempuran Tanjung Esperance berlangsung?",
+    "gold": "11 Oktober hingga 12 Oktober 1942",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4209497764944656
+  },
+  {
+    "id": "qa_d7db61fbb2bbcf4616d2",
+    "stage": "C_rank",
+    "question": "Dimana Paus Yohanes XXIII meninggal?",
+    "gold": "3 Juni 1963",
+    "pred": "Sotto",
+    "f1": 0.0,
+    "na_prob": 0.044608453995283875
+  },
+  {
+    "id": "qa_d8411e96d39e16bc83b1",
+    "stage": "A_false_no_answer",
+    "question": "berapakah jumlah provinsi di Vietnam?",
+    "gold": "59",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.44783567399214275
+  },
+  {
+    "id": "qa_d853c82fbe8af333c789",
+    "stage": "A_false_no_answer",
+    "question": "Kapan internet pertama kali diciptakan ?",
+    "gold": "1969",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5054416703393682
+  },
+  {
+    "id": "qa_d91ad578bf7a5556dcaa",
+    "stage": "C_gen",
+    "question": "Apakah definisi dari lahar ?",
+    "gold": "aliran material vulkanik yang biasanya berupa campuran batu, pasir dan kerikil akibat adanya aliran air yang terjadi di lereng gunung (gunung berapi)",
+    "pred": "aliran material vulkanik yang biasanya berupa campuran batu",
+    "f1": 0.5333333333333333,
+    "na_prob": 0.17234859023094024
+  },
+  {
+    "id": "qa_d923e054a2534572c48d",
+    "stage": "A_false_no_answer",
+    "question": "Di rute perairan mana Operasi Starvation dilakukan?",
+    "gold": "Selat Shimonoseki",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6174216257724688
+  },
+  {
+    "id": "qa_da128d7e793f3d189f1e",
+    "stage": "A_false_answer",
+    "question": "Di mana letak negara Indonesia?",
+    "gold": "",
+    "pred": "sebelah barat",
+    "f1": 0.0,
+    "na_prob": 0.2671080889210037
+  },
+  {
+    "id": "qa_da1e65f559f96b72adb5",
+    "stage": "A_false_no_answer",
+    "question": "Siapa nama anak Émile Durkheim?",
+    "gold": "René",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5569054815983185
+  },
+  {
+    "id": "qa_da343c35669377d2e286",
+    "stage": "C_rank",
+    "question": "Siapakah Keshogunan Tokugawa?",
+    "gold": "pemerintahan diktator militer feodalisme di Jepang",
+    "pred": "Keshogunan Tokugawa",
+    "f1": 0.0,
+    "na_prob": 0.03183759139044759
+  },
+  {
+    "id": "qa_dab4e37e9cd6344c74ac",
+    "stage": "C_gen",
+    "question": "Apa itu gulma ?",
+    "gold": "tumbuhan yang kehadirannya tidak diinginkan pada lahan pertanian karena menurunkan hasil yang bisa dicapai oleh tanaman produksi",
+    "pred": "tanaman produksi",
+    "f1": 0.21052631578947367,
+    "na_prob": 0.061494546482593816
+  },
+  {
+    "id": "qa_daf83e19aeb274b9e6b0",
+    "stage": "A_false_no_answer",
+    "question": "Kapankah ilmu ekonomi pertama kali ditemukan ?",
+    "gold": "abad 18",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.44436566143051737
+  },
+  {
+    "id": "qa_db487bb512572717f5d9",
+    "stage": "A_false_answer",
+    "question": "Di mana Muhammad Saleh Werdisastro meninggal?",
+    "gold": "",
+    "pred": "Sumenep",
+    "f1": 0.0,
+    "na_prob": 0.38127295326204963
+  },
+  {
+    "id": "qa_db5fadd62cda283125de",
+    "stage": "C_gen",
+    "question": "Apa yang dimaksud dengan Artefak ?",
+    "gold": "benda arkeologi atau peningalan benda-benda bersejarah, yaitu semua benda yang dibuat atau dimodifikasi oleh manusia yang dapat dipindahkan",
+    "pred": "alat-alat batu",
+    "f1": 0.0,
+    "na_prob": 0.21364585469390895
+  },
+  {
+    "id": "qa_dba57b9c986b069295c7",
+    "stage": "A_false_no_answer",
+    "question": "tahun berapakah Austria didirikan sebagai negara pertama kali?",
+    "gold": "1918",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.594834839821207
+  },
+  {
+    "id": "qa_dc125924a95b0334c692",
+    "stage": "A_false_no_answer",
+    "question": "apakah minuman beralkohol khas Rusia?",
+    "gold": "pertsovka",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5319344173106834
+  },
+  {
+    "id": "qa_dde402d1f8d3ec1762e7",
+    "stage": "A_false_no_answer",
+    "question": "siapakah ratu pertama Imperium Britania?",
+    "gold": "Elizabeth I",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6145114695770245
+  },
+  {
+    "id": "qa_de5fb3a3e42cbd7f536b",
+    "stage": "A_false_no_answer",
+    "question": "Sejak kapan Barthélemy Boganda menjadi politikus ?",
+    "gold": "10 November 1946",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.637765998362961
+  },
+  {
+    "id": "qa_deb5c73304dc2c573752",
+    "stage": "A_false_no_answer",
+    "question": "Apakah nama Ibu kota Vietnam?",
+    "gold": "Hanoi",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6045629275307923
+  },
+  {
+    "id": "qa_dfb967b245deabdd7848",
+    "stage": "A_false_answer",
+    "question": "Kapan Indosiar ditutup?",
+    "gold": "",
+    "pred": "11 Januari 1995",
+    "f1": 0.0,
+    "na_prob": 0.3343153791558486
+  },
+  {
+    "id": "qa_dfd627adf6bc4ff2e523",
+    "stage": "A_false_no_answer",
+    "question": "Apakah definisi dari Gempa Vulkanik?",
+    "gold": "terjadi akibat adanya aktivitas magma, yang biasa terjadi sebelum gunung api meletus",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6219302671274588
+  },
+  {
+    "id": "qa_dfea94cab2476427828f",
+    "stage": "C_gen",
+    "question": "Apa itu Qere dan Ketiv?",
+    "gold": "sejumlah kecil perbedaan antara apa yang tertulis dalam consonantal teks Alkitab ibrani, yang diawetkan oleh tradisi penulisan, dan apa yang dibaca",
+    "pred": "Aram",
+    "f1": 0.0,
+    "na_prob": 0.11504732808834749
+  },
+  {
+    "id": "qa_e0ce20737f5706505406",
+    "stage": "C_gen",
+    "question": "Apakah yang dimaksud dengan konseling ?",
+    "gold": "proses pemberian bantuan yang dilakukan oleh seorang ahli (disebut konselor/pembimbing) kepada individu yang mengalami sesuatu masalah (disebut konseli) yang bermuara pada teratasinya masalah yang dihadapi klien",
+    "pred": "proses pemberian bantuan yang dilakukan oleh seorang ahli",
+    "f1": 0.47058823529411764,
+    "na_prob": 0.1748545859145295
+  },
+  {
+    "id": "qa_e105510fd37e697fb8c5",
+    "stage": "A_false_no_answer",
+    "question": "siapakah vokalis L'Arc~en~Ciel?",
+    "gold": "Hyde",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6231844826871491
+  },
+  {
+    "id": "qa_e1880e472c9ef3d6b3e5",
+    "stage": "A_false_no_answer",
+    "question": "buku Harry Potter manakah yang paling banyak halaman nya?",
+    "gold": "Harry Potter dan Orde Phoenix",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.42954917362527906
+  },
+  {
+    "id": "qa_e19ca701820ae6d8dd12",
+    "stage": "A_false_answer",
+    "question": "Tanggal berapa orde lama berakhir?",
+    "gold": "",
+    "pred": "1945",
+    "f1": 0.0,
+    "na_prob": 0.3440860736922099
+  },
+  {
+    "id": "qa_e346a189b74feef4bc6e",
+    "stage": "C_rank",
+    "question": "siapakah penemu aljabar?",
+    "gold": "Al-Khwārizmī",
+    "pred": "Buku",
+    "f1": 0.0,
+    "na_prob": 0.15505000185193132
+  },
+  {
+    "id": "qa_e4036b221ac27310c07e",
+    "stage": "A_false_answer",
+    "question": "Di mana telur terakhir ditemukan?",
+    "gold": "",
+    "pred": "Kepulauan Midway",
+    "f1": 0.0,
+    "na_prob": 0.37273166066839536
+  },
+  {
+    "id": "qa_e419342f25b5ef66cb80",
+    "stage": "A_false_no_answer",
+    "question": "kapankah agama kristen masuk ke negara indonesia?",
+    "gold": "abad ke-10",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4775480724871501
+  },
+  {
+    "id": "qa_e61330d84179abd7e81e",
+    "stage": "A_false_no_answer",
+    "question": "kapankah Microsoft Windows didirikan pertama kali?",
+    "gold": "20 November 1985",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4813025551387589
+  },
+  {
+    "id": "qa_e787e0ea80b24d743c7f",
+    "stage": "A_false_no_answer",
+    "question": "kapankah Internet pertama kali dibuat?",
+    "gold": "1969",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5286908934324627
+  },
+  {
+    "id": "qa_e79f556ee0f9cf6b6f8e",
+    "stage": "B",
+    "question": "Apa penyebab dari Meningitis ?",
+    "gold": "infeksi oleh virus, bakteri, atau juga mikroorganisme lain, dan walaupun jarang dapat disebabkan oleh obat tertentu",
+    "pred": "radang",
+    "f1": 0.0,
+    "na_prob": 0.07713087525404756
+  },
+  {
+    "id": "qa_e90a17c0a9a5e084ec93",
+    "stage": "C_rank",
+    "question": "Apakah ibukota Kanada ?",
+    "gold": "Ottawa",
+    "pred": "negara paling utara di Amerika Utara",
+    "f1": 0.0,
+    "na_prob": 0.11881440320607203
+  },
+  {
+    "id": "qa_e9dc16a5646daf55e160",
+    "stage": "A_false_no_answer",
+    "question": "Siapa yang menciptakan internet pertama kali ?",
+    "gold": "Departemen Pertahanan Amerika Serikat",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.509001428375671
+  },
+  {
+    "id": "qa_ea7dcba2399667347688",
+    "stage": "A_false_no_answer",
+    "question": "Apakah ibukota Jepang?",
+    "gold": "Tokyo",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.45004989252199173
+  },
+  {
+    "id": "qa_ea90c94e4c84199ec52e",
+    "stage": "A_false_answer",
+    "question": "Apakah manfaat dari lahar?",
+    "gold": "",
+    "pred": "aliran material vulkanik yang biasanya berupa campuran batu",
+    "f1": 0.0,
+    "na_prob": 0.14907522640982976
+  },
+  {
+    "id": "qa_ea9d8106f1f6717ec14d",
+    "stage": "A_false_answer",
+    "question": "Apa warna asli Angsa batu kaki putih?",
+    "gold": "",
+    "pred": "81cm",
+    "f1": 0.0,
+    "na_prob": 0.3269940026978165
+  },
+  {
+    "id": "qa_eb142e21b1a7f4ec05e8",
+    "stage": "C_rank",
+    "question": "Apakah ibukota Kanada?",
+    "gold": "Ottawa",
+    "pred": "negara paling utara di Amerika Utara",
+    "f1": 0.0,
+    "na_prob": 0.11881440320607203
+  },
+  {
+    "id": "qa_ed6f0394dfadc0385dac",
+    "stage": "A_false_no_answer",
+    "question": "Di manakah letak Howard University?",
+    "gold": "Washington, D.C",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.75181932832521
+  },
+  {
+    "id": "qa_eed25f2473908551943b",
+    "stage": "A_false_answer",
+    "question": "Siapakah saudara Erasmus?",
+    "gold": "",
+    "pred": "Geert Geerts",
+    "f1": 0.0,
+    "na_prob": 0.1888756308568714
+  },
+  {
+    "id": "qa_ef421b2e761120540ef2",
+    "stage": "A_false_no_answer",
+    "question": "Apakah definis dari Finansial ?",
+    "gold": "mempelajari bagaimana cara mengetahui berbisnis individu, meningkatkan organisasi, mengalokasi, menggunakan sumber daya moneter dengan sejalannya waktu, dan juga menghitung risiko dalam menjalankan proyeknya",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.7745606334029722
+  },
+  {
+    "id": "qa_f03d44ce67a23edbf7b4",
+    "stage": "C_gen",
+    "question": "Kapan gunung Mauna Loa pertama meletus?",
+    "gold": "antara 700.000 dan 1.000.000 tahun yang lalu",
+    "pred": "700.000",
+    "f1": 0.25,
+    "na_prob": 0.17688626443424108
+  },
+  {
+    "id": "qa_f09fea8516ea8d41f85e",
+    "stage": "A_false_no_answer",
+    "question": "siapakah orang tua Ellen Gould White?",
+    "gold": "Robert dan Eunice Harmon",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5806193811885939
+  },
+  {
+    "id": "qa_f0f4d811aa1c9c23d83c",
+    "stage": "A_false_no_answer",
+    "question": "Siapa sultan pertama keraton Yogyakarta ?",
+    "gold": "Sri Sultan Hamengkubuwono I",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.45103331955836873
+  },
+  {
+    "id": "qa_f1af31be4c925eaff779",
+    "stage": "C_rank",
+    "question": "Kapan Valentinius lahir?",
+    "gold": "l.k. 100",
+    "pred": "175",
+    "f1": 0.0,
+    "na_prob": 0.3625360246675858
+  },
+  {
+    "id": "qa_f23b99452427988f7db2",
+    "stage": "A_false_no_answer",
+    "question": "Apa nama alat untuk mengetahui arah mata angin ?",
+    "gold": "Kompas",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6461579628209599
+  },
+  {
+    "id": "qa_f245b6df8c6a590e983d",
+    "stage": "C_gen",
+    "question": "kapankah Romusha terjadi di indonesia?",
+    "gold": "pada masa penjajahan Jepang di Indonesia dari tahun 1942 hingga 1945",
+    "pred": "1942",
+    "f1": 0.16666666666666669,
+    "na_prob": 0.22921774369608702
+  },
+  {
+    "id": "qa_f3c8ac0e1cd84bad0716",
+    "stage": "A_false_no_answer",
+    "question": "Kapan PlayStation pertama kali dirilis ?",
+    "gold": "3 Desember 1994",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6274018968876218
+  },
+  {
+    "id": "qa_f4ba17bed2a650408e0a",
+    "stage": "A_false_no_answer",
+    "question": "Kapan Republik Gambia merdeka?",
+    "gold": "18 Februari 1965",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.6658363659613262
+  },
+  {
+    "id": "qa_f5638de1118fa3dc7b4f",
+    "stage": "A_false_no_answer",
+    "question": "Siapa presiden pertama Republik Dominika?",
+    "gold": "Pedro Santana",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.5198714213203026
+  },
+  {
+    "id": "qa_f5dcd697fb47b4bee09f",
+    "stage": "A_false_answer",
+    "question": "Siapa keshoguna tokugawa?",
+    "gold": "",
+    "pred": "Keshogunan Tokugawa",
+    "f1": 0.0,
+    "na_prob": 0.2770124465583354
+  },
+  {
+    "id": "qa_f8116af38e9989aa54bf",
+    "stage": "C_gen",
+    "question": "apakah yang di maksud dengan endomembran?",
+    "gold": "himpunan membran yang membentuk unit fungsional dan perkembangan tunggal, baik yang terhubung bersama-sama secara langsung, atau bertukar materi melalui transportasi vesikel",
+    "pred": "selubung nukleus",
+    "f1": 0.0,
+    "na_prob": 0.26535561901831645
+  },
+  {
+    "id": "qa_f83568dba5f8374382ca",
+    "stage": "A_false_no_answer",
+    "question": "Kapan Kode Etik Jurnalistik Indonesia diwujudkan?",
+    "gold": "1947",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.55841902217313
+  },
+  {
+    "id": "qa_f96b0ed9dacb0b56657a",
+    "stage": "A_false_no_answer",
+    "question": "Apa suku asli penduduk jawa Barat ?",
+    "gold": "Sunda, Melayu-Betawi dan Cirebon",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.42256796604952473
+  },
+  {
+    "id": "qa_fa1875365ac7f49a2c3f",
+    "stage": "C_rank",
+    "question": "Dimana Gereja Ritus Timur?",
+    "gold": "Roma",
+    "pred": "Gereja-Gereja Katolik Oriental",
+    "f1": 0.0,
+    "na_prob": 0.0377391869966785
+  },
+  {
+    "id": "qa_fbe04e300696b170e6a0",
+    "stage": "A_false_answer",
+    "question": "Apa mamalia terkecil di dunia?",
+    "gold": "",
+    "pred": "Paus biru",
+    "f1": 0.0,
+    "na_prob": 0.36850061358597597
+  },
+  {
+    "id": "qa_fd621b42f7b3521aa90a",
+    "stage": "A_false_no_answer",
+    "question": "Apakah definisi bangsa Melayu?",
+    "gold": "kelompok etnis dari orang-orang Austronesia terutama yang menghuni Semenanjung Malaya, Sumatra bagian timur, bagian selatan Thailand, pantai selatan Burma, pulau Singapura, Borneo pesisir termasuk Brunei, Kalimantan Barat, dan Sarawak dan Sabah pesisir, Filipina bagian barat dan selatan, dan pulau-pulau kecil yang terletak antara lokasi ini — yang secara kolektif dikenal sebagai 'Alam Melayu'",
+    "pred": "",
+    "f1": 0.0,
+    "na_prob": 0.4413300392398853
+  },
+  {
+    "id": "qa_fdbd93a2c835fe1e3efd",
+    "stage": "C_rank",
+    "question": "Siapa yang memenangkan Pertempuran Tanjung Esperance?",
+    "gold": "Sekutu",
+    "pred": "Akhirnya Sekutu",
+    "f1": 0.6666666666666666,
+    "na_prob": 0.0824251556374448
+  }
+]

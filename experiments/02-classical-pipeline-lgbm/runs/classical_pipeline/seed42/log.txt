@@ -1,0 +1,31 @@
+stage B fitted 11.1s
+train featurized: A (6435, 27), C (931231, 56), pos 2828 95.9s
+stages A, C fitted 151.5s
+dev threshold 0.3887
+DEV EM 50.81 F1 53.09 HasAns_F1 28.31 NoAns_acc 81.94
+{
+ "A": {
+  "auc": 0.744740191674154,
+  "acc_at_thr": 0.6674968866749689,
+  "acc_at_0.5": 0.6824408468244084,
+  "threshold": 0.388716442773671
+ },
+ "B": {
+  "n_answerable": 432,
+  "recall@1": 0.6203703703703703,
+  "recall@3": 0.9606481481481481,
+  "recall@1_tfidf_only": 0.5185185185185185,
+  "recall@1_bm25_only": 0.5370370370370371,
+  "recall@2": 0.8865740740740741
+ },
+ "C": {
+  "candidate_recall": 0.7337962962962963,
+  "avg_candidates_per_question": 152.00996264009962,
+  "span_em_given_gold_sentence_in_topk": 0.47780678851174935,
+  "span_f1_given_gold_sentence_in_topk": 0.5736474721938437,
+  "span_em_given_gold_sentence_rank1": 0.44029850746268656,
+  "span_em_on_answerable_unconditional": 0.43287037037037035
+ }
+}
+{"A_false_answer": 67, "A_false_no_answer": 200, "B": 22, "C_gen": 46, "C_rank": 60, "total_errors": 395, "n": 803}
+wrote ablation.md, importance.md

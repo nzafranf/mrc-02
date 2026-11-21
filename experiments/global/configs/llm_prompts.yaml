@@ -1,0 +1,12 @@
+# Instruction variants for LLM extractive QA. The user turn is: <instruction>\n\nKonteks: ...\n\nPertanyaan: ...
+# Every variant asks for an exact span copy, or the literal string TIDAK ADA JAWABAN.
+no_answer_string: "TIDAK ADA JAWABAN"
+context_label: "Konteks"
+question_label: "Pertanyaan"
+prompts:
+  id1: "Jawab pertanyaan berikut dengan menyalin potongan teks persis seperti tertulis di konteks. Jika konteks tidak memuat jawabannya, tulis persis: TIDAK ADA JAWABAN."
+  id2: "Baca konteks, lalu ambil jawaban dari konteks tersebut. Jawaban harus berupa kutipan kata demi kata (tanpa mengubah kata) dari konteks. Bila jawabannya tidak ada dalam konteks, keluarkan hanya: TIDAK ADA JAWABAN."
+  id3: "Tugasmu adalah ekstraksi jawaban. Salin bagian terpendek dari konteks yang menjawab pertanyaan, tanpa penjelasan tambahan. Jika tidak ada bagian yang menjawabnya, balas dengan TIDAK ADA JAWABAN saja."
+  id4: "Berdasarkan paragraf di bawah ini, tentukan jawaban pertanyaan. Tulis jawaban sebagai rentang teks yang sama persis dengan isi paragraf. Apabila paragraf tidak mengandung jawaban, jawab dengan kalimat: TIDAK ADA JAWABAN."
+  id5: "Kamu adalah sistem tanya jawab ekstraktif. Jawaban hanya boleh berupa salinan eksak dari teks konteks, singkat, tanpa kalimat lengkap. Jika pertanyaan tidak dapat dijawab dari konteks, tuliskan TIDAK ADA JAWABAN."
+  en1: "Answer the question by copying an exact span from the passage, without rephrasing and without explanation. If the passage does not contain the answer, output exactly: TIDAK ADA JAWABAN."

@@ -1,0 +1,803 @@
+{"id": "qa_006703b670a2de86a02f", "pred": "1993", "na_prob": -10.44921875, "score": 13.296875, "start_char": 242, "pred_argmax": "1993"}
+{"id": "qa_00e198cdbe7a6db9fff7", "pred": "1911", "na_prob": -3.33203125, "score": 8.40234375, "start_char": 205, "pred_argmax": "1911"}
+{"id": "qa_00ff25c8418d611dec83", "pred": "28 September 1949", "na_prob": 5.18359375, "score": 11.23828125, "start_char": 1352, "pred_argmax": ""}
+{"id": "qa_01364a9092f96eb6e2be", "pred": "Teheran", "na_prob": -4.8863525390625, "score": 4.33935546875, "start_char": 330, "pred_argmax": "Teheran"}
+{"id": "qa_019cc3e2fe995662f0ec", "pred": "metode untuk menghitung tingkat keterampilan (skill) relatif pemain pada permainan antara dua pemain seperti catur dan igo", "na_prob": 10.556640625, "score": 4.822265625, "start_char": 34, "pred_argmax": ""}
+{"id": "qa_032e963768b50c42794c", "pred": "Dar-es-Salam", "na_prob": -5.1124267578125, "score": 4.443359375, "start_char": 184, "pred_argmax": "Dar-es-Salam"}
+{"id": "qa_0349eeca8eb4cae07506", "pred": "1971", "na_prob": 2.5390625, "score": 12.203125, "start_char": 163, "pred_argmax": ""}
+{"id": "qa_03f1db958d34894d9e06", "pred": "1939", "na_prob": 10.234375, "score": 8.953125, "start_char": 80, "pred_argmax": ""}
+{"id": "qa_0406f9996f7eb6dcd774", "pred": "Bernard Dowiyogo", "na_prob": 9.4140625, "score": 3.2578125, "start_char": 929, "pred_argmax": ""}
+{"id": "qa_04b38b92e0a507d36cd7", "pred": "Menteri Transmigrasi dan Pemukiman Perambah Hutan", "na_prob": -1.001953125, "score": 8.330078125, "start_char": 98, "pred_argmax": "Menteri Transmigrasi dan Pemukiman Perambah Hutan"}
+{"id": "qa_05170124bc738c0a36a9", "pred": "Universitas California", "na_prob": -2.244140625, "score": 8.5078125, "start_char": 131, "pred_argmax": "Universitas California"}
+{"id": "qa_05472ac12e5fdcef4ee0", "pred": "tepi Sungai Rhein", "na_prob": -17.671875, "score": 13.63671875, "start_char": 187, "pred_argmax": "tepi Sungai Rhein"}
+{"id": "qa_056cd52e558d20724ced", "pred": "Bandar Udara Kemayoran", "na_prob": 9.75, "score": 8.875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_05aed54e82bdb9edebf5", "pred": "Port Moresby dan Lae", "na_prob": -11.9560546875, "score": 13.74609375, "start_char": 126, "pred_argmax": "Port Moresby dan Lae"}
+{"id": "qa_0674f81bcf68276feae4", "pred": "prosedur langkah-demi-langkah untuk penghitungan", "na_prob": -12.831161499023438, "score": 12.125, "start_char": 53, "pred_argmax": "prosedur langkah-demi-langkah untuk penghitungan"}
+{"id": "qa_06c9c5c2f0f891b0e163", "pred": "selaput, kulit tipis, atau lembaran bahan tipis, yang berfungsi sebagai pemisah selektif", "na_prob": 6.30859375, "score": 6.6953125, "start_char": 15, "pred_argmax": ""}
+{"id": "qa_074634b2eae86659178f", "pred": "panjang maksium 2,9 km dan lebar 1 km", "na_prob": -1.71484375, "score": 7.126953125, "start_char": 217, "pred_argmax": "panjang maksium 2,9 km dan lebar 1 km"}
+{"id": "qa_07b2bea085cd5a148a56", "pred": "28 September 1945", "na_prob": -3.02734375, "score": 12.76171875, "start_char": 330, "pred_argmax": "28 September 1945"}
+{"id": "qa_08d2b4d14fb91aadc8be", "pred": "972, Vladimir, yang saat itu Pangeran Novgorod, terpaksa melarikan diri ke Skandinavia tahun 976", "na_prob": 3.109375, "score": 10.22265625, "start_char": 94, "pred_argmax": ""}
+{"id": "qa_08e83cbae802d30d772a", "pred": "24 Juli 1971", "na_prob": 8.03125, "score": 11.59375, "start_char": 55, "pred_argmax": ""}
+{"id": "qa_0986961735e0c79ff572", "pred": "Paus", "na_prob": -3.0625, "score": 12.171875, "start_char": 0, "pred_argmax": "Paus"}
+{"id": "qa_09df0b3461ac400e9981", "pred": "6 SM", "na_prob": -8.138671875, "score": 13.8046875, "start_char": 187, "pred_argmax": "6 SM"}
+{"id": "qa_0a266524498967311c7b", "pred": "Banjarmasin", "na_prob": -13.111328125, "score": 12.37890625, "start_char": 132, "pred_argmax": "Banjarmasin"}
+{"id": "qa_0a3867b0e2c4601ee016", "pred": "808.105km persegi", "na_prob": -8.794921875, "score": 16.55859375, "start_char": 427, "pred_argmax": "808.105km persegi"}
+{"id": "qa_0aa5f7a3a28d2168f810", "pred": "al-Jabar, adalah buku pertama yang membahas solusi sistematik dari linear dan notasi kuadrat", "na_prob": 12.91064453125, "score": 3.00732421875, "start_char": 17, "pred_argmax": ""}
+{"id": "qa_0b6b1eba2354831f69a2", "pred": "12 Juli 1827, Rivière memasuki École Navale pada bulan Oktober 1842", "na_prob": 8.328125, "score": 9.3203125, "start_char": 33, "pred_argmax": ""}
+{"id": "qa_0bbd9bca8cd9a31983f7", "pred": "1910 - 1994", "na_prob": 6.453125, "score": 11.265625, "start_char": 22, "pred_argmax": ""}
+{"id": "qa_0bf9cafef11db24ae688", "pred": "Dmitri Mendeleev", "na_prob": -9.372283935546875, "score": 9.2890625, "start_char": 202, "pred_argmax": "Dmitri Mendeleev"}
+{"id": "qa_0c11962e96fb79592a56", "pred": "10 juta penduduk terdaftar yang hidup dalam area sebesar 605.21 km²", "na_prob": 12.744140625, "score": 5.404296875, "start_char": 7, "pred_argmax": ""}
+{"id": "qa_0c1a521ee90994faf8d3", "pred": "PT Kompas Media Nusantara", "na_prob": -2.9736328125, "score": 6.12890625, "start_char": 111, "pred_argmax": "PT Kompas Media Nusantara"}
+{"id": "qa_0d3166a8ccb592c32956", "pred": "Suku Osing", "na_prob": -6.015625, "score": 10.40625, "start_char": 0, "pred_argmax": "Suku Osing"}
+{"id": "qa_0d82790c6d3244970680", "pred": "The Tjai Gwan", "na_prob": -5.82861328125, "score": 7.619140625, "start_char": 180, "pred_argmax": "The Tjai Gwan"}
+{"id": "qa_0e2de9da8e47e8e3bce2", "pred": "Hikayat Amir Hamzah", "na_prob": -0.83984375, "score": 5.328125, "start_char": 263, "pred_argmax": "Hikayat Amir Hamzah"}
+{"id": "qa_0e6aa11cce3b6f24ff33", "pred": "menurunkan hasil yang bisa dicapai oleh tanaman produksi", "na_prob": -1.2578125, "score": 12.953125, "start_char": 85, "pred_argmax": "menurunkan hasil yang bisa dicapai oleh tanaman produksi"}
+{"id": "qa_0e97f296813e91e1b338", "pred": "abad ke-10", "na_prob": 4.45703125, "score": 9.34765625, "start_char": 101, "pred_argmax": ""}
+{"id": "qa_0fd14e04b7219bdf46fc", "pred": "Paul DiGiovanni", "na_prob": 7.431640625, "score": 8.896484375, "start_char": 322, "pred_argmax": ""}
+{"id": "qa_109b06c18a73e301b88b", "pred": "Marchia Caroline Pohan", "na_prob": 4.99609375, "score": 11.38671875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_117ffbb8cd4ed821d9e9", "pred": "Hanoi", "na_prob": -17.22991943359375, "score": 16.4765625, "start_char": 23, "pred_argmax": "Hanoi"}
+{"id": "qa_11f43b983ed2d07230d3", "pred": "Tel Aviv", "na_prob": -12.0107421875, "score": 14.4609375, "start_char": 0, "pred_argmax": "Tel Aviv"}
+{"id": "qa_120d3e2aeafdd83b1379", "pred": "17 Mei 2011", "na_prob": -7.26171875, "score": 11.19921875, "start_char": 63, "pred_argmax": "17 Mei 2011"}
+{"id": "qa_126379bbfd9c2621c543", "pred": "18 Februari 1965", "na_prob": -4.13671875, "score": 15.265625, "start_char": 13, "pred_argmax": "18 Februari 1965"}
+{"id": "qa_1290946d9e9dc71220bd", "pred": "Kabul, Herat, Jalalabad, Mazar-e Sharif dan Kandahar", "na_prob": 7.521484375, "score": 6.287109375, "start_char": 23, "pred_argmax": ""}
+{"id": "qa_12a96c12a171ddb1849c", "pred": "kereta api Bogowonto", "na_prob": 9.10894775390625, "score": 1.46917724609375, "start_char": 337, "pred_argmax": ""}
+{"id": "qa_12e3435faae9c0fd4099", "pred": "Hanoi", "na_prob": 10.943359375, "score": 5.291015625, "start_char": 23, "pred_argmax": ""}
+{"id": "qa_1381e371016dcc40f018", "pred": "1992", "na_prob": -1.66015625, "score": 13.9140625, "start_char": 63, "pred_argmax": "1992"}
+{"id": "qa_13c59c64a91845c04166", "pred": "1969", "na_prob": 9.609375, "score": 9.828125, "start_char": 86, "pred_argmax": ""}
+{"id": "qa_13c7e7d35eada8123a87", "pred": "16 Maret 372 Masehi", "na_prob": 12.42578125, "score": 6.79296875, "start_char": 455, "pred_argmax": ""}
+{"id": "qa_140ea77136a742b49cea", "pred": "147", "na_prob": -5.146484375, "score": 10.62109375, "start_char": 592, "pred_argmax": "147"}
+{"id": "qa_14b925e5c6d46c010913", "pred": "Departemen Pertahanan Amerika Serikat", "na_prob": -6.40771484375, "score": 7.54296875, "start_char": 56, "pred_argmax": "Departemen Pertahanan Amerika Serikat"}
+{"id": "qa_14c02949ccea2ed9dabd", "pred": "1884", "na_prob": -4.4375, "score": 13.3203125, "start_char": 11, "pred_argmax": "1884"}
+{"id": "qa_1517da00eb83219c0d8e", "pred": "Rumah Baileo adalah rumah adat Maluku dan Maluku Utara, Indonesia", "na_prob": -11.6478271484375, "score": 12.73828125, "start_char": 0, "pred_argmax": "Rumah Baileo adalah rumah adat Maluku dan Maluku Utara, Indonesia"}
+{"id": "qa_15fcf4146498cca19dcf", "pred": "Li Jiancheng", "na_prob": -1.09765625, "score": 7.458984375, "start_char": 0, "pred_argmax": "Li Jiancheng"}
+{"id": "qa_16a2febc8c0b6aa56cea", "pred": "11 kabupaten, 2 kota, 153", "na_prob": -8.232421875, "score": 13.09375, "start_char": 130, "pred_argmax": "11 kabupaten, 2 kota, 153"}
+{"id": "qa_16ac72467a2b6c9d60cc", "pred": "Samarinda", "na_prob": -8.216796875, "score": 11.45703125, "start_char": 401, "pred_argmax": "Samarinda"}
+{"id": "qa_1736e82de25b5f57abdc", "pred": "Frenchman Jean Pierre Cristin", "na_prob": 6.3798828125, "score": 3.9208984375, "start_char": 169, "pred_argmax": ""}
+{"id": "qa_1737a489cc79e73c20c9", "pred": "jeruk", "na_prob": 11.4521484375, "score": 1.7822265625, "start_char": 5, "pred_argmax": ""}
+{"id": "qa_175e4e7028a6638527bf", "pred": "perbatasan Prefektur Shizuoka dan Yamanashi, di sebelah barat Tokyo", "na_prob": -10.05908203125, "score": 11.75, "start_char": 89, "pred_argmax": "perbatasan Prefektur Shizuoka dan Yamanashi, di sebelah barat Tokyo"}
+{"id": "qa_17e01bfa1eeedaf3a2be", "pred": "abad ke-3 SM", "na_prob": 1.96484375, "score": 5.1015625, "start_char": 529, "pred_argmax": ""}
+{"id": "qa_180f09da0a4c0a1fd302", "pred": "coklat", "na_prob": 4.166015625, "score": 3.078125, "start_char": 260, "pred_argmax": ""}
+{"id": "qa_188728ba9d4d4e29d507", "pred": "Perang Dunia I mengakibatkan pengaruh yang tragis terhadap hidup Durkheim. Pandangan kiri Durkheim selalu patriotik dan bukan internasionalis", "na_prob": 10.392578125, "score": 0.720703125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_195a889e959cd03a8d8f", "pred": "Simon", "na_prob": 1.0234375, "score": 5.033203125, "start_char": 32, "pred_argmax": ""}
+{"id": "qa_1a05439cf9633a04e7eb", "pred": "Warsawa", "na_prob": -13.98486328125, "score": 14.87109375, "start_char": 491, "pred_argmax": "Warsawa"}
+{"id": "qa_1aaf53e8bdeae8febcd3", "pred": "al-Jabar, adalah buku pertama yang membahas solusi sistematik dari linear dan notasi kuadrat", "na_prob": 3.2001953125, "score": 5.1005859375, "start_char": 17, "pred_argmax": ""}
+{"id": "qa_1b3c69b46bf0a761fa40", "pred": "enam", "na_prob": 11.017578125, "score": 7.935546875, "start_char": 47, "pred_argmax": ""}
+{"id": "qa_1b76b627138ad600d5ed", "pred": "Christian Daniel Rauch", "na_prob": 7.6240234375, "score": 4.6689453125, "start_char": 130, "pred_argmax": ""}
+{"id": "qa_1bd8b692e0d1375542c9", "pred": "Airbus A380", "na_prob": 11.646484375, "score": 6.658203125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_1bf541a82aecf51fa9c7", "pred": "129.066,64 km²", "na_prob": 6.3359375, "score": 12.515625, "start_char": 255, "pred_argmax": ""}
+{"id": "qa_1c8a15cd9ed413c6ac4b", "pred": "1611", "na_prob": -9.560546875, "score": 15.9140625, "start_char": 309, "pred_argmax": "1611"}
+{"id": "qa_1cafbf04e5059f20d957", "pred": "Monkey D. Luffy", "na_prob": -10.1328125, "score": 12.96484375, "start_char": 36, "pred_argmax": "Monkey D. Luffy"}
+{"id": "qa_1cf7b4abf96720c516d8", "pred": "Antoine-Laurent de Lavoisier dan John Newlands", "na_prob": 10.763671875, "score": 5.455078125, "start_char": 304, "pred_argmax": ""}
+{"id": "qa_1d2da4978c2701673be1", "pred": "fondasi setinggi sekitar 3 meter", "na_prob": 11.68994140625, "score": 2.48974609375, "start_char": 381, "pred_argmax": ""}
+{"id": "qa_1d53571d5616a75f78e1", "pred": "Pedro Santana", "na_prob": 6.212890625, "score": 7.009765625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_1dceb67de26ebed5520b", "pred": "Teheran", "na_prob": 2.697998046875, "score": 2.919189453125, "start_char": 330, "pred_argmax": ""}
+{"id": "qa_1e0375bb9d9e7cb9488b", "pred": "Tel Aviv", "na_prob": -8.80078125, "score": 13.640625, "start_char": 0, "pred_argmax": "Tel Aviv"}
+{"id": "qa_1e4ba2c2a06dde242174", "pred": "29 Mei 1453", "na_prob": 4.22265625, "score": 12.24609375, "start_char": 171, "pred_argmax": ""}
+{"id": "qa_1e53abdcb86f5d50175c", "pred": "riak dalam lengkung ruang-waktu yang bergerak dalam bentuk gelombang menjauhi sumbernya", "na_prob": -11.673828125, "score": 8.736328125, "start_char": 41, "pred_argmax": "riak dalam lengkung ruang-waktu yang bergerak dalam bentuk gelombang menjauhi sumbernya"}
+{"id": "qa_1e61ddf3a44c0ea91ba9", "pred": "1983", "na_prob": -10.21875, "score": 12.73828125, "start_char": 244, "pred_argmax": "1983"}
+{"id": "qa_1e965b67285b71c565b1", "pred": "pemahaman mengenai pengaruh-pengaruh bahan kimia yang merugikan bagi organisme hidup", "na_prob": 6.876953125, "score": 8.892578125, "start_char": 19, "pred_argmax": ""}
+{"id": "qa_1f0db6e9e596ddb37dea", "pred": "abad 18", "na_prob": 9.80859375, "score": 9.58984375, "start_char": 79, "pred_argmax": ""}
+{"id": "qa_1f1feb84337e4e874f1a", "pred": "1946", "na_prob": 10.41015625, "score": 9.13671875, "start_char": 11, "pred_argmax": ""}
+{"id": "qa_1f4e980b4aba401ebe8e", "pred": "808.105km persegi", "na_prob": -16.474609375, "score": 17.765625, "start_char": 427, "pred_argmax": "808.105km persegi"}
+{"id": "qa_1fbf8489bddfb3e80962", "pred": "Museum Nasional Republik Indonesia", "na_prob": 9.490234375, "score": 7.650390625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_1fddec798d61e62079a8", "pred": "Hyde", "na_prob": 0.791015625, "score": 8.779296875, "start_char": 146, "pred_argmax": ""}
+{"id": "qa_20564c45de2060da8fb1", "pred": "6 SM", "na_prob": -3.8125, "score": 13.0390625, "start_char": 187, "pred_argmax": "6 SM"}
+{"id": "qa_205eb0af618660bf8d4e", "pred": "Samarinda", "na_prob": -13.802001953125, "score": 13.5234375, "start_char": 401, "pred_argmax": "Samarinda"}
+{"id": "qa_2071a6eaadf80ca3e8ef", "pred": "1869", "na_prob": 11.087890625, "score": 8.216796875, "start_char": 163, "pred_argmax": ""}
+{"id": "qa_20814323bce9315eca79", "pred": "Pasukan Pertahanan Udara Soviet saat melakukan fotografi udara di teritorial Soviet. Diterbangkan oleh pilot Francis Gary Powers", "na_prob": 5.73828125, "score": 7.75, "start_char": 82, "pred_argmax": ""}
+{"id": "qa_20ef37ed8d030f583cee", "pred": "9.970.610 kilometer persegi", "na_prob": -16.0086669921875, "score": 16.5234375, "start_char": 591, "pred_argmax": "9.970.610 kilometer persegi"}
+{"id": "qa_214ca9b6b63b3090911d", "pred": "Merokok tembakau", "na_prob": 4.0234375, "score": 9.14453125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_215981b00544ba9a3c1c", "pred": "Rinding Gumbeng", "na_prob": -1.7734375, "score": 12.1796875, "start_char": 0, "pred_argmax": "Rinding Gumbeng"}
+{"id": "qa_2235e9532c952b3717f9", "pred": "Peptida antimikrobial", "na_prob": 2.068359375, "score": 8.517578125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_225419a85b303ece1c26", "pred": "Zhukovsky", "na_prob": 7.021484375, "score": 6.498046875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_227d6f5de0ab1ed3890f", "pred": "ketua KPK", "na_prob": 8.716796875, "score": 8.205078125, "start_char": 497, "pred_argmax": ""}
+{"id": "qa_233a408f80fd80b4c302", "pred": "Tokyo", "na_prob": -10.3643798828125, "score": 10.3046875, "start_char": 56, "pred_argmax": "Tokyo"}
+{"id": "qa_235459c8cc3941f3cf44", "pred": "sebelas", "na_prob": 7.16015625, "score": 7.83203125, "start_char": 204, "pred_argmax": ""}
+{"id": "qa_24041b11d835d85aa0ca", "pred": "Bandar Udara Kemayoran", "na_prob": -10.947265625, "score": 15.01953125, "start_char": 0, "pred_argmax": "Bandar Udara Kemayoran"}
+{"id": "qa_244f531e28dd211e2fb1", "pred": "Marchia Caroline Pohan", "na_prob": 4.1953125, "score": 11.49609375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_24919d8a11cb4ba5d678", "pred": "BellSouth", "na_prob": -4.9765625, "score": 10.9453125, "start_char": 248, "pred_argmax": "BellSouth"}
+{"id": "qa_2548a969bbcdbeb6bc0d", "pred": "6 Januari 1838", "na_prob": -5.47265625, "score": 14.609375, "start_char": 279, "pred_argmax": "6 Januari 1838"}
+{"id": "qa_2601cd3cac7fadee10ec", "pred": "2,4871773339… atau 3,25678", "na_prob": -5.8935546875, "score": 3.720703125, "start_char": 121, "pred_argmax": "2,4871773339… atau 3,25678"}
+{"id": "qa_2688e28fe6384bc9b730", "pred": "15 Februari 1908", "na_prob": -8.2734375, "score": 17.4921875, "start_char": 55, "pred_argmax": "15 Februari 1908"}
+{"id": "qa_26894a3c6a0f94d12325", "pred": "1869", "na_prob": -8.7109375, "score": 14.33984375, "start_char": 163, "pred_argmax": "1869"}
+{"id": "qa_26adc23256fbedaa017b", "pred": "Tokyo", "na_prob": 10.890625, "score": 4.61328125, "start_char": 56, "pred_argmax": ""}
+{"id": "qa_26c31781b642fc4074e9", "pred": "Valentinius, (juga dikenal sebagai Valentinus) (l.k. 100 - l.k. 153", "na_prob": 9.939453125, "score": 5.701171875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_26d7cd6a46ea951c2ccb", "pred": "3.864,02km²", "na_prob": 7.65625, "score": 11.65625, "start_char": 273, "pred_argmax": ""}
+{"id": "qa_272256b9d38d709e7306", "pred": "David Ben", "na_prob": -0.14453125, "score": 7.4921875, "start_char": 0, "pred_argmax": "David Ben"}
+{"id": "qa_2741c1db62eee4768648", "pred": "25 November 1881", "na_prob": -0.91796875, "score": 14.58984375, "start_char": 97, "pred_argmax": "25 November 1881"}
+{"id": "qa_2829a1c24e279746ddac", "pred": "12.435,00km²", "na_prob": -12.099609375, "score": 17.921875, "start_char": 177, "pred_argmax": "12.435,00km²"}
+{"id": "qa_283f56d40d99510e88b0", "pred": "Tel Aviv", "na_prob": 4.296875, "score": 11.05859375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_284346ed45fc43f72c06", "pred": "Ibrani", "na_prob": 13.05029296875, "score": 0.42626953125, "start_char": 524, "pred_argmax": ""}
+{"id": "qa_288f1a4681d339e0e2d5", "pred": "himpunan membran yang membentuk unit fungsional dan perkembangan tunggal, baik yang terhubung bersama-sama secara langsung, atau bertukar materi melalui transportasi vesikel", "na_prob": -6.7451171875, "score": 9.1953125, "start_char": 26, "pred_argmax": "himpunan membran yang membentuk unit fungsional dan perkembangan tunggal, baik yang terhubung bersama-sama secara langsung, atau bertukar materi melalui transportasi vesikel"}
+{"id": "qa_28df947d3ceb79d558a4", "pred": "Keuangan", "na_prob": 9.951171875, "score": 6.298828125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_29051b5744cbc451d3ae", "pred": "Museum Nasional Republik Indonesia", "na_prob": -9.084732055664062, "score": 10.15234375, "start_char": 0, "pred_argmax": "Museum Nasional Republik Indonesia"}
+{"id": "qa_294089cdda34ce86f758", "pred": "1939", "na_prob": -5.57421875, "score": 13.8828125, "start_char": 80, "pred_argmax": "1939"}
+{"id": "qa_2974feb915bb33a854a7", "pred": "republik demokratis parlementer, yang memberlakukan sebuah sistem khusus yang dikenal sebagai konfesionalisme", "na_prob": -2.615234375, "score": 6.794921875, "start_char": 22, "pred_argmax": "republik demokratis parlementer, yang memberlakukan sebuah sistem khusus yang dikenal sebagai konfesionalisme"}
+{"id": "qa_2983119eb40424537018", "pred": "5 Desember 1973", "na_prob": 1.3984375, "score": 12.40234375, "start_char": 33, "pred_argmax": ""}
+{"id": "qa_29d0a7c0fab97a43d667", "pred": "Februari 2009", "na_prob": -9.7314453125, "score": 14.140625, "start_char": 176, "pred_argmax": "Februari 2009"}
+{"id": "qa_29e1987bfd57d862f0bc", "pred": "Dave Morin, Shawn Fanning, dan Dustin Mierau", "na_prob": 6.99609375, "score": 6.7109375, "start_char": 75, "pred_argmax": ""}
+{"id": "qa_29f0954d5523d5577891", "pred": "Sri Sultan Hamengkubuwana I", "na_prob": 9.43359375, "score": 8.17578125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_2ab804f8b8e0c71c1d42", "pred": "1495", "na_prob": 3.4140625, "score": 10.00390625, "start_char": 50, "pred_argmax": ""}
+{"id": "qa_2aca9fba5bfa7da54856", "pred": "Spanyol", "na_prob": -2.810546875, "score": 8.32421875, "start_char": 139, "pred_argmax": "Spanyol"}
+{"id": "qa_2c11356e6981b68f011f", "pred": "1900", "na_prob": -3.25390625, "score": 14.26953125, "start_char": 11, "pred_argmax": "1900"}
+{"id": "qa_2c4c27a5a8bcb0111545", "pred": "Belle dan ayahnya berhadapan dengan Gaston yang jahat", "na_prob": 8.76751708984375, "score": 0.49029541015625, "start_char": 17, "pred_argmax": ""}
+{"id": "qa_2c7882978fe493a17945", "pred": "Chevrolet", "na_prob": 10.14453125, "score": 9.45703125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_2c972759fd87895a33a0", "pred": "kaos oblong", "na_prob": -9.78125, "score": 8.62890625, "start_char": 23, "pred_argmax": "kaos oblong"}
+{"id": "qa_2ca1cb8ac5db320f5d72", "pred": "Dmitri Mendeleev", "na_prob": 11.8818359375, "score": 4.3525390625, "start_char": 202, "pred_argmax": ""}
+{"id": "qa_2d18bb959e557f8aaa25", "pred": "12 April 1923", "na_prob": -6.78125, "score": 16.4296875, "start_char": 133, "pred_argmax": "12 April 1923"}
+{"id": "qa_2d67b2d74803deb99238", "pred": "Badan Pengembangan Sumber Daya Manusia Kementerian Dalam Negeri Republik Indonesia", "na_prob": 10.76171875, "score": 6.49609375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_2d74415d8d0f103ee205", "pred": "2017 asal Jepang", "na_prob": 1.4765625, "score": 11.21484375, "start_char": 147, "pred_argmax": ""}
+{"id": "qa_2d847c2fce06ae2834bc", "pred": "Christian Daniel Rauch", "na_prob": 5.041015625, "score": 5.044921875, "start_char": 130, "pred_argmax": ""}
+{"id": "qa_2e16ab57a1e97c77b7e7", "pred": "Zhukovsky", "na_prob": -5.80078125, "score": 9.8671875, "start_char": 0, "pred_argmax": "Zhukovsky"}
+{"id": "qa_2e6347d1429cd4b3439c", "pred": "Pulau Jawa", "na_prob": -12.221923828125, "score": 11.53125, "start_char": 102, "pred_argmax": "Pulau Jawa"}
+{"id": "qa_2e655af0a7dc66753066", "pred": "selatan Mesopotamia", "na_prob": -17.3681640625, "score": 13.50390625, "start_char": 117, "pred_argmax": "selatan Mesopotamia"}
+{"id": "qa_2ef3d7a0095a4d975ecc", "pred": "enam", "na_prob": -4.796875, "score": 13.47265625, "start_char": 47, "pred_argmax": "enam"}
+{"id": "qa_2fc6ed350da29088157a", "pred": "26 Desember 1995 Presiden Soeharto mengeluarkan Keppres No. 82", "na_prob": -4.18359375, "score": 14.9609375, "start_char": 395, "pred_argmax": "26 Desember 1995 Presiden Soeharto mengeluarkan Keppres No. 82"}
+{"id": "qa_2fc72530a5f4f797681f", "pred": "Christian Daniel Rauch", "na_prob": 4.21875, "score": 5.3046875, "start_char": 130, "pred_argmax": ""}
+{"id": "qa_2fd984d50629f95babff", "pred": "Uskup Roma dan pemimpin Gereja Katolik di seluruh dunia", "na_prob": -8.417816162109375, "score": 8.01953125, "start_char": 84, "pred_argmax": "Uskup Roma dan pemimpin Gereja Katolik di seluruh dunia"}
+{"id": "qa_30158b7027e04ca18b5b", "pred": "808.105km persegi", "na_prob": -8.55078125, "score": 16.8046875, "start_char": 427, "pred_argmax": "808.105km persegi"}
+{"id": "qa_30652ede3773ff9e423b", "pred": "istilah umum yang mengacu kepada teknik apapun yang digunakan seorang ninja dan tidak bisa ditiru oleh manusia biasa", "na_prob": 8.99462890625, "score": 2.96630859375, "start_char": 101, "pred_argmax": ""}
+{"id": "qa_30a56e798c17da417828", "pred": "Dmitri Mendeleev", "na_prob": -12.10205078125, "score": 10.5546875, "start_char": 202, "pred_argmax": "Dmitri Mendeleev"}
+{"id": "qa_30fcf258db102f58045e", "pred": "2005–2010", "na_prob": 1.064453125, "score": 7.435546875, "start_char": 122, "pred_argmax": ""}
+{"id": "qa_313010b7546d63667a19", "pred": "wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan", "na_prob": 13.3505859375, "score": 3.5244140625, "start_char": 111, "pred_argmax": ""}
+{"id": "qa_3138ad71bed7b29ffbcd", "pred": "422.000km²", "na_prob": -4.775390625, "score": 13.375, "start_char": 276, "pred_argmax": "422.000km²"}
+{"id": "qa_316e97cc1847379141f2", "pred": "Antoine-Laurent de Lavoisier dan John Newlands", "na_prob": 10.8623046875, "score": 4.7197265625, "start_char": 304, "pred_argmax": ""}
+{"id": "qa_31b649d119e2f3f44290", "pred": "Li Yuan", "na_prob": -8.74072265625, "score": 10.71875, "start_char": 18, "pred_argmax": "Li Yuan"}
+{"id": "qa_32133b3df7f399977007", "pred": "Kabul, Herat, Jalalabad, Mazar-e Sharif dan Kandahar", "na_prob": -13.3896484375, "score": 13.1171875, "start_char": 23, "pred_argmax": "Kabul, Herat, Jalalabad, Mazar-e Sharif dan Kandahar"}
+{"id": "qa_3293634788aaf8f2569c", "pred": "Suku Batak Toba", "na_prob": -4.8779296875, "score": 6.400390625, "start_char": 0, "pred_argmax": "Suku Batak Toba"}
+{"id": "qa_3297f3ae804b5cb37763", "pred": "komponen yang telah berevolusi dan terdapat secara permanen pada sistem imun bawaan dan ditemukan di seluruh kelas kehidupan", "na_prob": -1.2265625, "score": 4.638671875, "start_char": 29, "pred_argmax": "komponen yang telah berevolusi dan terdapat secara permanen pada sistem imun bawaan dan ditemukan di seluruh kelas kehidupan"}
+{"id": "qa_33161f2be040bb1d5e36", "pred": "Paus biru", "na_prob": 8.11328125, "score": 9.45703125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_3349afe2bf5938bdc841", "pred": "Universitas Leiden", "na_prob": 9.458984375, "score": 8.025390625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_339b0a849a7c78803613", "pred": "Li Yuan", "na_prob": -8.74072265625, "score": 10.71875, "start_char": 18, "pred_argmax": "Li Yuan"}
+{"id": "qa_33aa257fb184c1389e45", "pred": "Li Yuan", "na_prob": -0.302734375, "score": 7.4609375, "start_char": 176, "pred_argmax": "Li Yuan"}
+{"id": "qa_33fb41bf91ba3641584e", "pred": "11 kabupaten, 2 kota, 153 kecamatan, 144 kelurahan dan 1.864", "na_prob": 10.640625, "score": 8.1640625, "start_char": 130, "pred_argmax": ""}
+{"id": "qa_34180395eb34ad403563", "pred": "1982", "na_prob": -0.140625, "score": 13.30859375, "start_char": 11, "pred_argmax": "1982"}
+{"id": "qa_34326bd9112e23273c59", "pred": "Sony", "na_prob": 13.1611328125, "score": 4.0888671875, "start_char": 16, "pred_argmax": ""}
+{"id": "qa_343645a3c70b99a9a379", "pred": "ribuan tahun lalu", "na_prob": 1.69140625, "score": 9.6484375, "start_char": 205, "pred_argmax": ""}
+{"id": "qa_34eb39b7a2bf971efe9a", "pred": "pemerintahan diktator militer feodalisme di Jepang yang didirikan oleh Tokugawa Ieyasu dan secara turun temurun dipimpin oleh shogun keluarga Tokugawa", "na_prob": -1.083984375, "score": 6.73828125, "start_char": 93, "pred_argmax": "pemerintahan diktator militer feodalisme di Jepang yang didirikan oleh Tokugawa Ieyasu dan secara turun temurun dipimpin oleh shogun keluarga Tokugawa"}
+{"id": "qa_34f99301dbbe4fdc4acd", "pred": "sebelas", "na_prob": 4.9765625, "score": 8.921875, "start_char": 204, "pred_argmax": ""}
+{"id": "qa_356ff2adb867bc4342b8", "pred": "aksara Latin", "na_prob": 3.10546875, "score": 6.4375, "start_char": 20, "pred_argmax": ""}
+{"id": "qa_35ee441f328f27f59fd2", "pred": "Monkey D. Luffy", "na_prob": -13.36474609375, "score": 14.265625, "start_char": 36, "pred_argmax": "Monkey D. Luffy"}
+{"id": "qa_3613ed18aa06c112d456", "pred": "wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan", "na_prob": -7.9326171875, "score": 6.2978515625, "start_char": 111, "pred_argmax": "wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan"}
+{"id": "qa_362ebc710383ad2b56a3", "pred": "pemberontakan Jayakatwang", "na_prob": -1.701171875, "score": 10.27734375, "start_char": 239, "pred_argmax": "pemberontakan Jayakatwang"}
+{"id": "qa_366e3d7982e314f7b1ac", "pred": "logam", "na_prob": -7.0380859375, "score": 10.62890625, "start_char": 27, "pred_argmax": "logam"}
+{"id": "qa_36a134a86288b4600940", "pred": "pendeta Zoroastrian", "na_prob": 3.828125, "score": 2.275390625, "start_char": 164, "pred_argmax": ""}
+{"id": "qa_36a216acaca9ceefb4b6", "pred": "Banjarmasin", "na_prob": -9.78271484375, "score": 12.0859375, "start_char": 132, "pred_argmax": "Banjarmasin"}
+{"id": "qa_36ccb52481e5ee20d345", "pred": "solusi sistematik dari linear dan notasi kuadrat", "na_prob": 15.08642578125, "score": 2.18701171875, "start_char": 61, "pred_argmax": ""}
+{"id": "qa_370f6c83441012cce36f", "pred": "Gulma", "na_prob": -0.4296875, "score": 11.890625, "start_char": 0, "pred_argmax": "Gulma"}
+{"id": "qa_3728e305fef27f95e40f", "pred": "11 Januari 1995", "na_prob": -10.802734375, "score": 17.0625, "start_char": 30, "pred_argmax": "11 Januari 1995"}
+{"id": "qa_3732f2d7713ba80b8fb0", "pred": "Megamendung", "na_prob": 9.771484375, "score": 2.607421875, "start_char": 79, "pred_argmax": ""}
+{"id": "qa_3756dd03ea79c52b0a61", "pred": "Jerry Yang dan David Filo", "na_prob": -3.73046875, "score": 11.81640625, "start_char": 27, "pred_argmax": "Jerry Yang dan David Filo"}
+{"id": "qa_3761a98384dfed0b192b", "pred": "PT Kompas Media Nusantara", "na_prob": -13.52587890625, "score": 14.078125, "start_char": 111, "pred_argmax": "PT Kompas Media Nusantara"}
+{"id": "qa_3788a2134ea673917590", "pred": "sinyal data dalam bentuk gelombang yang yang kontinyu , yang membawa informasi dengan mengubah karakteristik gelombang", "na_prob": -11.24658203125, "score": 8.9140625, "start_char": 85, "pred_argmax": "sinyal data dalam bentuk gelombang yang yang kontinyu , yang membawa informasi dengan mengubah karakteristik gelombang"}
+{"id": "qa_38532476af8f567f6c1a", "pred": "prosedur langkah-demi-langkah untuk penghitungan", "na_prob": 8.330078125, "score": 7.447265625, "start_char": 53, "pred_argmax": ""}
+{"id": "qa_385a83a5e0dc556f4fc5", "pred": "pegunungan", "na_prob": 9.1123046875, "score": 1.9228515625, "start_char": 101, "pred_argmax": ""}
+{"id": "qa_388cce81c802644569e0", "pred": "1332 M", "na_prob": -7.2578125, "score": 17.1484375, "start_char": 152, "pred_argmax": "1332 M"}
+{"id": "qa_38c2f37407bdde530b31", "pred": "1494", "na_prob": -8.1396484375, "score": 10.3984375, "start_char": 35, "pred_argmax": "1494"}
+{"id": "qa_39d119dfef45812d53ba", "pred": "aliran politik yang lahir di Amerika Serikat pada tahun 1960-an di kalangan Demokrat yang tidak sepakat dengan kebijakan dalam dan luar negeri partainya", "na_prob": -6.709228515625, "score": 5.298828125, "start_char": 49, "pred_argmax": "aliran politik yang lahir di Amerika Serikat pada tahun 1960-an di kalangan Demokrat yang tidak sepakat dengan kebijakan dalam dan luar negeri partainya"}
+{"id": "qa_3a01699b384337939d81", "pred": "37.530,52km²", "na_prob": -19.357833862304688, "score": 18.671875, "start_char": 187, "pred_argmax": "37.530,52km²"}
+{"id": "qa_3a0cdfd7ea9e6c2d98ef", "pred": "18 Juni 618", "na_prob": -9.541015625, "score": 16.5234375, "start_char": 5, "pred_argmax": "18 Juni 618"}
+{"id": "qa_3b7e709deb2c230e7bac", "pred": "Bipolar Junction Transistor) adalah salah satu dari dua jenis transistor", "na_prob": 12.4609375, "score": 4.890625, "start_char": 5, "pred_argmax": ""}
+{"id": "qa_3baba691b0e77400cfe2", "pred": "24 Februari 1500", "na_prob": 0.53125, "score": 11.69921875, "start_char": 96, "pred_argmax": ""}
+{"id": "qa_3c0aad94510547076e78", "pred": "Jerry Yang dan David Filo", "na_prob": 1.85546875, "score": 10.87109375, "start_char": 27, "pred_argmax": ""}
+{"id": "qa_3c25caa2144718d10532", "pred": "Dmitri Mendeleev", "na_prob": -7.9267578125, "score": 10.16796875, "start_char": 202, "pred_argmax": "Dmitri Mendeleev"}
+{"id": "qa_3c52e81e5ab8b3b02ad6", "pred": "Hikmah Fajar", "na_prob": 8.94921875, "score": 8.62890625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_3c53d39bcf7ebf5ada38", "pred": "nyawa dan harta benda", "na_prob": 1.294921875, "score": 3.69140625, "start_char": 495, "pred_argmax": ""}
+{"id": "qa_3c6252982b4bfd1779b3", "pred": "istilah untuk program drama bersambung produksi Indonesia yang disiarkan oleh stasiun televisi di Indonesia", "na_prob": -10.470703125, "score": 6.478515625, "start_char": 51, "pred_argmax": "istilah untuk program drama bersambung produksi Indonesia yang disiarkan oleh stasiun televisi di Indonesia"}
+{"id": "qa_3d4f723cb17bc6c6935e", "pred": "Klorfenamin", "na_prob": 3.345703125, "score": 6.771484375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_3ddf60850d6573e1050d", "pred": "pelepasan energi saat beraktivitas", "na_prob": 7.952392578125, "score": 3.430419921875, "start_char": 102, "pred_argmax": ""}
+{"id": "qa_3e03c5397c43a12f569b", "pred": "tepi Sungai Rhein", "na_prob": 6.798828125, "score": 7.189453125, "start_char": 187, "pred_argmax": ""}
+{"id": "qa_3ec00ae2e527c9db6c91", "pred": "abad 18", "na_prob": 8.6796875, "score": 10.34375, "start_char": 79, "pred_argmax": ""}
+{"id": "qa_3ece0ed84215faf3e474", "pred": "bagaimana ia mendidik anaknya", "na_prob": -4.803955078125, "score": 6.3447265625, "start_char": 295, "pred_argmax": "bagaimana ia mendidik anaknya"}
+{"id": "qa_3f20dec8551747be51bb", "pred": "Amerika Serikat tidak menyadari kebijakan Jepang di Timur Jauh dan apa yang akan ia lakukan terhadap orang Amerika", "na_prob": 11.8626708984375, "score": 0.4381103515625, "start_char": 1380, "pred_argmax": ""}
+{"id": "qa_3f221c1282b41380f11b", "pred": "Jepang Supercell", "na_prob": 0.91943359375, "score": 2.02978515625, "start_char": 140, "pred_argmax": ""}
+{"id": "qa_3fa9988c0127978fe68b", "pred": "selaput, kulit tipis, atau lembaran bahan tipis, yang berfungsi sebagai pemisah selektif", "na_prob": -13.302001953125, "score": 11.12109375, "start_char": 15, "pred_argmax": "selaput, kulit tipis, atau lembaran bahan tipis, yang berfungsi sebagai pemisah selektif"}
+{"id": "qa_401e868a0b3336a4a150", "pred": "TVRI dan SCTV", "na_prob": -7.759033203125, "score": 6.0615234375, "start_char": 54, "pred_argmax": "TVRI dan SCTV"}
+{"id": "qa_40255ee6d66b50647719", "pred": "1.219.912km²", "na_prob": -9.95703125, "score": 15.43359375, "start_char": 72, "pred_argmax": "1.219.912km²"}
+{"id": "qa_404eedefa9f4ff2cc62d", "pred": "enam", "na_prob": 12.19921875, "score": 5.60546875, "start_char": 47, "pred_argmax": ""}
+{"id": "qa_40c1b2229a8f6ea98185", "pred": "1983", "na_prob": 12.314453125, "score": 6.802734375, "start_char": 244, "pred_argmax": ""}
+{"id": "qa_41208226ab3c33e9d749", "pred": "3 Desember 1994", "na_prob": -1.98828125, "score": 12.453125, "start_char": 188, "pred_argmax": "3 Desember 1994"}
+{"id": "qa_4123c386a0cb47681619", "pred": "istilah untuk program drama bersambung produksi Indonesia yang disiarkan oleh stasiun televisi di Indonesia", "na_prob": -10.896484375, "score": 6.65234375, "start_char": 51, "pred_argmax": "istilah untuk program drama bersambung produksi Indonesia yang disiarkan oleh stasiun televisi di Indonesia"}
+{"id": "qa_4178b499775a79712ce5", "pred": "Kompas", "na_prob": -0.4140625, "score": 13.09765625, "start_char": 0, "pred_argmax": "Kompas"}
+{"id": "qa_4198c8e5ed6f384f0a79", "pred": "sebelas", "na_prob": -7.0009765625, "score": 10.765625, "start_char": 204, "pred_argmax": "sebelas"}
+{"id": "qa_41dc0e0c81c934105fd7", "pred": "1.619,12km²", "na_prob": -16.904090881347656, "score": 17.0703125, "start_char": 176, "pred_argmax": "1.619,12km²"}
+{"id": "qa_4222a319cccf1eedfe96", "pred": "1869", "na_prob": -11.1513671875, "score": 14.46484375, "start_char": 163, "pred_argmax": "1869"}
+{"id": "qa_424268dd9daf62e0e555", "pred": "80,43km²", "na_prob": 12.435546875, "score": 6.525390625, "start_char": 209, "pred_argmax": ""}
+{"id": "qa_42d9c8b9a812035074f1", "pred": "3,120 metres", "na_prob": -1.86328125, "score": 13.109375, "start_char": 100, "pred_argmax": "3,120 metres"}
+{"id": "qa_42d9f93f18de7e1f61de", "pred": "1869", "na_prob": -8.76953125, "score": 13.9609375, "start_char": 163, "pred_argmax": "1869"}
+{"id": "qa_42f041bc8cb47f10f874", "pred": "riak dalam lengkung ruang-waktu yang bergerak dalam bentuk gelombang menjauhi sumbernya", "na_prob": -10.96044921875, "score": 8.32421875, "start_char": 41, "pred_argmax": "riak dalam lengkung ruang-waktu yang bergerak dalam bentuk gelombang menjauhi sumbernya"}
+{"id": "qa_43026cd6c292f893b1c6", "pred": "abad 18", "na_prob": -2.69921875, "score": 16.8671875, "start_char": 79, "pred_argmax": "abad 18"}
+{"id": "qa_43a412cf74a5d737c700", "pred": "Hanoi", "na_prob": -16.3355712890625, "score": 16.4765625, "start_char": 23, "pred_argmax": "Hanoi"}
+{"id": "qa_43c0b7ee1155daca4614", "pred": "Rusia", "na_prob": -9.560546875, "score": 13.17578125, "start_char": 198, "pred_argmax": "Rusia"}
+{"id": "qa_44435a218d7826a0378f", "pred": "Badan Pengembangan Sumber Daya Manusia Kementerian Dalam Negeri Republik Indonesia", "na_prob": -2.74609375, "score": 8.12109375, "start_char": 0, "pred_argmax": "Badan Pengembangan Sumber Daya Manusia Kementerian Dalam Negeri Republik Indonesia"}
+{"id": "qa_44635b98781d8487fe26", "pred": "1900", "na_prob": -0.96875, "score": 13.4765625, "start_char": 11, "pred_argmax": "1900"}
+{"id": "qa_4589d4b70a6d2878fb39", "pred": "metode untuk menghitung tingkat keterampilan (skill) relatif pemain pada permainan antara dua pemain seperti catur dan igo", "na_prob": -10.555419921875, "score": 9.703125, "start_char": 34, "pred_argmax": "metode untuk menghitung tingkat keterampilan (skill) relatif pemain pada permainan antara dua pemain seperti catur dan igo"}
+{"id": "qa_461137445ddeca0fc804", "pred": "Martin Johnson", "na_prob": -6.142578125, "score": 10.38671875, "start_char": 104, "pred_argmax": "Martin Johnson"}
+{"id": "qa_4669e92eefbea75e4699", "pred": "437.072 km2", "na_prob": 7.13671875, "score": 10.83203125, "start_char": 113, "pred_argmax": ""}
+{"id": "qa_46d1210e727cfc248b51", "pred": "Depok, Jawa Barat", "na_prob": -20.7138671875, "score": 16.9921875, "start_char": 24, "pred_argmax": "Depok, Jawa Barat"}
+{"id": "qa_47315b061d42f8ae3a22", "pred": "kereta api Bogowonto", "na_prob": 11.063796997070312, "score": 1.6197967529296875, "start_char": 337, "pred_argmax": ""}
+{"id": "qa_47750562df49de8537fa", "pred": "Li Jiancheng", "na_prob": 6.908203125, "score": 6.666015625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_47e53ac51cd7c6b9a3b5", "pred": "Jerry Yang dan David Filo", "na_prob": 9.26171875, "score": 8.44140625, "start_char": 27, "pred_argmax": ""}
+{"id": "qa_47eac5674a04c44ffce1", "pred": "1992", "na_prob": 9.65625, "score": 8.921875, "start_char": 63, "pred_argmax": ""}
+{"id": "qa_483572a1e423c29ba331", "pred": "Asia Timur dan Asia Tenggara", "na_prob": -11.73388671875, "score": 10.2578125, "start_char": 23, "pred_argmax": "Asia Timur dan Asia Tenggara"}
+{"id": "qa_4846aa8fab5271ab544d", "pred": "1991", "na_prob": -1.12890625, "score": 11.3828125, "start_char": 519, "pred_argmax": "1991"}
+{"id": "qa_488dbce71562fc84d83f", "pred": "pemahaman mengenai pengaruh-pengaruh bahan kimia yang merugikan bagi organisme hidup", "na_prob": -0.283203125, "score": 8.359375, "start_char": 19, "pred_argmax": "pemahaman mengenai pengaruh-pengaruh bahan kimia yang merugikan bagi organisme hidup"}
+{"id": "qa_48defd21b1ed20fa9fbb", "pred": "Li Yuan", "na_prob": -3.388671875, "score": 9.75390625, "start_char": 18, "pred_argmax": "Li Yuan"}
+{"id": "qa_48ebb5112d59ca9bbe6f", "pred": "tidak adanya kepastian kapan berakhirnya krisis hutang yang melilit negara-negara eropa, dan penurunan tingkat ekonomi dari 9 negara anggota uni-Eropa", "na_prob": 8.86962890625, "score": 3.85302734375, "start_char": 60, "pred_argmax": ""}
+{"id": "qa_493a3883af7a84196c65", "pred": "Eropa bagian tenggara", "na_prob": 11.41796875, "score": 4.03125, "start_char": 332, "pred_argmax": ""}
+{"id": "qa_4a1b12a281fcdc8a3589", "pred": "wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan", "na_prob": -5.74365234375, "score": 6.498046875, "start_char": 111, "pred_argmax": "wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan"}
+{"id": "qa_4b1b34abe018e7c8a821", "pred": "2 Maret 1995", "na_prob": 2.578125, "score": 11.60546875, "start_char": 90, "pred_argmax": ""}
+{"id": "qa_4b976ffdf1e2a6607ee9", "pred": "Hanoi", "na_prob": -15.718994140625, "score": 16.28515625, "start_char": 23, "pred_argmax": "Hanoi"}
+{"id": "qa_4b9cc9d3bbe1a393e607", "pred": "Yericho digambarkan dalam Alkitab Ibrani sebagai \"Kota Pohon Palem", "na_prob": 0.3203125, "score": 11.546875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_4ba7ab202447e5ce5238", "pred": "1946 - 1964", "na_prob": 12.34765625, "score": 6.65234375, "start_char": 98, "pred_argmax": ""}
+{"id": "qa_4bbc9d8ee7587e039140", "pred": "2 Maret 1995", "na_prob": 11.21875, "score": 8.1328125, "start_char": 90, "pred_argmax": ""}
+{"id": "qa_4c67693b7af9ea04ac62", "pred": "wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan", "na_prob": -9.656982421875, "score": 6.9013671875, "start_char": 111, "pred_argmax": "wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan"}
+{"id": "qa_4c8a6cad2c5f982e1f6a", "pred": "hijau-merah", "na_prob": 10.091796875, "score": 8.673828125, "start_char": 53, "pred_argmax": ""}
+{"id": "qa_4d39f15fbf199da40c52", "pred": "1969", "na_prob": -9.662109375, "score": 14.1953125, "start_char": 105, "pred_argmax": "1969"}
+{"id": "qa_4d50724258f5560baaf8", "pred": "Katolik Roma", "na_prob": 9.3125, "score": 8.921875, "start_char": 9, "pred_argmax": ""}
+{"id": "qa_4dbc9d52e428b4c9d264", "pred": "Antoine-Laurent de Lavoisier dan John Newlands", "na_prob": 10.7177734375, "score": 4.2900390625, "start_char": 304, "pred_argmax": ""}
+{"id": "qa_4e07984c524258b5ec45", "pred": "1869", "na_prob": 11.54296875, "score": 7.94921875, "start_char": 163, "pred_argmax": ""}
+{"id": "qa_4e27f0a18166fece2bdc", "pred": "1910 - 1994", "na_prob": -6.46484375, "score": 15.0234375, "start_char": 22, "pred_argmax": "1910 - 1994"}
+{"id": "qa_4f095ab2e9de407c16b8", "pred": "Ellen", "na_prob": 1.65234375, "score": 7.98828125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_4f21785e99675a2806b6", "pred": "24 Juli 1971", "na_prob": -11.478515625, "score": 18.296875, "start_char": 55, "pred_argmax": "24 Juli 1971"}
+{"id": "qa_4fd387d86d77dba05607", "pred": "828 meter", "na_prob": 5.421875, "score": 9.76171875, "start_char": 243, "pred_argmax": ""}
+{"id": "qa_4fd61b3bf231f9e383df", "pred": "dekade 2010-an telah banyak terjadi transformasi pada PT KA, lebih-lebih saat dipimpin oleh Ignasius Jonan. Pada tahun 2010", "na_prob": 12.0625, "score": 6.8359375, "start_char": 5, "pred_argmax": ""}
+{"id": "qa_5010e80f562c3173d0cb", "pred": "20 November 1985", "na_prob": -6.5625, "score": 16.4921875, "start_char": 87, "pred_argmax": "20 November 1985"}
+{"id": "qa_50b1035e9f361df12558", "pred": "Port Moresby dan Lae", "na_prob": 0.6953125, "score": 10.75, "start_char": 126, "pred_argmax": ""}
+{"id": "qa_50ee179adf26a94c08ba", "pred": "malaikat yang akan meniup sangkakala pada hari kiamat", "na_prob": 7.3408203125, "score": 2.6201171875, "start_char": 83, "pred_argmax": ""}
+{"id": "qa_51033fdf96a3d0a3e237", "pred": "Tokyo", "na_prob": -9.939453125, "score": 11.32421875, "start_char": 56, "pred_argmax": "Tokyo"}
+{"id": "qa_5143c63a411dce61e705", "pred": "1706", "na_prob": 8.14453125, "score": 11.59765625, "start_char": 324, "pred_argmax": ""}
+{"id": "qa_5185efbb57090268f017", "pred": "1185-1396) melawan Kekaisaran Latin (1204-61)", "na_prob": 8.74609375, "score": 3.98046875, "start_char": 115, "pred_argmax": ""}
+{"id": "qa_51c7159a8e72a21f29c6", "pred": "Tambangan", "na_prob": -9.96875, "score": 13.65234375, "start_char": 39, "pred_argmax": "Tambangan"}
+{"id": "qa_51f0bda70d11081a4b22", "pred": "abad ke-10 dan ke-11", "na_prob": 9.296875, "score": 8.8671875, "start_char": 101, "pred_argmax": ""}
+{"id": "qa_51f2318370ae5b5e2026", "pred": "Paus biru", "na_prob": 8.87109375, "score": 8.32421875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_523d3faca7a3973a90e9", "pred": "tanah Kanaan", "na_prob": -10.1767578125, "score": 6.19140625, "start_char": 311, "pred_argmax": "tanah Kanaan"}
+{"id": "qa_524c221bf85796df66e0", "pred": "Adam Smith", "na_prob": -9.375, "score": 13.49609375, "start_char": 0, "pred_argmax": "Adam Smith"}
+{"id": "qa_5274ee0aff43927a76aa", "pred": "subuh", "na_prob": -3.21533203125, "score": 5.310546875, "start_char": 114, "pred_argmax": "subuh"}
+{"id": "qa_52bc72ae1b49596cc5b8", "pred": "Ismangil", "na_prob": 11.15625, "score": 2.22265625, "start_char": 64, "pred_argmax": ""}
+{"id": "qa_532625d803439c4eb139", "pred": "Gaston yang jahat", "na_prob": 9.835693359375, "score": 1.160400390625, "start_char": 53, "pred_argmax": ""}
+{"id": "qa_534cf3e1650a4078f62d", "pred": "12 April 1923", "na_prob": 5.57421875, "score": 12.49609375, "start_char": 133, "pred_argmax": ""}
+{"id": "qa_538e0f5ba4c88de9498c", "pred": "25 April 2008", "na_prob": 8.8515625, "score": 10.8046875, "start_char": 33, "pred_argmax": ""}
+{"id": "qa_53e9fe3bf5e58944a2d7", "pred": "1969", "na_prob": -11.765625, "score": 17.0703125, "start_char": 86, "pred_argmax": "1969"}
+{"id": "qa_54632f89873b922fb5b1", "pred": "Jepang", "na_prob": -4.318359375, "score": 8.90234375, "start_char": 137, "pred_argmax": "Jepang"}
+{"id": "qa_54e77c19cb22054f41d1", "pred": "ribuan tahun", "na_prob": -5.03662109375, "score": 6.498046875, "start_char": 169, "pred_argmax": "ribuan tahun"}
+{"id": "qa_553b1aab811d4bbd9010", "pred": "aksara Latin", "na_prob": 0.03515625, "score": 7.216796875, "start_char": 20, "pred_argmax": ""}
+{"id": "qa_55a38b1fe293369ad413", "pred": "1970", "na_prob": -9.630859375, "score": 14.3984375, "start_char": 247, "pred_argmax": "1970"}
+{"id": "qa_55c265fddc947c3e0132", "pred": "sekelompok senyawa steroid yang berfungsi terutama sebagai hormon seks wanita", "na_prob": -12.53564453125, "score": 9.94921875, "start_char": 33, "pred_argmax": "sekelompok senyawa steroid yang berfungsi terutama sebagai hormon seks wanita"}
+{"id": "qa_56b0b3098e1039fdbe1d", "pred": "wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan", "na_prob": 1.7998046875, "score": 5.4716796875, "start_char": 111, "pred_argmax": ""}
+{"id": "qa_56f272b5758492c87f78", "pred": "Monkey D. Luffy", "na_prob": -13.06298828125, "score": 14.2265625, "start_char": 36, "pred_argmax": "Monkey D. Luffy"}
+{"id": "qa_570f2d27172a7ea2c7ed", "pred": "1869", "na_prob": 10.265625, "score": 8.6484375, "start_char": 163, "pred_argmax": ""}
+{"id": "qa_57285df83a163c1768fc", "pred": "The Castle of Cagliostro", "na_prob": -2.11328125, "score": 4.5986328125, "start_char": 493, "pred_argmax": "The Castle of Cagliostro"}
+{"id": "qa_5796b21eb98ab67d0d12", "pred": "Li Yuan", "na_prob": 6.63671875, "score": 6.53515625, "start_char": 18, "pred_argmax": ""}
+{"id": "qa_5898b985c46be9bdfb19", "pred": "5.444,30 Km²", "na_prob": -7.01953125, "score": 16.2421875, "start_char": 59, "pred_argmax": "5.444,30 Km²"}
+{"id": "qa_58fa82bc031ec0e1b384", "pred": "komponen yang telah berevolusi dan terdapat secara permanen pada sistem imun bawaan dan ditemukan di seluruh kelas kehidupan", "na_prob": 4.1044921875, "score": 4.8212890625, "start_char": 29, "pred_argmax": ""}
+{"id": "qa_591c18186c6f5a9251f8", "pred": "istilah umum yang mengacu kepada teknik apapun yang digunakan seorang ninja dan tidak bisa ditiru oleh manusia biasa", "na_prob": 5.8017578125, "score": 3.4013671875, "start_char": 101, "pred_argmax": ""}
+{"id": "qa_598226d9ce4bb0b2f7ca", "pred": "Rotterdamsche Lloyd", "na_prob": 3.265625, "score": 7.06640625, "start_char": 54, "pred_argmax": ""}
+{"id": "qa_5984cf656035630401fb", "pred": "1323–1319 SM", "na_prob": -0.66015625, "score": 11.74609375, "start_char": 87, "pred_argmax": "1323–1319 SM"}
+{"id": "qa_5a5b6f446420d9b234ee", "pred": "Antoine-Laurent de Lavoisier dan John Newlands", "na_prob": 10.7724609375, "score": 4.4267578125, "start_char": 304, "pred_argmax": ""}
+{"id": "qa_5a76cd92a8d363adf4d8", "pred": "Oktober 1920", "na_prob": -4.396484375, "score": 10.79296875, "start_char": 234, "pred_argmax": "Oktober 1920"}
+{"id": "qa_5a78245fc0320b5c6789", "pred": "1942 hingga 1945. Kebanyakan romusha adalah petani, dan sejak Oktober 1943", "na_prob": 7.587890625, "score": 8.021484375, "start_char": 169, "pred_argmax": ""}
+{"id": "qa_5acc15d6e37745c157c2", "pred": "21 Januari 1919", "na_prob": -0.9921875, "score": 8.56640625, "start_char": 1985, "pred_argmax": "21 Januari 1919"}
+{"id": "qa_5ae4f2396f9d1602afa7", "pred": "1600 SM", "na_prob": -8.38671875, "score": 14.25, "start_char": 49, "pred_argmax": "1600 SM"}
+{"id": "qa_5b4fff912a35fe8ec4af", "pred": "28 September 1945", "na_prob": -0.30859375, "score": 9.5859375, "start_char": 330, "pred_argmax": "28 September 1945"}
+{"id": "qa_5b792ed165bc0fa52e71", "pred": "Kereta api Patas Bandung Raya", "na_prob": 13.2509765625, "score": 5.2724609375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_5b861f399539fae08b2b", "pred": "Adolf Weil", "na_prob": 6.578125, "score": 8.87890625, "start_char": 58, "pred_argmax": ""}
+{"id": "qa_5cba2bc5e0cfa7ba74bd", "pred": "422.000km²", "na_prob": 6.06640625, "score": 10.12109375, "start_char": 276, "pred_argmax": ""}
+{"id": "qa_5cf5e6d08a08e612f5b7", "pred": "senyawa koenzim", "na_prob": 9.466796875, "score": 4.904296875, "start_char": 206, "pred_argmax": ""}
+{"id": "qa_5d086cc805db0d144877", "pred": "9.970.610 kilometer persegi", "na_prob": -8.990234375, "score": 16.01953125, "start_char": 591, "pred_argmax": "9.970.610 kilometer persegi"}
+{"id": "qa_5d1638b308958e26fa23", "pred": "3 Desember 1994", "na_prob": 10.52734375, "score": 8.73046875, "start_char": 188, "pred_argmax": ""}
+{"id": "qa_5df4e1dc8cc8ed2f3df3", "pred": "1969", "na_prob": 10.44140625, "score": 9.09765625, "start_char": 105, "pred_argmax": ""}
+{"id": "qa_5dffa87eaa882d1cf17c", "pred": "Inspektur Mutu Lambung Baja pada Departemen Pengendalian Mutu, Divisi Kapal Perang, PT. PAL Indonesia", "na_prob": 1.86328125, "score": 8.5625, "start_char": 351, "pred_argmax": ""}
+{"id": "qa_5e1c84c15583f47df3de", "pred": "BellSouth", "na_prob": 12.140625, "score": 6.34375, "start_char": 248, "pred_argmax": ""}
+{"id": "qa_5e3b7ae4adb2ff0f4e7e", "pred": "3 Desember 1994", "na_prob": -5.421875, "score": 12.80859375, "start_char": 188, "pred_argmax": "3 Desember 1994"}
+{"id": "qa_5e64b41c0ae245fa7b96", "pred": "panjang maksium 2,9 km dan lebar 1 km", "na_prob": 11.572265625, "score": 7.177734375, "start_char": 217, "pred_argmax": ""}
+{"id": "qa_5eefea9be23909105b47", "pred": "1869", "na_prob": 9.857421875, "score": 8.892578125, "start_char": 163, "pred_argmax": ""}
+{"id": "qa_5f5b3d9fecdaaa17b193", "pred": "Ki Wasyid bersama para tokoh Banten dalam Geger Cilegon dilatarbelakangi kesewenang-wenangan Belanda yang saat itu merupakan peralihan terhadap kependudukan Belanda di Banten", "na_prob": -8.3486328125, "score": 4.453125, "start_char": 27, "pred_argmax": "Ki Wasyid bersama para tokoh Banten dalam Geger Cilegon dilatarbelakangi kesewenang-wenangan Belanda yang saat itu merupakan peralihan terhadap kependudukan Belanda di Banten"}
+{"id": "qa_5f9a7f08aa0f1cd7fe77", "pred": "Airbus A380", "na_prob": 1.00390625, "score": 8.1171875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_5fae7030681238716623", "pred": "A, B-kompleks, hingga C, hingga asam folat. Juga mineral, protein, karbohidrat, karotenoid, dan polifenol", "na_prob": 12.8662109375, "score": 2.4345703125, "start_char": 301, "pred_argmax": ""}
+{"id": "qa_5fc10b68e873144d2a90", "pred": "1984", "na_prob": -3.125, "score": 14.97265625, "start_char": 54, "pred_argmax": "1984"}
+{"id": "qa_5feb6a5c26dda54c59b3", "pred": "5 Desember 1973", "na_prob": 6.359375, "score": 10.984375, "start_char": 33, "pred_argmax": ""}
+{"id": "qa_5fee0406326e532feb18", "pred": "Walisongo", "na_prob": 3.13671875, "score": 8.89453125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_5ff427b5a71960add767", "pred": "18 Juni 618", "na_prob": 8.03125, "score": 11.1328125, "start_char": 5, "pred_argmax": ""}
+{"id": "qa_61436c47ce3a71a5ae42", "pred": "enam", "na_prob": -5.953125, "score": 13.71875, "start_char": 47, "pred_argmax": "enam"}
+{"id": "qa_61ae8aefc0588d86dc51", "pred": "Insiden Jembatan Marco Polo", "na_prob": 6.10693359375, "score": 1.10986328125, "start_char": 115, "pred_argmax": ""}
+{"id": "qa_61babf8c22ebd5168a34", "pred": "2017", "na_prob": -5.431640625, "score": 12.7265625, "start_char": 147, "pred_argmax": "2017"}
+{"id": "qa_61c3e56bd13e083abb1e", "pred": "putri Bohemia, Dobrawa", "na_prob": 4.279296875, "score": 8.240234375, "start_char": 283, "pred_argmax": ""}
+{"id": "qa_61c5b2c5e59d32144ba0", "pred": "1869", "na_prob": -9.67578125, "score": 14.08203125, "start_char": 163, "pred_argmax": "1869"}
+{"id": "qa_6208ace2e14f69fbe301", "pred": "21", "na_prob": 9.869140625, "score": 8.029296875, "start_char": 27, "pred_argmax": ""}
+{"id": "qa_622f4b0ec72f1bad4313", "pred": "28 September 1945", "na_prob": -7.16015625, "score": 14.97265625, "start_char": 13, "pred_argmax": "28 September 1945"}
+{"id": "qa_624ee153001f990fd37c", "pred": "Weni dari Pontianak, Kalimantan Barat", "na_prob": -1.265625, "score": 4.9384765625, "start_char": 566, "pred_argmax": "Weni dari Pontianak, Kalimantan Barat"}
+{"id": "qa_628cf6c7947d7c9534a3", "pred": "1945 hingga 1965", "na_prob": 9.3125, "score": 8.7578125, "start_char": 112, "pred_argmax": ""}
+{"id": "qa_628e04ce62c6e5f3c30a", "pred": "37.530,52km²", "na_prob": -19.357833862304688, "score": 18.671875, "start_char": 187, "pred_argmax": "37.530,52km²"}
+{"id": "qa_62b11e750d1584c4c670", "pred": "wirausaha, Hyatt von Dehn dan Jack D. Crouch", "na_prob": -4.4208984375, "score": 7.70703125, "start_char": 160, "pred_argmax": "wirausaha, Hyatt von Dehn dan Jack D. Crouch"}
+{"id": "qa_62cdab7a5574ae813a40", "pred": "Undang-undang Pembangunan Ibu Kota (Shuto kensetsu-hō) tahun 1950", "na_prob": 5.7734375, "score": 6.140625, "start_char": 291, "pred_argmax": ""}
+{"id": "qa_633dfc536c5d0ce4931b", "pred": "30 Maret 2002", "na_prob": -3.875, "score": 10.546875, "start_char": 69, "pred_argmax": "30 Maret 2002"}
+{"id": "qa_6397b901d4f6f33fd703", "pred": "komponen yang telah berevolusi dan terdapat secara permanen pada sistem imun bawaan dan ditemukan di seluruh kelas kehidupan", "na_prob": -4.375, "score": 5.80859375, "start_char": 29, "pred_argmax": "komponen yang telah berevolusi dan terdapat secara permanen pada sistem imun bawaan dan ditemukan di seluruh kelas kehidupan"}
+{"id": "qa_639d6d36cf87244fb471", "pred": "Dmitri Mendeleev", "na_prob": 11.134765625, "score": 4.544921875, "start_char": 202, "pred_argmax": ""}
+{"id": "qa_63b2480041519683ef99", "pred": "ordo monastik atau tarekat religius Kristen yang bergantung penuh pada bantuan/sumbangan/pemberian dari pihak lain dalam menjalankan kelangsungan kehidupan mereka", "na_prob": -11.3037109375, "score": 7.5546875, "start_char": 63, "pred_argmax": "ordo monastik atau tarekat religius Kristen yang bergantung penuh pada bantuan/sumbangan/pemberian dari pihak lain dalam menjalankan kelangsungan kehidupan mereka"}
+{"id": "qa_63b302053f75015e6e5a", "pred": "kondisi emosional seperti kecemasan dan depresi yang tidak sesuai dengan situasinya", "na_prob": -10.420166015625, "score": 10.27734375, "start_char": 25, "pred_argmax": "kondisi emosional seperti kecemasan dan depresi yang tidak sesuai dengan situasinya"}
+{"id": "qa_63cad10d623d47f4f4dd", "pred": "pemerintahan Soeharto", "na_prob": 4.818359375, "score": 5.529296875, "start_char": 214, "pred_argmax": ""}
+{"id": "qa_63f4bd17f984eaa778d3", "pred": "1939", "na_prob": -9.412109375, "score": 14.39453125, "start_char": 80, "pred_argmax": "1939"}
+{"id": "qa_642154a9b220dc794912", "pred": "3.864,02km²", "na_prob": -17.643951416015625, "score": 18.1328125, "start_char": 273, "pred_argmax": "3.864,02km²"}
+{"id": "qa_64de03c715d11e1b5f1c", "pred": "golongan asam organik alifatik yang memiliki gugus karboksil (biasa dilambangkan dengan -COOH)", "na_prob": -4.42724609375, "score": 6.1630859375, "start_char": 45, "pred_argmax": "golongan asam organik alifatik yang memiliki gugus karboksil (biasa dilambangkan dengan -COOH)"}
+{"id": "qa_652cec17cb662134ab25", "pred": "Dmitri Mendeleev", "na_prob": -11.41943359375, "score": 9.69140625, "start_char": 202, "pred_argmax": "Dmitri Mendeleev"}
+{"id": "qa_65bca33418985c81dfe3", "pred": "1920-an", "na_prob": 6.66015625, "score": 9.16796875, "start_char": 186, "pred_argmax": ""}
+{"id": "qa_65c1da9b3a7d1a13c4cb", "pred": "828 meter", "na_prob": -0.64453125, "score": 15.67578125, "start_char": 243, "pred_argmax": "828 meter"}
+{"id": "qa_66c05d72f58258483422", "pred": "reaksi kimia alkena dengan osmium tetroksida dengan keberadaan ligan khiral kuinina untuk membentuk suatu diol visinal", "na_prob": -7.5198974609375, "score": 7.443359375, "start_char": 90, "pred_argmax": "reaksi kimia alkena dengan osmium tetroksida dengan keberadaan ligan khiral kuinina untuk membentuk suatu diol visinal"}
+{"id": "qa_66f057ea7a003e31b413", "pred": "Rinding Gumbeng", "na_prob": -1.30859375, "score": 11.78515625, "start_char": 0, "pred_argmax": "Rinding Gumbeng"}
+{"id": "qa_66f4c171b812e9af5083", "pred": "Alap-alap kawah", "na_prob": 8.48828125, "score": 9.06640625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_67f513322b08a08073cc", "pred": "6 SM", "na_prob": -2.90625, "score": 10.94140625, "start_char": 187, "pred_argmax": "6 SM"}
+{"id": "qa_6854b46cc8bb192ac47f", "pred": "Bryan Donahue dan drummer John Keefe. Keefe kemudian membawa masuk gitaris Paul DiGiovanni", "na_prob": 4.99609375, "score": 9.6328125, "start_char": 247, "pred_argmax": ""}
+{"id": "qa_68eb69faa23fd5eed2a8", "pred": "wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan", "na_prob": 3.048828125, "score": 5.056640625, "start_char": 111, "pred_argmax": ""}
+{"id": "qa_690a53124779db2ce040", "pred": "prosedur langkah-demi-langkah untuk penghitungan", "na_prob": -11.973167419433594, "score": 11.359375, "start_char": 53, "pred_argmax": "prosedur langkah-demi-langkah untuk penghitungan"}
+{"id": "qa_69f6a16d35464f387eda", "pred": "1869", "na_prob": -6.50390625, "score": 13.3125, "start_char": 163, "pred_argmax": "1869"}
+{"id": "qa_6b118239ae41d93a1968", "pred": "abad 18", "na_prob": -6.5, "score": 17.7890625, "start_char": 79, "pred_argmax": "abad 18"}
+{"id": "qa_6d10ec16b0ee8198199a", "pred": "tua pek kong", "na_prob": 3.13671875, "score": 4.880859375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_6d42d4fac0ad8628c16d", "pred": "Jepang", "na_prob": 11.33984375, "score": 7.22265625, "start_char": 9, "pred_argmax": ""}
+{"id": "qa_6d453d08ee046fcf2725", "pred": "Dmitri Mendeleev", "na_prob": 4.591796875, "score": 7.744140625, "start_char": 202, "pred_argmax": ""}
+{"id": "qa_6e248b8d00c8be17cf51", "pred": "alat yang dibuat berdasarkan prinsip elektronika serta hal atau benda yang menggunakan alat tersebut", "na_prob": -12.43798828125, "score": 9.46484375, "start_char": 18, "pred_argmax": "alat yang dibuat berdasarkan prinsip elektronika serta hal atau benda yang menggunakan alat tersebut"}
+{"id": "qa_6e4056487c18b7bb4fb7", "pred": "129.066,64 km²", "na_prob": -8.69921875, "score": 16.921875, "start_char": 255, "pred_argmax": "129.066,64 km²"}
+{"id": "qa_6ea495e673633a0725ec", "pred": "958 – 15 Juli 1015", "na_prob": 7.310546875, "score": 7.302734375, "start_char": 251, "pred_argmax": ""}
+{"id": "qa_6eadc48b21dae3a0f63c", "pred": "Gugghiermu II", "na_prob": 0.5703125, "score": 10.10546875, "start_char": 252, "pred_argmax": ""}
+{"id": "qa_6fac8ddd90c3f407059e", "pred": "24 Maret 1603", "na_prob": -12.1494140625, "score": 16.6328125, "start_char": 182, "pred_argmax": "24 Maret 1603"}
+{"id": "qa_6fe9a1fe49adc634133e", "pred": "Martin Johnson", "na_prob": -7.3828125, "score": 13.24609375, "start_char": 104, "pred_argmax": "Martin Johnson"}
+{"id": "qa_70ccc40fdb2a0d87fcac", "pred": "Mikail", "na_prob": 7.015625, "score": 9.51171875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_7195f791c5b8bfc272c8", "pred": "Gereja-Gereja Katolik Timur atau Gereja-Gereja Katolik Oriental", "na_prob": 13.093704223632812, "score": 1.9141082763671875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_71cf843af66040cb211f", "pred": "enam", "na_prob": -11.4794921875, "score": 14.6171875, "start_char": 47, "pred_argmax": "enam"}
+{"id": "qa_720429566614bd39d3ab", "pred": "malaikat yang mengatur air, menurunkan hujan/petir, membagikan rezeki pada manusia, tumbuh-tumbuhan juga hewan-hewan dan lain-lain di muka bumi ini", "na_prob": 7.830078125, "score": 4.583984375, "start_char": 30, "pred_argmax": ""}
+{"id": "qa_7291e0ad6646cc976a58", "pred": "menyerap air dari feses", "na_prob": -9.1181640625, "score": 11.25, "start_char": 115, "pred_argmax": "menyerap air dari feses"}
+{"id": "qa_72aa719a1d4361fc2454", "pred": "Jerry Yang dan David Filo", "na_prob": -13.85546875, "score": 12.71484375, "start_char": 27, "pred_argmax": "Jerry Yang dan David Filo"}
+{"id": "qa_73297d8842bc7a59ce3a", "pred": "protein yang mengandung rantai oligosakarida yang mengikat glikan [1] dengan ikatan kovalen pada rantai polipeptida bagian samping", "na_prob": -14.033203125, "score": 10.01953125, "start_char": 50, "pred_argmax": "protein yang mengandung rantai oligosakarida yang mengikat glikan [1] dengan ikatan kovalen pada rantai polipeptida bagian samping"}
+{"id": "qa_7344d887f29aee8ba709", "pred": "Banjarmasin", "na_prob": 13.7578125, "score": 4.9140625, "start_char": 132, "pred_argmax": ""}
+{"id": "qa_73734149a0d47fbd1e0f", "pred": "2 Maret 1995", "na_prob": 4.77734375, "score": 10.4765625, "start_char": 90, "pred_argmax": ""}
+{"id": "qa_737e6d2f538c42027574", "pred": "jumlah minimal koordinat yang dibutuhkan untuk menentukan titik-titik yang ada di dalamnya", "na_prob": -7.571533203125, "score": 9.3203125, "start_char": 110, "pred_argmax": "jumlah minimal koordinat yang dibutuhkan untuk menentukan titik-titik yang ada di dalamnya"}
+{"id": "qa_7383cf53551157472547", "pred": "punk", "na_prob": -6.1650390625, "score": 4.1650390625, "start_char": 35, "pred_argmax": "punk"}
+{"id": "qa_739c277e4f8f50422f63", "pred": "Simon", "na_prob": 15.768295288085938, "score": 0.2824859619140625, "start_char": 32, "pred_argmax": ""}
+{"id": "qa_73bd265e65393e1bd22c", "pred": "44/1999", "na_prob": 9.5390625, "score": 9.46875, "start_char": 3, "pred_argmax": ""}
+{"id": "qa_74c31f808587bc5c6274", "pred": "17 Mei 2011", "na_prob": 10.84765625, "score": 8.29296875, "start_char": 63, "pred_argmax": ""}
+{"id": "qa_7507668a823b1a6a6015", "pred": "2010", "na_prob": 5.28515625, "score": 10.171875, "start_char": 530, "pred_argmax": ""}
+{"id": "qa_7516103ecb1972d95f27", "pred": "12.435,00km²", "na_prob": 7.74609375, "score": 11.85546875, "start_char": 177, "pred_argmax": ""}
+{"id": "qa_7516fee935ae2def664d", "pred": "Rumah Baileo", "na_prob": 12.12890625, "score": 6.52734375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_757c7497ce0052ac5978", "pred": "Jepang, terletak di perbatasan Prefektur Shizuoka dan Yamanashi, di sebelah barat Tokyo", "na_prob": 14.9482421875, "score": 3.4892578125, "start_char": 69, "pred_argmax": ""}
+{"id": "qa_759f6120db133b57885e", "pred": "Outer Zone Jepang", "na_prob": 15.0068359375, "score": 2.3447265625, "start_char": 300, "pred_argmax": ""}
+{"id": "qa_7743c72791abcee4e4b0", "pred": "selatan Mesopotamia (sekarang Irak), di wilayah Sumeria dan Akkadia", "na_prob": 12.2109375, "score": 5.6640625, "start_char": 117, "pred_argmax": ""}
+{"id": "qa_77812fe3a571b233654d", "pred": "al-Jabar, adalah buku pertama yang membahas solusi sistematik dari linear dan notasi kuadrat", "na_prob": 5.58984375, "score": 5.4296875, "start_char": 17, "pred_argmax": ""}
+{"id": "qa_77958258142d35475ccc", "pred": "2010-an telah banyak terjadi transformasi pada PT KA, lebih-lebih saat dipimpin oleh Ignasius Jonan. Pada tahun 2010", "na_prob": -2.998046875, "score": 10.6484375, "start_char": 12, "pred_argmax": "2010-an telah banyak terjadi transformasi pada PT KA, lebih-lebih saat dipimpin oleh Ignasius Jonan. Pada tahun 2010"}
+{"id": "qa_779e78c3e8925009ef93", "pred": "panggilan bagi orang-orang Indonesia", "na_prob": -6.32763671875, "score": 3.73095703125, "start_char": 49, "pred_argmax": "panggilan bagi orang-orang Indonesia"}
+{"id": "qa_77a5aa06cbf2f9781428", "pred": "Spanyol", "na_prob": 1.22265625, "score": 8.40625, "start_char": 139, "pred_argmax": ""}
+{"id": "qa_77b92c93fa798c70ce4d", "pred": "M! Countdown", "na_prob": -2.603759765625, "score": 3.5537109375, "start_char": 447, "pred_argmax": "M! Countdown"}
+{"id": "qa_784d4505ea5be5ffeadf", "pred": "Imelda Staunton", "na_prob": 5.0859375, "score": 8.87109375, "start_char": 95, "pred_argmax": ""}
+{"id": "qa_789da658573b5c54f453", "pred": "Monkey D. Luffy", "na_prob": 5.90234375, "score": 10.078125, "start_char": 36, "pred_argmax": ""}
+{"id": "qa_78b44ef45d2e38e26d29", "pred": "10 juta penduduk terdaftar yang hidup dalam area sebesar 605.21 km²", "na_prob": -5.171875, "score": 10.33984375, "start_char": 7, "pred_argmax": "10 juta penduduk terdaftar yang hidup dalam area sebesar 605.21 km²"}
+{"id": "qa_78b85cfe347e8936ddcf", "pred": "24 Februari 1500", "na_prob": 1.16015625, "score": 11.49609375, "start_char": 96, "pred_argmax": ""}
+{"id": "qa_78cf4177a903a1df9b88", "pred": "S.T.,M.Si", "na_prob": -10.501953125, "score": 8.453125, "start_char": 18, "pred_argmax": "S.T.,M.Si"}
+{"id": "qa_78e21ac9cb011f32e831", "pred": "Angkatan Darat Britania", "na_prob": 3.591796875, "score": 5.380859375, "start_char": 46, "pred_argmax": ""}
+{"id": "qa_78f77907a01193621598", "pred": "Bandar Seri Begawan", "na_prob": -15.3056640625, "score": 14.15625, "start_char": 332, "pred_argmax": "Bandar Seri Begawan"}
+{"id": "qa_791c7223c6d34c8d35dc", "pred": "Tambangan. Terlahir dengan nama Raden Halit", "na_prob": 12.376953125, "score": 3.966796875, "start_char": 39, "pred_argmax": ""}
+{"id": "qa_7a9ae3a52f5b38b76bb8", "pred": "euro", "na_prob": -3.8759765625, "score": 6.056640625, "start_char": 843, "pred_argmax": "euro"}
+{"id": "qa_7af7e743fb3416524247", "pred": "Sahil Mehta, Rajshri Rani dan Karan Jotwani", "na_prob": -4.1507568359375, "score": 5.107421875, "start_char": 116, "pred_argmax": "Sahil Mehta, Rajshri Rani dan Karan Jotwani"}
+{"id": "qa_7b104df52eb65a10912e", "pred": "Sony", "na_prob": -3.337890625, "score": 8.259765625, "start_char": 16, "pred_argmax": "Sony"}
+{"id": "qa_7b8b050322031e9e20e2", "pred": "Oktober 1920", "na_prob": 2.9140625, "score": 9.6171875, "start_char": 234, "pred_argmax": ""}
+{"id": "qa_7b92cc9b05fcf496d9af", "pred": "ordo monastik atau tarekat religius Kristen yang bergantung penuh pada bantuan/sumbangan/pemberian dari pihak lain dalam menjalankan kelangsungan kehidupan mereka", "na_prob": 13.8330078125, "score": 4.2060546875, "start_char": 63, "pred_argmax": ""}
+{"id": "qa_7c7047c6cda8b6923818", "pred": "Dubai, Uni Emirat Arab", "na_prob": -11.8607177734375, "score": 12.24609375, "start_char": 132, "pred_argmax": "Dubai, Uni Emirat Arab"}
+{"id": "qa_7c7daa1f00d0f9982e48", "pred": "12", "na_prob": 8.136474609375, "score": 2.593994140625, "start_char": 102, "pred_argmax": ""}
+{"id": "qa_7cbba4a6514825a48413", "pred": "Jepang", "na_prob": 11.09375, "score": 6.4375, "start_char": 9, "pred_argmax": ""}
+{"id": "qa_7d0fb351a543a2df0c9e", "pred": "25 April 2008", "na_prob": 1.8125, "score": 13.55859375, "start_char": 33, "pred_argmax": ""}
+{"id": "qa_7d12d25387c9e5445d56", "pred": "bagian timur Pulau Papua", "na_prob": -15.6396484375, "score": 12.859375, "start_char": 74, "pred_argmax": "bagian timur Pulau Papua"}
+{"id": "qa_7e1f4dcc0664d5f72c7e", "pred": "kaum Vandal", "na_prob": -4.65771484375, "score": 7.208984375, "start_char": 37, "pred_argmax": "kaum Vandal"}
+{"id": "qa_7e58dc2d0784201ecdde", "pred": "TVRI dan SCTV", "na_prob": 13.5537109375, "score": 3.8603515625, "start_char": 54, "pred_argmax": ""}
+{"id": "qa_7e5a678a2b2d128a7ab9", "pred": "24 Nopember 2017", "na_prob": -7.689453125, "score": 14.5234375, "start_char": 208, "pred_argmax": "24 Nopember 2017"}
+{"id": "qa_7f0cb9a804989fe83fc0", "pred": "80,43km²", "na_prob": -12.004379272460938, "score": 11.50390625, "start_char": 209, "pred_argmax": "80,43km²"}
+{"id": "qa_7f25ff790c00ea755387", "pred": "1869", "na_prob": 11.041015625, "score": 8.474609375, "start_char": 163, "pred_argmax": ""}
+{"id": "qa_7fb6d4e58658425b908b", "pred": "abad 18", "na_prob": 8.6328125, "score": 10.3828125, "start_char": 79, "pred_argmax": ""}
+{"id": "qa_80143586cdfc777f2909", "pred": "Raja Yingzheng", "na_prob": 1.4365234375, "score": 3.9033203125, "start_char": 387, "pred_argmax": ""}
+{"id": "qa_80d3e11910a512c13d13", "pred": "prosedur langkah-demi-langkah untuk penghitungan", "na_prob": -7.74609375, "score": 10.63671875, "start_char": 53, "pred_argmax": "prosedur langkah-demi-langkah untuk penghitungan"}
+{"id": "qa_8146d3bff5c254a4bd55", "pred": "Kentang", "na_prob": 3.576171875, "score": 5.404296875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_818f6182c9ebaf5a645b", "pred": "Louis Braille", "na_prob": -3.857421875, "score": 7.8203125, "start_char": 44, "pred_argmax": "Louis Braille"}
+{"id": "qa_81924560de50eae0a69b", "pred": "tunggal NCAA 1988", "na_prob": -4.15625, "score": 7.4140625, "start_char": 336, "pred_argmax": "tunggal NCAA 1988"}
+{"id": "qa_8233393e0876332daef1", "pred": "Sabak elektronik atau komputer tablet (English: tablet computer), atau ringkasnya tablet, adalah suatu komputer portabel lengkap yang seluruhnya berupa layar sentuh datar", "na_prob": 7.693359375, "score": 5.720703125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_825018d821a372cff163", "pred": "129.066,64 km²", "na_prob": 5.0078125, "score": 10.1015625, "start_char": 255, "pred_argmax": ""}
+{"id": "qa_826eb038eb49353e5fa5", "pred": "9.970.610 kilometer persegi", "na_prob": 2.375, "score": 11.33984375, "start_char": 591, "pred_argmax": ""}
+{"id": "qa_82bc61128ba6af5fa657", "pred": "Leiden", "na_prob": -14.5625, "score": 11.8125, "start_char": 151, "pred_argmax": "Leiden"}
+{"id": "qa_8315b0ab8b045aaa5053", "pred": "wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan", "na_prob": -9.935546875, "score": 6.8544921875, "start_char": 111, "pred_argmax": "wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan"}
+{"id": "qa_8344ccacf58d65d81ef6", "pred": "Pulau Penyengat untuk mengantarkan bahan bangunan, makanan, dan tenaga, sebagai tanda cinta yang tulus kepada Sang Pencipta dan Sang Sultan", "na_prob": -1.1912841796875, "score": 1.9366455078125, "start_char": 95, "pred_argmax": "Pulau Penyengat untuk mengantarkan bahan bangunan, makanan, dan tenaga, sebagai tanda cinta yang tulus kepada Sang Pencipta dan Sang Sultan"}
+{"id": "qa_8368a37e2ef36ea6ae1b", "pred": "Suku Dayak Kenyah Kalimantan Timur", "na_prob": -3.6005859375, "score": 7.359375, "start_char": 0, "pred_argmax": "Suku Dayak Kenyah Kalimantan Timur"}
+{"id": "qa_8370d0368fce7a39699b", "pred": "Yunani", "na_prob": -9.78515625, "score": 12.8828125, "start_char": 40, "pred_argmax": "Yunani"}
+{"id": "qa_842ddd329f8f21bf2d35", "pred": "11 November 2006", "na_prob": -10.90625, "score": 15.625, "start_char": 45, "pred_argmax": "11 November 2006"}
+{"id": "qa_84e70b8685a641a20a99", "pred": "euro", "na_prob": 13.248046875, "score": 2.822265625, "start_char": 792, "pred_argmax": ""}
+{"id": "qa_855e38cb31854b17eafc", "pred": "Menteri Transmigrasi dan Pemukiman Perambah Hutan", "na_prob": 10.09765625, "score": 5.09765625, "start_char": 98, "pred_argmax": ""}
+{"id": "qa_8583b01984a3d045d577", "pred": "ketua KPK", "na_prob": 7.921875, "score": 8.625, "start_char": 497, "pred_argmax": ""}
+{"id": "qa_862929687592d343d078", "pred": "15 Februari 1908", "na_prob": 9.287109375, "score": 9.033203125, "start_char": 55, "pred_argmax": ""}
+{"id": "qa_864c5c1f0aa5410d09bb", "pred": "abad ke-3 SM", "na_prob": 13.90625, "score": 4.859375, "start_char": 529, "pred_argmax": ""}
+{"id": "qa_865560aef2f62261d2dd", "pred": "377.835km²", "na_prob": 10.49609375, "score": 4.6953125, "start_char": 7, "pred_argmax": ""}
+{"id": "qa_8672aeb5b42864536cbd", "pred": "2.210 m", "na_prob": 7.0625, "score": 11.125, "start_char": 310, "pred_argmax": ""}
+{"id": "qa_868423baef8cc055a432", "pred": "putri mahkota Airlangga", "na_prob": 3.5, "score": 6.5625, "start_char": 27, "pred_argmax": ""}
+{"id": "qa_86aeb726e123e7cbb57e", "pred": "6,96", "na_prob": 1.25390625, "score": 9.9140625, "start_char": 165, "pred_argmax": ""}
+{"id": "qa_86ddb8ff9fd5b660e8c0", "pred": "Eropa Tengah", "na_prob": -14.095703125, "score": 9.1328125, "start_char": 173, "pred_argmax": "Eropa Tengah"}
+{"id": "qa_872a83ab642484c467cc", "pred": "700.000", "na_prob": -3.84375, "score": 13.83984375, "start_char": 31, "pred_argmax": "700.000"}
+{"id": "qa_880cba741484ed268ca2", "pred": "Gereja-Gereja Katolik Timur", "na_prob": 1.040771484375, "score": 2.642822265625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_88e93e1432704b521b12", "pred": "Pangeran Dipati", "na_prob": 10.017578125, "score": 5.759765625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_88ebde639e610f7116e7", "pred": "45%", "na_prob": 6.6171875, "score": 8.6484375, "start_char": 9, "pred_argmax": ""}
+{"id": "qa_8907da99bcc883cfcbe0", "pred": "De Indische Partij pada 25 Desember 1912 oleh Douwes Dekker, Ki Hadjar Dewantara, dan Tjipto Mangunkoesoemo", "na_prob": -10.55224609375, "score": 8.546875, "start_char": 170, "pred_argmax": "De Indische Partij pada 25 Desember 1912 oleh Douwes Dekker, Ki Hadjar Dewantara, dan Tjipto Mangunkoesoemo"}
+{"id": "qa_89956b6d5ba13c9950e6", "pred": "3 Desember 1994", "na_prob": 10.880859375, "score": 8.455078125, "start_char": 188, "pred_argmax": ""}
+{"id": "qa_8a618b17b0b39fb36921", "pred": "Abad ke-7 dan awal pertengahan abad ke-8 pada umumnya dianggap sebagai puncak kejayaan Dinasti Tang. Di bawah kekuasaan mereka, wilayah Tiongkok", "na_prob": 0.7890625, "score": 5.826171875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_8aa8ee2049dcd319d28e", "pred": "Taylor Swift", "na_prob": -6.363494873046875, "score": 5.888671875, "start_char": 96, "pred_argmax": "Taylor Swift"}
+{"id": "qa_8ac108bb213db0def467", "pred": "20 November 1985", "na_prob": 9.17578125, "score": 10.41015625, "start_char": 87, "pred_argmax": ""}
+{"id": "qa_8bd98a0c46adcbbb1769", "pred": "1332 M", "na_prob": 0.5390625, "score": 15.23046875, "start_char": 152, "pred_argmax": ""}
+{"id": "qa_8be0b49367e90a0b1023", "pred": "Februari 2009", "na_prob": 10.708984375, "score": 8.626953125, "start_char": 176, "pred_argmax": ""}
+{"id": "qa_8c1758c4b2d82ee441e7", "pred": "menyediakan lahan pertanian baru dengan mengubah satu juta hektar lahan gambut dan rawa untuk penanaman padi", "na_prob": -0.6591796875, "score": 6.6552734375, "start_char": 575, "pred_argmax": "menyediakan lahan pertanian baru dengan mengubah satu juta hektar lahan gambut dan rawa untuk penanaman padi"}
+{"id": "qa_8c2de5a724cc6b2e9579", "pred": "abad 18", "na_prob": 7.71875, "score": 11.75, "start_char": 79, "pred_argmax": ""}
+{"id": "qa_8c8c46814f2c21f912c8", "pred": "Bipolar Junction Transistor) adalah salah satu dari dua jenis transistor", "na_prob": 5.80859375, "score": 4.07421875, "start_char": 5, "pred_argmax": ""}
+{"id": "qa_8d0bdad2140158c9620d", "pred": "sinyal data dalam bentuk gelombang yang yang kontinyu , yang membawa informasi dengan mengubah karakteristik gelombang", "na_prob": -7.324462890625, "score": 7.212890625, "start_char": 85, "pred_argmax": "sinyal data dalam bentuk gelombang yang yang kontinyu , yang membawa informasi dengan mengubah karakteristik gelombang"}
+{"id": "qa_8e05d71fdd53efb52042", "pred": "1910", "na_prob": 4.0078125, "score": 11.90625, "start_char": 22, "pred_argmax": ""}
+{"id": "qa_8e0ff30bde86f18412e1", "pred": "Pertempuran Tanjung Esperance (Pertempuran Kedua Pulau Savo), Laffey bersama dengan kelompok penjelajah Admiral Norman Scott", "na_prob": 14.2294921875, "score": 1.4267578125, "start_char": 32, "pred_argmax": ""}
+{"id": "qa_8e107260f322bbd098a9", "pred": "istilah untuk program drama bersambung produksi Indonesia yang disiarkan oleh stasiun televisi di Indonesia", "na_prob": 14.12841796875, "score": 3.19970703125, "start_char": 51, "pred_argmax": ""}
+{"id": "qa_8e4039a55c2f7624c9d9", "pred": "6 Januari 1976", "na_prob": -9.5625, "score": 18.3828125, "start_char": 39, "pred_argmax": "6 Januari 1976"}
+{"id": "qa_8e985804bc343475dc36", "pred": "3.380,6 hektar", "na_prob": 6.53515625, "score": 12.20703125, "start_char": 30, "pred_argmax": ""}
+{"id": "qa_8ebc04389b675eab3f00", "pred": "8 bagian gelap bulan Palguna tahun 294 Saka (16 Maret 372 Masehi", "na_prob": -2.6953125, "score": 14.203125, "start_char": 410, "pred_argmax": "8 bagian gelap bulan Palguna tahun 294 Saka (16 Maret 372 Masehi"}
+{"id": "qa_8efa6a00c89c321d8f60", "pred": "selatan Mesopotamia (sekarang Irak), di wilayah Sumeria dan Akkadia", "na_prob": 10.40234375, "score": 4.109375, "start_char": 117, "pred_argmax": ""}
+{"id": "qa_8f074654d605ff33022f", "pred": "322 SM", "na_prob": -9.900390625, "score": 15.625, "start_char": 156, "pred_argmax": "322 SM"}
+{"id": "qa_8f733a9a71654aea4b91", "pred": "Warsawa", "na_prob": -13.798828125, "score": 15.32421875, "start_char": 491, "pred_argmax": "Warsawa"}
+{"id": "qa_8f9c33f0504ee3e6a4d5", "pred": "Dinasti Zhou", "na_prob": 5.9248046875, "score": 5.4423828125, "start_char": 529, "pred_argmax": ""}
+{"id": "qa_9026cde01c220b792059", "pred": "Dave Morin, Shawn Fanning, dan Dustin Mierau", "na_prob": -15.083984375, "score": 12.73046875, "start_char": 75, "pred_argmax": "Dave Morin, Shawn Fanning, dan Dustin Mierau"}
+{"id": "qa_90a01ae766c532a5a236", "pred": "ritus yang dipandang oleh kebanyakan Gereja dalam Kekristenan sebagai suatu sakramen", "na_prob": -9.502685546875, "score": 8.802734375, "start_char": 99, "pred_argmax": "ritus yang dipandang oleh kebanyakan Gereja dalam Kekristenan sebagai suatu sakramen"}
+{"id": "qa_90e4b38c9b4143c07aef", "pred": "gelar berganda yaitu seorang Pangeran yang menjabat sebagai Dipati (Pangeran senior anggota Dewan Mahkota)", "na_prob": -9.46533203125, "score": 7.18359375, "start_char": 26, "pred_argmax": "gelar berganda yaitu seorang Pangeran yang menjabat sebagai Dipati (Pangeran senior anggota Dewan Mahkota)"}
+{"id": "qa_91494e02742adf1de48f", "pred": "tiga", "na_prob": -2.646484375, "score": 9.96875, "start_char": 429, "pred_argmax": "tiga"}
+{"id": "qa_91f6cb002059f73c7de2", "pred": "c. 1979", "na_prob": -11.822265625, "score": 16.79296875, "start_char": 20, "pred_argmax": "c. 1979"}
+{"id": "qa_92bf031441a4ca933487", "pred": "ARPANET (Advanced Research Project Agency Network), di mana mereka mendemonstrasikan bagaimana dengan hardware dan software komputer yang berbasis UNIX", "na_prob": 16.124755859375, "score": 2.843994140625, "start_char": 182, "pred_argmax": ""}
+{"id": "qa_92d96514de2764d16a5c", "pred": "prosedur langkah-demi-langkah untuk penghitungan. Algoritme digunakan untuk penghitungan, pemrosesan data, dan penalaran otomatis", "na_prob": -3.78125, "score": 9.34375, "start_char": 53, "pred_argmax": "prosedur langkah-demi-langkah untuk penghitungan. Algoritme digunakan untuk penghitungan, pemrosesan data, dan penalaran otomatis"}
+{"id": "qa_92ee56c0af75543edbaa", "pred": "Sabak elektronik atau komputer tablet (English: tablet computer), atau ringkasnya tablet, adalah suatu komputer portabel lengkap yang seluruhnya berupa layar sentuh datar", "na_prob": -7.34521484375, "score": 8.5078125, "start_char": 0, "pred_argmax": "Sabak elektronik atau komputer tablet (English: tablet computer), atau ringkasnya tablet, adalah suatu komputer portabel lengkap yang seluruhnya berupa layar sentuh datar"}
+{"id": "qa_93cbad812eb24ee1ec7e", "pred": "membantu dan melindungi warga negaranya", "na_prob": -3.91748046875, "score": 5.5166015625, "start_char": 191, "pred_argmax": "membantu dan melindungi warga negaranya"}
+{"id": "qa_93d95047c7aea99b9c36", "pred": "936", "na_prob": 2.22265625, "score": 12.421875, "start_char": 244, "pred_argmax": ""}
+{"id": "qa_946900869b9cfdf22172", "pred": "Marissa Mayer", "na_prob": 5.228515625, "score": 8.958984375, "start_char": 156, "pred_argmax": ""}
+{"id": "qa_9493220b00d1159b90cc", "pred": "1323–1319 SM", "na_prob": 5.01953125, "score": 10.16796875, "start_char": 87, "pred_argmax": ""}
+{"id": "qa_94940c9fa1996638c38b", "pred": "Lebanon", "na_prob": 6.333984375, "score": 7.201171875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_94a7b3fc569d0cbcf96c", "pred": "Dmitri Mendeleev", "na_prob": -11.42333984375, "score": 9.6953125, "start_char": 202, "pred_argmax": "Dmitri Mendeleev"}
+{"id": "qa_950641541704f4108030", "pred": "Paul DiGiovanni", "na_prob": 7.513671875, "score": 9.048828125, "start_char": 322, "pred_argmax": ""}
+{"id": "qa_9536308fa1b57d631d8d", "pred": "Membran", "na_prob": 1.12890625, "score": 9.6328125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_95431735ce9d589eb2bf", "pred": "Nasi tempong", "na_prob": -8.0419921875, "score": 11.33984375, "start_char": 0, "pred_argmax": "Nasi tempong"}
+{"id": "qa_957ec384b12f051e3029", "pred": "De Indische Partij pada 25 Desember 1912 oleh Douwes Dekker, Ki Hadjar Dewantara, dan Tjipto Mangunkoesoemo", "na_prob": 14.76171875, "score": 3.58984375, "start_char": 170, "pred_argmax": ""}
+{"id": "qa_958791e8bdc6182ec3a4", "pred": "1969", "na_prob": 10.0390625, "score": 9.40625, "start_char": 105, "pred_argmax": ""}
+{"id": "qa_95beba29896999945876", "pred": "1.219.912km²", "na_prob": 5.125, "score": 11.0546875, "start_char": 72, "pred_argmax": ""}
+{"id": "qa_9606665499556031adf7", "pred": "Ottawa", "na_prob": 9.74609375, "score": 8.98828125, "start_char": 312, "pred_argmax": ""}
+{"id": "qa_969cf8b12aa80d716698", "pred": "Eropa bagian tenggara", "na_prob": -9.45703125, "score": 9.70703125, "start_char": 332, "pred_argmax": "Eropa bagian tenggara"}
+{"id": "qa_973f6b297dc38d2bcfcd", "pred": "merah", "na_prob": -1.28515625, "score": 10.01953125, "start_char": 69, "pred_argmax": "merah"}
+{"id": "qa_974277f9424b4f973122", "pred": "2 Juli 626) adalah putra mahkota pertama Dinasti Tang", "na_prob": 4.64892578125, "score": 1.50146484375, "start_char": 30, "pred_argmax": ""}
+{"id": "qa_97b685171f0a45559a9a", "pred": "India", "na_prob": -8.2996826171875, "score": 8.78515625, "start_char": 48, "pred_argmax": "India"}
+{"id": "qa_981abd2dceccf3213d45", "pred": "deretan angka biner antara 32 bit sampai 128 bit yang dipakai sebagai alamat identifikasi untuk tiap komputer host dalam jaringan Internet", "na_prob": -11.3369140625, "score": 7.970703125, "start_char": 70, "pred_argmax": "deretan angka biner antara 32 bit sampai 128 bit yang dipakai sebagai alamat identifikasi untuk tiap komputer host dalam jaringan Internet"}
+{"id": "qa_982abab2869938bd3454", "pred": "orang dari kerajaan Media, mungkin pendeta Zoroastrian", "na_prob": 1.533203125, "score": 2.3544921875, "start_char": 129, "pred_argmax": ""}
+{"id": "qa_98b9d1bd1d54500cc8b4", "pred": "\"Friends\"", "na_prob": 14.185546875, "score": 2.658203125, "start_char": 530, "pred_argmax": ""}
+{"id": "qa_98e94dabf418da5a98e9", "pred": "prosedur langkah-demi-langkah untuk penghitungan", "na_prob": -11.973167419433594, "score": 11.359375, "start_char": 53, "pred_argmax": "prosedur langkah-demi-langkah untuk penghitungan"}
+{"id": "qa_990c9c869679b1b1befa", "pred": "Tokugawa Ieyasu dan secara turun temurun dipimpin oleh shogun keluarga Tokugawa", "na_prob": 2.21875, "score": 6.984375, "start_char": 164, "pred_argmax": ""}
+{"id": "qa_9922a12ee8974d55615d", "pred": "1869", "na_prob": -10.68359375, "score": 14.5546875, "start_char": 163, "pred_argmax": "1869"}
+{"id": "qa_9937e3b715c4bd70301d", "pred": "28 September 1945", "na_prob": -7.16015625, "score": 14.97265625, "start_char": 13, "pred_argmax": "28 September 1945"}
+{"id": "qa_996decf8645ce61d3c21", "pred": "golongan asam organik alifatik yang memiliki gugus karboksil (biasa dilambangkan dengan -COOH)", "na_prob": -7.5440673828125, "score": 6.587890625, "start_char": 45, "pred_argmax": "golongan asam organik alifatik yang memiliki gugus karboksil (biasa dilambangkan dengan -COOH)"}
+{"id": "qa_9a54e4273b917ff22f5a", "pred": "kuning, hijau, merah", "na_prob": 8.5390625, "score": 8.1484375, "start_char": 213, "pred_argmax": ""}
+{"id": "qa_9a72cea6e6be4376dd2b", "pred": "Weni dari Pontianak, Kalimantan Barat", "na_prob": -3.40185546875, "score": 4.6494140625, "start_char": 566, "pred_argmax": "Weni dari Pontianak, Kalimantan Barat"}
+{"id": "qa_9b79c2477fd68de1c1d4", "pred": "1495", "na_prob": 4.57421875, "score": 10.2109375, "start_char": 50, "pred_argmax": ""}
+{"id": "qa_9ba6856762d08833b0db", "pred": "Tokyo", "na_prob": 11.07421875, "score": 6.37109375, "start_char": 56, "pred_argmax": ""}
+{"id": "qa_9bafb8993e6726b8150c", "pred": "Dmitri Mendeleev", "na_prob": 13.5078125, "score": 4.0625, "start_char": 202, "pred_argmax": ""}
+{"id": "qa_9c63e377edb897272b71", "pred": "Nasi tempong", "na_prob": 9.73046875, "score": 8.34765625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_9ced23a4a89f17c6aa78", "pred": "Dmitri Mendeleev", "na_prob": -11.47265625, "score": 9.8671875, "start_char": 202, "pred_argmax": "Dmitri Mendeleev"}
+{"id": "qa_9d65b984492d3d396359", "pred": "Pasukan Pertahanan Udara Soviet saat melakukan fotografi udara di teritorial Soviet. Diterbangkan oleh pilot Francis Gary Powers", "na_prob": 5.91015625, "score": 6.84765625, "start_char": 82, "pred_argmax": ""}
+{"id": "qa_9e393c78800700dbabf7", "pred": "malaikat yang akan meniup sangkakala pada hari kiamat", "na_prob": 10.0458984375, "score": 2.6533203125, "start_char": 83, "pred_argmax": ""}
+{"id": "qa_9e39ad1a1c2b4ea5eef2", "pred": "Tsutsumi Sakamoto", "na_prob": 13.818359375, "score": 0.736328125, "start_char": 465, "pred_argmax": ""}
+{"id": "qa_9e3a77bf307825e21957", "pred": "1971", "na_prob": 2.8125, "score": 11.90625, "start_char": 163, "pred_argmax": ""}
+{"id": "qa_9e3cec139eeef4d9af8c", "pred": "18 Januari 2010", "na_prob": 0.9765625, "score": 15.21484375, "start_char": 37, "pred_argmax": ""}
+{"id": "qa_9e55c83b742f8d5fbbd4", "pred": "Ignasius Jonan", "na_prob": 7.2119140625, "score": 3.6826171875, "start_char": 97, "pred_argmax": ""}
+{"id": "qa_9e5adf741d64e129b1b0", "pred": "28 September 1945", "na_prob": -3.69140625, "score": 12.9375, "start_char": 330, "pred_argmax": "28 September 1945"}
+{"id": "qa_9e8d76fa765843fb097b", "pred": "1920-an", "na_prob": -3.607421875, "score": 9.26953125, "start_char": 186, "pred_argmax": "1920-an"}
+{"id": "qa_9ebbc0061407eb46c8b3", "pred": "Banjarmasin", "na_prob": -12.1591796875, "score": 12.234375, "start_char": 132, "pred_argmax": "Banjarmasin"}
+{"id": "qa_9ef5058c89bdf843889f", "pred": "TVRI dan SCTV", "na_prob": -9.495819091796875, "score": 10.240234375, "start_char": 54, "pred_argmax": "TVRI dan SCTV"}
+{"id": "qa_9f1494b142bd50a5011d", "pred": "18 Januari 2010", "na_prob": -5.9765625, "score": 17.203125, "start_char": 37, "pred_argmax": "18 Januari 2010"}
+{"id": "qa_9f3599f5d8e1b95b976e", "pred": "1869", "na_prob": -8.7109375, "score": 14.33984375, "start_char": 163, "pred_argmax": "1869"}
+{"id": "qa_9f5c5d4f95a65a299d6f", "pred": "1869", "na_prob": 10.962890625, "score": 8.263671875, "start_char": 163, "pred_argmax": ""}
+{"id": "qa_9fa90a1c537ee2f9f762", "pred": "900 ha", "na_prob": -10.0302734375, "score": 13.45703125, "start_char": 165, "pred_argmax": "900 ha"}
+{"id": "qa_9ff685aaed6662845232", "pred": "gaya rambut yang secara tegap berdiri ke atas dengan ujung-ujung runcing", "na_prob": -3.517578125, "score": 6.658203125, "start_char": 26, "pred_argmax": "gaya rambut yang secara tegap berdiri ke atas dengan ujung-ujung runcing"}
+{"id": "qa_a048cf9716b335850939", "pred": "selatan Mesopotamia", "na_prob": -17.3681640625, "score": 13.50390625, "start_char": 117, "pred_argmax": "selatan Mesopotamia"}
+{"id": "qa_a05e7d9a14975b400a33", "pred": "28 September 1945", "na_prob": 9.1953125, "score": 10.0078125, "start_char": 13, "pred_argmax": ""}
+{"id": "qa_a063fa34fff0c49fe6c0", "pred": "pemahaman mengenai pengaruh-pengaruh bahan kimia yang merugikan bagi organisme hidup", "na_prob": -16.55810546875, "score": 13.56640625, "start_char": 19, "pred_argmax": "pemahaman mengenai pengaruh-pengaruh bahan kimia yang merugikan bagi organisme hidup"}
+{"id": "qa_a0bd9037bcf9e47f1d7e", "pred": "Paris", "na_prob": -12.3876953125, "score": 14.72265625, "start_char": 14, "pred_argmax": "Paris"}
+{"id": "qa_a0d35f48e78fa798abfc", "pred": "1982", "na_prob": -1.609375, "score": 13.50390625, "start_char": 11, "pred_argmax": "1982"}
+{"id": "qa_a0f4507f810ca5fe27e2", "pred": "Departemen Pertahanan Amerika Serikat", "na_prob": 14.25, "score": 4.7890625, "start_char": 56, "pred_argmax": ""}
+{"id": "qa_a12aacd6a9b3b1583d3a", "pred": "peningkatan ukuran sel-sel otot", "na_prob": -11.381591796875, "score": 9.12890625, "start_char": 23, "pred_argmax": "peningkatan ukuran sel-sel otot"}
+{"id": "qa_a1b5261511c3dfc09298", "pred": "pembentukan sel darah merah", "na_prob": -5.77587890625, "score": 8.078125, "start_char": 402, "pred_argmax": "pembentukan sel darah merah"}
+{"id": "qa_a28d9d58a14a24edaf2d", "pred": "pelaksanaan kebijakan di bidang penempatan dan perlindungan Tenaga Kerja Indonesia di luar negeri secara terkoordinasi dan terintegrasi", "na_prob": -4.994140625, "score": 7.666015625, "start_char": 169, "pred_argmax": "pelaksanaan kebijakan di bidang penempatan dan perlindungan Tenaga Kerja Indonesia di luar negeri secara terkoordinasi dan terintegrasi"}
+{"id": "qa_a31f7d3bdddf6c23689a", "pred": "1481", "na_prob": 10.1796875, "score": 8.8828125, "start_char": 42, "pred_argmax": ""}
+{"id": "qa_a324677a7be676eead7f", "pred": "Sabak elektronik atau komputer tablet (English: tablet computer), atau ringkasnya tablet, adalah suatu komputer portabel lengkap yang seluruhnya berupa layar sentuh datar", "na_prob": 6.48828125, "score": 5.81640625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_a34f8d360ca43b5da17a", "pred": "1971", "na_prob": -5.54296875, "score": 12.85546875, "start_char": 318, "pred_argmax": "1971"}
+{"id": "qa_a3f33d88673a70850254", "pred": "18 Mei 1942", "na_prob": 1.4296875, "score": 13.1328125, "start_char": 478, "pred_argmax": ""}
+{"id": "qa_a549c81c1d3e46c58212", "pred": "pencegahan gejala kondisi alergi seperti rhinitis dan urticaria", "na_prob": -0.234375, "score": 4.703125, "start_char": 206, "pred_argmax": "pencegahan gejala kondisi alergi seperti rhinitis dan urticaria"}
+{"id": "qa_a5ddb1e9782ae1c27719", "pred": "Museum Nasional Republik Indonesia", "na_prob": -9.877197265625, "score": 9.5390625, "start_char": 0, "pred_argmax": "Museum Nasional Republik Indonesia"}
+{"id": "qa_a5ef40bf3b04da92660c", "pred": "1984", "na_prob": -9.23046875, "score": 16.5390625, "start_char": 54, "pred_argmax": "1984"}
+{"id": "qa_a62b7545d71fb68f6528", "pred": "2 Maret 1995", "na_prob": -4.953125, "score": 13.52734375, "start_char": 90, "pred_argmax": "2 Maret 1995"}
+{"id": "qa_a7494ade20dc9413887d", "pred": "1867", "na_prob": -5.798828125, "score": 12.50390625, "start_char": 250, "pred_argmax": "1867"}
+{"id": "qa_a76f0a7b2628abd9205e", "pred": "tumbuhan yang kehadirannya tidak diinginkan pada lahan pertanian karena menurunkan hasil yang bisa dicapai oleh tanaman produksi", "na_prob": 2.328125, "score": 9.76171875, "start_char": 13, "pred_argmax": ""}
+{"id": "qa_a7924fe413218ac6644c", "pred": "malaikat yang mengatur air, menurunkan hujan/petir, membagikan rezeki pada manusia, tumbuh-tumbuhan juga hewan-hewan dan lain-lain di muka bumi ini", "na_prob": 8.5703125, "score": 4.36328125, "start_char": 30, "pred_argmax": ""}
+{"id": "qa_a7a087d1f258355e66e3", "pred": "Banjarmasin", "na_prob": 12.384765625, "score": 6.669921875, "start_char": 132, "pred_argmax": ""}
+{"id": "qa_a7d7f642423313eb898c", "pred": "Gulma", "na_prob": -0.328125, "score": 11.73828125, "start_char": 0, "pred_argmax": "Gulma"}
+{"id": "qa_a801b3ed590685d30eb7", "pred": "kuning, hijau, merah", "na_prob": -3.53125, "score": 11.96875, "start_char": 213, "pred_argmax": "kuning, hijau, merah"}
+{"id": "qa_a81f0483a9c744c98354", "pred": "Membran", "na_prob": 0.8359375, "score": 10.0234375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_a88475a18aa66f09b579", "pred": "Li Jiancheng", "na_prob": 6.1640625, "score": 8.05078125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_a8906dc98d41a3142b44", "pred": "Kabul, Herat, Jalalabad, Mazar-e Sharif dan Kandahar", "na_prob": 1.40625, "score": 9.84765625, "start_char": 23, "pred_argmax": ""}
+{"id": "qa_a8a8cb4f9baf396d7b16", "pred": "Elektronik adalah alat yang dibuat berdasarkan prinsip elektronika serta hal atau benda yang menggunakan alat tersebut", "na_prob": 12.45703125, "score": 5.08984375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_a8b2a22790ec3591e33e", "pred": "1600 SM", "na_prob": 10.1796875, "score": 9.0, "start_char": 49, "pred_argmax": ""}
+{"id": "qa_a8b68fdfb57d0435b49d", "pred": "sesudah tahun 6 SM", "na_prob": 11.8125, "score": 2.796875, "start_char": 173, "pred_argmax": ""}
+{"id": "qa_a8db628a19a80f542b4b", "pred": "3.380,6 hektar", "na_prob": -10.720703125, "score": 17.40625, "start_char": 30, "pred_argmax": "3.380,6 hektar"}
+{"id": "qa_a978e8a403c8ceb65241", "pred": "13", "na_prob": 8.6328125, "score": 5.80078125, "start_char": 211, "pred_argmax": ""}
+{"id": "qa_a990fc1e30b603148c27", "pred": "Paus biru", "na_prob": -1.4296875, "score": 11.7578125, "start_char": 0, "pred_argmax": "Paus biru"}
+{"id": "qa_a9959f4ce2824c0935b4", "pred": "Aiman Witjaksono", "na_prob": 11.794921875, "score": 6.580078125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_aa019c8babd0a3a6dff5", "pred": "Li Yuan", "na_prob": -2.98828125, "score": 9.54296875, "start_char": 18, "pred_argmax": "Li Yuan"}
+{"id": "qa_aa7e13f1133f6df82fc3", "pred": "Klorfenamin", "na_prob": 1.970703125, "score": 6.818359375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_aae76cc5818cc6b665ca", "pred": "mati di alun-alun Mataram", "na_prob": 2.026611328125, "score": 3.590576171875, "start_char": 577, "pred_argmax": ""}
+{"id": "qa_ab042e4720d9cdf36645", "pred": "pertempuran dengan sekutu di Cikasintu, Sukabumi, Jawa Barat pada tahun 1947) adalah salah seorang Pahlawan Kemerdekaan", "na_prob": 9.31591796875, "score": 3.19970703125, "start_char": 59, "pred_argmax": ""}
+{"id": "qa_ab2439f718afc7f620e8", "pred": "1969", "na_prob": -4.49609375, "score": 13.40234375, "start_char": 105, "pred_argmax": "1969"}
+{"id": "qa_ab71178842e476111371", "pred": "Nicolaas Jouwe dan dua komandan OPM, Seth Jafeth Roemkorem dan Jacob Hendrik Prai", "na_prob": 8.818359375, "score": 5.080078125, "start_char": 25, "pred_argmax": ""}
+{"id": "qa_abcbee9813c03a5fab4d", "pred": "Nawab Zen Yar Jang Bahadur", "na_prob": -5.341796875, "score": 12.89453125, "start_char": 565, "pred_argmax": "Nawab Zen Yar Jang Bahadur"}
+{"id": "qa_abd6e17c1b1204cf76f7", "pred": "24 Nopember 2017", "na_prob": -10.4736328125, "score": 14.46875, "start_char": 208, "pred_argmax": "24 Nopember 2017"}
+{"id": "qa_ac253058960b96d848b6", "pred": "1969", "na_prob": 10.15625, "score": 9.3671875, "start_char": 105, "pred_argmax": ""}
+{"id": "qa_acb5b90533288e190824", "pred": "sembilan", "na_prob": 6.55859375, "score": 9.24609375, "start_char": 24, "pred_argmax": ""}
+{"id": "qa_acca6804f41331aaa8df", "pred": "kelanjutan kekuasaan pemerintahan yang dipegang oleh satu garis keturunan (keluarga yang sama)", "na_prob": -0.4609375, "score": 7.927734375, "start_char": 28, "pred_argmax": "kelanjutan kekuasaan pemerintahan yang dipegang oleh satu garis keturunan (keluarga yang sama)"}
+{"id": "qa_ad1fdd9168d165d39bd4", "pred": "Gunung Fuji", "na_prob": -4.99609375, "score": 14.6640625, "start_char": 0, "pred_argmax": "Gunung Fuji"}
+{"id": "qa_ad7dc1b3bcea945c1043", "pred": "1938", "na_prob": -6.802734375, "score": 14.63671875, "start_char": 11, "pred_argmax": "1938"}
+{"id": "qa_ad82cfb5d26ba7439da5", "pred": "900 ha", "na_prob": 8.46484375, "score": 10.30078125, "start_char": 165, "pred_argmax": ""}
+{"id": "qa_adb1cd99f76ad21e9443", "pred": "24 Maret 1603", "na_prob": -3.4375, "score": 14.73046875, "start_char": 182, "pred_argmax": "24 Maret 1603"}
+{"id": "qa_adef9adc99d69cfa06ef", "pred": "abad 18", "na_prob": -4.35546875, "score": 15.3203125, "start_char": 79, "pred_argmax": "abad 18"}
+{"id": "qa_adfd21319445413a3d17", "pred": "5.444,30 Km²", "na_prob": -17.49853515625, "score": 17.7109375, "start_char": 59, "pred_argmax": "5.444,30 Km²"}
+{"id": "qa_ae2c931c418801ef7e77", "pred": "Paus", "na_prob": 7.17578125, "score": 9.72265625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_ae5cff0425013601d3fe", "pred": "4 Februari 1937", "na_prob": -10.6767578125, "score": 14.54296875, "start_char": 185, "pred_argmax": "4 Februari 1937"}
+{"id": "qa_ae5d6388a23efef743b4", "pred": "129.066,64 km²", "na_prob": -17.9091796875, "score": 17.8671875, "start_char": 255, "pred_argmax": "129.066,64 km²"}
+{"id": "qa_ae5fd37be8795a2b7bd6", "pred": "Warsawa", "na_prob": -11.662109375, "score": 15.109375, "start_char": 491, "pred_argmax": "Warsawa"}
+{"id": "qa_af3714435365b0c61230", "pred": "wacana yang berdasarkan nalar mengenai agama, spiritualitas dan Tuhan", "na_prob": 14.3896484375, "score": 3.6416015625, "start_char": 111, "pred_argmax": ""}
+{"id": "qa_af82758bdc641e771222", "pred": "Dmitri Mendeleev", "na_prob": -6.89404296875, "score": 8.96484375, "start_char": 202, "pred_argmax": "Dmitri Mendeleev"}
+{"id": "qa_afa8130687d9e9797369", "pred": "menyerap air dari feses", "na_prob": -2.83203125, "score": 10.515625, "start_char": 115, "pred_argmax": "menyerap air dari feses"}
+{"id": "qa_b01e73db008d03117814", "pred": "TVRI dan SCTV", "na_prob": 16.517333984375, "score": 1.232666015625, "start_char": 54, "pred_argmax": ""}
+{"id": "qa_b03f606769ee6ec888da", "pred": "enam", "na_prob": 11.005859375, "score": 7.955078125, "start_char": 47, "pred_argmax": ""}
+{"id": "qa_b0649843e3180ce5d07c", "pred": "Adolf Weil", "na_prob": -4.921875, "score": 11.1171875, "start_char": 58, "pred_argmax": "Adolf Weil"}
+{"id": "qa_b0829ed3197cd89b03b0", "pred": "selaput, kulit tipis, atau lembaran bahan tipis, yang berfungsi sebagai pemisah selektif", "na_prob": -12.89208984375, "score": 10.65234375, "start_char": 15, "pred_argmax": "selaput, kulit tipis, atau lembaran bahan tipis, yang berfungsi sebagai pemisah selektif"}
+{"id": "qa_b0b357620fd659bea7ea", "pred": "29", "na_prob": -4.078125, "score": 14.69921875, "start_char": 129, "pred_argmax": "29"}
+{"id": "qa_b0f06687d40312ef13d3", "pred": "1945 hingga 1965", "na_prob": -8.60546875, "score": 15.41015625, "start_char": 112, "pred_argmax": "1945 hingga 1965"}
+{"id": "qa_b0fd5f1b3d4759d0c4ec", "pred": "sapei sapaq untuk kaum laki-laki dan ta'a untuk kaum perempuan", "na_prob": 6.46484375, "score": 5.9609375, "start_char": 76, "pred_argmax": ""}
+{"id": "qa_b11baf506587e9a5818c", "pred": "1884", "na_prob": 9.96484375, "score": 9.03515625, "start_char": 11, "pred_argmax": ""}
+{"id": "qa_b142f0aa2c49e3246d5a", "pred": "pencegahan gejala kondisi alergi seperti rhinitis dan urticaria", "na_prob": -4.18896484375, "score": 5.087890625, "start_char": 206, "pred_argmax": "pencegahan gejala kondisi alergi seperti rhinitis dan urticaria"}
+{"id": "qa_b163a13a0b594684b68d", "pred": "Luke Collins", "na_prob": -3.193359375, "score": 9.50390625, "start_char": 0, "pred_argmax": "Luke Collins"}
+{"id": "qa_b20814de92058c7b01f0", "pred": "algoritme versi dari eliminasi Gauss. Pada metode eliminasi Gauss-Jordan kita membuat nol elemen-elemen di bawah maupun di atas diagonal utama suatu matriks", "na_prob": -4.72088623046875, "score": 5.1484375, "start_char": 52, "pred_argmax": "algoritme versi dari eliminasi Gauss. Pada metode eliminasi Gauss-Jordan kita membuat nol elemen-elemen di bawah maupun di atas diagonal utama suatu matriks"}
+{"id": "qa_b2b96c518881381e1b21", "pred": "Asia Tengah dan Eropa Timur", "na_prob": -9.5673828125, "score": 5.185546875, "start_char": 282, "pred_argmax": "Asia Tengah dan Eropa Timur"}
+{"id": "qa_b2c1076fcbca2405e51e", "pred": "4 September 1888", "na_prob": -3.33984375, "score": 15.5625, "start_char": 19, "pred_argmax": "4 September 1888"}
+{"id": "qa_b2caee01f733124e4458", "pred": "L’Institution Nationale des Jeunes Aveugles, Paris", "na_prob": 4.1328125, "score": 6.5, "start_char": 392, "pred_argmax": ""}
+{"id": "qa_b385b7614ea3a3d5658f", "pred": "Luxor", "na_prob": 10.3359375, "score": 9.1484375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_b3917e9009f0d2cf37a9", "pred": "1941", "na_prob": 10.44140625, "score": 7.79296875, "start_char": 289, "pred_argmax": ""}
+{"id": "qa_b3c7acc08d515f4ea4c5", "pred": "Paus Fransiskus", "na_prob": 14.529296875, "score": 3.189453125, "start_char": 435, "pred_argmax": ""}
+{"id": "qa_b40ca827d710530e5523", "pred": "Mikail", "na_prob": 2.0234375, "score": 9.55078125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_b4324c1ce1bd4084a823", "pred": "Samarinda", "na_prob": 10.56640625, "score": 8.73046875, "start_char": 401, "pred_argmax": ""}
+{"id": "qa_b447b32d8614b5af9993", "pred": "kelanjutan kekuasaan pemerintahan yang dipegang oleh satu garis keturunan (keluarga yang sama)", "na_prob": -12.0325927734375, "score": 10.00390625, "start_char": 28, "pred_argmax": "kelanjutan kekuasaan pemerintahan yang dipegang oleh satu garis keturunan (keluarga yang sama)"}
+{"id": "qa_b457e8254b410aa8fec6", "pred": "pemahaman mengenai pengaruh-pengaruh bahan kimia yang merugikan bagi organisme hidup", "na_prob": -1.017578125, "score": 8.34375, "start_char": 19, "pred_argmax": "pemahaman mengenai pengaruh-pengaruh bahan kimia yang merugikan bagi organisme hidup"}
+{"id": "qa_b45c62996bc8a75f1c51", "pred": "Taylor Swift", "na_prob": -6.5673828125, "score": 4.1923828125, "start_char": 96, "pred_argmax": "Taylor Swift"}
+{"id": "qa_b4a05f9c85ca37f76692", "pred": "Alap-alap kawah", "na_prob": -3.16796875, "score": 12.6875, "start_char": 0, "pred_argmax": "Alap-alap kawah"}
+{"id": "qa_b4f47343e37b91ff4ae1", "pred": "Dmitri Mendeleev", "na_prob": -9.764404296875, "score": 10.546875, "start_char": 202, "pred_argmax": "Dmitri Mendeleev"}
+{"id": "qa_b50c10793f5247801e7a", "pred": "Martin Johnson", "na_prob": 1.23828125, "score": 10.59765625, "start_char": 104, "pred_argmax": ""}
+{"id": "qa_b56c2d485cffc63334a1", "pred": "kaos oblong", "na_prob": 3.84375, "score": 5.77734375, "start_char": 23, "pred_argmax": ""}
+{"id": "qa_b57a500aa435b3942855", "pred": "1.619,12km²", "na_prob": -5.8359375, "score": 15.82421875, "start_char": 176, "pred_argmax": "1.619,12km²"}
+{"id": "qa_b5b485ff8cc5a90b6722", "pred": "25 November 1881", "na_prob": -1.6328125, "score": 14.73046875, "start_char": 97, "pred_argmax": "25 November 1881"}
+{"id": "qa_b5d0e2d9d67497b3e9e4", "pred": "958 – 15 Juli 1015", "na_prob": 2.67578125, "score": 8.56640625, "start_char": 251, "pred_argmax": ""}
+{"id": "qa_b5f736204c350720bf41", "pred": "karbohidrat", "na_prob": -0.2900390625, "score": 2.8955078125, "start_char": 91, "pred_argmax": "karbohidrat"}
+{"id": "qa_b62c088df2a8bf95bfbc", "pred": "Sumatra", "na_prob": -12.9091796875, "score": 11.859375, "start_char": 251, "pred_argmax": "Sumatra"}
+{"id": "qa_b63d8e3cccc4d40ab958", "pred": "Bandar Seri Begawan", "na_prob": 6.234375, "score": 8.93359375, "start_char": 332, "pred_argmax": ""}
+{"id": "qa_b6e5a387b47c2b4b7527", "pred": "Tsutsumi Sakamoto", "na_prob": 0.9833984375, "score": 4.1279296875, "start_char": 465, "pred_argmax": ""}
+{"id": "qa_b6e8938a300d20dc70ca", "pred": "1946 - 1964", "na_prob": 4.72265625, "score": 9.76171875, "start_char": 98, "pred_argmax": ""}
+{"id": "qa_b6f42263fb0f1955ef9f", "pred": "Isao Takahata", "na_prob": 14.61083984375, "score": 2.14697265625, "start_char": 147, "pred_argmax": ""}
+{"id": "qa_b70c2ed49608632d7ed6", "pred": "972, Vladimir, yang saat itu Pangeran Novgorod, terpaksa melarikan diri ke Skandinavia tahun 976", "na_prob": 7.671875, "score": 8.8359375, "start_char": 94, "pred_argmax": ""}
+{"id": "qa_b85333e25846800def4f", "pred": "Tokyo", "na_prob": -8.099609375, "score": 10.21875, "start_char": 56, "pred_argmax": "Tokyo"}
+{"id": "qa_b86539963fd568686feb", "pred": "thành phố trực thuộc trung ương). Ke-59", "na_prob": 13.6015625, "score": 5.4375, "start_char": 328, "pred_argmax": ""}
+{"id": "qa_b88026d6930c3bcd899d", "pred": "1941", "na_prob": -4.08984375, "score": 10.5234375, "start_char": 289, "pred_argmax": "1941"}
+{"id": "qa_b892d61bc5b5175b112b", "pred": "45%", "na_prob": 6.28515625, "score": 8.5546875, "start_char": 9, "pred_argmax": ""}
+{"id": "qa_b8b35f5235d135b71ee3", "pred": "pemimpin sebuah konsulat", "na_prob": -1.677734375, "score": 5.611328125, "start_char": 95, "pred_argmax": "pemimpin sebuah konsulat"}
+{"id": "qa_b9927f2c5ea117d7be0d", "pred": "44/1999", "na_prob": 3.6171875, "score": 11.62109375, "start_char": 3, "pred_argmax": ""}
+{"id": "qa_b9a769f922417f0e9695", "pred": "Museum Nasional Republik Indonesia", "na_prob": -5.451171875, "score": 11.09375, "start_char": 0, "pred_argmax": "Museum Nasional Republik Indonesia"}
+{"id": "qa_b9db5ea2c565365e1e84", "pred": "Samarinda", "na_prob": 0.234375, "score": 11.71875, "start_char": 401, "pred_argmax": ""}
+{"id": "qa_baeb6f5f122e6f4fb818", "pred": "Asia Tengah dan Eropa Timur yang sebelumnya merupakan bagian dari negara Uni Soviet", "na_prob": 13.77593994140625, "score": -0.85797119140625, "start_char": 282, "pred_argmax": ""}
+{"id": "qa_bb0c73a751119023f96f", "pred": "2 April 1453", "na_prob": 6.2578125, "score": 11.609375, "start_char": 13, "pred_argmax": ""}
+{"id": "qa_bb0ffc7d27ac4bc1dd26", "pred": "Dmitri Mendeleev", "na_prob": -10.135986328125, "score": 9.5546875, "start_char": 202, "pred_argmax": "Dmitri Mendeleev"}
+{"id": "qa_bb2168b3e69340044f5b", "pred": "147", "na_prob": -0.9140625, "score": 9.97265625, "start_char": 592, "pred_argmax": "147"}
+{"id": "qa_bb70ebde12a6da3a3a4d", "pred": "Walisongo", "na_prob": 11.337890625, "score": 6.818359375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_bbfedcf5d341b6d9c263", "pred": "Universitas California", "na_prob": 1.412109375, "score": 7.482421875, "start_char": 131, "pred_argmax": ""}
+{"id": "qa_bc2214d636ea25ba0963", "pred": "penyanyi dangdut", "na_prob": -1.66748046875, "score": 3.51171875, "start_char": 56, "pred_argmax": "penyanyi dangdut"}
+{"id": "qa_bc23f5c249b34d4cfa8e", "pred": "20 November 1985", "na_prob": 3.328125, "score": 12.28515625, "start_char": 87, "pred_argmax": ""}
+{"id": "qa_bc820c9eb576d544bd6e", "pred": "Papua Barat, Indonesia", "na_prob": -6.3046875, "score": 11.39453125, "start_char": 61, "pred_argmax": "Papua Barat, Indonesia"}
+{"id": "qa_bc9f1441c522c0dbbfd1", "pred": "1706", "na_prob": -9.001953125, "score": 16.5078125, "start_char": 324, "pred_argmax": "1706"}
+{"id": "qa_bcba8cada0d1b42369c3", "pred": "1611", "na_prob": 9.859375, "score": 9.4765625, "start_char": 309, "pred_argmax": ""}
+{"id": "qa_bdd91388a03a47dc9154", "pred": "6,96", "na_prob": 4.90234375, "score": 10.51953125, "start_char": 165, "pred_argmax": ""}
+{"id": "qa_be3f4d6ffd221757d3c0", "pred": "1936", "na_prob": 12.703125, "score": 6.140625, "start_char": 270, "pred_argmax": ""}
+{"id": "qa_bee75e453bc56a97e4b2", "pred": "12 Juli 1827", "na_prob": -1.609375, "score": 15.46875, "start_char": 33, "pred_argmax": "12 Juli 1827"}
+{"id": "qa_bef47b28035c76f04dab", "pred": "2010, 6,96%", "na_prob": -1.810546875, "score": 8.6171875, "start_char": 159, "pred_argmax": "2010, 6,96%"}
+{"id": "qa_bf1f629aba486399d830", "pred": "Kabul, Herat, Jalalabad, Mazar-e Sharif dan Kandahar", "na_prob": -13.3896484375, "score": 13.1171875, "start_char": 23, "pred_argmax": "Kabul, Herat, Jalalabad, Mazar-e Sharif dan Kandahar"}
+{"id": "qa_bf29af38ec7ae970547a", "pred": "pemberontakan Jayakatwang", "na_prob": 0.765625, "score": 9.00390625, "start_char": 239, "pred_argmax": ""}
+{"id": "qa_bf2a1c5fe3cf46597c45", "pred": "2 Juli 626) adalah putra mahkota pertama Dinasti Tang", "na_prob": 7.54052734375, "score": 1.16259765625, "start_char": 30, "pred_argmax": ""}
+{"id": "qa_bf6b8ac04671bbc99c7b", "pred": "Rinding Gumbeng", "na_prob": 6.5703125, "score": 9.7421875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_c07ce12e35ca93812533", "pred": "Katolik Roma adalah agama mayoritas (85% kelahiran di Italia umumnya beragama Katholik", "na_prob": -4.95703125, "score": 11.265625, "start_char": 9, "pred_argmax": "Katolik Roma adalah agama mayoritas (85% kelahiran di Italia umumnya beragama Katholik"}
+{"id": "qa_c0db62978951d572dc39", "pred": "Antoine-Laurent de Lavoisier dan John Newlands", "na_prob": 10.6142578125, "score": 5.5771484375, "start_char": 304, "pred_argmax": ""}
+{"id": "qa_c0df58e1a6fd7173c003", "pred": "terjadinya revolusi ilmu pengetahuan pada abad ke 16 dengan munculnya para ilmuwan seperti Francis Bacon, René Descartes, Galileo Galilei", "na_prob": 3.103515625, "score": 6.412109375, "start_char": 65, "pred_argmax": ""}
+{"id": "qa_c1106b88a226dcd9130d", "pred": "hijau-merah", "na_prob": -3.76953125, "score": 12.609375, "start_char": 53, "pred_argmax": "hijau-merah"}
+{"id": "qa_c17eaf10813e1efe169e", "pred": "Tel Aviv", "na_prob": 3.48046875, "score": 10.20703125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_c1a5c6f9410733d315e3", "pred": "Adam Smith", "na_prob": 8.625, "score": 7.3671875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_c2a5c8e2fa09f3cf690d", "pred": "Hanoi", "na_prob": 9.57421875, "score": 9.72265625, "start_char": 23, "pred_argmax": ""}
+{"id": "qa_c2c5231b4b9d9352b6c4", "pred": "abad ke-10", "na_prob": -10.4052734375, "score": 13.97265625, "start_char": 101, "pred_argmax": "abad ke-10"}
+{"id": "qa_c2d49e475192f137fc24", "pred": "Pavlov, refleks mengeluarkan air liur pada anjing tersebut terdiri dari sebuah stimulus tidak terkondisi", "na_prob": 3.4326171875, "score": 4.6201171875, "start_char": 8, "pred_argmax": ""}
+{"id": "qa_c2ff434b401609e91d01", "pred": "Neokonservatisme", "na_prob": 6.89453125, "score": 3.5703125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_c3386184cd312b3056ac", "pred": "ritus yang dipandang oleh kebanyakan Gereja dalam Kekristenan sebagai suatu sakramen", "na_prob": -1.85986328125, "score": 4.234375, "start_char": 99, "pred_argmax": "ritus yang dipandang oleh kebanyakan Gereja dalam Kekristenan sebagai suatu sakramen"}
+{"id": "qa_c49c26b168ed1eac741b", "pred": "Adolph Butenandt", "na_prob": 11.892578125, "score": 6.443359375, "start_char": 41, "pred_argmax": ""}
+{"id": "qa_c4a0449abf43d37042f0", "pred": "Buddha", "na_prob": 1.4287109375, "score": 3.5517578125, "start_char": 267, "pred_argmax": ""}
+{"id": "qa_c4d4a54d7f89755a052b", "pred": "peningkatan ukuran sel-sel otot", "na_prob": 8.630859375, "score": 6.205078125, "start_char": 23, "pred_argmax": ""}
+{"id": "qa_c4e66edf89401031a7e4", "pred": "1969", "na_prob": -6.505859375, "score": 13.65234375, "start_char": 105, "pred_argmax": "1969"}
+{"id": "qa_c4f1d05a79ff704d9afd", "pred": "1185", "na_prob": -9.55859375, "score": 14.984375, "start_char": 115, "pred_argmax": "1185"}
+{"id": "qa_c58e14924e8f9ab97e15", "pred": "766", "na_prob": 12.206008911132812, "score": 0.7197723388671875, "start_char": 484, "pred_argmax": ""}
+{"id": "qa_c63bc86c391539b9bea5", "pred": "15 Februari 1908", "na_prob": -7.780029296875, "score": 6.56640625, "start_char": 55, "pred_argmax": "15 Februari 1908"}
+{"id": "qa_c64d37a1d080ee072a43", "pred": "perangkat teknis ortografiyang digunakan untuk menunjukkan pengucapan kata dalam teks MasoretKitab Suci bahasa Ibrani", "na_prob": 2.063507080078125, "score": -1.084259033203125, "start_char": 413, "pred_argmax": ""}
+{"id": "qa_c66c3bfd3288d95c1916", "pred": "Jerry Yang dan David Filo", "na_prob": 5.80078125, "score": 8.65625, "start_char": 27, "pred_argmax": ""}
+{"id": "qa_c68765fa0eb0a80b9072", "pred": "Monkey D. Luffy", "na_prob": 4.484375, "score": 10.33984375, "start_char": 36, "pred_argmax": ""}
+{"id": "qa_c6ca7a0dbe871080ed60", "pred": "Gereja-Gereja Katolik Timur", "na_prob": 1.1865234375, "score": 3.4677734375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_c6f04f1634372f57109f", "pred": "logam", "na_prob": 2.7734375, "score": 8.24609375, "start_char": 27, "pred_argmax": ""}
+{"id": "qa_c77ea6eb9449820807de", "pred": "1920-an", "na_prob": 4.48828125, "score": 8.89453125, "start_char": 186, "pred_argmax": ""}
+{"id": "qa_c79f24e1e905ef3932db", "pred": "1483", "na_prob": 3.92578125, "score": 10.48828125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_c7c9eb0d2254c1f3d567", "pred": "8 November 1911", "na_prob": -10.048828125, "score": 17.09375, "start_char": 255, "pred_argmax": "8 November 1911"}
+{"id": "qa_c7ecb81ad26f8581a178", "pred": "Banjarmasin", "na_prob": -13.1514892578125, "score": 12.02734375, "start_char": 132, "pred_argmax": "Banjarmasin"}
+{"id": "qa_c8a2e3574f29233f1715", "pred": "Megamendung", "na_prob": 12.29443359375, "score": 1.66259765625, "start_char": 79, "pred_argmax": ""}
+{"id": "qa_c92781028b55e1ca0909", "pred": "29", "na_prob": 9.390625, "score": 9.5859375, "start_char": 129, "pred_argmax": ""}
+{"id": "qa_c9c3c8449528f6291714", "pred": "8 Mei 1942", "na_prob": -10.521484375, "score": 15.5390625, "start_char": 430, "pred_argmax": "8 Mei 1942"}
+{"id": "qa_c9d6c31ac01999266fc6", "pred": "Sabak elektronik atau komputer tablet (English: tablet computer), atau ringkasnya tablet, adalah suatu komputer portabel lengkap yang seluruhnya berupa layar sentuh datar", "na_prob": 13.255859375, "score": 5.775390625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_ca3df43e11e66a0e30d4", "pred": "26 Desember 1995 Presiden Soeharto mengeluarkan Keppres No. 82", "na_prob": 9.609375, "score": 9.640625, "start_char": 395, "pred_argmax": ""}
+{"id": "qa_caf556f887b1d6622edc", "pred": "12", "na_prob": -0.3154296875, "score": 5.5888671875, "start_char": 102, "pred_argmax": "12"}
+{"id": "qa_caf715eb4cf27f7727bc", "pred": "377.835km²", "na_prob": 6.7197265625, "score": 4.2998046875, "start_char": 7, "pred_argmax": ""}
+{"id": "qa_cb9ed84aceb1950c4088", "pred": "Adolph Butenandt", "na_prob": -12.570999145507812, "score": 12.1171875, "start_char": 41, "pred_argmax": "Adolph Butenandt"}
+{"id": "qa_cba66807faaf7844022c", "pred": "Bukittinggi", "na_prob": -5.19287109375, "score": 7.173828125, "start_char": 58, "pred_argmax": "Bukittinggi"}
+{"id": "qa_cc203686a7c515caaaab", "pred": "mewujudkan impiannya untuk mendirikan kabupaten mandiri yang lepas dari kekuasan Mataram tiba-tiba Bagus Sutapura", "na_prob": 7.4287109375, "score": 3.0791015625, "start_char": 32, "pred_argmax": ""}
+{"id": "qa_cc3bb8186d9b158abb8e", "pred": "proses pemberian bantuan yang dilakukan oleh seorang ahli (disebut konselor/pembimbing) kepada individu yang mengalami sesuatu masalah", "na_prob": 12.439453125, "score": 5.255859375, "start_char": 33, "pred_argmax": ""}
+{"id": "qa_cc4a33ed1f803e233b71", "pred": "prosedur langkah-demi-langkah untuk penghitungan", "na_prob": 9.5, "score": 7.8125, "start_char": 53, "pred_argmax": ""}
+{"id": "qa_cca3bea09e75907fa206", "pred": "11 Oktober hingga 12 Oktober 1942", "na_prob": -11.9208984375, "score": 15.0859375, "start_char": 212, "pred_argmax": "11 Oktober hingga 12 Oktober 1942"}
+{"id": "qa_cd1b03ee6bba5cd06e5f", "pred": "R.H. Lily Sumantri", "na_prob": -1.189453125, "score": 4.0341796875, "start_char": 396, "pred_argmax": "R.H. Lily Sumantri"}
+{"id": "qa_cd326330237d5784242c", "pred": "Pavlov, refleks mengeluarkan air liur pada anjing tersebut terdiri dari sebuah stimulus tidak terkondisi", "na_prob": 13.2431640625, "score": 3.9130859375, "start_char": 8, "pred_argmax": ""}
+{"id": "qa_ce310ed440c799a8b8ce", "pred": "kondisi emosional seperti kecemasan dan depresi yang tidak sesuai dengan situasinya", "na_prob": -7.3310546875, "score": 9.4609375, "start_char": 25, "pred_argmax": "kondisi emosional seperti kecemasan dan depresi yang tidak sesuai dengan situasinya"}
+{"id": "qa_cf9d0f6fcfdc43e7a073", "pred": "936", "na_prob": -0.09375, "score": 12.84765625, "start_char": 244, "pred_argmax": "936"}
+{"id": "qa_d02d1f5a8682dc850c49", "pred": "37.530,52km²", "na_prob": -12.328125, "score": 17.9609375, "start_char": 187, "pred_argmax": "37.530,52km²"}
+{"id": "qa_d0cfaee70a7c5b1b5828", "pred": "6 SM", "na_prob": -4.779296875, "score": 11.59765625, "start_char": 187, "pred_argmax": "6 SM"}
+{"id": "qa_d0d4511d2f72e7e5f3e0", "pred": "komponen yang telah berevolusi dan terdapat secara permanen pada sistem imun bawaan dan ditemukan di seluruh kelas kehidupan", "na_prob": -10.88671875, "score": 7.41015625, "start_char": 29, "pred_argmax": "komponen yang telah berevolusi dan terdapat secara permanen pada sistem imun bawaan dan ditemukan di seluruh kelas kehidupan"}
+{"id": "qa_d284ec24d6b2730cdc5a", "pred": "sembilan", "na_prob": -0.421875, "score": 11.9453125, "start_char": 24, "pred_argmax": "sembilan"}
+{"id": "qa_d29219fc9d93844603b5", "pred": "Tapirus indicus", "na_prob": 7.797607421875, "score": 4.991455078125, "start_char": 12, "pred_argmax": ""}
+{"id": "qa_d2a6e12f209bf3a30b23", "pred": "istilah ejekan yang dipopulerkan oleh Federasi Wanita Seluruh Tiongkok", "na_prob": -7.8564453125, "score": 4.5009765625, "start_char": 91, "pred_argmax": "istilah ejekan yang dipopulerkan oleh Federasi Wanita Seluruh Tiongkok"}
+{"id": "qa_d2e7749732fb24a5f06d", "pred": "menyediakan lahan pertanian baru dengan mengubah satu juta hektar lahan gambut dan rawa untuk penanaman padi", "na_prob": -2.486328125, "score": 5.9638671875, "start_char": 575, "pred_argmax": "menyediakan lahan pertanian baru dengan mengubah satu juta hektar lahan gambut dan rawa untuk penanaman padi"}
+{"id": "qa_d2ebd1e22f80e7086466", "pred": "Suku Osing", "na_prob": 13.28125, "score": 5.6875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_d2efa187caa78257f391", "pred": "Li Yuan", "na_prob": 10.796875, "score": 5.625, "start_char": 18, "pred_argmax": ""}
+{"id": "qa_d31233ea497d810b4a59", "pred": "Kepulauan Midway", "na_prob": -17.841796875, "score": 13.8828125, "start_char": 447, "pred_argmax": "Kepulauan Midway"}
+{"id": "qa_d4484ae5033c33a372fe", "pred": "Rinding Gumbeng", "na_prob": -3.68359375, "score": 14.32421875, "start_char": 0, "pred_argmax": "Rinding Gumbeng"}
+{"id": "qa_d46da04c743482bb9d40", "pred": "radang pada membran yang menyelubungi otak dan sumsum tulang belakang, yang secara kesatuan disebut meningen", "na_prob": 8.88671875, "score": 6.74609375, "start_char": 43, "pred_argmax": ""}
+{"id": "qa_d486eb93d6b672442c4a", "pred": "28 September 1945", "na_prob": 8.765625, "score": 10.3046875, "start_char": 13, "pred_argmax": ""}
+{"id": "qa_d4e825fd6cb96e834dd6", "pred": "enam", "na_prob": -8.453125, "score": 14.12109375, "start_char": 47, "pred_argmax": "enam"}
+{"id": "qa_d509e14f88c949d14a59", "pred": "ARPANET (Advanced Research Project Agency Network), di mana mereka mendemonstrasikan bagaimana dengan hardware dan software komputer yang berbasis UNIX", "na_prob": -6.755126953125, "score": 3.341064453125, "start_char": 182, "pred_argmax": "ARPANET (Advanced Research Project Agency Network), di mana mereka mendemonstrasikan bagaimana dengan hardware dan software komputer yang berbasis UNIX"}
+{"id": "qa_d56837d855ad4ba98a1b", "pred": "Suku Melayu", "na_prob": 14.845703125, "score": 3.279296875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_d5ebb40967359f441853", "pred": "Humphrey Gilbert", "na_prob": 4.890625, "score": 9.51171875, "start_char": 48, "pred_argmax": ""}
+{"id": "qa_d62941b133d198c7e7bb", "pred": "19.889.559", "na_prob": 5.169921875, "score": 7.115234375, "start_char": 110, "pred_argmax": ""}
+{"id": "qa_d645eb04039d71aa5a96", "pred": "2.210 m", "na_prob": -1.5390625, "score": 14.27734375, "start_char": 310, "pred_argmax": "2.210 m"}
+{"id": "qa_d6728fdcb500227c6063", "pred": "1993", "na_prob": 12.169921875, "score": 7.431640625, "start_char": 242, "pred_argmax": ""}
+{"id": "qa_d6c38e38c337ba523ca3", "pred": "Paus", "na_prob": 0.25, "score": 11.3828125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_d76539f4e23a3c12c17c", "pred": "10 juta penduduk terdaftar yang hidup dalam area sebesar 605.21 km²", "na_prob": 7.46484375, "score": 7.1484375, "start_char": 7, "pred_argmax": ""}
+{"id": "qa_d77a33f4e10545bc56c0", "pred": "Paus biru", "na_prob": -6.1796875, "score": 15.109375, "start_char": 0, "pred_argmax": "Paus biru"}
+{"id": "qa_d786562789f78f625abc", "pred": "Gunung Fuji", "na_prob": 7.26171875, "score": 11.07421875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_d7889b13d5e6508e3986", "pred": "11 Oktober hingga 12 Oktober 1942", "na_prob": -8.630859375, "score": 14.3984375, "start_char": 212, "pred_argmax": "11 Oktober hingga 12 Oktober 1942"}
+{"id": "qa_d7db61fbb2bbcf4616d2", "pred": "Provinsi Bergamo, Italia", "na_prob": -7.033203125, "score": 14.20703125, "start_char": 67, "pred_argmax": "Provinsi Bergamo, Italia"}
+{"id": "qa_d8411e96d39e16bc83b1", "pred": "Hanoi", "na_prob": -3.14453125, "score": 8.8671875, "start_char": 23, "pred_argmax": "Hanoi"}
+{"id": "qa_d853c82fbe8af333c789", "pred": "1969", "na_prob": -9.9326171875, "score": 14.56640625, "start_char": 105, "pred_argmax": "1969"}
+{"id": "qa_d8aaa80c6f84f8a511c6", "pred": "selaput, kulit tipis, atau lembaran bahan tipis, yang berfungsi sebagai pemisah selektif", "na_prob": -1.77734375, "score": 7.349609375, "start_char": 15, "pred_argmax": "selaput, kulit tipis, atau lembaran bahan tipis, yang berfungsi sebagai pemisah selektif"}
+{"id": "qa_d91ad578bf7a5556dcaa", "pred": "aliran material vulkanik yang biasanya berupa campuran batu, pasir dan kerikil akibat adanya aliran air yang terjadi di lereng gunung (gunung berapi)", "na_prob": -12.373046875, "score": 8.099609375, "start_char": 61, "pred_argmax": "aliran material vulkanik yang biasanya berupa campuran batu, pasir dan kerikil akibat adanya aliran air yang terjadi di lereng gunung (gunung berapi)"}
+{"id": "qa_d923e054a2534572c48d", "pred": "Outer Zone Jepang yang relatif aman dari serangan kapal selam dan pesawat Sekutu. Penebaran ranjau kembali dilakukan dengan 94 pesawat", "na_prob": 4.5166015625, "score": 4.4794921875, "start_char": 300, "pred_argmax": ""}
+{"id": "qa_d92664ecb89748f2e91a", "pred": "ARPANET (Advanced Research Project Agency Network), di mana mereka mendemonstrasikan bagaimana dengan hardware dan software komputer yang berbasis UNIX", "na_prob": 15.79541015625, "score": 3.04052734375, "start_char": 182, "pred_argmax": ""}
+{"id": "qa_d9e8fc3258d8ad17ed1b", "pred": "1969", "na_prob": 10.23828125, "score": 9.37109375, "start_char": 105, "pred_argmax": ""}
+{"id": "qa_da0dfe3948b2c854cf4b", "pred": "Ho Chi Minh", "na_prob": 8.466796875, "score": 6.408203125, "start_char": 128, "pred_argmax": ""}
+{"id": "qa_da128d7e793f3d189f1e", "pred": "bagian timur Pulau Papua dan berbatasan darat dengan Provinsi Papua", "na_prob": 8.984375, "score": 3.48046875, "start_char": 74, "pred_argmax": ""}
+{"id": "qa_da1e65f559f96b72adb5", "pred": "Perang Dunia I mengakibatkan pengaruh yang tragis terhadap hidup Durkheim. Pandangan kiri Durkheim selalu patriotik dan bukan internasionalis", "na_prob": 11.0087890625, "score": 1.1591796875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_da343c35669377d2e286", "pred": "pemerintahan diktator militer feodalisme di Jepang yang didirikan oleh Tokugawa Ieyasu", "na_prob": -9.138671875, "score": 7.49609375, "start_char": 93, "pred_argmax": "pemerintahan diktator militer feodalisme di Jepang yang didirikan oleh Tokugawa Ieyasu"}
+{"id": "qa_dab4e37e9cd6344c74ac", "pred": "tumbuhan yang kehadirannya tidak diinginkan pada lahan pertanian karena menurunkan hasil yang bisa dicapai oleh tanaman produksi", "na_prob": -13.683837890625, "score": 12.9609375, "start_char": 13, "pred_argmax": "tumbuhan yang kehadirannya tidak diinginkan pada lahan pertanian karena menurunkan hasil yang bisa dicapai oleh tanaman produksi"}
+{"id": "qa_daf83e19aeb274b9e6b0", "pred": "abad 18", "na_prob": -8.62109375, "score": 18.0546875, "start_char": 79, "pred_argmax": "abad 18"}
+{"id": "qa_db487bb512572717f5d9", "pred": "R. Musaid Werdisastro dan R. Ayu Aminatuszuhra", "na_prob": 15.7216796875, "score": 1.6455078125, "start_char": 86, "pred_argmax": ""}
+{"id": "qa_db5fadd62cda283125de", "pred": "benda arkeologi atau peningalan benda-benda bersejarah, yaitu semua benda yang dibuat atau dimodifikasi oleh manusia yang dapat dipindahkan", "na_prob": -13.42333984375, "score": 10.53515625, "start_char": 32, "pred_argmax": "benda arkeologi atau peningalan benda-benda bersejarah, yaitu semua benda yang dibuat atau dimodifikasi oleh manusia yang dapat dipindahkan"}
+{"id": "qa_db788dbe8fc93a58140f", "pred": "Warsawa", "na_prob": -13.03125, "score": 15.3515625, "start_char": 491, "pred_argmax": "Warsawa"}
+{"id": "qa_db91c15eb03cf54a1335", "pred": "Kentang", "na_prob": 6.9609375, "score": 5.2890625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_dba57b9c986b069295c7", "pred": "1273", "na_prob": -5.146484375, "score": 10.70703125, "start_char": 51, "pred_argmax": "1273"}
+{"id": "qa_dbaf8601773165a663e5", "pred": "4 Februari 1937", "na_prob": -6.705078125, "score": 14.2734375, "start_char": 185, "pred_argmax": "4 Februari 1937"}
+{"id": "qa_dc125924a95b0334c692", "pred": "madu", "na_prob": 6.765380859375, "score": 1.338134765625, "start_char": 692, "pred_argmax": ""}
+{"id": "qa_dc47255ccae6a3aa8437", "pred": "17 November 2006", "na_prob": 3.0078125, "score": 11.1015625, "start_char": 106, "pred_argmax": ""}
+{"id": "qa_dc675c4a85287253eb5b", "pred": "Prins Hendrikkade", "na_prob": 4.923828125, "score": 8.275390625, "start_char": 237, "pred_argmax": ""}
+{"id": "qa_dccb7e67cf88abf055a0", "pred": "Kiaracondong - Cicalengka - Padalarang", "na_prob": -11.056640625, "score": 10.02734375, "start_char": 137, "pred_argmax": "Kiaracondong - Cicalengka - Padalarang"}
+{"id": "qa_dde049a631eee1d7486e", "pred": "Li Yuan", "na_prob": 1.375, "score": 7.7421875, "start_char": 18, "pred_argmax": ""}
+{"id": "qa_dde402d1f8d3ec1762e7", "pred": "Humphrey Gilbert", "na_prob": -8.9296875, "score": 11.89453125, "start_char": 48, "pred_argmax": "Humphrey Gilbert"}
+{"id": "qa_de5fb3a3e42cbd7f536b", "pred": "28 September 1949", "na_prob": 3.7890625, "score": 10.91015625, "start_char": 1352, "pred_argmax": ""}
+{"id": "qa_deb1ced682dd1cfeddc8", "pred": "Dmitri Mendeleev", "na_prob": -9.764404296875, "score": 10.546875, "start_char": 202, "pred_argmax": "Dmitri Mendeleev"}
+{"id": "qa_deb5c73304dc2c573752", "pred": "Hanoi", "na_prob": -12.3369140625, "score": 13.375, "start_char": 23, "pred_argmax": "Hanoi"}
+{"id": "qa_df55552187fd5feda18f", "pred": "Dar-es-Salam", "na_prob": 11.216796875, "score": 2.505859375, "start_char": 184, "pred_argmax": ""}
+{"id": "qa_dfb967b245deabdd7848", "pred": "11 Januari 1995", "na_prob": 8.3828125, "score": 10.8671875, "start_char": 30, "pred_argmax": ""}
+{"id": "qa_dfd627adf6bc4ff2e523", "pred": "adanya aktivitas magma, yang biasa terjadi sebelum gunung api meletus", "na_prob": -3.729248046875, "score": 4.109375, "start_char": 30, "pred_argmax": "adanya aktivitas magma, yang biasa terjadi sebelum gunung api meletus"}
+{"id": "qa_dfdb8c29d01c208c0a8f", "pred": "6 Januari 1976", "na_prob": 8.1171875, "score": 10.921875, "start_char": 39, "pred_argmax": ""}
+{"id": "qa_dfea94cab2476427828f", "pred": "perangkat teknis ortografiyang digunakan untuk menunjukkan pengucapan kata dalam teks MasoretKitab Suci bahasa Ibrani", "na_prob": -2.41650390625, "score": -0.2587890625, "start_char": 413, "pred_argmax": "perangkat teknis ortografiyang digunakan untuk menunjukkan pengucapan kata dalam teks MasoretKitab Suci bahasa Ibrani"}
+{"id": "qa_e04716fd9d2a5b98c3b7", "pred": "Rinding Gumbeng", "na_prob": 0.453125, "score": 11.8203125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_e06036f9c470b03ab5e3", "pred": "28 September 1945", "na_prob": 7.1796875, "score": 11.0390625, "start_char": 13, "pred_argmax": ""}
+{"id": "qa_e0ce20737f5706505406", "pred": "proses pemberian bantuan yang dilakukan oleh seorang ahli (disebut konselor/pembimbing) kepada individu yang mengalami sesuatu masalah", "na_prob": -9.77239990234375, "score": 9.21484375, "start_char": 33, "pred_argmax": "proses pemberian bantuan yang dilakukan oleh seorang ahli (disebut konselor/pembimbing) kepada individu yang mengalami sesuatu masalah"}
+{"id": "qa_e105510fd37e697fb8c5", "pred": "Hyde", "na_prob": -10.914794921875, "score": 9.95703125, "start_char": 146, "pred_argmax": "Hyde"}
+{"id": "qa_e10c5c50c29611c40692", "pred": "jumlah minimal koordinat yang dibutuhkan untuk menentukan titik-titik yang ada di dalamnya", "na_prob": 8.29296875, "score": 6.25390625, "start_char": 110, "pred_argmax": ""}
+{"id": "qa_e113fbab02072ad990d5", "pred": "Lebanon", "na_prob": 13.294921875, "score": 5.900390625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_e15d08eae3cc05fe5823", "pred": "pemerintahan Soeharto", "na_prob": 4.1015625, "score": 6.32421875, "start_char": 214, "pred_argmax": ""}
+{"id": "qa_e1880e472c9ef3d6b3e5", "pred": "766", "na_prob": 12.373992919921875, "score": 0.547882080078125, "start_char": 484, "pred_argmax": ""}
+{"id": "qa_e18ca7992e47b69948cf", "pred": "21", "na_prob": 10.869140625, "score": 7.466796875, "start_char": 27, "pred_argmax": ""}
+{"id": "qa_e19ca701820ae6d8dd12", "pred": "1945 hingga 1965", "na_prob": 8.859375, "score": 8.765625, "start_char": 112, "pred_argmax": ""}
+{"id": "qa_e287aa8ae44434e116b5", "pred": "9.970.610 kilometer persegi", "na_prob": 7.65625, "score": 10.96875, "start_char": 591, "pred_argmax": ""}
+{"id": "qa_e2ce07987db9c8ed8e97", "pred": "1481", "na_prob": -7.52734375, "score": 16.765625, "start_char": 42, "pred_argmax": "1481"}
+{"id": "qa_e346a189b74feef4bc6e", "pred": "al-Jabar, adalah buku pertama yang membahas solusi sistematik dari linear dan notasi kuadrat", "na_prob": -2.8779296875, "score": 6.26171875, "start_char": 17, "pred_argmax": "al-Jabar, adalah buku pertama yang membahas solusi sistematik dari linear dan notasi kuadrat"}
+{"id": "qa_e3a91ac80c84710a45ed", "pred": "1273", "na_prob": 2.140625, "score": 10.109375, "start_char": 51, "pred_argmax": ""}
+{"id": "qa_e3dfc1dae59b6b9d5e15", "pred": "1869", "na_prob": 11.498046875, "score": 8.009765625, "start_char": 163, "pred_argmax": ""}
+{"id": "qa_e3fdae3b66360ea09d17", "pred": "11 Oktober hingga 12 Oktober 1942", "na_prob": 2.671875, "score": 12.05859375, "start_char": 212, "pred_argmax": ""}
+{"id": "qa_e4036b221ac27310c07e", "pred": "Kepulauan Midway", "na_prob": 8.96875, "score": 9.625, "start_char": 447, "pred_argmax": ""}
+{"id": "qa_e419342f25b5ef66cb80", "pred": "abad ke-10 dan ke-11", "na_prob": -10.548828125, "score": 14.3046875, "start_char": 101, "pred_argmax": "abad ke-10 dan ke-11"}
+{"id": "qa_e44fc99ea595f75b78ae", "pred": "322 SM", "na_prob": 7.57421875, "score": 10.45703125, "start_char": 156, "pred_argmax": ""}
+{"id": "qa_e580a79fb1ad6736849d", "pred": "sebelas", "na_prob": 0.0546875, "score": 9.8046875, "start_char": 204, "pred_argmax": ""}
+{"id": "qa_e61330d84179abd7e81e", "pred": "20 November 1985", "na_prob": -12.58203125, "score": 16.6484375, "start_char": 87, "pred_argmax": "20 November 1985"}
+{"id": "qa_e618bef957ccec24d703", "pred": "Peptida antimikrobial", "na_prob": 8.291015625, "score": 7.119140625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_e6354de56be830e24ccb", "pred": "Peptida antimikrobial adalah komponen yang telah berevolusi dan terdapat secara permanen pada sistem imun bawaan dan ditemukan di seluruh kelas kehidupan", "na_prob": 0.974609375, "score": 5.517578125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_e68d7dd02ce353328a6c", "pred": "Paris", "na_prob": 13.021484375, "score": 3.642578125, "start_char": 14, "pred_argmax": ""}
+{"id": "qa_e7396ada153e496fc073", "pred": "punk", "na_prob": 17.40679931640625, "score": 1.02288818359375, "start_char": 35, "pred_argmax": ""}
+{"id": "qa_e787e0ea80b24d743c7f", "pred": "1969", "na_prob": -11.962890625, "score": 14.83203125, "start_char": 105, "pred_argmax": "1969"}
+{"id": "qa_e79f556ee0f9cf6b6f8e", "pred": "radang pada membran yang menyelubungi otak dan sumsum tulang belakang, yang secara kesatuan disebut meningen", "na_prob": -3.392578125, "score": 8.302734375, "start_char": 43, "pred_argmax": "radang pada membran yang menyelubungi otak dan sumsum tulang belakang, yang secara kesatuan disebut meningen"}
+{"id": "qa_e7e37ee1b8e3c339a6d4", "pred": "19.889.559", "na_prob": 8.73828125, "score": 8.66796875, "start_char": 110, "pred_argmax": ""}
+{"id": "qa_e90a17c0a9a5e084ec93", "pred": "Ottawa", "na_prob": -12.4794921875, "score": 14.54296875, "start_char": 312, "pred_argmax": "Ottawa"}
+{"id": "qa_e9c709a3177c1a4bdd49", "pred": "malaikat yang mengatur air, menurunkan hujan/petir, membagikan rezeki pada manusia, tumbuh-tumbuhan juga hewan-hewan dan lain-lain di muka bumi ini", "na_prob": 11.48046875, "score": 4.7890625, "start_char": 30, "pred_argmax": ""}
+{"id": "qa_e9dc16a5646daf55e160", "pred": "Departemen Pertahanan Amerika Serikat", "na_prob": -5.788688898086548, "score": 5.90234375, "start_char": 56, "pred_argmax": "Departemen Pertahanan Amerika Serikat"}
+{"id": "qa_e9f7ed37b749a2b66c4c", "pred": "Samarinda", "na_prob": -13.0908203125, "score": 13.328125, "start_char": 401, "pred_argmax": "Samarinda"}
+{"id": "qa_ea2ea609a273aa575569", "pred": "Eropa Tengah", "na_prob": -14.095703125, "score": 9.1328125, "start_char": 173, "pred_argmax": "Eropa Tengah"}
+{"id": "qa_ea7dcba2399667347688", "pred": "Tokyo", "na_prob": -10.5927734375, "score": 11.48828125, "start_char": 56, "pred_argmax": "Tokyo"}
+{"id": "qa_ea90c94e4c84199ec52e", "pred": "aliran material vulkanik yang biasanya berupa campuran batu, pasir dan kerikil akibat adanya aliran air yang terjadi di lereng gunung (gunung berapi)", "na_prob": 9.634765625, "score": 5.705078125, "start_char": 61, "pred_argmax": ""}
+{"id": "qa_ea9d8106f1f6717ec14d", "pred": "Leher dan kepala angsa batu kaki biru", "na_prob": 8.603515625, "score": 2.990234375, "start_char": 10, "pred_argmax": ""}
+{"id": "qa_eb142e21b1a7f4ec05e8", "pred": "Ottawa", "na_prob": -12.4794921875, "score": 14.54296875, "start_char": 312, "pred_argmax": "Ottawa"}
+{"id": "qa_ebb031d92621cc0841a8", "pred": "6 Januari 1838", "na_prob": 8.0703125, "score": 11.2421875, "start_char": 279, "pred_argmax": ""}
+{"id": "qa_ec412b382b84c5da161c", "pred": "1969", "na_prob": 10.95703125, "score": 8.83203125, "start_char": 105, "pred_argmax": ""}
+{"id": "qa_ed6f0394dfadc0385dac", "pred": "Washington, D.C", "na_prob": 13.681640625, "score": 3.873046875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_ee6fc751bc9f30e166b5", "pred": "Dmitri Mendeleev", "na_prob": 3.14453125, "score": 6.8046875, "start_char": 202, "pred_argmax": ""}
+{"id": "qa_eed25f2473908551943b", "pred": "Desiderius", "na_prob": 4.66650390625, "score": 1.64013671875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_ef421b2e761120540ef2", "pred": "mempelajari bagaimana cara mengetahui berbisnis individu, meningkatkan organisasi, mengalokasi, menggunakan sumber daya moneter dengan sejalannya waktu, dan juga menghitung risiko dalam menjalankan proyeknya", "na_prob": -7.2647705078125, "score": 6.7607421875, "start_char": 35, "pred_argmax": "mempelajari bagaimana cara mengetahui berbisnis individu, meningkatkan organisasi, mengalokasi, menggunakan sumber daya moneter dengan sejalannya waktu, dan juga menghitung risiko dalam menjalankan proyeknya"}
+{"id": "qa_eff47534facfdd432602", "pred": "Luqman yang diceritakan dalam surah ini tentang bagaimana ia mendidik anaknya", "na_prob": 2.630859375, "score": 6.462890625, "start_char": 247, "pred_argmax": ""}
+{"id": "qa_f00dde03b2e2c37e9719", "pred": "penyanyi dangdut", "na_prob": 0.01953125, "score": 3.9560546875, "start_char": 56, "pred_argmax": ""}
+{"id": "qa_f03d44ce67a23edbf7b4", "pred": "700.000", "na_prob": -9.966796875, "score": 15.3203125, "start_char": 31, "pred_argmax": "700.000"}
+{"id": "qa_f09fea8516ea8d41f85e", "pred": "Elizabeth", "na_prob": 3.384765625, "score": 4.779296875, "start_char": 28, "pred_argmax": ""}
+{"id": "qa_f0f4d811aa1c9c23d83c", "pred": "Sri Sultan Hamengkubuwana I", "na_prob": -4.9453125, "score": 11.0, "start_char": 0, "pred_argmax": "Sri Sultan Hamengkubuwana I"}
+{"id": "qa_f135d76d6e3e27e70913", "pred": "437.072 km2", "na_prob": -16.700927734375, "score": 15.671875, "start_char": 113, "pred_argmax": "437.072 km2"}
+{"id": "qa_f158aa18d86538935182", "pred": "Yericho digambarkan dalam Alkitab Ibrani sebagai \"Kota Pohon Palem", "na_prob": 4.7265625, "score": 10.9140625, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_f15da0f71da5ef5c83bf", "pred": "Inspektur Mutu Lambung Baja pada Departemen Pengendalian Mutu, Divisi Kapal Perang, PT. PAL Indonesia", "na_prob": 5.1796875, "score": 7.38671875, "start_char": 351, "pred_argmax": ""}
+{"id": "qa_f1af31be4c925eaff779", "pred": "l.k. 153", "na_prob": 7.466796875, "score": 5.173828125, "start_char": 59, "pred_argmax": ""}
+{"id": "qa_f23b99452427988f7db2", "pred": "Kompas", "na_prob": -0.54296875, "score": 13.23828125, "start_char": 0, "pred_argmax": "Kompas"}
+{"id": "qa_f245b6df8c6a590e983d", "pred": "1942", "na_prob": -9.75244140625, "score": 12.0390625, "start_char": 169, "pred_argmax": "1942"}
+{"id": "qa_f3c8ac0e1cd84bad0716", "pred": "3 Desember 1994", "na_prob": -5.1015625, "score": 12.734375, "start_char": 188, "pred_argmax": "3 Desember 1994"}
+{"id": "qa_f42ca3921941c0ab86f4", "pred": "Ottawa", "na_prob": 6.984375, "score": 9.6953125, "start_char": 312, "pred_argmax": ""}
+{"id": "qa_f4ba17bed2a650408e0a", "pred": "18 Februari 1965", "na_prob": -9.478515625, "score": 17.15625, "start_char": 13, "pred_argmax": "18 Februari 1965"}
+{"id": "qa_f5638de1118fa3dc7b4f", "pred": "Pedro Santana", "na_prob": 0.6640625, "score": 9.09375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_f5dcd697fb47b4bee09f", "pred": "pemerintahan diktator militer feodalisme di Jepang yang didirikan oleh Tokugawa Ieyasu", "na_prob": -4.162109375, "score": 6.1171875, "start_char": 93, "pred_argmax": "pemerintahan diktator militer feodalisme di Jepang yang didirikan oleh Tokugawa Ieyasu"}
+{"id": "qa_f65257d029b7fa7a4e1c", "pred": "Lindstedt", "na_prob": 3.345703125, "score": 7.787109375, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_f75730ec4a08afaa328c", "pred": "1939", "na_prob": 10.1875, "score": 8.8359375, "start_char": 80, "pred_argmax": ""}
+{"id": "qa_f783bfd8eb0dc352a92f", "pred": "Monkey D. Luffy", "na_prob": 9.70703125, "score": 8.43359375, "start_char": 36, "pred_argmax": ""}
+{"id": "qa_f8116af38e9989aa54bf", "pred": "himpunan membran yang membentuk unit fungsional dan perkembangan tunggal, baik yang terhubung bersama-sama secara langsung, atau bertukar materi melalui transportasi vesikel", "na_prob": -11.478515625, "score": 9.5390625, "start_char": 26, "pred_argmax": "himpunan membran yang membentuk unit fungsional dan perkembangan tunggal, baik yang terhubung bersama-sama secara langsung, atau bertukar materi melalui transportasi vesikel"}
+{"id": "qa_f83568dba5f8374382ca", "pred": "1946", "na_prob": -2.5, "score": 13.43359375, "start_char": 11, "pred_argmax": "1946"}
+{"id": "qa_f8bb46de2e16df38d5e6", "pred": "1991", "na_prob": -6.623046875, "score": 12.3984375, "start_char": 193, "pred_argmax": "1991"}
+{"id": "qa_f8bef1a85e31d716d51e", "pred": "Hanoi", "na_prob": 8.8671875, "score": 5.109375, "start_char": 23, "pred_argmax": ""}
+{"id": "qa_f9028331dc43e353f98d", "pred": "mengalami noise atau gangguan", "na_prob": 4.5078125, "score": 9.0390625, "start_char": 304, "pred_argmax": ""}
+{"id": "qa_f96b0ed9dacb0b56657a", "pred": "tiga", "na_prob": -7.900390625, "score": 10.9296875, "start_char": 429, "pred_argmax": "tiga"}
+{"id": "qa_f9843b214289734ec844", "pred": "Liem Kiat Nio", "na_prob": 4.232421875, "score": 4.947265625, "start_char": 205, "pred_argmax": ""}
+{"id": "qa_f997f5ed42b936b949fa", "pred": "1938", "na_prob": 5.2109375, "score": 10.734375, "start_char": 11, "pred_argmax": ""}
+{"id": "qa_fa1875365ac7f49a2c3f", "pred": "Gereja-Gereja Katolik Timur atau Gereja-Gereja Katolik Oriental", "na_prob": -1.57806396484375, "score": 0.58758544921875, "start_char": 0, "pred_argmax": "Gereja-Gereja Katolik Timur atau Gereja-Gereja Katolik Oriental"}
+{"id": "qa_fa446e318e8dfc8d5551", "pred": "BJT (Bipolar Junction Transistor) adalah salah satu dari dua", "na_prob": 3.07421875, "score": 9.58203125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_fa4fe932fb28be21d0c3", "pred": "1992", "na_prob": 8.18359375, "score": 10.34765625, "start_char": 63, "pred_argmax": ""}
+{"id": "qa_fa6a259ffb6b8ad9db8a", "pred": "129.066,64 km²", "na_prob": -18.954345703125, "score": 17.4609375, "start_char": 255, "pred_argmax": "129.066,64 km²"}
+{"id": "qa_fbcf170d6d2e98549757", "pred": "1483", "na_prob": -3.14453125, "score": 12.36328125, "start_char": 0, "pred_argmax": "1483"}
+{"id": "qa_fbd04024bba25513ef19", "pred": "Tiongkok", "na_prob": 9.044921875, "score": 4.958984375, "start_char": 136, "pred_argmax": ""}
+{"id": "qa_fbe04e300696b170e6a0", "pred": "Paus biru", "na_prob": 6.85546875, "score": 11.26953125, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_fc02586845235643f8ea", "pred": "Antoine-Laurent de Lavoisier dan John Newlands", "na_prob": 6.126953125, "score": 5.064453125, "start_char": 304, "pred_argmax": ""}
+{"id": "qa_fd621b42f7b3521aa90a", "pred": "kelompok etnis dari orang-orang Austronesia", "na_prob": -1.64306640625, "score": 0.2763671875, "start_char": 61, "pred_argmax": "kelompok etnis dari orang-orang Austronesia"}
+{"id": "qa_fdbd93a2c835fe1e3efd", "pred": "menenggelamkan Furutaka dan Fubuki", "na_prob": 1.6162109375, "score": 2.833984375, "start_char": 321, "pred_argmax": ""}
+{"id": "qa_fe5c2d6c77e7448e2c68", "pred": "Ki Wasyid", "na_prob": 16.4111328125, "score": 1.6904296875, "start_char": 27, "pred_argmax": ""}
+{"id": "qa_feb1f61dda6029fad4b1", "pred": "kaum Vandal", "na_prob": 12.72265625, "score": 3.55859375, "start_char": 37, "pred_argmax": ""}
+{"id": "qa_fedd01192619159e5149", "pred": "Desiderius", "na_prob": 3.1181640625, "score": 1.7607421875, "start_char": 0, "pred_argmax": ""}
+{"id": "qa_ff8546bdc15000868d7d", "pred": "Imelda Staunton", "na_prob": -7.9267578125, "score": 10.5546875, "start_char": 95, "pred_argmax": "Imelda Staunton"}

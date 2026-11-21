@@ -1,0 +1,18 @@
+run mock_dev20_lp; backend openrouter; model google/gemma-4-31b-it:free; n=20; rpm 15; mock True; cache google_gemma-4-31b-it_free-mock.jsonl (0 entries)
+1/20 calls=1 cached=0
+11/20 calls=11 cached=0
+{
+ "exact": 5.0,
+ "f1": 12.40909090909091,
+ "HasAns_f1": 11.398601398601398,
+ "NoAns_acc": 14.285714285714286,
+ "pred_noans_rate": 20.0,
+ "grounding_counts": {
+  "exact": 6,
+  "snapped": 7,
+  "ungrounded": 3,
+  "noans": 4
+ },
+ "api_calls_this_run": 20,
+ "api_cache_hits": 0
+}

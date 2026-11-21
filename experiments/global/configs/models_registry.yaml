@@ -1,0 +1,14 @@
+# model name -> glob of run dirs (relative to project root). Add a new model with one line under `models`
+# and its name to `order`.
+# trivial: excluded from the hard set. logit_na: na_prob is a raw logit (calibration via sigmoid).
+order: [no_answer, sliding_window, sliding_window_thr, classical_pipeline, bidaf_noattn, bidaf, plm_indobert_full]
+trivial: [no_answer, sliding_window, sliding_window_thr]
+logit_na: [plm_indobert_full]
+models:
+  no_answer: experiments/01-baseline-trivial/runs/no_answer/seed*
+  sliding_window: experiments/01-baseline-trivial/runs/sliding_window/seed*
+  sliding_window_thr: experiments/01-baseline-trivial/runs/sliding_window_thr/seed*
+  classical_pipeline: experiments/02-classical-pipeline-lgbm/runs/classical_pipeline/seed*
+  bidaf_noattn: experiments/03-nn-bidaf/runs/bidaf_noattn/seed*
+  bidaf: experiments/03-nn-bidaf/runs/bidaf/seed*
+  plm_indobert_full: experiments/04-plm-indobert/runs/plm_indobert_full/seed*

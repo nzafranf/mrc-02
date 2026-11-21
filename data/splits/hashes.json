@@ -1,0 +1,21 @@
+{
+  "train": {
+    "n": 6435,
+    "n_impossible": 2827,
+    "sha256_ids": "5d004f15747dd708569768f4f77257d5b6b107222ae6d91979e7b2c4e22d364d",
+    "sha256_file": "f256319c469ee6ac33052f49296c2ebc783ea68bbc58f146d6abd3c9be8cf3b4"
+  },
+  "dev": {
+    "n": 803,
+    "n_impossible": 371,
+    "sha256_ids": "93051f02a87522d3073be4b766102f87b67bd1120808a69d9704df37fde0dc2b",
+    "sha256_file": "9d6e00a0dcdf50265a28a2cdbb113c26d7f14bb74840152c16c86ce8e1a859fd"
+  },
+  "itest": {
+    "n": 804,
+    "n_impossible": 353,
+    "sha256_ids": "779f99242962fd930351466c4e5caf2969ef15137f4ed8d46ccd19fa445668ae",
+    "sha256_file": "96f84772bbcfcb20c3632a76b1a47a5fd7b36725e932a1e3242745bc1e9f3c68"
+  },
+  "n_groups": 3269
+}

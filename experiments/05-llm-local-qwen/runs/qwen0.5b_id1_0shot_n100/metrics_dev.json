@@ -1,0 +1,33 @@
+{
+  "n": 100,
+  "exact": 16.0,
+  "f1": 26.262823287823288,
+  "HasAns_n": 58,
+  "HasAns_exact": 8.620689655172415,
+  "HasAns_f1": 26.315212565212565,
+  "NoAns_n": 42,
+  "NoAns_acc": 26.19047619047619,
+  "pred_noans_rate": 28.0,
+  "missing_preds": 0,
+  "best_na_threshold": 0.05827509793937532,
+  "at_best_threshold": {
+    "n": 100,
+    "exact": 46.0,
+    "f1": 51.9279748029748,
+    "HasAns_n": 58,
+    "HasAns_exact": 6.896551724137931,
+    "HasAns_f1": 17.117197936163457,
+    "NoAns_n": 42,
+    "NoAns_acc": 100.0,
+    "pred_noans_rate": 79.0
+  },
+  "grounding_rates": {
+    "exact": 0.14,
+    "snapped": 0.4,
+    "ungrounded": 0.18,
+    "noans": 0.28
+  },
+  "hallucination_rate_ungrounded": 0.18,
+  "format_failure_rate": 0.0,
+  "sec_per_example": 17.28697634935379
+}

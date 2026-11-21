@@ -1,0 +1,17 @@
+run mock_check; backend gemini; model gemini-2.5-flash; n=5; rpm 15; mock True; cache gemini-2.5-flash-mock.jsonl (20 entries)
+1/5 calls=0 cached=1
+{
+ "exact": 20.0,
+ "f1": 20.0,
+ "HasAns_f1": 0.0,
+ "NoAns_acc": 50.0,
+ "pred_noans_rate": 20.0,
+ "grounding_counts": {
+  "exact": 1,
+  "snapped": 2,
+  "ungrounded": 1,
+  "noans": 1
+ },
+ "api_calls_this_run": 0,
+ "api_cache_hits": 5
+}

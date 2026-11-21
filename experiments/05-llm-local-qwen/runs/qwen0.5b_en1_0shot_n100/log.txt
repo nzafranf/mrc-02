@@ -1,0 +1,20 @@
+run qwen0.5b_en1_0shot_n100; model Qwen/Qwen2.5-0.5B-Instruct; n=100; no-answer first token id 51 = 'T'; fixed demo ids []
+4/100 10.08s/ex
+44/100 7.15s/ex
+84/100 9.07s/ex
+{
+ "exact": 22.0,
+ "f1": 32.79759407259407,
+ "HasAns_f1": 34.133782883782885,
+ "NoAns_acc": 30.952380952380953,
+ "pred_noans_rate": 20.0,
+ "grounding_rates": {
+  "exact": 0.28,
+  "snapped": 0.38,
+  "ungrounded": 0.14,
+  "noans": 0.2
+ },
+ "sec_per_example": 9.395698170661927,
+ "best_na_threshold": 0.05145052984080279
+}
+at best threshold: {"n": 100, "exact": 43.0, "f1": 49.3989343989344, "HasAns_n": 58, "HasAns_exact": 6.896551724137931, "HasAns_f1": 17.929197239542066, "NoAns_n": 42, "NoAns_acc": 92.85714285714286, "pred_noans_rate": 76.0}

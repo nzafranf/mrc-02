@@ -1,0 +1,32 @@
+{
+ "indobenchmark/indobert-base-p1": {
+  "n_contexts": 2924,
+  "tokens_per_word": 1.455,
+  "pct_words_split": 25.1,
+  "ctx_tokens_mean": 114.5,
+  "ctx_tokens_p95": 239,
+  "ctx_tokens_max": 3660,
+  "pct_ctx_gt_384": 0.8,
+  "pct_ctx_gt_512": 0.3
+ },
+ "FacebookAI/xlm-roberta-base": {
+  "n_contexts": 2924,
+  "tokens_per_word": 1.583,
+  "pct_words_split": 34.7,
+  "ctx_tokens_mean": 124.8,
+  "ctx_tokens_p95": 258,
+  "ctx_tokens_max": 4199,
+  "pct_ctx_gt_384": 1.2,
+  "pct_ctx_gt_512": 0.4
+ },
+ "Qwen/Qwen2.5-1.5B-Instruct": {
+  "n_contexts": 2924,
+  "tokens_per_word": 2.519,
+  "pct_words_split": 81.9,
+  "ctx_tokens_mean": 181.1,
+  "ctx_tokens_p95": 371,
+  "ctx_tokens_max": 6051,
+  "pct_ctx_gt_384": 4.6,
+  "pct_ctx_gt_512": 1.6
+ }
+}

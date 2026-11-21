@@ -1,0 +1,1 @@
+run gemma4_31b_id1_0shot; backend openrouter; model google/gemma-4-31b-it:free; n=5; rpm 15.0; mock False; cache google_gemma-4-31b-it_free.jsonl (0 entries)

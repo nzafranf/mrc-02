@@ -1,0 +1,9 @@
+train examples 300 -> windows 306; dev examples 200
+params trainable 123,852,290 / total 123,852,290
+epoch 1 step 5/20 loss 4.5567 lr 2.50e-05 elapsed 179s (35.87s/step)
+epoch 1 step 10/20 loss 3.7357 lr 1.67e-05 elapsed 350s (34.97s/step)
+epoch 1 step 15/20 loss 3.3082 lr 8.33e-06 elapsed 508s (33.87s/step)
+epoch 1 step 20/20 loss 3.2621 lr 0.00e+00 elapsed 638s (31.88s/step)
+== epoch 1 train_loss 3.2621 dev F1@best_thr 42.77 (thr 0.800) elapsed 693s
+best epoch 1  dev at best threshold: {"n": 200, "exact": 42.5, "f1": 42.77272727272727, "HasAns_n": 117, "HasAns_exact": 2.5641025641025643, "HasAns_f1": 3.0303030303030303, "NoAns_n": 83, "NoAns_acc": 98.79518072289157, "pred_noans_rate": 95.5}
+saved checkpoint.pt (trainable params only)

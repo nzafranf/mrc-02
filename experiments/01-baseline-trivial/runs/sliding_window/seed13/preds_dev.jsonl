@@ -1,0 +1,803 @@
+{"id": "qa_006703b670a2de86a02f", "pred": "1993", "na_prob": 0.0, "score": 1, "start_char": 242}
+{"id": "qa_00e198cdbe7a6db9fff7", "pred": "Yen Hsi-shan", "na_prob": 0.0, "score": -3, "start_char": 17}
+{"id": "qa_00ff25c8418d611dec83", "pred": "Paris", "na_prob": 0.0, "score": -3, "start_char": 561}
+{"id": "qa_01364a9092f96eb6e2be", "pred": "Teheran", "na_prob": 0.0, "score": -3, "start_char": 330}
+{"id": "qa_019cc3e2fe995662f0ec", "pred": "Elo", "na_prob": 0.0, "score": -10, "start_char": 17}
+{"id": "qa_032e963768b50c42794c", "pred": "United Republic of Tanganyika", "na_prob": 0.0, "score": -2, "start_char": 24}
+{"id": "qa_0349eeca8eb4cae07506", "pred": "1971", "na_prob": 0.0, "score": 4, "start_char": 163}
+{"id": "qa_03f1db958d34894d9e06", "pred": "Roosevelt", "na_prob": 0.0, "score": -7, "start_char": 153}
+{"id": "qa_0406f9996f7eb6dcd774", "pred": "NamaMasa", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_04b38b92e0a507d36cd7", "pred": "Pembangunan Orde Baru", "na_prob": 0.0, "score": 3, "start_char": 58}
+{"id": "qa_05170124bc738c0a36a9", "pred": "Dr", "na_prob": 0.0, "score": -2, "start_char": 307}
+{"id": "qa_05472ac12e5fdcef4ee0", "pred": "Sungai Rhein", "na_prob": 0.0, "score": 2, "start_char": 192}
+{"id": "qa_056cd52e558d20724ced", "pred": "KNILM", "na_prob": 0.0, "score": -2, "start_char": 416}
+{"id": "qa_05aed54e82bdb9edebf5", "pred": "Port Moresby", "na_prob": 0.0, "score": -1, "start_char": 126}
+{"id": "qa_0674f81bcf68276feae4", "pred": "komputer", "na_prob": 0.0, "score": -1000000000.0, "start_char": 26}
+{"id": "qa_06c9c5c2f0f891b0e163", "pred": "1", "na_prob": 0.0, "score": -19, "start_char": 105}
+{"id": "qa_074634b2eae86659178f", "pred": "Kecamatan Denpasar Selatan", "na_prob": 0.0, "score": -5, "start_char": 66}
+{"id": "qa_07b2bea085cd5a148a56", "pred": "28 September 1945", "na_prob": 0.0, "score": 6, "start_char": 13}
+{"id": "qa_08d2b4d14fb91aadc8be", "pred": "7", "na_prob": 0.0, "score": 3, "start_char": 724}
+{"id": "qa_08e83cbae802d30d772a", "pred": "24 Juli 1971", "na_prob": 0.0, "score": 3, "start_char": 55}
+{"id": "qa_0986961735e0c79ff572", "pred": "Uskup Roma", "na_prob": 0.0, "score": 3, "start_char": 84}
+{"id": "qa_09df0b3461ac400e9981", "pred": "1 SM", "na_prob": 0.0, "score": 1, "start_char": 137}
+{"id": "qa_0a266524498967311c7b", "pred": "Indonesia", "na_prob": 0.0, "score": -2, "start_char": 68}
+{"id": "qa_0a3867b0e2c4601ee016", "pred": "Indonesia", "na_prob": 0.0, "score": -1, "start_char": 37}
+{"id": "qa_0aa5f7a3a28d2168f810", "pred": "Bapak", "na_prob": 0.0, "score": -1000000000.0, "start_char": 139}
+{"id": "qa_0b6b1eba2354831f69a2", "pred": "12 Juli 1827", "na_prob": 0.0, "score": 6, "start_char": 33}
+{"id": "qa_0bbd9bca8cd9a31983f7", "pred": "1910", "na_prob": 0.0, "score": 5, "start_char": 22}
+{"id": "qa_0bf9cafef11db24ae688", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_0c11962e96fb79592a56", "pred": "605.21", "na_prob": 0.0, "score": 2, "start_char": 64}
+{"id": "qa_0c1a521ee90994faf8d3", "pred": "KG", "na_prob": 0.0, "score": -3, "start_char": 181}
+{"id": "qa_0d3166a8ccb592c32956", "pred": "Blambangan", "na_prob": 0.0, "score": -10, "start_char": 131}
+{"id": "qa_0d82790c6d3244970680", "pred": "The Tjing San", "na_prob": 0.0, "score": 1, "start_char": 54}
+{"id": "qa_0e2de9da8e47e8e3bce2", "pred": "Persia", "na_prob": 0.0, "score": -4, "start_char": 38}
+{"id": "qa_0e6aa11cce3b6f24ff33", "pred": "tumbuhan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 13}
+{"id": "qa_0e97f296813e91e1b338", "pred": "2010", "na_prob": 0.0, "score": 6, "start_char": 159}
+{"id": "qa_0fd14e04b7219bdf46fc", "pred": "Andover", "na_prob": 0.0, "score": 0, "start_char": 43}
+{"id": "qa_109b06c18a73e301b88b", "pred": "Marchia Caroline Pohan", "na_prob": 0.0, "score": -5, "start_char": 0}
+{"id": "qa_117ffbb8cd4ed821d9e9", "pred": "Hanoi", "na_prob": 0.0, "score": -2, "start_char": 23}
+{"id": "qa_11f43b983ed2d07230d3", "pred": "Tel Aviv", "na_prob": 0.0, "score": -12, "start_char": 0}
+{"id": "qa_120d3e2aeafdd83b1379", "pred": "17 Mei 2011", "na_prob": 0.0, "score": 0, "start_char": 63}
+{"id": "qa_126379bbfd9c2621c543", "pred": "18 Februari 1965", "na_prob": 0.0, "score": 5, "start_char": 13}
+{"id": "qa_1290946d9e9dc71220bd", "pred": "Kota-kota", "na_prob": 0.0, "score": -2, "start_char": 121}
+{"id": "qa_12a96c12a171ddb1849c", "pred": "AC", "na_prob": 0.0, "score": -1, "start_char": 310}
+{"id": "qa_12e3435faae9c0fd4099", "pred": "Vietnam Utara", "na_prob": 0.0, "score": -4, "start_char": 63}
+{"id": "qa_1381e371016dcc40f018", "pred": "menggunakan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 531}
+{"id": "qa_13c59c64a91845c04166", "pred": "Indonesia", "na_prob": 0.0, "score": -6, "start_char": 42}
+{"id": "qa_13c7e7d35eada8123a87", "pred": "Rajaresi Darmayawarmanguru", "na_prob": 0.0, "score": -2, "start_char": 18}
+{"id": "qa_140ea77136a742b49cea", "pred": "Walaupun 45", "na_prob": 0.0, "score": 2, "start_char": 0}
+{"id": "qa_14b925e5c6d46c010913", "pred": "ARPA", "na_prob": 0.0, "score": 2, "start_char": 134}
+{"id": "qa_14c02949ccea2ed9dabd", "pred": "mengembangkan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 591}
+{"id": "qa_1517da00eb83219c0d8e", "pred": "Indonesia", "na_prob": 0.0, "score": -3, "start_char": 56}
+{"id": "qa_15fcf4146498cca19dcf", "pred": "Li Shimin", "na_prob": 0.0, "score": -6, "start_char": 430}
+{"id": "qa_16a2febc8c0b6aa56cea", "pred": "Indonesia", "na_prob": 0.0, "score": -2, "start_char": 78}
+{"id": "qa_16ac72467a2b6c9d60cc", "pred": "Malaysia", "na_prob": 0.0, "score": 3, "start_char": 131}
+{"id": "qa_1736e82de25b5f57abdc", "pred": "0", "na_prob": 0.0, "score": 3, "start_char": 103}
+{"id": "qa_1737a489cc79e73c20c9", "pred": "Asia Timur", "na_prob": 0.0, "score": 1, "start_char": 23}
+{"id": "qa_175e4e7028a6638527bf", "pred": "Prefektur Shizuoka", "na_prob": 0.0, "score": 2, "start_char": 100}
+{"id": "qa_17e01bfa1eeedaf3a2be", "pred": "10", "na_prob": 0.0, "score": -9, "start_char": 115}
+{"id": "qa_180f09da0a4c0a1fd302", "pred": "Leher", "na_prob": 0.0, "score": -3, "start_char": 10}
+{"id": "qa_188728ba9d4d4e29d507", "pred": "René", "na_prob": 0.0, "score": 3, "start_char": 787}
+{"id": "qa_195a889e959cd03a8d8f", "pred": "Melainkan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 507}
+{"id": "qa_1a05439cf9633a04e7eb", "pred": "Warsawa", "na_prob": 0.0, "score": -5, "start_char": 491}
+{"id": "qa_1aaf53e8bdeae8febcd3", "pred": "Bapak", "na_prob": 0.0, "score": -1000000000.0, "start_char": 139}
+{"id": "qa_1b3c69b46bf0a761fa40", "pred": "Jawa Barat", "na_prob": 0.0, "score": -3, "start_char": 68}
+{"id": "qa_1b76b627138ad600d5ed", "pred": "Boleslav I", "na_prob": 0.0, "score": 1, "start_char": 638}
+{"id": "qa_1bd8b692e0d1375542c9", "pred": "Superjumbo", "na_prob": 0.0, "score": -3, "start_char": 486}
+{"id": "qa_1bf541a82aecf51fa9c7", "pred": "Malaysia", "na_prob": 0.0, "score": -2, "start_char": 131}
+{"id": "qa_1c8a15cd9ed413c6ac4b", "pred": "Iran", "na_prob": 0.0, "score": -7, "start_char": 174}
+{"id": "qa_1cafbf04e5059f20d957", "pred": "Pirate King", "na_prob": 0.0, "score": -10, "start_char": 148}
+{"id": "qa_1cf7b4abf96720c516d8", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_1d2da4978c2701673be1", "pred": "Sang Pencipta", "na_prob": 0.0, "score": 2, "start_char": 205}
+{"id": "qa_1d53571d5616a75f78e1", "pred": "30 Mei-23 September 1849 Buenaventura Báez", "na_prob": 0.0, "score": -3, "start_char": 186}
+{"id": "qa_1dceb67de26ebed5520b", "pred": "mempunyai", "na_prob": 0.0, "score": -1000000000.0, "start_char": 5}
+{"id": "qa_1e0375bb9d9e7cb9488b", "pred": "Tel Aviv", "na_prob": 0.0, "score": -12, "start_char": 0}
+{"id": "qa_1e4ba2c2a06dde242174", "pred": "Konstantinus XI Palaiologos", "na_prob": 0.0, "score": -3, "start_char": 214}
+{"id": "qa_1e53abdcb86f5d50175c", "pred": "bentuk", "na_prob": 0.0, "score": -1000000000.0, "start_char": 93}
+{"id": "qa_1e61ddf3a44c0ea91ba9", "pred": "RHCP", "na_prob": 0.0, "score": -4, "start_char": 37}
+{"id": "qa_1e965b67285b71c565b1", "pred": "pemahaman", "na_prob": 0.0, "score": -1000000000.0, "start_char": 19}
+{"id": "qa_1f0db6e9e596ddb37dea", "pred": "18", "na_prob": 0.0, "score": 2, "start_char": 84}
+{"id": "qa_1f1feb84337e4e874f1a", "pred": "4", "na_prob": 0.0, "score": 2, "start_char": 133}
+{"id": "qa_1f4e980b4aba401ebe8e", "pred": "Indonesia", "na_prob": 0.0, "score": -1, "start_char": 37}
+{"id": "qa_1fbf8489bddfb3e80962", "pred": "Asia Tenggara", "na_prob": 0.0, "score": -4, "start_char": 246}
+{"id": "qa_1fddec798d61e62079a8", "pred": "Arc", "na_prob": 0.0, "score": 3, "start_char": 2}
+{"id": "qa_20564c45de2060da8fb1", "pred": "1 SM", "na_prob": 0.0, "score": 1, "start_char": 137}
+{"id": "qa_205eb0af618660bf8d4e", "pred": "Malaysia", "na_prob": 0.0, "score": -2, "start_char": 131}
+{"id": "qa_2071a6eaadf80ca3e8ef", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_20814323bce9315eca79", "pred": "U-2 Amerika Serikat", "na_prob": 0.0, "score": -1, "start_char": 42}
+{"id": "qa_20ef37ed8d030f583cee", "pred": "Amerika Utara", "na_prob": 0.0, "score": -2, "start_char": 550}
+{"id": "qa_214ca9b6b63b3090911d", "pred": "4", "na_prob": 0.0, "score": -14, "start_char": 491}
+{"id": "qa_215981b00544ba9a3c1c", "pred": "menjadi", "na_prob": 0.0, "score": -1000000000.0, "start_char": 210}
+{"id": "qa_2235e9532c952b3717f9", "pred": "mampu", "na_prob": 0.0, "score": -1000000000.0, "start_char": 356}
+{"id": "qa_225419a85b303ece1c26", "pred": "matematika", "na_prob": 0.0, "score": -1000000000.0, "start_char": 64}
+{"id": "qa_227d6f5de0ab1ed3890f", "pred": "26", "na_prob": 0.0, "score": -8, "start_char": 354}
+{"id": "qa_233a408f80fd80b4c302", "pred": "Tokyo", "na_prob": 0.0, "score": -8, "start_char": 56}
+{"id": "qa_235459c8cc3941f3cf44", "pred": "Oost-Indie", "na_prob": 0.0, "score": -2, "start_char": 642}
+{"id": "qa_24041b11d835d85aa0ca", "pred": "Bandar Udara Kemayoran", "na_prob": 0.0, "score": -4, "start_char": 0}
+{"id": "qa_244f531e28dd211e2fb1", "pred": "Marchia Caroline Pohan", "na_prob": 0.0, "score": -5, "start_char": 0}
+{"id": "qa_24919d8a11cb4ba5d678", "pred": "genggam", "na_prob": 0.0, "score": -1000000000.0, "start_char": 294}
+{"id": "qa_2548a969bbcdbeb6bc0d", "pred": "1837", "na_prob": 0.0, "score": -1, "start_char": 107}
+{"id": "qa_2601cd3cac7fadee10ec", "pred": "2,4871773339", "na_prob": 0.0, "score": -9, "start_char": 121}
+{"id": "qa_2688e28fe6384bc9b730", "pred": "15 Februari 1908", "na_prob": 0.0, "score": 6, "start_char": 55}
+{"id": "qa_26894a3c6a0f94d12325", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_26adc23256fbedaa017b", "pred": "Tokyo", "na_prob": 0.0, "score": -8, "start_char": 56}
+{"id": "qa_26c31781b642fc4074e9", "pred": "100", "na_prob": 0.0, "score": -5, "start_char": 53}
+{"id": "qa_26d7cd6a46ea951c2ccb", "pred": "3.864,02", "na_prob": 0.0, "score": 3, "start_char": 273}
+{"id": "qa_272256b9d38d709e7306", "pred": "David Ben-Gurion", "na_prob": 0.0, "score": -5, "start_char": 0}
+{"id": "qa_2741c1db62eee4768648", "pred": "Pada 28 Oktober 1958", "na_prob": 0.0, "score": 3, "start_char": 1205}
+{"id": "qa_2829a1c24e279746ddac", "pred": "Pulau Sulawesi", "na_prob": 0.0, "score": -4, "start_char": 80}
+{"id": "qa_283f56d40d99510e88b0", "pred": "Guatemala", "na_prob": 0.0, "score": -2, "start_char": 695}
+{"id": "qa_284346ed45fc43f72c06", "pred": "Tanakh", "na_prob": 0.0, "score": -4, "start_char": 532}
+{"id": "qa_288f1a4681d339e0e2d5", "pred": "Sistem", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_28df947d3ceb79d558a4", "pred": "Inggris", "na_prob": 0.0, "score": -10, "start_char": 17}
+{"id": "qa_29051b5744cbc451d3ae", "pred": "Jakarta Pusat", "na_prob": 0.0, "score": -12, "start_char": 136}
+{"id": "qa_294089cdda34ce86f758", "pred": "Roosevelt", "na_prob": 0.0, "score": -7, "start_char": 153}
+{"id": "qa_2974feb915bb33a854a7", "pred": "19", "na_prob": 0.0, "score": -8, "start_char": 133}
+{"id": "qa_2983119eb40424537018", "pred": "S", "na_prob": 0.0, "score": -2, "start_char": 17}
+{"id": "qa_29d0a7c0fab97a43d667", "pred": "Jepang", "na_prob": 0.0, "score": -3, "start_char": 72}
+{"id": "qa_29e1987bfd57d862f0bc", "pred": "3", "na_prob": 0.0, "score": -1, "start_char": 54}
+{"id": "qa_29f0954d5523d5577891", "pred": "Bahasa Jawa", "na_prob": 0.0, "score": 2, "start_char": 67}
+{"id": "qa_2ab804f8b8e0c71c1d42", "pred": "Portugal", "na_prob": 0.0, "score": -1, "start_char": 543}
+{"id": "qa_2aca9fba5bfa7da54856", "pred": "Spanyol", "na_prob": 0.0, "score": 1, "start_char": 139}
+{"id": "qa_2c11356e6981b68f011f", "pred": "Albertus Christiaan Kruyt", "na_prob": 0.0, "score": -1, "start_char": 544}
+{"id": "qa_2c4c27a5a8bcb0111545", "pred": "Belle", "na_prob": 0.0, "score": 3, "start_char": 223}
+{"id": "qa_2c7882978fe493a17945", "pred": "Amerika Serikat", "na_prob": 0.0, "score": -1, "start_char": 127}
+{"id": "qa_2c972759fd87895a33a0", "pred": "utama", "na_prob": 0.0, "score": -1000000000.0, "start_char": 50}
+{"id": "qa_2ca1cb8ac5db320f5d72", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_2d18bb959e557f8aaa25", "pred": "5 Februari 1922", "na_prob": 0.0, "score": 2, "start_char": 39}
+{"id": "qa_2d67b2d74803deb99238", "pred": "Kementerian Dalam Negeri Republik Indonesia", "na_prob": 0.0, "score": -10, "start_char": 109}
+{"id": "qa_2d74415d8d0f103ee205", "pred": "Bahasa Indonesia", "na_prob": 0.0, "score": -4, "start_char": 60}
+{"id": "qa_2d847c2fce06ae2834bc", "pred": "Polandia", "na_prob": 0.0, "score": 3, "start_char": 115}
+{"id": "qa_2e16ab57a1e97c77b7e7", "pred": "menemukan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 127}
+{"id": "qa_2e6347d1429cd4b3439c", "pred": "Jawa", "na_prob": 0.0, "score": 1, "start_char": 177}
+{"id": "qa_2e655af0a7dc66753066", "pred": "Mesopotamia", "na_prob": 0.0, "score": 2, "start_char": 125}
+{"id": "qa_2ef3d7a0095a4d975ecc", "pred": "Banten", "na_prob": 0.0, "score": -4, "start_char": 109}
+{"id": "qa_2fc6ed350da29088157a", "pred": "Pembangunan Orde Baru", "na_prob": 0.0, "score": -2, "start_char": 58}
+{"id": "qa_2fc72530a5f4f797681f", "pred": "Mieszko I", "na_prob": 0.0, "score": 0, "start_char": 100}
+{"id": "qa_2fd984d50629f95babff", "pred": "Dutch", "na_prob": 0.0, "score": 3, "start_char": 11}
+{"id": "qa_30158b7027e04ca18b5b", "pred": "Indonesia", "na_prob": 0.0, "score": -1, "start_char": 37}
+{"id": "qa_30652ede3773ff9e423b", "pred": "Naruto", "na_prob": 0.0, "score": -10, "start_char": 27}
+{"id": "qa_30a56e798c17da417828", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_30fcf258db102f58045e", "pred": "1979", "na_prob": 0.0, "score": 2, "start_char": 23}
+{"id": "qa_313010b7546d63667a19", "pred": "Yunani", "na_prob": 0.0, "score": -3, "start_char": 16}
+{"id": "qa_3138ad71bed7b29ffbcd", "pred": "422.000", "na_prob": 0.0, "score": 4, "start_char": 276}
+{"id": "qa_316e97cc1847379141f2", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_31b649d119e2f3f44290", "pred": "Li Yuan", "na_prob": 0.0, "score": 0, "start_char": 18}
+{"id": "qa_32133b3df7f399977007", "pred": "Kota-kota", "na_prob": 0.0, "score": -2, "start_char": 121}
+{"id": "qa_3293634788aaf8f2569c", "pred": "Batak", "na_prob": 0.0, "score": -2, "start_char": 108}
+{"id": "qa_3297f3ae804b5cb37763", "pred": "prokariot", "na_prob": 0.0, "score": -1000000000.0, "start_char": 192}
+{"id": "qa_33161f2be040bb1d5e36", "pred": "Balaenoptera", "na_prob": 0.0, "score": -3, "start_char": 11}
+{"id": "qa_3349afe2bf5938bdc841", "pred": "Leiden", "na_prob": 0.0, "score": 3, "start_char": 151}
+{"id": "qa_339b0a849a7c78803613", "pred": "Li Yuan", "na_prob": 0.0, "score": 0, "start_char": 18}
+{"id": "qa_33aa257fb184c1389e45", "pred": "Hanzi", "na_prob": 0.0, "score": 3, "start_char": 14}
+{"id": "qa_33fb41bf91ba3641584e", "pred": "Indonesia", "na_prob": 0.0, "score": -2, "start_char": 78}
+{"id": "qa_34180395eb34ad403563", "pred": "terdapat", "na_prob": 0.0, "score": -1000000000.0, "start_char": 69}
+{"id": "qa_34326bd9112e23273c59", "pred": "tunggal", "na_prob": 0.0, "score": -1000000000.0, "start_char": 83}
+{"id": "qa_343645a3c70b99a9a379", "pred": "Indonesia", "na_prob": 0.0, "score": -2, "start_char": 189}
+{"id": "qa_34eb39b7a2bf971efe9a", "pred": "1603", "na_prob": 0.0, "score": -3, "start_char": 42}
+{"id": "qa_34f99301dbbe4fdc4acd", "pred": "Nan Yang", "na_prob": 0.0, "score": -2, "start_char": 476}
+{"id": "qa_356ff2adb867bc4342b8", "pred": "Latin", "na_prob": 0.0, "score": -1, "start_char": 27}
+{"id": "qa_35ee441f328f27f59fd2", "pred": "Monkey D", "na_prob": 0.0, "score": 0, "start_char": 36}
+{"id": "qa_3613ed18aa06c112d456", "pred": "Yunani", "na_prob": 0.0, "score": -3, "start_char": 16}
+{"id": "qa_362ebc710383ad2b56a3", "pred": "1293", "na_prob": 0.0, "score": -5, "start_char": 171}
+{"id": "qa_366e3d7982e314f7b1ac", "pred": "Mu Duo", "na_prob": 0.0, "score": -2, "start_char": 6}
+{"id": "qa_36a134a86288b4600940", "pred": "Orang", "na_prob": 0.0, "score": 4, "start_char": 23}
+{"id": "qa_36a216acaca9ceefb4b6", "pred": "Indonesia", "na_prob": 0.0, "score": -2, "start_char": 68}
+{"id": "qa_36ccb52481e5ee20d345", "pred": "Bapak", "na_prob": 0.0, "score": -1000000000.0, "start_char": 139}
+{"id": "qa_370f6c83441012cce36f", "pred": "Gulma", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_3728e305fef27f95e40f", "pred": "11 Januari 1995", "na_prob": 0.0, "score": 3, "start_char": 30}
+{"id": "qa_3732f2d7713ba80b8fb0", "pred": "Megamendung", "na_prob": 0.0, "score": -3, "start_char": 79}
+{"id": "qa_3756dd03ea79c52b0a61", "pred": "", "na_prob": 0.0, "score": 0.0, "start_char": -1}
+{"id": "qa_3761a98384dfed0b192b", "pred": "KG", "na_prob": 0.0, "score": 2, "start_char": 181}
+{"id": "qa_3788a2134ea673917590", "pred": "tinjauan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 5}
+{"id": "qa_38532476af8f567f6c1a", "pred": "komputer", "na_prob": 0.0, "score": -1000000000.0, "start_char": 26}
+{"id": "qa_385a83a5e0dc556f4fc5", "pred": "aktivitas", "na_prob": 0.0, "score": -1000000000.0, "start_char": 47}
+{"id": "qa_388cce81c802644569e0", "pred": "1332 M", "na_prob": 0.0, "score": 2, "start_char": 152}
+{"id": "qa_38c2f37407bdde530b31", "pred": "Eisleben", "na_prob": 0.0, "score": 3, "start_char": 116}
+{"id": "qa_39d119dfef45812d53ba", "pred": "George W", "na_prob": 0.0, "score": -5, "start_char": 386}
+{"id": "qa_3a01699b384337939d81", "pred": "37.530,52", "na_prob": 0.0, "score": 4, "start_char": 187}
+{"id": "qa_3a0cdfd7ea9e6c2d98ef", "pred": "8", "na_prob": 0.0, "score": 2, "start_char": 77}
+{"id": "qa_3b7e709deb2c230e7bac", "pred": "dibayangkan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 100}
+{"id": "qa_3baba691b0e77400cfe2", "pred": "21 September 1558", "na_prob": 0.0, "score": 0, "start_char": 122}
+{"id": "qa_3c0aad94510547076e78", "pred": "", "na_prob": 0.0, "score": 0.0, "start_char": -1}
+{"id": "qa_3c25caa2144718d10532", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_3c52e81e5ab8b3b02ad6", "pred": "Islam", "na_prob": 0.0, "score": -2, "start_char": 83}
+{"id": "qa_3c53d39bcf7ebf5ada38", "pred": "besar", "na_prob": 0.0, "score": -1000000000.0, "start_char": 614}
+{"id": "qa_3c6252982b4bfd1779b3", "pred": "Indonesia", "na_prob": 0.0, "score": -14, "start_char": 99}
+{"id": "qa_3d4f723cb17bc6c6935e", "pred": "antihistamin", "na_prob": 0.0, "score": -1000000000.0, "start_char": 349}
+{"id": "qa_3ddf60850d6573e1050d", "pred": "21", "na_prob": 0.0, "score": -18, "start_char": 138}
+{"id": "qa_3e03c5397c43a12f569b", "pred": "Jerman", "na_prob": 0.0, "score": 3, "start_char": 64}
+{"id": "qa_3ec00ae2e527c9db6c91", "pred": "18", "na_prob": 0.0, "score": 2, "start_char": 84}
+{"id": "qa_3ece0ed84215faf3e474", "pred": "Nama", "na_prob": 0.0, "score": -1000000000.0, "start_char": 208}
+{"id": "qa_3f20dec8551747be51bb", "pred": "1897", "na_prob": 0.0, "score": -1, "start_char": 877}
+{"id": "qa_3f221c1282b41380f11b", "pred": "君の知らない物語", "na_prob": 0.0, "score": -1000000000.0, "start_char": 30}
+{"id": "qa_3fa9988c0127978fe68b", "pred": "1", "na_prob": 0.0, "score": -19, "start_char": 105}
+{"id": "qa_401e868a0b3336a4a150", "pred": "TVRI", "na_prob": 0.0, "score": -2, "start_char": 54}
+{"id": "qa_40255ee6d66b50647719", "pred": "29", "na_prob": 0.0, "score": 2, "start_char": 27}
+{"id": "qa_404eedefa9f4ff2cc62d", "pred": "Banten", "na_prob": 0.0, "score": -4, "start_char": 109}
+{"id": "qa_40c1b2229a8f6ea98185", "pred": "RHCP", "na_prob": 0.0, "score": -4, "start_char": 37}
+{"id": "qa_41208226ab3c33e9d749", "pred": "100", "na_prob": 0.0, "score": 3, "start_char": 622}
+{"id": "qa_4123c386a0cb47681619", "pred": "Indonesia", "na_prob": 0.0, "score": -14, "start_char": 99}
+{"id": "qa_4178b499775a79712ce5", "pred": "ditunjuknya", "na_prob": 0.0, "score": -1000000000.0, "start_char": 271}
+{"id": "qa_4198c8e5ed6f384f0a79", "pred": "Indochina", "na_prob": 0.0, "score": -3, "start_char": 327}
+{"id": "qa_41dc0e0c81c934105fd7", "pred": "Daerah Tingkat II", "na_prob": 0.0, "score": -4, "start_char": 34}
+{"id": "qa_4222a319cccf1eedfe96", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_424268dd9daf62e0e555", "pred": "80,43", "na_prob": 0.0, "score": 3, "start_char": 209}
+{"id": "qa_42d9c8b9a812035074f1", "pred": "3,120", "na_prob": 0.0, "score": 4, "start_char": 100}
+{"id": "qa_42d9f93f18de7e1f61de", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_42f041bc8cb47f10f874", "pred": "bentuk", "na_prob": 0.0, "score": -1000000000.0, "start_char": 93}
+{"id": "qa_43026cd6c292f893b1c6", "pred": "18", "na_prob": 0.0, "score": 2, "start_char": 84}
+{"id": "qa_43a412cf74a5d737c700", "pred": "Hanoi", "na_prob": 0.0, "score": -2, "start_char": 23}
+{"id": "qa_43c0b7ee1155daca4614", "pred": "FIFA", "na_prob": 0.0, "score": -15, "start_char": 160}
+{"id": "qa_44435a218d7826a0378f", "pred": "Menteri", "na_prob": 0.0, "score": -9, "start_char": 203}
+{"id": "qa_44635b98781d8487fe26", "pred": "Albertus Christiaan Kruyt", "na_prob": 0.0, "score": -1, "start_char": 544}
+{"id": "qa_4589d4b70a6d2878fb39", "pred": "peringkat", "na_prob": 0.0, "score": -1000000000.0, "start_char": 7}
+{"id": "qa_461137445ddeca0fc804", "pred": "Andover", "na_prob": 0.0, "score": 0, "start_char": 43}
+{"id": "qa_4669e92eefbea75e4699", "pred": "437.072", "na_prob": 0.0, "score": 4, "start_char": 113}
+{"id": "qa_46d1210e727cfc248b51", "pred": "Depok", "na_prob": 0.0, "score": 3, "start_char": 24}
+{"id": "qa_47315b061d42f8ae3a22", "pred": "AC", "na_prob": 0.0, "score": -1, "start_char": 310}
+{"id": "qa_47750562df49de8537fa", "pred": "Li Shimin", "na_prob": 0.0, "score": -6, "start_char": 430}
+{"id": "qa_47e53ac51cd7c6b9a3b5", "pred": "Yahoo", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_47eac5674a04c44ffce1", "pred": "menggunakan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 531}
+{"id": "qa_483572a1e423c29ba331", "pred": "Asia Timur", "na_prob": 0.0, "score": -2, "start_char": 227}
+{"id": "qa_4846aa8fab5271ab544d", "pred": "1991", "na_prob": 0.0, "score": -3, "start_char": 519}
+{"id": "qa_488dbce71562fc84d83f", "pred": "pengaruh-pengaruh", "na_prob": 0.0, "score": -1000000000.0, "start_char": 38}
+{"id": "qa_48defd21b1ed20fa9fbb", "pred": "Li Yuan", "na_prob": 0.0, "score": 0, "start_char": 18}
+{"id": "qa_48ebb5112d59ca9bbe6f", "pred": "9", "na_prob": 0.0, "score": -23, "start_char": 184}
+{"id": "qa_493a3883af7a84196c65", "pred": "Greek", "na_prob": 0.0, "score": 3, "start_char": 8}
+{"id": "qa_4a1b12a281fcdc8a3589", "pred": "demikian", "na_prob": 0.0, "score": -1000000000.0, "start_char": 256}
+{"id": "qa_4b1b34abe018e7c8a821", "pred": "", "na_prob": 0.0, "score": 0.0, "start_char": -1}
+{"id": "qa_4b976ffdf1e2a6607ee9", "pred": "Hanoi", "na_prob": 0.0, "score": -2, "start_char": 23}
+{"id": "qa_4b9cc9d3bbe1a393e607", "pred": "Pohon", "na_prob": 0.0, "score": -1000000000.0, "start_char": 55}
+{"id": "qa_4ba7ab202447e5ce5238", "pred": "1946", "na_prob": 0.0, "score": 6, "start_char": 98}
+{"id": "qa_4bbc9d8ee7587e039140", "pred": "", "na_prob": 0.0, "score": 0.0, "start_char": -1}
+{"id": "qa_4c67693b7af9ea04ac62", "pred": "Yunani", "na_prob": 0.0, "score": -3, "start_char": 16}
+{"id": "qa_4c8a6cad2c5f982e1f6a", "pred": "Portugal", "na_prob": 0.0, "score": -3, "start_char": 90}
+{"id": "qa_4d39f15fbf199da40c52", "pred": "1969", "na_prob": 0.0, "score": -6, "start_char": 105}
+{"id": "qa_4d50724258f5560baaf8", "pred": "Katholik", "na_prob": 0.0, "score": -1, "start_char": 87}
+{"id": "qa_4dbc9d52e428b4c9d264", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_4e07984c524258b5ec45", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_4e27f0a18166fece2bdc", "pred": "1910", "na_prob": 0.0, "score": 5, "start_char": 22}
+{"id": "qa_4f095ab2e9de407c16b8", "pred": "26 November 1827", "na_prob": 0.0, "score": -4, "start_char": 53}
+{"id": "qa_4f21785e99675a2806b6", "pred": "24 Juli 1971", "na_prob": 0.0, "score": 4, "start_char": 55}
+{"id": "qa_4fd387d86d77dba05607", "pred": "Arab", "na_prob": 0.0, "score": -3, "start_char": 21}
+{"id": "qa_4fd61b3bf231f9e383df", "pred": "2010", "na_prob": 0.0, "score": 5, "start_char": 124}
+{"id": "qa_5010e80f562c3173d0cb", "pred": "MS-DOS", "na_prob": 0.0, "score": -8, "start_char": 543}
+{"id": "qa_50b1035e9f361df12558", "pred": "Port Moresby", "na_prob": 0.0, "score": -1, "start_char": 126}
+{"id": "qa_50ee179adf26a94c08ba", "pred": "Mikail", "na_prob": 0.0, "score": -4, "start_char": 371}
+{"id": "qa_51033fdf96a3d0a3e237", "pred": "Tokyo", "na_prob": 0.0, "score": -8, "start_char": 56}
+{"id": "qa_5143c63a411dce61e705", "pred": "1706", "na_prob": 0.0, "score": 2, "start_char": 324}
+{"id": "qa_5185efbb57090268f017", "pred": "Kekaisaran Bulgaria Kedua", "na_prob": 0.0, "score": -4, "start_char": 88}
+{"id": "qa_51c7159a8e72a21f29c6", "pred": "Raden Halit", "na_prob": 0.0, "score": 2, "start_char": 71}
+{"id": "qa_51f0bda70d11081a4b22", "pred": "1", "na_prob": 0.0, "score": -10, "start_char": 123}
+{"id": "qa_51f2318370ae5b5e2026", "pred": "Balaenoptera", "na_prob": 0.0, "score": -3, "start_char": 11}
+{"id": "qa_523d3faca7a3973a90e9", "pred": "Yudeo-Kristen", "na_prob": 0.0, "score": 1, "start_char": 208}
+{"id": "qa_524c221bf85796df66e0", "pred": "Adam Smith", "na_prob": 0.0, "score": -2, "start_char": 0}
+{"id": "qa_5274ee0aff43927a76aa", "pred": "Islam", "na_prob": 0.0, "score": -2, "start_char": 83}
+{"id": "qa_52bc72ae1b49596cc5b8", "pred": "DKARI", "na_prob": 0.0, "score": 3, "start_char": 431}
+{"id": "qa_532625d803439c4eb139", "pred": "Belle", "na_prob": 0.0, "score": 3, "start_char": 223}
+{"id": "qa_534cf3e1650a4078f62d", "pred": "5 Februari 1922", "na_prob": 0.0, "score": 2, "start_char": 39}
+{"id": "qa_538e0f5ba4c88de9498c", "pred": "25 April 2008", "na_prob": 0.0, "score": 1, "start_char": 33}
+{"id": "qa_53e9fe3bf5e58944a2d7", "pred": "1969", "na_prob": 0.0, "score": 2, "start_char": 86}
+{"id": "qa_54632f89873b922fb5b1", "pred": "Edo", "na_prob": 0.0, "score": 2, "start_char": 74}
+{"id": "qa_54e77c19cb22054f41d1", "pred": "Yudeo-Kristen", "na_prob": 0.0, "score": -4, "start_char": 208}
+{"id": "qa_553b1aab811d4bbd9010", "pred": "Latin", "na_prob": 0.0, "score": -1, "start_char": 27}
+{"id": "qa_55a38b1fe293369ad413", "pred": "African American", "na_prob": 0.0, "score": -9, "start_char": 129}
+{"id": "qa_55c265fddc947c3e0132", "pred": "seks", "na_prob": 0.0, "score": -1000000000.0, "start_char": 99}
+{"id": "qa_56b0b3098e1039fdbe1d", "pred": "Yunani", "na_prob": 0.0, "score": -3, "start_char": 16}
+{"id": "qa_56f272b5758492c87f78", "pred": "Monkey D", "na_prob": 0.0, "score": 0, "start_char": 36}
+{"id": "qa_570f2d27172a7ea2c7ed", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_57285df83a163c1768fc", "pred": "The Castle of Cagliostro", "na_prob": 0.0, "score": -2, "start_char": 493}
+{"id": "qa_5796b21eb98ab67d0d12", "pred": "Li Yuan", "na_prob": 0.0, "score": 0, "start_char": 18}
+{"id": "qa_5898b985c46be9bdfb19", "pred": "5.444,30 Km²", "na_prob": 0.0, "score": 4, "start_char": 59}
+{"id": "qa_58fa82bc031ec0e1b384", "pred": "antimikrobial", "na_prob": 0.0, "score": -1000000000.0, "start_char": 8}
+{"id": "qa_591c18186c6f5a9251f8", "pred": "Masashi Kishimoto", "na_prob": 0.0, "score": -2, "start_char": 40}
+{"id": "qa_598226d9ce4bb0b2f7ca", "pred": "SMN", "na_prob": 0.0, "score": 2, "start_char": 118}
+{"id": "qa_5984cf656035630401fb", "pred": "Mesir Kuno", "na_prob": 0.0, "score": -5, "start_char": 31}
+{"id": "qa_5a5b6f446420d9b234ee", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_5a76cd92a8d363adf4d8", "pred": "Amerika", "na_prob": 0.0, "score": -5, "start_char": 1003}
+{"id": "qa_5a78245fc0320b5c6789", "pred": "1942", "na_prob": 0.0, "score": 4, "start_char": 169}
+{"id": "qa_5acc15d6e37745c157c2", "pred": "1905", "na_prob": 0.0, "score": -3, "start_char": 493}
+{"id": "qa_5ae4f2396f9d1602afa7", "pred": "1600 SM", "na_prob": 0.0, "score": 2, "start_char": 49}
+{"id": "qa_5b4fff912a35fe8ec4af", "pred": "28 September 1945", "na_prob": 0.0, "score": 4, "start_char": 330}
+{"id": "qa_5b792ed165bc0fa52e71", "pred": "Kiaracondong", "na_prob": 0.0, "score": -1, "start_char": 137}
+{"id": "qa_5b861f399539fae08b2b", "pred": "Disease", "na_prob": 0.0, "score": 1, "start_char": 314}
+{"id": "qa_5cba2bc5e0cfa7ba74bd", "pred": "422.000", "na_prob": 0.0, "score": 4, "start_char": 276}
+{"id": "qa_5cf5e6d08a08e612f5b7", "pred": "21", "na_prob": 0.0, "score": -9, "start_char": 138}
+{"id": "qa_5d086cc805db0d144877", "pred": "Amerika Utara", "na_prob": 0.0, "score": -2, "start_char": 550}
+{"id": "qa_5d1638b308958e26fa23", "pred": "100", "na_prob": 0.0, "score": 3, "start_char": 622}
+{"id": "qa_5df4e1dc8cc8ed2f3df3", "pred": "1969", "na_prob": 0.0, "score": -6, "start_char": 105}
+{"id": "qa_5dffa87eaa882d1cf17c", "pred": "Inspektur Mutu Lambung Baja", "na_prob": 0.0, "score": -2, "start_char": 351}
+{"id": "qa_5e1c84c15583f47df3de", "pred": "genggam", "na_prob": 0.0, "score": -1000000000.0, "start_char": 294}
+{"id": "qa_5e3b7ae4adb2ff0f4e7e", "pred": "Jepang", "na_prob": 0.0, "score": -3, "start_char": 20}
+{"id": "qa_5e64b41c0ae245fa7b96", "pred": "Kecamatan Denpasar Selatan", "na_prob": 0.0, "score": -5, "start_char": 66}
+{"id": "qa_5eefea9be23909105b47", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_5f5b3d9fecdaaa17b193", "pred": "Banten", "na_prob": 0.0, "score": 3, "start_char": 56}
+{"id": "qa_5f9a7f08aa0f1cd7fe77", "pred": "Superjumbo", "na_prob": 0.0, "score": -3, "start_char": 486}
+{"id": "qa_5fae7030681238716623", "pred": "100", "na_prob": 0.0, "score": -2, "start_char": 579}
+{"id": "qa_5fc10b68e873144d2a90", "pred": "1984", "na_prob": 0.0, "score": 1, "start_char": 54}
+{"id": "qa_5feb6a5c26dda54c59b3", "pred": "S", "na_prob": 0.0, "score": -2, "start_char": 17}
+{"id": "qa_5fee0406326e532feb18", "pred": "Walisanga", "na_prob": 0.0, "score": 2, "start_char": 15}
+{"id": "qa_5ff427b5a71960add767", "pred": "8", "na_prob": 0.0, "score": 2, "start_char": 77}
+{"id": "qa_61436c47ce3a71a5ae42", "pred": "Banten", "na_prob": 0.0, "score": -4, "start_char": 109}
+{"id": "qa_61ae8aefc0588d86dc51", "pred": "8 Juli 1937", "na_prob": 0.0, "score": -6, "start_char": 70}
+{"id": "qa_61babf8c22ebd5168a34", "pred": "Bahasa Indonesia", "na_prob": 0.0, "score": -4, "start_char": 60}
+{"id": "qa_61c3e56bd13e083abb1e", "pred": "Polandia", "na_prob": 0.0, "score": 3, "start_char": 115}
+{"id": "qa_61c5b2c5e59d32144ba0", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_6208ace2e14f69fbe301", "pred": "21", "na_prob": 0.0, "score": 3, "start_char": 27}
+{"id": "qa_622f4b0ec72f1bad4313", "pred": "28 September 1945", "na_prob": 0.0, "score": 4, "start_char": 330}
+{"id": "qa_624ee153001f990fd37c", "pred": "Indosiar", "na_prob": 0.0, "score": 1, "start_char": 121}
+{"id": "qa_628cf6c7947d7c9534a3", "pred": "1945", "na_prob": 0.0, "score": 6, "start_char": 112}
+{"id": "qa_628e04ce62c6e5f3c30a", "pred": "37.530,52", "na_prob": 0.0, "score": 4, "start_char": 187}
+{"id": "qa_62b11e750d1584c4c670", "pred": "Donald", "na_prob": 0.0, "score": 3, "start_char": 539}
+{"id": "qa_62cdab7a5574ae813a40", "pred": "1959", "na_prob": 0.0, "score": -1, "start_char": 476}
+{"id": "qa_633dfc536c5d0ce4931b", "pred": "4 Agustus 1900", "na_prob": 0.0, "score": 4, "start_char": 46}
+{"id": "qa_6397b901d4f6f33fd703", "pred": "konvensional", "na_prob": 0.0, "score": -1000000000.0, "start_char": 597}
+{"id": "qa_639d6d36cf87244fb471", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_63b2480041519683ef99", "pred": "English", "na_prob": 0.0, "score": -2, "start_char": 15}
+{"id": "qa_63b302053f75015e6e5a", "pred": "Kejarangan", "na_prob": 0.0, "score": -16, "start_char": 604}
+{"id": "qa_63cad10d623d47f4f4dd", "pred": "Indonesia", "na_prob": 0.0, "score": -4, "start_char": 32}
+{"id": "qa_63f4bd17f984eaa778d3", "pred": "Agustus 1945 Jepang", "na_prob": 0.0, "score": 2, "start_char": 698}
+{"id": "qa_642154a9b220dc794912", "pred": "3.864,02", "na_prob": 0.0, "score": 3, "start_char": 273}
+{"id": "qa_64de03c715d11e1b5f1c", "pred": "COOH", "na_prob": 0.0, "score": -12, "start_char": 134}
+{"id": "qa_652cec17cb662134ab25", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_65bca33418985c81dfe3", "pred": "menggunakan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 41}
+{"id": "qa_65c1da9b3a7d1a13c4cb", "pred": "Arab", "na_prob": 0.0, "score": -3, "start_char": 21}
+{"id": "qa_66c05d72f58258483422", "pred": "1", "na_prob": 0.0, "score": -21, "start_char": 210}
+{"id": "qa_66f057ea7a003e31b413", "pred": "Rinding Gumbeng", "na_prob": 0.0, "score": -3, "start_char": 459}
+{"id": "qa_66f4c171b812e9af5083", "pred": "tercepat", "na_prob": 0.0, "score": -1000000000.0, "start_char": 53}
+{"id": "qa_67f513322b08a08073cc", "pred": "6 SM", "na_prob": 0.0, "score": 1, "start_char": 187}
+{"id": "qa_6854b46cc8bb192ac47f", "pred": "Andover", "na_prob": 0.0, "score": 0, "start_char": 43}
+{"id": "qa_68eb69faa23fd5eed2a8", "pred": "Yunani", "na_prob": 0.0, "score": -3, "start_char": 16}
+{"id": "qa_690a53124779db2ce040", "pred": "komputer", "na_prob": 0.0, "score": -1000000000.0, "start_char": 26}
+{"id": "qa_69f6a16d35464f387eda", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_6b118239ae41d93a1968", "pred": "18", "na_prob": 0.0, "score": 2, "start_char": 84}
+{"id": "qa_6d10ec16b0ee8198199a", "pred": "Chinese", "na_prob": 0.0, "score": 3, "start_char": 495}
+{"id": "qa_6d42d4fac0ad8628c16d", "pred": "Jepang", "na_prob": 0.0, "score": -10, "start_char": 9}
+{"id": "qa_6d453d08ee046fcf2725", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_6e248b8d00c8be17cf51", "pred": "1", "na_prob": 0.0, "score": -3, "start_char": 120}
+{"id": "qa_6e4056487c18b7bb4fb7", "pred": "Indonesia", "na_prob": 0.0, "score": -1, "start_char": 59}
+{"id": "qa_6ea495e673633a0725ec", "pred": "15 Juli 1015", "na_prob": 0.0, "score": -3, "start_char": 257}
+{"id": "qa_6eadc48b21dae3a0f63c", "pred": "French", "na_prob": 0.0, "score": 3, "start_char": 24}
+{"id": "qa_6fac8ddd90c3f407059e", "pred": "Jepang", "na_prob": 0.0, "score": -2, "start_char": 80}
+{"id": "qa_6fe9a1fe49adc634133e", "pred": "Andover", "na_prob": 0.0, "score": 0, "start_char": 43}
+{"id": "qa_70ccc40fdb2a0d87fcac", "pred": "Arab", "na_prob": 0.0, "score": -5, "start_char": 8}
+{"id": "qa_7195f791c5b8bfc272c8", "pred": "Gereja-Gereja Katolik Oriental", "na_prob": 0.0, "score": 3, "start_char": 33}
+{"id": "qa_71cf843af66040cb211f", "pred": "Banten", "na_prob": 0.0, "score": -4, "start_char": 109}
+{"id": "qa_720429566614bd39d3ab", "pred": "Arab", "na_prob": 0.0, "score": -2, "start_char": 8}
+{"id": "qa_7291e0ad6646cc976a58", "pred": "bagian", "na_prob": 0.0, "score": -1000000000.0, "start_char": 43}
+{"id": "qa_72aa719a1d4361fc2454", "pred": "", "na_prob": 0.0, "score": 0.0, "start_char": -1}
+{"id": "qa_73297d8842bc7a59ce3a", "pred": "English", "na_prob": 0.0, "score": -2, "start_char": 14}
+{"id": "qa_7344d887f29aee8ba709", "pred": "Indonesia", "na_prob": 0.0, "score": -2, "start_char": 68}
+{"id": "qa_73734149a0d47fbd1e0f", "pred": "Yahoo", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_737e6d2f538c42027574", "pred": "1", "na_prob": 0.0, "score": -26, "start_char": 202}
+{"id": "qa_7383cf53551157472547", "pred": "Los Angeles", "na_prob": 0.0, "score": -6, "start_char": 73}
+{"id": "qa_739c277e4f8f50422f63", "pred": "Melainkan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 507}
+{"id": "qa_73bd265e65393e1bd22c", "pred": "1999", "na_prob": 0.0, "score": 4, "start_char": 6}
+{"id": "qa_74c31f808587bc5c6274", "pred": "17 Mei 2011", "na_prob": 0.0, "score": 0, "start_char": 63}
+{"id": "qa_7507668a823b1a6a6015", "pred": "2011 Samsung", "na_prob": 0.0, "score": 4, "start_char": 567}
+{"id": "qa_7516103ecb1972d95f27", "pred": "12.435,00", "na_prob": 0.0, "score": 3, "start_char": 177}
+{"id": "qa_7516fee935ae2def664d", "pred": "Indonesia", "na_prob": 0.0, "score": -3, "start_char": 56}
+{"id": "qa_757c7497ce0052ac5978", "pred": "Jepang", "na_prob": 0.0, "score": 3, "start_char": 69}
+{"id": "qa_759f6120db133b57885e", "pred": "27 Maret 1945", "na_prob": 0.0, "score": -4, "start_char": 40}
+{"id": "qa_7743c72791abcee4e4b0", "pred": "Mesopotamia", "na_prob": 0.0, "score": 2, "start_char": 125}
+{"id": "qa_77812fe3a571b233654d", "pred": "Bapak", "na_prob": 0.0, "score": -1000000000.0, "start_char": 139}
+{"id": "qa_77958258142d35475ccc", "pred": "2010", "na_prob": 0.0, "score": 5, "start_char": 124}
+{"id": "qa_779e78c3e8925009ef93", "pred": "Indonesia", "na_prob": 0.0, "score": -17, "start_char": 76}
+{"id": "qa_77a5aa06cbf2f9781428", "pred": "Spanyol", "na_prob": 0.0, "score": 0, "start_char": 139}
+{"id": "qa_77b92c93fa798c70ce4d", "pred": "Pada 13 Oktober 2009", "na_prob": 0.0, "score": -2, "start_char": 232}
+{"id": "qa_784d4505ea5be5ffeadf", "pred": "Imelda Staunton", "na_prob": 0.0, "score": 4, "start_char": 95}
+{"id": "qa_789da658573b5c54f453", "pred": "Tony Tony Chopper", "na_prob": 0.0, "score": -1, "start_char": 522}
+{"id": "qa_78b44ef45d2e38e26d29", "pred": "605.21", "na_prob": 0.0, "score": 2, "start_char": 64}
+{"id": "qa_78b85cfe347e8936ddcf", "pred": "21 September 1558", "na_prob": 0.0, "score": 0, "start_char": 122}
+{"id": "qa_78cf4177a903a1df9b88", "pred": "S", "na_prob": 0.0, "score": 3, "start_char": 18}
+{"id": "qa_78e21ac9cb011f32e831", "pred": "Angkatan Darat Britania", "na_prob": 0.0, "score": -2, "start_char": 46}
+{"id": "qa_78f77907a01193621598", "pred": "97", "na_prob": 0.0, "score": -9, "start_char": 53}
+{"id": "qa_791c7223c6d34c8d35dc", "pred": "Pangeran Tapesana", "na_prob": 0.0, "score": 1, "start_char": 132}
+{"id": "qa_7a9ae3a52f5b38b76bb8", "pred": "2004", "na_prob": 0.0, "score": -4, "start_char": 822}
+{"id": "qa_7af7e743fb3416524247", "pred": "India", "na_prob": 0.0, "score": 1, "start_char": 42}
+{"id": "qa_7b104df52eb65a10912e", "pred": "tunggal", "na_prob": 0.0, "score": -1000000000.0, "start_char": 83}
+{"id": "qa_7b8b050322031e9e20e2", "pred": "Amerika", "na_prob": 0.0, "score": -5, "start_char": 1003}
+{"id": "qa_7b92cc9b05fcf496d9af", "pred": "English", "na_prob": 0.0, "score": -2, "start_char": 15}
+{"id": "qa_7c7047c6cda8b6923818", "pred": "Arab", "na_prob": 0.0, "score": 2, "start_char": 21}
+{"id": "qa_7c7daa1f00d0f9982e48", "pred": "3", "na_prob": 0.0, "score": -3, "start_char": 973}
+{"id": "qa_7cbba4a6514825a48413", "pred": "Jepang", "na_prob": 0.0, "score": -10, "start_char": 9}
+{"id": "qa_7d0fb351a543a2df0c9e", "pred": "25 April 2008", "na_prob": 0.0, "score": 5, "start_char": 33}
+{"id": "qa_7d12d25387c9e5445d56", "pred": "Indonesia", "na_prob": 0.0, "score": 3, "start_char": 143}
+{"id": "qa_7e1f4dcc0664d5f72c7e", "pred": "28 Agustus 430", "na_prob": 0.0, "score": -4, "start_char": 754}
+{"id": "qa_7e58dc2d0784201ecdde", "pred": "2 Stasiun Televisi Nasional", "na_prob": 0.0, "score": -1, "start_char": 0}
+{"id": "qa_7e5a678a2b2d128a7ab9", "pred": "Bir", "na_prob": 0.0, "score": -4, "start_char": 98}
+{"id": "qa_7f0cb9a804989fe83fc0", "pred": "80,43", "na_prob": 0.0, "score": 3, "start_char": 209}
+{"id": "qa_7f25ff790c00ea755387", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_7fb6d4e58658425b908b", "pred": "18", "na_prob": 0.0, "score": 2, "start_char": 84}
+{"id": "qa_80143586cdfc777f2909", "pred": "Xiang", "na_prob": 0.0, "score": 3, "start_char": 14}
+{"id": "qa_80d3e11910a512c13d13", "pred": "matematika", "na_prob": 0.0, "score": -1000000000.0, "start_char": 6}
+{"id": "qa_8146d3bff5c254a4bd55", "pred": "sendiri", "na_prob": 0.0, "score": -1000000000.0, "start_char": 117}
+{"id": "qa_818f6182c9ebaf5a645b", "pred": "L", "na_prob": 0.0, "score": -2, "start_char": 392}
+{"id": "qa_81924560de50eae0a69b", "pred": "Amerika Serikat", "na_prob": 0.0, "score": -3, "start_char": 51}
+{"id": "qa_8233393e0876332daef1", "pred": "2011 Samsung", "na_prob": 0.0, "score": -3, "start_char": 567}
+{"id": "qa_825018d821a372cff163", "pred": "Indonesia", "na_prob": 0.0, "score": -1, "start_char": 59}
+{"id": "qa_826eb038eb49353e5fa5", "pred": "Amerika Utara", "na_prob": 0.0, "score": -2, "start_char": 550}
+{"id": "qa_82bc61128ba6af5fa657", "pred": "Pangeran Willem van Oranje", "na_prob": 0.0, "score": 3, "start_char": 193}
+{"id": "qa_8315b0ab8b045aaa5053", "pred": "Yunani", "na_prob": 0.0, "score": -3, "start_char": 16}
+{"id": "qa_8344ccacf58d65d81ef6", "pred": "Sang Pencipta", "na_prob": 0.0, "score": 2, "start_char": 205}
+{"id": "qa_8368a37e2ef36ea6ae1b", "pred": "Busana", "na_prob": 0.0, "score": -4, "start_char": 409}
+{"id": "qa_8370d0368fce7a39699b", "pred": "Yunani", "na_prob": 0.0, "score": 0, "start_char": 40}
+{"id": "qa_842ddd329f8f21bf2d35", "pred": "17 November 2006", "na_prob": 0.0, "score": 4, "start_char": 106}
+{"id": "qa_84e70b8685a641a20a99", "pred": "2004", "na_prob": 0.0, "score": -4, "start_char": 822}
+{"id": "qa_855e38cb31854b17eafc", "pred": "Pembangunan Orde Baru", "na_prob": 0.0, "score": 3, "start_char": 58}
+{"id": "qa_8583b01984a3d045d577", "pred": "Sigid Haryo Wibisono", "na_prob": 0.0, "score": -6, "start_char": 68}
+{"id": "qa_862929687592d343d078", "pred": "15 Februari 1908", "na_prob": 0.0, "score": 1, "start_char": 55}
+{"id": "qa_864c5c1f0aa5410d09bb", "pred": "10", "na_prob": 0.0, "score": -9, "start_char": 115}
+{"id": "qa_865560aef2f62261d2dd", "pred": "377.835", "na_prob": 0.0, "score": -5, "start_char": 7}
+{"id": "qa_8672aeb5b42864536cbd", "pred": "2.210", "na_prob": 0.0, "score": 4, "start_char": 310}
+{"id": "qa_868423baef8cc055a432", "pred": "Airlangga", "na_prob": 0.0, "score": -5, "start_char": 41}
+{"id": "qa_86aeb726e123e7cbb57e", "pred": "6,96", "na_prob": 0.0, "score": 3, "start_char": 165}
+{"id": "qa_86ddb8ff9fd5b660e8c0", "pred": "Polish", "na_prob": 0.0, "score": 3, "start_char": 10}
+{"id": "qa_872a83ab642484c467cc", "pred": "700.000", "na_prob": 0.0, "score": 3, "start_char": 31}
+{"id": "qa_880cba741484ed268ca2", "pred": "1,2", "na_prob": 0.0, "score": -4, "start_char": 931}
+{"id": "qa_88e93e1432704b521b12", "pred": "Dipati", "na_prob": 0.0, "score": -2, "start_char": 86}
+{"id": "qa_88ebde639e610f7116e7", "pred": "Walaupun 45", "na_prob": 0.0, "score": 3, "start_char": 0}
+{"id": "qa_8907da99bcc883cfcbe0", "pred": "Hindia Belanda", "na_prob": 0.0, "score": -4, "start_char": 89}
+{"id": "qa_89956b6d5ba13c9950e6", "pred": "Jepang", "na_prob": 0.0, "score": -3, "start_char": 20}
+{"id": "qa_8a618b17b0b39fb36921", "pred": "Tiongkok", "na_prob": 0.0, "score": -1, "start_char": 136}
+{"id": "qa_8aa8ee2049dcd319d28e", "pred": "Swift", "na_prob": 0.0, "score": -1000000000.0, "start_char": 7}
+{"id": "qa_8ac108bb213db0def467", "pred": "MS-DOS", "na_prob": 0.0, "score": -8, "start_char": 543}
+{"id": "qa_8bd98a0c46adcbbb1769", "pred": "Waíl", "na_prob": 0.0, "score": -1, "start_char": 290}
+{"id": "qa_8be0b49367e90a0b1023", "pred": "Jepang", "na_prob": 0.0, "score": -3, "start_char": 72}
+{"id": "qa_8c1758c4b2d82ee441e7", "pred": "3", "na_prob": 0.0, "score": -9, "start_char": 685}
+{"id": "qa_8c2de5a724cc6b2e9579", "pred": "18", "na_prob": 0.0, "score": 2, "start_char": 84}
+{"id": "qa_8c8c46814f2c21f912c8", "pred": "dibayangkan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 100}
+{"id": "qa_8d0bdad2140158c9620d", "pred": "tinjauan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 5}
+{"id": "qa_8e05d71fdd53efb52042", "pred": "1910", "na_prob": 0.0, "score": 5, "start_char": 22}
+{"id": "qa_8e0ff30bde86f18412e1", "pred": "Akhirnya Sekutu", "na_prob": 0.0, "score": 3, "start_char": 227}
+{"id": "qa_8e107260f322bbd098a9", "pred": "Indonesia", "na_prob": 0.0, "score": -14, "start_char": 99}
+{"id": "qa_8e4039a55c2f7624c9d9", "pred": "3", "na_prob": 0.0, "score": 2, "start_char": 973}
+{"id": "qa_8e985804bc343475dc36", "pred": "1.908,9", "na_prob": 0.0, "score": 4, "start_char": 78}
+{"id": "qa_8ebc04389b675eab3f00", "pred": "8", "na_prob": 0.0, "score": 3, "start_char": 410}
+{"id": "qa_8efa6a00c89c321d8f60", "pred": "1696", "na_prob": 0.0, "score": -2, "start_char": 11}
+{"id": "qa_8f074654d605ff33022f", "pred": "Pada 322 SM", "na_prob": 0.0, "score": 3, "start_char": 151}
+{"id": "qa_8f733a9a71654aea4b91", "pred": "Warsawa", "na_prob": 0.0, "score": -5, "start_char": 491}
+{"id": "qa_8f9c33f0504ee3e6a4d5", "pred": "Raja Ping", "na_prob": 0.0, "score": 3, "start_char": 55}
+{"id": "qa_9026cde01c220b792059", "pred": "Dave Morin", "na_prob": 0.0, "score": 3, "start_char": 75}
+{"id": "qa_90a01ae766c532a5a236", "pred": "English", "na_prob": 0.0, "score": -2, "start_char": 66}
+{"id": "qa_90e4b38c9b4143c07aef", "pred": "Dewan Mahkota", "na_prob": 0.0, "score": -3, "start_char": 118}
+{"id": "qa_91494e02742adf1de48f", "pred": "Sunda", "na_prob": 0.0, "score": -2, "start_char": 450}
+{"id": "qa_91f6cb002059f73c7de2", "pred": "1979", "na_prob": 0.0, "score": 4, "start_char": 23}
+{"id": "qa_92bf031441a4ca933487", "pred": "Departemen Pertahanan Amerika Serikat", "na_prob": 0.0, "score": -2, "start_char": 56}
+{"id": "qa_92d96514de2764d16a5c", "pred": "matematika", "na_prob": 0.0, "score": -1000000000.0, "start_char": 6}
+{"id": "qa_92ee56c0af75543edbaa", "pred": "Windows XP", "na_prob": 0.0, "score": -2, "start_char": 385}
+{"id": "qa_93cbad812eb24ee1ec7e", "pred": "Inggris", "na_prob": 0.0, "score": -3, "start_char": 128}
+{"id": "qa_93d95047c7aea99b9c36", "pred": "2", "na_prob": 0.0, "score": -1, "start_char": 86}
+{"id": "qa_946900869b9cfdf22172", "pred": "Yahoo", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_9493220b00d1159b90cc", "pred": "Mesir Kuno", "na_prob": 0.0, "score": -5, "start_char": 31}
+{"id": "qa_94940c9fa1996638c38b", "pred": "keagamaan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 299}
+{"id": "qa_94a7b3fc569d0cbcf96c", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_950641541704f4108030", "pred": "Andover", "na_prob": 0.0, "score": 0, "start_char": 43}
+{"id": "qa_9536308fa1b57d631d8d", "pred": "1", "na_prob": 0.0, "score": -3, "start_char": 105}
+{"id": "qa_95431735ce9d589eb2bf", "pred": "Sego", "na_prob": 0.0, "score": -3, "start_char": 39}
+{"id": "qa_957ec384b12f051e3029", "pred": "Indonesia", "na_prob": 0.0, "score": -2, "start_char": 68}
+{"id": "qa_958791e8bdc6182ec3a4", "pred": "1969", "na_prob": 0.0, "score": -6, "start_char": 105}
+{"id": "qa_95beba29896999945876", "pred": "29", "na_prob": 0.0, "score": 2, "start_char": 27}
+{"id": "qa_9606665499556031adf7", "pred": "Dominion of Canada", "na_prob": 0.0, "score": -10, "start_char": 40}
+{"id": "qa_969cf8b12aa80d716698", "pred": "Greek", "na_prob": 0.0, "score": 3, "start_char": 8}
+{"id": "qa_973f6b297dc38d2bcfcd", "pred": "Nordik", "na_prob": 0.0, "score": -2, "start_char": 42}
+{"id": "qa_974277f9424b4f973122", "pred": "Hanzi", "na_prob": 0.0, "score": -2, "start_char": 14}
+{"id": "qa_97b685171f0a45559a9a", "pred": "India", "na_prob": 0.0, "score": 3, "start_char": 48}
+{"id": "qa_981abd2dceccf3213d45", "pred": "Internet Protocol Address", "na_prob": 0.0, "score": -2, "start_char": 11}
+{"id": "qa_982abab2869938bd3454", "pred": "Orang", "na_prob": 0.0, "score": 4, "start_char": 23}
+{"id": "qa_98b9d1bd1d54500cc8b4", "pred": "I Want You Back", "na_prob": 0.0, "score": -2, "start_char": 320}
+{"id": "qa_98e94dabf418da5a98e9", "pred": "komputer", "na_prob": 0.0, "score": -1000000000.0, "start_char": 26}
+{"id": "qa_990c9c869679b1b1befa", "pred": "1603", "na_prob": 0.0, "score": -3, "start_char": 42}
+{"id": "qa_9922a12ee8974d55615d", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_9937e3b715c4bd70301d", "pred": "28 September 1945", "na_prob": 0.0, "score": 4, "start_char": 330}
+{"id": "qa_996decf8645ce61d3c21", "pred": "COOH", "na_prob": 0.0, "score": -12, "start_char": 134}
+{"id": "qa_9a54e4273b917ff22f5a", "pred": "jalur", "na_prob": 0.0, "score": -1000000000.0, "start_char": 189}
+{"id": "qa_9a72cea6e6be4376dd2b", "pred": "Indosiar", "na_prob": 0.0, "score": 1, "start_char": 121}
+{"id": "qa_9b79c2477fd68de1c1d4", "pred": "Portugal", "na_prob": 0.0, "score": -1, "start_char": 543}
+{"id": "qa_9ba6856762d08833b0db", "pred": "Jepang", "na_prob": 0.0, "score": -10, "start_char": 9}
+{"id": "qa_9bafb8993e6726b8150c", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_9c63e377edb897272b71", "pred": "Banyuwangi", "na_prob": 0.0, "score": -1, "start_char": 72}
+{"id": "qa_9ced23a4a89f17c6aa78", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_9d65b984492d3d396359", "pred": "Pada 1 Mei 1960", "na_prob": 0.0, "score": -3, "start_char": 0}
+{"id": "qa_9e393c78800700dbabf7", "pred": "Mikail", "na_prob": 0.0, "score": -4, "start_char": 371}
+{"id": "qa_9e39ad1a1c2b4ea5eef2", "pred": "Bahasa Inggris", "na_prob": 0.0, "score": 3, "start_char": 73}
+{"id": "qa_9e3a77bf307825e21957", "pred": "1971", "na_prob": 0.0, "score": 4, "start_char": 163}
+{"id": "qa_9e3cec139eeef4d9af8c", "pred": "LangitMusik", "na_prob": 0.0, "score": -2, "start_char": 287}
+{"id": "qa_9e55c83b742f8d5fbbd4", "pred": "2010", "na_prob": 0.0, "score": -2, "start_char": 124}
+{"id": "qa_9e5adf741d64e129b1b0", "pred": "28 September 1945", "na_prob": 0.0, "score": 6, "start_char": 13}
+{"id": "qa_9e8d76fa765843fb097b", "pred": "menggunakan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 41}
+{"id": "qa_9ebbc0061407eb46c8b3", "pred": "Kalsel", "na_prob": 0.0, "score": -3, "start_char": 30}
+{"id": "qa_9ef5058c89bdf843889f", "pred": "2 Stasiun Televisi Nasional", "na_prob": 0.0, "score": -1, "start_char": 0}
+{"id": "qa_9f1494b142bd50a5011d", "pred": "18 Januari 2010", "na_prob": 0.0, "score": 3, "start_char": 37}
+{"id": "qa_9f3599f5d8e1b95b976e", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_9f5c5d4f95a65a299d6f", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_9fa90a1c537ee2f9f762", "pred": "1 April 1906", "na_prob": 0.0, "score": 2, "start_char": 110}
+{"id": "qa_9ff685aaed6662845232", "pred": "tradisional", "na_prob": 0.0, "score": -1000000000.0, "start_char": 432}
+{"id": "qa_a048cf9716b335850939", "pred": "Mesopotamia", "na_prob": 0.0, "score": 2, "start_char": 125}
+{"id": "qa_a05e7d9a14975b400a33", "pred": "28 September 1945", "na_prob": 0.0, "score": 4, "start_char": 330}
+{"id": "qa_a063fa34fff0c49fe6c0", "pred": "pemahaman", "na_prob": 0.0, "score": -1000000000.0, "start_char": 19}
+{"id": "qa_a0bd9037bcf9e47f1d7e", "pred": "Paris", "na_prob": 0.0, "score": 3, "start_char": 14}
+{"id": "qa_a0d35f48e78fa798abfc", "pred": "terdapat", "na_prob": 0.0, "score": -1000000000.0, "start_char": 69}
+{"id": "qa_a0f4507f810ca5fe27e2", "pred": "ARPA", "na_prob": 0.0, "score": 2, "start_char": 134}
+{"id": "qa_a12aacd6a9b3b1583d3a", "pred": "Hipertrofi", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_a1b5261511c3dfc09298", "pred": "21", "na_prob": 0.0, "score": -9, "start_char": 138}
+{"id": "qa_a28d9d58a14a24edaf2d", "pred": "Lembaga Pemerintah Non Departemen", "na_prob": 0.0, "score": -2, "start_char": 100}
+{"id": "qa_a31f7d3bdddf6c23689a", "pred": "1481", "na_prob": 0.0, "score": 2, "start_char": 42}
+{"id": "qa_a324677a7be676eead7f", "pred": "2011 Samsung", "na_prob": 0.0, "score": -3, "start_char": 567}
+{"id": "qa_a34f8d360ca43b5da17a", "pred": "1979", "na_prob": 0.0, "score": 0, "start_char": 519}
+{"id": "qa_a3f33d88673a70850254", "pred": "German", "na_prob": 0.0, "score": -2, "start_char": 31}
+{"id": "qa_a549c81c1d3e46c58212", "pred": "INN", "na_prob": 0.0, "score": -2, "start_char": 13}
+{"id": "qa_a5ddb1e9782ae1c27719", "pred": "Asia Tenggara", "na_prob": 0.0, "score": -4, "start_char": 246}
+{"id": "qa_a5ef40bf3b04da92660c", "pred": "1984", "na_prob": 0.0, "score": 5, "start_char": 54}
+{"id": "qa_a62b7545d71fb68f6528", "pred": "", "na_prob": 0.0, "score": 0.0, "start_char": -1}
+{"id": "qa_a7494ade20dc9413887d", "pred": "Dominion of Canada", "na_prob": 0.0, "score": -2, "start_char": 40}
+{"id": "qa_a76f0a7b2628abd9205e", "pred": "tumbuhan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 13}
+{"id": "qa_a7924fe413218ac6644c", "pred": "Arab", "na_prob": 0.0, "score": -2, "start_char": 8}
+{"id": "qa_a7a087d1f258355e66e3", "pred": "Kalsel", "na_prob": 0.0, "score": -3, "start_char": 30}
+{"id": "qa_a7d7f642423313eb898c", "pred": "Gulma", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_a801b3ed590685d30eb7", "pred": "21 Oktober 2010", "na_prob": 0.0, "score": -2, "start_char": 53}
+{"id": "qa_a81f0483a9c744c98354", "pred": "1", "na_prob": 0.0, "score": -3, "start_char": 105}
+{"id": "qa_a88475a18aa66f09b579", "pred": "Li Jiancheng", "na_prob": 0.0, "score": -5, "start_char": 0}
+{"id": "qa_a8906dc98d41a3142b44", "pred": "Kabul", "na_prob": 0.0, "score": -10, "start_char": 23}
+{"id": "qa_a8a8cb4f9baf396d7b16", "pred": "1", "na_prob": 0.0, "score": -3, "start_char": 120}
+{"id": "qa_a8b2a22790ec3591e33e", "pred": "1600 SM", "na_prob": 0.0, "score": 2, "start_char": 49}
+{"id": "qa_a8b68fdfb57d0435b49d", "pred": "1 SM", "na_prob": 0.0, "score": -4, "start_char": 137}
+{"id": "qa_a8db628a19a80f542b4b", "pred": "1.908,9", "na_prob": 0.0, "score": 4, "start_char": 78}
+{"id": "qa_a978e8a403c8ceb65241", "pred": "1999", "na_prob": 0.0, "score": -3, "start_char": 6}
+{"id": "qa_a990fc1e30b603148c27", "pred": "Balaenoptera", "na_prob": 0.0, "score": -3, "start_char": 11}
+{"id": "qa_a9959f4ce2824c0935b4", "pred": "S", "na_prob": 0.0, "score": 2, "start_char": 18}
+{"id": "qa_aa019c8babd0a3a6dff5", "pred": "Li Yuan", "na_prob": 0.0, "score": 0, "start_char": 18}
+{"id": "qa_aa7e13f1133f6df82fc3", "pred": "antihistamin", "na_prob": 0.0, "score": -1000000000.0, "start_char": 349}
+{"id": "qa_aae76cc5818cc6b665ca", "pred": "Mataram", "na_prob": 0.0, "score": -12, "start_char": 113}
+{"id": "qa_ab042e4720d9cdf36645", "pred": "Jawa Barat", "na_prob": 0.0, "score": 3, "start_char": 31}
+{"id": "qa_ab2439f718afc7f620e8", "pred": "1969", "na_prob": 0.0, "score": -6, "start_char": 105}
+{"id": "qa_ab71178842e476111371", "pred": "1971", "na_prob": 0.0, "score": -3, "start_char": 163}
+{"id": "qa_abcbee9813c03a5fab4d", "pred": "Nawab Zen Yar Jang Bahadur", "na_prob": 0.0, "score": 4, "start_char": 565}
+{"id": "qa_abd6e17c1b1204cf76f7", "pred": "Bir", "na_prob": 0.0, "score": -4, "start_char": 98}
+{"id": "qa_ac253058960b96d848b6", "pred": "1969", "na_prob": 0.0, "score": -6, "start_char": 105}
+{"id": "qa_acb5b90533288e190824", "pred": "50", "na_prob": 0.0, "score": 2, "start_char": 102}
+{"id": "qa_acca6804f41331aaa8df", "pred": "dinasti", "na_prob": 0.0, "score": -1000000000.0, "start_char": 12}
+{"id": "qa_ad1fdd9168d165d39bd4", "pred": "Fuji-san", "na_prob": 0.0, "score": -5, "start_char": 16}
+{"id": "qa_ad7dc1b3bcea945c1043", "pred": "396", "na_prob": 0.0, "score": 3, "start_char": 687}
+{"id": "qa_ad82cfb5d26ba7439da5", "pred": "1 April 1906", "na_prob": 0.0, "score": 2, "start_char": 110}
+{"id": "qa_adb1cd99f76ad21e9443", "pred": "Jepang", "na_prob": 0.0, "score": -2, "start_char": 80}
+{"id": "qa_adef9adc99d69cfa06ef", "pred": "18", "na_prob": 0.0, "score": 2, "start_char": 84}
+{"id": "qa_adfd21319445413a3d17", "pred": "5.444,30 Km²", "na_prob": 0.0, "score": 4, "start_char": 59}
+{"id": "qa_ae2c931c418801ef7e77", "pred": "Uskup Roma", "na_prob": 0.0, "score": 3, "start_char": 84}
+{"id": "qa_ae5cff0425013601d3fe", "pred": "Putri Salju", "na_prob": 0.0, "score": -3, "start_char": 34}
+{"id": "qa_ae5d6388a23efef743b4", "pred": "Indonesia", "na_prob": 0.0, "score": -1, "start_char": 59}
+{"id": "qa_ae5fd37be8795a2b7bd6", "pred": "Warsawa", "na_prob": 0.0, "score": -5, "start_char": 491}
+{"id": "qa_af3714435365b0c61230", "pred": "Yunani", "na_prob": 0.0, "score": -3, "start_char": 16}
+{"id": "qa_af82758bdc641e771222", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_afa8130687d9e9797369", "pred": "organ", "na_prob": 0.0, "score": -1000000000.0, "start_char": 98}
+{"id": "qa_b01e73db008d03117814", "pred": "TV7", "na_prob": 0.0, "score": -1, "start_char": 720}
+{"id": "qa_b03f606769ee6ec888da", "pred": "Jawa Barat", "na_prob": 0.0, "score": -3, "start_char": 68}
+{"id": "qa_b0649843e3180ce5d07c", "pred": "Disease", "na_prob": 0.0, "score": 1, "start_char": 314}
+{"id": "qa_b0829ed3197cd89b03b0", "pred": "1", "na_prob": 0.0, "score": -19, "start_char": 105}
+{"id": "qa_b0b357620fd659bea7ea", "pred": "29", "na_prob": 0.0, "score": 4, "start_char": 129}
+{"id": "qa_b0f06687d40312ef13d3", "pred": "1945", "na_prob": 0.0, "score": 4, "start_char": 112}
+{"id": "qa_b0fd5f1b3d4759d0c4ec", "pred": "Busana", "na_prob": 0.0, "score": -4, "start_char": 409}
+{"id": "qa_b11baf506587e9a5818c", "pred": "mengembangkan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 591}
+{"id": "qa_b142f0aa2c49e3246d5a", "pred": "INN", "na_prob": 0.0, "score": -2, "start_char": 13}
+{"id": "qa_b163a13a0b594684b68d", "pred": "Luke Collins", "na_prob": 0.0, "score": -5, "start_char": 0}
+{"id": "qa_b20814de92058c7b01f0", "pred": "Gauss", "na_prob": 0.0, "score": -1, "start_char": 83}
+{"id": "qa_b2b96c518881381e1b21", "pred": "Asia Tengah", "na_prob": 0.0, "score": 2, "start_char": 282}
+{"id": "qa_b2c1076fcbca2405e51e", "pred": "SMN", "na_prob": 0.0, "score": -3, "start_char": 118}
+{"id": "qa_b2caee01f733124e4458", "pred": "L", "na_prob": 0.0, "score": -2, "start_char": 392}
+{"id": "qa_b385b7614ea3a3d5658f", "pred": "Las Vegas Strip", "na_prob": 0.0, "score": -6, "start_char": 54}
+{"id": "qa_b3917e9009f0d2cf37a9", "pred": "Perang Dunia Kedua", "na_prob": 0.0, "score": -10, "start_char": 18}
+{"id": "qa_b3c7acc08d515f4ea4c5", "pred": "Dutch", "na_prob": 0.0, "score": 3, "start_char": 11}
+{"id": "qa_b40ca827d710530e5523", "pred": "Arab", "na_prob": 0.0, "score": -5, "start_char": 8}
+{"id": "qa_b4324c1ce1bd4084a823", "pred": "Samarinda", "na_prob": 0.0, "score": -2, "start_char": 401}
+{"id": "qa_b447b32d8614b5af9993", "pred": "dinasti", "na_prob": 0.0, "score": -1000000000.0, "start_char": 12}
+{"id": "qa_b457e8254b410aa8fec6", "pred": "pengaruh-pengaruh", "na_prob": 0.0, "score": -1000000000.0, "start_char": 38}
+{"id": "qa_b45c62996bc8a75f1c51", "pred": "studio", "na_prob": 0.0, "score": -1000000000.0, "start_char": 26}
+{"id": "qa_b4a05f9c85ca37f76692", "pred": "makhluk", "na_prob": 0.0, "score": -1000000000.0, "start_char": 45}
+{"id": "qa_b4f47343e37b91ff4ae1", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_b50c10793f5247801e7a", "pred": "Andover", "na_prob": 0.0, "score": 0, "start_char": 43}
+{"id": "qa_b56c2d485cffc63334a1", "pred": "utama", "na_prob": 0.0, "score": -1000000000.0, "start_char": 50}
+{"id": "qa_b57a500aa435b3942855", "pred": "Sulawesi Selatan", "na_prob": 0.0, "score": -1, "start_char": 64}
+{"id": "qa_b5b485ff8cc5a90b6722", "pred": "Pada 28 Oktober 1958", "na_prob": 0.0, "score": 3, "start_char": 1205}
+{"id": "qa_b5d0e2d9d67497b3e9e4", "pred": "Agung", "na_prob": 0.0, "score": -2, "start_char": 28}
+{"id": "qa_b5f736204c350720bf41", "pred": "100", "na_prob": 0.0, "score": -2, "start_char": 579}
+{"id": "qa_b62c088df2a8bf95bfbc", "pred": "Tapirus", "na_prob": 0.0, "score": 3, "start_char": 12}
+{"id": "qa_b63d8e3cccc4d40ab958", "pred": "Bandar Seri Begawan", "na_prob": 0.0, "score": -1, "start_char": 332}
+{"id": "qa_b6e5a387b47c2b4b7527", "pred": "Bahasa Inggris", "na_prob": 0.0, "score": 3, "start_char": 73}
+{"id": "qa_b6e8938a300d20dc70ca", "pred": "1946", "na_prob": 0.0, "score": 6, "start_char": 98}
+{"id": "qa_b6f42263fb0f1955ef9f", "pred": "The Castle of Cagliostro", "na_prob": 0.0, "score": -2, "start_char": 493}
+{"id": "qa_b70c2ed49608632d7ed6", "pred": "7", "na_prob": 0.0, "score": 3, "start_char": 724}
+{"id": "qa_b85333e25846800def4f", "pred": "Tokyo", "na_prob": 0.0, "score": -8, "start_char": 56}
+{"id": "qa_b86539963fd568686feb", "pred": "Saigon", "na_prob": 0.0, "score": -3, "start_char": 164}
+{"id": "qa_b88026d6930c3bcd899d", "pred": "Perang Dunia Kedua", "na_prob": 0.0, "score": -10, "start_char": 18}
+{"id": "qa_b892d61bc5b5175b112b", "pred": "Walaupun 45", "na_prob": 0.0, "score": 3, "start_char": 0}
+{"id": "qa_b8b35f5235d135b71ee3", "pred": "Houston Seorang", "na_prob": 0.0, "score": -4, "start_char": 44}
+{"id": "qa_b9927f2c5ea117d7be0d", "pred": "1999", "na_prob": 0.0, "score": 4, "start_char": 6}
+{"id": "qa_b9a769f922417f0e9695", "pred": "Asia Tenggara", "na_prob": 0.0, "score": -2, "start_char": 246}
+{"id": "qa_b9db5ea2c565365e1e84", "pred": "Malaysia", "na_prob": 0.0, "score": -2, "start_char": 131}
+{"id": "qa_baeb6f5f122e6f4fb818", "pred": "Kirgizstan", "na_prob": 0.0, "score": -2, "start_char": 473}
+{"id": "qa_bb0c73a751119023f96f", "pred": "Konstantinus XI Palaiologos", "na_prob": 0.0, "score": -3, "start_char": 214}
+{"id": "qa_bb0ffc7d27ac4bc1dd26", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_bb2168b3e69340044f5b", "pred": "Walaupun 45", "na_prob": 0.0, "score": 2, "start_char": 0}
+{"id": "qa_bb70ebde12a6da3a3a4d", "pred": "Jawa", "na_prob": 0.0, "score": 4, "start_char": 71}
+{"id": "qa_bbfedcf5d341b6d9c263", "pred": "Dr", "na_prob": 0.0, "score": -2, "start_char": 307}
+{"id": "qa_bc2214d636ea25ba0963", "pred": "Indosiar", "na_prob": 0.0, "score": 1, "start_char": 121}
+{"id": "qa_bc23f5c249b34d4cfa8e", "pred": "20 November 1985", "na_prob": 0.0, "score": 1, "start_char": 87}
+{"id": "qa_bc820c9eb576d544bd6e", "pred": "610", "na_prob": 0.0, "score": -1, "start_char": 150}
+{"id": "qa_bc9f1441c522c0dbbfd1", "pred": "1706", "na_prob": 0.0, "score": 2, "start_char": 324}
+{"id": "qa_bcba8cada0d1b42369c3", "pred": "Iran", "na_prob": 0.0, "score": -7, "start_char": 174}
+{"id": "qa_bdd91388a03a47dc9154", "pred": "6,96", "na_prob": 0.0, "score": 3, "start_char": 165}
+{"id": "qa_be3f4d6ffd221757d3c0", "pred": "4 Agustus 1900", "na_prob": 0.0, "score": 4, "start_char": 46}
+{"id": "qa_bee75e453bc56a97e4b2", "pred": "12 Juli 1827", "na_prob": 0.0, "score": 6, "start_char": 33}
+{"id": "qa_bef47b28035c76f04dab", "pred": "1", "na_prob": 0.0, "score": -10, "start_char": 123}
+{"id": "qa_bf1f629aba486399d830", "pred": "Kota-kota", "na_prob": 0.0, "score": -2, "start_char": 121}
+{"id": "qa_bf29af38ec7ae970547a", "pred": "Kubilai Khan", "na_prob": 0.0, "score": -10, "start_char": 48}
+{"id": "qa_bf2a1c5fe3cf46597c45", "pred": "Hanzi", "na_prob": 0.0, "score": -2, "start_char": 14}
+{"id": "qa_bf6b8ac04671bbc99c7b", "pred": "Gunungkidul", "na_prob": 0.0, "score": -2, "start_char": 60}
+{"id": "qa_c07ce12e35ca93812533", "pred": "Katholik", "na_prob": 0.0, "score": -1, "start_char": 87}
+{"id": "qa_c0db62978951d572dc39", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_c0df58e1a6fd7173c003", "pred": "16", "na_prob": 0.0, "score": -9, "start_char": 115}
+{"id": "qa_c1106b88a226dcd9130d", "pred": "3", "na_prob": 0.0, "score": -2, "start_char": 87}
+{"id": "qa_c17eaf10813e1efe169e", "pred": "Guatemala", "na_prob": 0.0, "score": -2, "start_char": 695}
+{"id": "qa_c1a5c6f9410733d315e3", "pred": "18", "na_prob": 0.0, "score": -1, "start_char": 84}
+{"id": "qa_c2a5c8e2fa09f3cf690d", "pred": "Vietnam Utara", "na_prob": 0.0, "score": -1, "start_char": 63}
+{"id": "qa_c2c5231b4b9d9352b6c4", "pred": "1", "na_prob": 0.0, "score": -10, "start_char": 123}
+{"id": "qa_c2d49e475192f137fc24", "pred": "Menurut Pavlov", "na_prob": 0.0, "score": -8, "start_char": 484}
+{"id": "qa_c2ff434b401609e91d01", "pred": "1960", "na_prob": 0.0, "score": -5, "start_char": 105}
+{"id": "qa_c3386184cd312b3056ac", "pred": "Ekaristi", "na_prob": 0.0, "score": 1, "start_char": 56}
+{"id": "qa_c49c26b168ed1eac741b", "pred": "Jerman", "na_prob": 0.0, "score": 1, "start_char": 29}
+{"id": "qa_c4a0449abf43d37042f0", "pred": "Tionghoa", "na_prob": 0.0, "score": -7, "start_char": 334}
+{"id": "qa_c4d4a54d7f89755a052b", "pred": "Hipertrofi", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_c4e66edf89401031a7e4", "pred": "1969", "na_prob": 0.0, "score": -6, "start_char": 105}
+{"id": "qa_c4f1d05a79ff704d9afd", "pred": "1185", "na_prob": 0.0, "score": -6, "start_char": 115}
+{"id": "qa_c58e14924e8f9ab97e15", "pred": "Orde Phoenix", "na_prob": 0.0, "score": 3, "start_char": 423}
+{"id": "qa_c63bc86c391539b9bea5", "pred": "Sumenep", "na_prob": 0.0, "score": 3, "start_char": 40}
+{"id": "qa_c64d37a1d080ee072a43", "pred": "Aram", "na_prob": 0.0, "score": 4, "start_char": 28}
+{"id": "qa_c66c3bfd3288d95c1916", "pred": "Google", "na_prob": 0.0, "score": 2, "start_char": 148}
+{"id": "qa_c68765fa0eb0a80b9072", "pred": "Raja Bajak Laut", "na_prob": 0.0, "score": 4, "start_char": 131}
+{"id": "qa_c6ca7a0dbe871080ed60", "pred": "Latin", "na_prob": 0.0, "score": -2, "start_char": 65}
+{"id": "qa_c6f04f1634372f57109f", "pred": "Mu Duo", "na_prob": 0.0, "score": -2, "start_char": 6}
+{"id": "qa_c77ea6eb9449820807de", "pred": "menggunakan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 41}
+{"id": "qa_c79f24e1e905ef3932db", "pred": "1868", "na_prob": 0.0, "score": 5, "start_char": 130}
+{"id": "qa_c7c9eb0d2254c1f3d567", "pred": "Amerika Serikat", "na_prob": 0.0, "score": -1, "start_char": 127}
+{"id": "qa_c7ecb81ad26f8581a178", "pred": "Kalsel", "na_prob": 0.0, "score": -3, "start_char": 30}
+{"id": "qa_c8a2e3574f29233f1715", "pred": "Cirebon", "na_prob": 0.0, "score": -1, "start_char": 12}
+{"id": "qa_c92781028b55e1ca0909", "pred": "29", "na_prob": 0.0, "score": 4, "start_char": 129}
+{"id": "qa_c9c3c8449528f6291714", "pred": "German", "na_prob": 0.0, "score": -2, "start_char": 31}
+{"id": "qa_c9d6c31ac01999266fc6", "pred": "Windows XP", "na_prob": 0.0, "score": -2, "start_char": 385}
+{"id": "qa_ca3df43e11e66a0e30d4", "pred": "Pembangunan Orde Baru", "na_prob": 0.0, "score": -2, "start_char": 58}
+{"id": "qa_caf556f887b1d6622edc", "pred": "Inalum", "na_prob": 0.0, "score": -1, "start_char": 533}
+{"id": "qa_caf715eb4cf27f7727bc", "pred": "377.835", "na_prob": 0.0, "score": -5, "start_char": 7}
+{"id": "qa_cb9ed84aceb1950c4088", "pred": "ditemukan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 180}
+{"id": "qa_cba66807faaf7844022c", "pred": "Nasi Kapau", "na_prob": 0.0, "score": -3, "start_char": 26}
+{"id": "qa_cc203686a7c515caaaab", "pred": "Mataram", "na_prob": 0.0, "score": -12, "start_char": 113}
+{"id": "qa_cc3bb8186d9b158abb8e", "pred": "Konseling", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_cc4a33ed1f803e233b71", "pred": "komputer", "na_prob": 0.0, "score": -1000000000.0, "start_char": 26}
+{"id": "qa_cca3bea09e75907fa206", "pred": "11 Oktober", "na_prob": 0.0, "score": 3, "start_char": 212}
+{"id": "qa_cd1b03ee6bba5cd06e5f", "pred": "Yayasan Pendidikan Bale Bandung", "na_prob": 0.0, "score": 3, "start_char": 331}
+{"id": "qa_cd326330237d5784242c", "pred": "Menurut Pavlov", "na_prob": 0.0, "score": -12, "start_char": 0}
+{"id": "qa_ce310ed440c799a8b8ce", "pred": "Perilaku Abnormal", "na_prob": 0.0, "score": -10, "start_char": 0}
+{"id": "qa_cf9d0f6fcfdc43e7a073", "pred": "2", "na_prob": 0.0, "score": -1, "start_char": 86}
+{"id": "qa_d02d1f5a8682dc850c49", "pred": "37.530,52", "na_prob": 0.0, "score": 4, "start_char": 187}
+{"id": "qa_d0cfaee70a7c5b1b5828", "pred": "6 SM", "na_prob": 0.0, "score": 1, "start_char": 187}
+{"id": "qa_d0d4511d2f72e7e5f3e0", "pred": "komponen", "na_prob": 0.0, "score": -1000000000.0, "start_char": 29}
+{"id": "qa_d284ec24d6b2730cdc5a", "pred": "50", "na_prob": 0.0, "score": 2, "start_char": 102}
+{"id": "qa_d29219fc9d93844603b5", "pred": "Tapirus", "na_prob": 0.0, "score": -2, "start_char": 12}
+{"id": "qa_d2a6e12f209bf3a30b23", "pred": "Federasi Wanita Seluruh Tiongkok", "na_prob": 0.0, "score": -5, "start_char": 129}
+{"id": "qa_d2e7749732fb24a5f06d", "pred": "3", "na_prob": 0.0, "score": -8, "start_char": 685}
+{"id": "qa_d2ebd1e22f80e7086466", "pred": "Banyuwangi", "na_prob": 0.0, "score": -1, "start_char": 64}
+{"id": "qa_d2efa187caa78257f391", "pred": "Li Yuan", "na_prob": 0.0, "score": 0, "start_char": 18}
+{"id": "qa_d31233ea497d810b4a59", "pred": "Kepulauan Midway", "na_prob": 0.0, "score": 3, "start_char": 447}
+{"id": "qa_d4484ae5033c33a372fe", "pred": "Gunungkidul", "na_prob": 0.0, "score": -2, "start_char": 60}
+{"id": "qa_d46da04c743482bb9d40", "pred": "1", "na_prob": 0.0, "score": -22, "start_char": 471}
+{"id": "qa_d486eb93d6b672442c4a", "pred": "28 September 1945", "na_prob": 0.0, "score": 4, "start_char": 330}
+{"id": "qa_d4e825fd6cb96e834dd6", "pred": "Banten", "na_prob": 0.0, "score": -4, "start_char": 109}
+{"id": "qa_d509e14f88c949d14a59", "pred": "Departemen Pertahanan Amerika Serikat", "na_prob": 0.0, "score": -2, "start_char": 56}
+{"id": "qa_d56837d855ad4ba98a1b", "pred": "Suku Melayu", "na_prob": 0.0, "score": -10, "start_char": 0}
+{"id": "qa_d5ebb40967359f441853", "pred": "18", "na_prob": 0.0, "score": -3, "start_char": 317}
+{"id": "qa_d62941b133d198c7e7bb", "pred": "7", "na_prob": 0.0, "score": 3, "start_char": 142}
+{"id": "qa_d645eb04039d71aa5a96", "pred": "2.210", "na_prob": 0.0, "score": 4, "start_char": 310}
+{"id": "qa_d6728fdcb500227c6063", "pred": "1993", "na_prob": 0.0, "score": 1, "start_char": 242}
+{"id": "qa_d6c38e38c337ba523ca3", "pred": "Uskup Roma", "na_prob": 0.0, "score": 3, "start_char": 84}
+{"id": "qa_d76539f4e23a3c12c17c", "pred": "605.21", "na_prob": 0.0, "score": 2, "start_char": 64}
+{"id": "qa_d77a33f4e10545bc56c0", "pred": "Balaenoptera", "na_prob": 0.0, "score": -4, "start_char": 11}
+{"id": "qa_d786562789f78f625abc", "pred": "Jepang", "na_prob": 0.0, "score": -2, "start_char": 69}
+{"id": "qa_d7889b13d5e6508e3986", "pred": "11 Oktober", "na_prob": 0.0, "score": 0, "start_char": 212}
+{"id": "qa_d7db61fbb2bbcf4616d2", "pred": "Dunia", "na_prob": 0.0, "score": -2, "start_char": 1417}
+{"id": "qa_d8411e96d39e16bc83b1", "pred": "5", "na_prob": 0.0, "score": -1, "start_char": 223}
+{"id": "qa_d853c82fbe8af333c789", "pred": "1969", "na_prob": 0.0, "score": -6, "start_char": 105}
+{"id": "qa_d8aaa80c6f84f8a511c6", "pred": "1", "na_prob": 0.0, "score": -10, "start_char": 105}
+{"id": "qa_d91ad578bf7a5556dcaa", "pred": "Javanese", "na_prob": 0.0, "score": -4, "start_char": 19}
+{"id": "qa_d923e054a2534572c48d", "pred": "27 Maret 1945", "na_prob": 0.0, "score": -4, "start_char": 40}
+{"id": "qa_d92664ecb89748f2e91a", "pred": "Departemen Pertahanan Amerika Serikat", "na_prob": 0.0, "score": -2, "start_char": 56}
+{"id": "qa_d9e8fc3258d8ad17ed1b", "pred": "1969", "na_prob": 0.0, "score": -6, "start_char": 105}
+{"id": "qa_da0dfe3948b2c854cf4b", "pred": "Vietnam Utara", "na_prob": 0.0, "score": -4, "start_char": 63}
+{"id": "qa_da128d7e793f3d189f1e", "pred": "Provinsi Papua", "na_prob": 0.0, "score": 3, "start_char": 127}
+{"id": "qa_da1e65f559f96b72adb5", "pred": "René", "na_prob": 0.0, "score": 3, "start_char": 787}
+{"id": "qa_da343c35669377d2e286", "pred": "Edo", "na_prob": 0.0, "score": 2, "start_char": 74}
+{"id": "qa_dab4e37e9cd6344c74ac", "pred": "tumbuhan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 13}
+{"id": "qa_daf83e19aeb274b9e6b0", "pred": "18", "na_prob": 0.0, "score": 2, "start_char": 84}
+{"id": "qa_db487bb512572717f5d9", "pred": "R", "na_prob": 0.0, "score": 3, "start_char": 112}
+{"id": "qa_db5fadd62cda283125de", "pred": "artifact", "na_prob": 0.0, "score": -1000000000.0, "start_char": 13}
+{"id": "qa_db788dbe8fc93a58140f", "pred": "Warsawa", "na_prob": 0.0, "score": -5, "start_char": 491}
+{"id": "qa_db91c15eb03cf54a1335", "pred": "sendiri", "na_prob": 0.0, "score": -1000000000.0, "start_char": 117}
+{"id": "qa_dba57b9c986b069295c7", "pred": "1918", "na_prob": 0.0, "score": 5, "start_char": 803}
+{"id": "qa_dbaf8601773165a663e5", "pred": "Putri Salju", "na_prob": 0.0, "score": -3, "start_char": 34}
+{"id": "qa_dc125924a95b0334c692", "pred": "vodka", "na_prob": 0.0, "score": -1000000000.0, "start_char": 369}
+{"id": "qa_dc47255ccae6a3aa8437", "pred": "11 November 2006", "na_prob": 0.0, "score": 6, "start_char": 45}
+{"id": "qa_dc675c4a85287253eb5b", "pred": "Amsterdam", "na_prob": 0.0, "score": -5, "start_char": 39}
+{"id": "qa_dccb7e67cf88abf055a0", "pred": "Kiaracondong", "na_prob": 0.0, "score": -1, "start_char": 137}
+{"id": "qa_dde049a631eee1d7486e", "pred": "Li Yuan", "na_prob": 0.0, "score": 0, "start_char": 18}
+{"id": "qa_dde402d1f8d3ec1762e7", "pred": "Humphrey Gilbert", "na_prob": 0.0, "score": 1, "start_char": 48}
+{"id": "qa_de5fb3a3e42cbd7f536b", "pred": "Setelah Perang Dunia II", "na_prob": 0.0, "score": -2, "start_char": 0}
+{"id": "qa_deb1ced682dd1cfeddc8", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_deb5c73304dc2c573752", "pred": "Hanoi", "na_prob": 0.0, "score": -2, "start_char": 23}
+{"id": "qa_df55552187fd5feda18f", "pred": "Semula Tanzania", "na_prob": 0.0, "score": -10, "start_char": 0}
+{"id": "qa_dfb967b245deabdd7848", "pred": "11 Januari 1995", "na_prob": 0.0, "score": 3, "start_char": 30}
+{"id": "qa_dfd627adf6bc4ff2e523", "pred": "Bumi", "na_prob": 0.0, "score": -1000000000.0, "start_char": 6}
+{"id": "qa_dfdb8c29d01c208c0a8f", "pred": "3", "na_prob": 0.0, "score": 2, "start_char": 973}
+{"id": "qa_dfea94cab2476427828f", "pred": "Aram", "na_prob": 0.0, "score": -1, "start_char": 28}
+{"id": "qa_e04716fd9d2a5b98c3b7", "pred": "menjadi", "na_prob": 0.0, "score": -1000000000.0, "start_char": 210}
+{"id": "qa_e06036f9c470b03ab5e3", "pred": "28 September 1945", "na_prob": 0.0, "score": 4, "start_char": 330}
+{"id": "qa_e0ce20737f5706505406", "pred": "penyuluhan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 15}
+{"id": "qa_e105510fd37e697fb8c5", "pred": "Raruku An Shieru", "na_prob": 0.0, "score": -1, "start_char": 25}
+{"id": "qa_e10c5c50c29611c40692", "pred": "1", "na_prob": 0.0, "score": -26, "start_char": 202}
+{"id": "qa_e113fbab02072ad990d5", "pred": "keagamaan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 299}
+{"id": "qa_e15d08eae3cc05fe5823", "pred": "Indonesia", "na_prob": 0.0, "score": -3, "start_char": 32}
+{"id": "qa_e1880e472c9ef3d6b3e5", "pred": "Orde Phoenix", "na_prob": 0.0, "score": 3, "start_char": 423}
+{"id": "qa_e18ca7992e47b69948cf", "pred": "21", "na_prob": 0.0, "score": 3, "start_char": 27}
+{"id": "qa_e19ca701820ae6d8dd12", "pred": "Indonesia", "na_prob": 0.0, "score": -4, "start_char": 32}
+{"id": "qa_e287aa8ae44434e116b5", "pred": "Amerika Utara", "na_prob": 0.0, "score": -2, "start_char": 550}
+{"id": "qa_e2ce07987db9c8ed8e97", "pred": "1481", "na_prob": 0.0, "score": 2, "start_char": 42}
+{"id": "qa_e346a189b74feef4bc6e", "pred": "Bapak", "na_prob": 0.0, "score": -1000000000.0, "start_char": 139}
+{"id": "qa_e3a91ac80c84710a45ed", "pred": "Konfederasi Jerman", "na_prob": 0.0, "score": -3, "start_char": 243}
+{"id": "qa_e3dfc1dae59b6b9d5e15", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_e3fdae3b66360ea09d17", "pred": "11 Oktober", "na_prob": 0.0, "score": 3, "start_char": 212}
+{"id": "qa_e4036b221ac27310c07e", "pred": "butir", "na_prob": 0.0, "score": -1000000000.0, "start_char": 343}
+{"id": "qa_e419342f25b5ef66cb80", "pred": "1", "na_prob": 0.0, "score": -10, "start_char": 123}
+{"id": "qa_e44fc99ea595f75b78ae", "pred": "Kekaisaran Maurya", "na_prob": 0.0, "score": -3, "start_char": 0}
+{"id": "qa_e580a79fb1ad6736849d", "pred": "Indochina", "na_prob": 0.0, "score": -3, "start_char": 327}
+{"id": "qa_e61330d84179abd7e81e", "pred": "20 November 1985", "na_prob": 0.0, "score": 1, "start_char": 87}
+{"id": "qa_e618bef957ccec24d703", "pred": "mampu", "na_prob": 0.0, "score": -1000000000.0, "start_char": 356}
+{"id": "qa_e6354de56be830e24ccb", "pred": "sel", "na_prob": 0.0, "score": -1000000000.0, "start_char": 188}
+{"id": "qa_e68d7dd02ce353328a6c", "pred": "École Navale", "na_prob": 0.0, "score": 3, "start_char": 64}
+{"id": "qa_e7396ada153e496fc073", "pred": "Los Angeles", "na_prob": 0.0, "score": -6, "start_char": 73}
+{"id": "qa_e787e0ea80b24d743c7f", "pred": "1969", "na_prob": 0.0, "score": -6, "start_char": 105}
+{"id": "qa_e79f556ee0f9cf6b6f8e", "pred": "1", "na_prob": 0.0, "score": -22, "start_char": 471}
+{"id": "qa_e7e37ee1b8e3c339a6d4", "pred": "2009", "na_prob": 0.0, "score": 6, "start_char": 137}
+{"id": "qa_e90a17c0a9a5e084ec93", "pred": "Dominion of Canada", "na_prob": 0.0, "score": -6, "start_char": 40}
+{"id": "qa_e9c709a3177c1a4bdd49", "pred": "Arab", "na_prob": 0.0, "score": -2, "start_char": 8}
+{"id": "qa_e9dc16a5646daf55e160", "pred": "Departemen Pertahanan Amerika Serikat", "na_prob": 0.0, "score": -2, "start_char": 56}
+{"id": "qa_e9f7ed37b749a2b66c4c", "pred": "Malaysia", "na_prob": 0.0, "score": -2, "start_char": 131}
+{"id": "qa_ea2ea609a273aa575569", "pred": "Polish", "na_prob": 0.0, "score": 3, "start_char": 10}
+{"id": "qa_ea7dcba2399667347688", "pred": "Tokyo", "na_prob": 0.0, "score": -8, "start_char": 56}
+{"id": "qa_ea90c94e4c84199ec52e", "pred": "Javanese", "na_prob": 0.0, "score": -4, "start_char": 19}
+{"id": "qa_ea9d8106f1f6717ec14d", "pred": "Leher", "na_prob": 0.0, "score": -3, "start_char": 10}
+{"id": "qa_eb142e21b1a7f4ec05e8", "pred": "Dominion of Canada", "na_prob": 0.0, "score": -6, "start_char": 40}
+{"id": "qa_ebb031d92621cc0841a8", "pred": "1837", "na_prob": 0.0, "score": -4, "start_char": 107}
+{"id": "qa_ec412b382b84c5da161c", "pred": "1969", "na_prob": 0.0, "score": -6, "start_char": 105}
+{"id": "qa_ed6f0394dfadc0385dac", "pred": "D", "na_prob": 0.0, "score": -5, "start_char": 12}
+{"id": "qa_ee6fc751bc9f30e166b5", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_eed25f2473908551943b", "pred": "Rotterdam", "na_prob": 0.0, "score": 1, "start_char": 39}
+{"id": "qa_ef421b2e761120540ef2", "pred": "Inggris", "na_prob": 0.0, "score": -10, "start_char": 17}
+{"id": "qa_eff47534facfdd432602", "pred": "Nama", "na_prob": 0.0, "score": -1000000000.0, "start_char": 208}
+{"id": "qa_f00dde03b2e2c37e9719", "pred": "Indosiar", "na_prob": 0.0, "score": 1, "start_char": 121}
+{"id": "qa_f03d44ce67a23edbf7b4", "pred": "700.000", "na_prob": 0.0, "score": 3, "start_char": 31}
+{"id": "qa_f09fea8516ea8d41f85e", "pred": "Elizabeth", "na_prob": 0.0, "score": 1, "start_char": 28}
+{"id": "qa_f0f4d811aa1c9c23d83c", "pred": "Bahasa Jawa", "na_prob": 0.0, "score": 2, "start_char": 67}
+{"id": "qa_f135d76d6e3e27e70913", "pred": "437.072", "na_prob": 0.0, "score": 4, "start_char": 113}
+{"id": "qa_f158aa18d86538935182", "pred": "Pohon", "na_prob": 0.0, "score": -1000000000.0, "start_char": 55}
+{"id": "qa_f15da0f71da5ef5c83bf", "pred": "Inspektur Mutu Lambung Baja", "na_prob": 0.0, "score": -2, "start_char": 351}
+{"id": "qa_f1af31be4c925eaff779", "pred": "Valentinus", "na_prob": 0.0, "score": -6, "start_char": 35}
+{"id": "qa_f23b99452427988f7db2", "pred": "ditunjuknya", "na_prob": 0.0, "score": -1000000000.0, "start_char": 271}
+{"id": "qa_f245b6df8c6a590e983d", "pred": "1942", "na_prob": 0.0, "score": 4, "start_char": 169}
+{"id": "qa_f3c8ac0e1cd84bad0716", "pred": "Jepang", "na_prob": 0.0, "score": -3, "start_char": 20}
+{"id": "qa_f42ca3921941c0ab86f4", "pred": "Dominion of Canada", "na_prob": 0.0, "score": -10, "start_char": 40}
+{"id": "qa_f4ba17bed2a650408e0a", "pred": "18 Februari 1965", "na_prob": 0.0, "score": 5, "start_char": 13}
+{"id": "qa_f5638de1118fa3dc7b4f", "pred": "30 Mei-23 September 1849 Buenaventura Báez", "na_prob": 0.0, "score": -3, "start_char": 186}
+{"id": "qa_f5dcd697fb47b4bee09f", "pred": "Jepang", "na_prob": 0.0, "score": 1, "start_char": 137}
+{"id": "qa_f65257d029b7fa7a4e1c", "pred": "NCAA 1988", "na_prob": 0.0, "score": -3, "start_char": 344}
+{"id": "qa_f75730ec4a08afaa328c", "pred": "6.000", "na_prob": 0.0, "score": 0, "start_char": 348}
+{"id": "qa_f783bfd8eb0dc352a92f", "pred": "Monkey D", "na_prob": 0.0, "score": 0, "start_char": 36}
+{"id": "qa_f8116af38e9989aa54bf", "pred": "Sistem", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_f83568dba5f8374382ca", "pred": "1946", "na_prob": 0.0, "score": 3, "start_char": 11}
+{"id": "qa_f8bb46de2e16df38d5e6", "pred": "Las Vegas Strip", "na_prob": 0.0, "score": -6, "start_char": 54}
+{"id": "qa_f8bef1a85e31d716d51e", "pred": "Vietnam Utara", "na_prob": 0.0, "score": -4, "start_char": 63}
+{"id": "qa_f9028331dc43e353f98d", "pred": "seringkali", "na_prob": 0.0, "score": -1000000000.0, "start_char": 252}
+{"id": "qa_f96b0ed9dacb0b56657a", "pred": "Perda", "na_prob": 0.0, "score": -2, "start_char": 310}
+{"id": "qa_f9843b214289734ec844", "pred": "Liem Kiat Nio", "na_prob": 0.0, "score": 2, "start_char": 205}
+{"id": "qa_f997f5ed42b936b949fa", "pred": "396", "na_prob": 0.0, "score": 3, "start_char": 687}
+{"id": "qa_fa1875365ac7f49a2c3f", "pred": "Gereja-Gereja Katolik Oriental", "na_prob": 0.0, "score": 3, "start_char": 33}
+{"id": "qa_fa446e318e8dfc8d5551", "pred": "Junction", "na_prob": 0.0, "score": -1000000000.0, "start_char": 13}
+{"id": "qa_fa4fe932fb28be21d0c3", "pred": "menggunakan", "na_prob": 0.0, "score": -1000000000.0, "start_char": 531}
+{"id": "qa_fa6a259ffb6b8ad9db8a", "pred": "Malaysia", "na_prob": 0.0, "score": -2, "start_char": 131}
+{"id": "qa_fbcf170d6d2e98549757", "pred": "1868", "na_prob": 0.0, "score": 5, "start_char": 130}
+{"id": "qa_fbd04024bba25513ef19", "pred": "Tiongkok", "na_prob": 0.0, "score": -1, "start_char": 136}
+{"id": "qa_fbe04e300696b170e6a0", "pred": "Balaenoptera", "na_prob": 0.0, "score": -4, "start_char": 11}
+{"id": "qa_fc02586845235643f8ea", "pred": "Sejarah", "na_prob": 0.0, "score": -1000000000.0, "start_char": 0}
+{"id": "qa_fd621b42f7b3521aa90a", "pred": "8", "na_prob": 0.0, "score": -2, "start_char": 12}
+{"id": "qa_fdbd93a2c835fe1e3efd", "pred": "Akhirnya Sekutu", "na_prob": 0.0, "score": 3, "start_char": 227}
+{"id": "qa_fe5c2d6c77e7448e2c68", "pred": "Banten", "na_prob": 0.0, "score": 3, "start_char": 56}
+{"id": "qa_feb1f61dda6029fad4b1", "pred": "Agustinus", "na_prob": 0.0, "score": -5, "start_char": 26}
+{"id": "qa_fedd01192619159e5149", "pred": "Formia", "na_prob": 0.0, "score": 3, "start_char": 147}
+{"id": "qa_ff8546bdc15000868d7d", "pred": "Imelda Staunton", "na_prob": 0.0, "score": 4, "start_char": 95}
