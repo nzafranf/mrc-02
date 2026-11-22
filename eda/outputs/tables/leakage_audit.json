@@ -5,7 +5,7 @@
    "exact": 0,
    "near_gt_0_8": 0,
    "near_gt_0_6": 0,
-   "max_sim": 0.477
+   "max_sim": 0.471
   },
   "context:itest->train": {
    "n_unique": 347,
@@ -21,11 +21,32 @@
    "near_gt_0_6": 1,
    "max_sim": 0.986
   },
+  "context:official_val->train": {
+   "n_unique": 968,
+   "exact": 0,
+   "near_gt_0_8": 0,
+   "near_gt_0_6": 0,
+   "max_sim": 0.59
+  },
+  "context:official_val->dev": {
+   "n_unique": 968,
+   "exact": 0,
+   "near_gt_0_8": 0,
+   "near_gt_0_6": 0,
+   "max_sim": 0.441
+  },
+  "context:official_val->itest": {
+   "n_unique": 968,
+   "exact": 0,
+   "near_gt_0_8": 0,
+   "near_gt_0_6": 0,
+   "max_sim": 0.564
+  },
   "question:dev->train": {
    "n_unique": 803,
    "exact": 2,
    "near_gt_0_8": 16,
-   "near_gt_0_6": 92,
+   "near_gt_0_6": 90,
    "max_sim": 1.0
   },
   "question:itest->train": {
@@ -42,26 +63,53 @@
    "near_gt_0_6": 13,
    "max_sim": 1.0
   },
+  "question:official_val->train": {
+   "n_unique": 2000,
+   "exact": 10,
+   "near_gt_0_8": 52,
+   "near_gt_0_6": 250,
+   "max_sim": 1.0
+  },
+  "question:official_val->dev": {
+   "n_unique": 2000,
+   "exact": 4,
+   "near_gt_0_8": 9,
+   "near_gt_0_6": 32,
+   "max_sim": 1.0
+  },
+  "question:official_val->itest": {
+   "n_unique": 2000,
+   "exact": 1,
+   "near_gt_0_8": 4,
+   "near_gt_0_6": 35,
+   "max_sim": 1.0
+  },
   "id_overlap": {
    "train&dev": 0,
    "train&itest": 0,
-   "dev&itest": 0
+   "dev&itest": 0,
+   "train&official_val": 0,
+   "dev&official_val": 0,
+   "itest&official_val": 0
   },
   "pair_overlap": {
    "train&dev": 0,
    "train&itest": 0,
-   "dev&itest": 0
+   "dev&itest": 0,
+   "train&official_val": 0,
+   "dev&official_val": 0,
+   "itest&official_val": 0
   }
  },
  "examples": {
   "context:dev->train": [
    [
-    0.477,
+    0.471,
     "pertempuran tanjung esperance atau dikenal sebagai pertempuran pulau savo kedua, dan menurut sumber jepang sebagai pertempuran laut pulau savo(サボ島沖海戦,sabo-tō ok",
     "pertempuran pulau rennell(レンネル島沖海戦) adalah pertempuran laut yang terjadi pada 29-30 januari 1943 di pasifik selatan antara pulau rennell dan guadalkanal di sela"
    ],
    [
-    0.451,
+    0.44,
     "berikut adalah daftar kecamatan dan kelurahan di provinsi kalimantan selatan, indonesia. provinsi kalimantan selatan terdiri dari 11 kabupaten, 2 kota, 153 keca",
     "berikut adalah daftar kecamatan dan kelurahan di provinsi jawa tengah, indonesia. provinsi jawa tengah terdiri dari 29 kabupaten, 6 kotamadya, 537 kecamatan, 75"
    ]
@@ -73,7 +121,7 @@
     "abdullah bin abu quhafah (arabic: عبد الله بن أبي قحافة‎; 572 – 23 agustus 634/21 jumadil akhir 13 h) atau yang lebih dikenal dengan abu bakar ash-shiddiq (arab"
    ],
    [
-    0.539,
+    0.538,
     "kabupaten demak, adalah salah satu kabupaten di provinsi jawa tengah. ibukotanya adalah demak. kabupaten ini berbatasan dengan laut jawa di barat, kabupaten jep",
     "jepara adalah salah satu kabupaten di provinsi jawa tengah. ibukotanya adalah jepara. kabupaten ini berbatasan dengan laut jawa di barat dan utara, kabupaten pa"
    ]
@@ -85,33 +133,69 @@
     "\"kimi no shiranai monogatari\"(君の知らない物語, lit. \"cerita yang tidak kamu ketahui\") adalah sebuah lagu j-pop yang dibawakan oleh grup musik asal jepang supercell, ya"
    ],
    [
-    0.336,
+    0.337,
     "supercell adalah grup musik jepang yang terdiri dari 11 anggota dipimpin oleh komposer dan penulis lirik ryo yang terbentuk pada tahun 2007 sebagai grup musik d",
     "\"kimi no shiranai monogatari\"(君の知らない物語, lit. \"cerita yang tidak kamu ketahui\") adalah sebuah lagu j-pop yang dibawakan oleh grup musik asal jepang supercell, ya"
+   ]
+  ],
+  "context:official_val->train": [
+   [
+    0.59,
+    "universitas indonesia (ui) secara resmi memulai kegiatannya pada 2 februari 1950 dengan presiden (saat ini disebut rektor) pertamanya ir. r.m. pandji soerachman",
+    "universitas indonesia disingkat sebagai ui, adalah sebuah perguruan tinggi di indonesia. kampus utamanya terletak di bagian utara dari depok, jawa barat tepat d"
+   ],
+   [
+    0.574,
+    "scream 3 merupakan sebuah film horor yang sebagian besar berlokasi di california. film yang disutradarai oleh wes craven ini pemainnya antara lain adalah david ",
+    "scream adalah sebuah film horor yang sebagian besar berlokasi di santa rosa (california). film yang disutradarai oleh wes craven ini pemainnya antara lain adala"
+   ]
+  ],
+  "context:official_val->dev": [
+   [
+    0.441,
+    "berikut daftar kecamatan dan kelurahan di provinsi yogyakarta, indonesia. provinsi yogyakarta terdiri dari 4 kabupaten, 1 kotamadya, 78 kecamatan, 46 kelurahan ",
+    "berikut adalah daftar kecamatan dan kelurahan di provinsi kalimantan selatan, indonesia. provinsi kalimantan selatan terdiri dari 11 kabupaten, 2 kota, 153 keca"
+   ],
+   [
+    0.433,
+    "pertempuran tassafaronga, kadang-kadang disebut pertempuran pulau savo keempat atau menurut sumber jepang sebagai pertempuran malam laut lunga(ルンガ沖夜戦,lunga oki ",
+    "pertempuran tanjung esperance atau dikenal sebagai pertempuran pulau savo kedua, dan menurut sumber jepang sebagai pertempuran laut pulau savo(サボ島沖海戦,sabo-tō ok"
+   ]
+  ],
+  "context:official_val->itest": [
+   [
+    0.564,
+    "shilling kenya (swahili: shillingi ya kenya; tanda: ksh; kode: kes) adalah mata uang resmi kenya yang diterbitkan oleh bank sentral kenya. satu shilling dibagi ",
+    "shilling tanzania (swahili: shilingi; tanda: tsh; kode: tzs) adalah mata uang resmi tanzania yang diterbitkan oleh bank tanzania, meskipun meluasnya penggunaan "
+   ],
+   [
+    0.356,
+    "pound mesir (arab: الجنيه المصرى, el-gineih el-maṣrī) merupakan sebuah mata uang resmi negara mesir sejak tahun 1834. kode mata uangnya adalah egp. mata uang in",
+    "hryvnia merupakan sebuah mata uang negara ukraina sejak tahun 1996 menggantikan karbovanets ukraina. mata uang ini setiap satuannya terbagi menjadi 100 kopek. m"
    ]
   ],
   "question:dev->train": [
    [
     1.0,
-    "berapakah luas jepang ?",
-    "berapakah luas jepang ?"
+    "berapa luas kota strasbourg?",
+    "berapa luas kota strasbourg?"
    ],
    [
     1.0,
-    "berapa luas kota strasbourg?",
-    "berapa luas kota strasbourg?"
+    "berapakah luas jepang ?",
+    "berapakah luas jepang ?"
    ]
   ],
   "question:itest->train": [
    [
     1.0,
-    "kapankah abu bakar ash-shiddiq dilahirkan?",
-    "kapankah abu bakar ash-shiddiq dilahirkan?"
+    "apa nama video game terakhir di dunia?",
+    "apa nama video game terakhir di dunia?"
    ],
    [
     1.0,
-    "apa itu dna?",
-    "apa itu dna?"
+    "berapa luas wilayah norwegia?",
+    "berapa luas wilayah norwegia?"
    ]
   ],
   "question:itest->dev": [
@@ -124,6 +208,42 @@
     1.0,
     "apakah bahasa indonesia dari kimi no shiranai monogatari?",
     "apakah bahasa indonesia dari kimi no shiranai monogatari?"
+   ]
+  ],
+  "question:official_val->train": [
+   [
+    1.0,
+    "berapa luas norwegia?",
+    "berapa luas norwegia?"
+   ],
+   [
+    1.0,
+    "kapan aristoteles meninggal?",
+    "kapan aristoteles meninggal?"
+   ]
+  ],
+  "question:official_val->dev": [
+   [
+    1.0,
+    "apakah ibukota inggris?",
+    "apakah ibukota inggris?"
+   ],
+   [
+    1.0,
+    "apakah nama ibukota india?",
+    "apakah nama ibukota india?"
+   ]
+  ],
+  "question:official_val->itest": [
+   [
+    1.0,
+    "apakah warna bendera inggris?",
+    "apakah warna bendera inggris?"
+   ],
+   [
+    0.953,
+    "kapan nabi muhammad lahir?",
+    "kapan nabi muhammad lahir ?"
    ]
   ]
  }

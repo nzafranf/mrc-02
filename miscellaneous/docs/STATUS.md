@@ -34,13 +34,17 @@ p = 0.07), attention vs no attention (+0.1, p = 0.88).
 - BiDAF and the classical pipeline barely beat the no-answer floor on HasAns: both over-abstain.
 - `torchvision` was uninstalled from the global Python 3.12 (peft import conflict). Not needed here; other global
   packages (ultralytics, easyocr) need it. Pending user decision.
-- Leaderboard metric and submission format not yet confirmed (SCeLE). Official validation set not yet in `data/raw/`.
+- Leaderboard metric and submission format not yet confirmed (SCeLE).
+- Official validation set (2003 questions, 36% unanswerable, 968 passages) is in `data/raw/validation.jsonl`, copied to
+  `data/processed/official_val.jsonl` with slice tags. Leakage audit: no passage overlap with train/dev/itest (max
+  char 5-gram similarity 0.59); 10 generic questions repeat train wording with different passages. No model has
+  predictions on it yet.
 
 ## Next (needs approval for GPU or API spend)
 1. LLM on full dev: Qwen2.5-7B-Instruct 4-bit and Sailor2-8B-Chat, with 0-shot, fixed 3-shot and retrieved 3-shot
    prompting. Then 5 prompts x 3 demo orders on the better model.
 2. More PLM experiments: XLM-R (3 seeds), IndoBERT frozen vs LoRA, train fractions 0.1, 0.25 and 0.5.
 3. Paid `google/gemma-4-31b-it` via OpenRouter (about USD 0.10, returns logprobs) for `06`.
-4. When the official validation set arrives: leakage audit against train, switch model selection to it, and write a
-   submission script in `experiments/global/mrc`.
+4. Official validation: predict it with the existing models (01-04 locally, then compare), switch model selection to
+   it, and write a submission script in `experiments/global/mrc`.
 5. Submission antara (25 Nov): short report built from `report/latex` and `report/assets/tables/main_table.md`.
