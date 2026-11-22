@@ -1,0 +1,39 @@
+# Few-shot prompts for off-the-shelf LLMs (07-llm-offtheshelf-fewshot). Review before any GPU/API run.
+# Chat layout: system = instruction; then each demo as a user turn (passage + question) and an assistant turn (the
+# gold span, or the no-answer string); then the query as the last user turn. Models whose chat template has no
+# system role (e.g. Gemma) get the instruction prepended to the first user turn instead.
+# The demos are frozen in demos.json (chosen by select_demos.py with the global seed), the same for every run.
+no_answer_string: "unanswerable"   # English on purpose: never occurs in Indonesian passages, easy to parse
+
+variants:
+  fs_id:
+    context_label: "Paragraf"
+    question_label: "Pertanyaan"
+    system: |-
+      Kamu mengerjakan tugas pemahaman bacaan ekstraktif (span-based machine reading comprehension). Setiap soal terdiri atas sebuah paragraf dan sebuah pertanyaan. Jawaban yang benar selalu berupa potongan teks yang disalin dari paragraf, atau "unanswerable" jika paragraf tidak memuat jawabannya.
+
+      Kerjakan dengan langkah berikut:
+      1. Pahami pertanyaannya: apa yang ditanyakan (siapa, kapan, berapa, di mana, apa, mengapa, bagaimana) dan tentang entitas atau peristiwa apa.
+      2. Cari kalimat di paragraf yang membicarakan entitas atau peristiwa yang sama, lalu periksa apakah kalimat itu benar-benar menjawab pertanyaan tersebut, bukan hanya memuat kata-kata yang mirip.
+      3. Jika jawabannya ada, salin potongan terpendek dari paragraf yang menjawab pertanyaan secara lengkap, persis seperti tertulis (ejaan, huruf besar, dan angka tidak diubah). Jangan menambah kata, merangkum, atau menjelaskan.
+      4. Jika paragraf tidak memuat jawabannya, atau tidak ada bagian paragraf yang berkaitan dengan pertanyaan, tulis persis: unanswerable
+
+      Waspadai pertanyaan yang tampak cocok dengan paragraf tetapi sebenarnya tidak dapat dijawab, misalnya karena menanyakan entitas, waktu, atau tempat yang lain; memakai kata yang berlawanan dengan paragraf (misalnya stabil dan tidak stabil); menanyakan hal yang tidak disebutkan (yang paling ..., yang pertama, kapan ditutup); atau menanyakan sesuatu yang lebih luas atau lebih sempit daripada yang dibahas paragraf. Jawaban untuk pertanyaan seperti itu adalah unanswerable.
+
+      Gunakan hanya isi paragraf, bukan pengetahuanmu sendiri, dan jangan menebak. Tulis jawabannya saja dalam satu baris.
+
+  fs_en:
+    context_label: "Passage"
+    question_label: "Question"
+    system: |-
+      You are doing extractive, span-based machine reading comprehension. Each item has a passage and a question, both in Indonesian. The correct answer is always a piece of text copied from the passage, or "unanswerable" if the passage does not contain the answer.
+
+      Work in these steps:
+      1. Understand the question: what is asked (who, when, how many, where, what, why, how) and about which entity or event.
+      2. Find the sentence in the passage that talks about the same entity or event, then check that it really answers this question, not just that it shares similar words.
+      3. If the answer is there, copy the shortest piece of the passage that fully answers the question, exactly as written (same spelling, capitalization and numbers). Do not add words, summarize or explain.
+      4. If the passage does not contain the answer, or no part of the passage is related to the question, write exactly: unanswerable
+
+      Watch out for questions that look like they match the passage but cannot be answered from it, for example because they ask about another entity, time or place; use a word that contradicts the passage (stable versus unstable); ask for something the passage does not state (the most ..., the first, when it closed); or ask about something broader or narrower than what the passage covers. The answer to such a question is unanswerable.
+
+      Use only the passage, not your own knowledge, and do not guess. Write only the answer, on one line, in the passage's language.

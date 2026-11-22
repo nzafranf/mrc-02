@@ -47,4 +47,6 @@ p = 0.07), attention vs no attention (+0.1, p = 0.88).
 3. Paid `google/gemma-4-31b-it` via OpenRouter (about USD 0.10, returns logprobs) for `06`.
 4. Official validation: predict it with the existing models (01-04 locally, then compare), switch model selection to
    it, and write a submission script in `experiments/global/mrc`.
+6. `07-llm-offtheshelf-fewshot`: review `prompt_review.md` (instruction + 7 frozen demos), then run on Kaggle/Colab with
+   `gpu/fewshot_gpu.ipynb` (fixed question order, resumable).
 5. Submission antara (25 Nov): short report built from `report/latex` and `report/assets/tables/main_table.md`.

@@ -1,0 +1,71 @@
+{
+ "seed": 13,
+ "source": "data/processed/train.jsonl",
+ "how": "select_demos.py slots Asiapa Nkapan Akapan Nsiapa Aberapa Napa Aapa",
+ "sha256": "a1c89349036c73c89374a3d122236fc4d6a95c4506d0150251b8102b571c39ec",
+ "demos": [
+  {
+   "id": "qa_3227b8ba39a67d302b22",
+   "slot": "answerable-siapa",
+   "is_impossible": false,
+   "question": "Siapa nama drummer Arctic Monkeys?",
+   "answer": "Matt Helders",
+   "answer_start": 312,
+   "context": "Arctic Monkeys merupakan grup musik rock asal Inggris, band ini juga dikenal dengan nama The Death Ramps. Dibentuk tahun 2002 di High Green, distrik Sheffield, Inggris. Arctic Monkeys beranggotakan Alex Turner (vokal utama, gitar utama, keyboard), Jamie Cook (rhythm gitar), Nick O'Malley (bass, backing vokal), Matt Helders (drum, perkusi, backing vokal). Anggota band sebelumnya Andy Nicholson (bass) dan Glyn Jones (vokal utama)."
+  },
+  {
+   "id": "qa_aa373f818ff4e20e77bc",
+   "slot": "unanswerable-kapan",
+   "is_impossible": true,
+   "question": "Kapan Avril Lavigne wafat?",
+   "answer": "",
+   "answer_start": -1,
+   "context": "Avril Ramona Lavigne (/ˈævrɪl ləˈviːn/; French:[avʁil laviɲ]) (lahir 27 September 1984), adalah seorang penyanyi, penulis lagu, dan aktris berkebangsaan Kanada. Pada usia 15 tahun, dia tampil di panggung bersama Shania Twain dan diusia 16 tahun, dia dikontrak untuk memproduksi dua album oleh Arista Records senilai lebih dari $2juta."
+  },
+  {
+   "id": "qa_1e01eff5b414c895748b",
+   "slot": "answerable-kapan",
+   "is_impossible": false,
+   "question": "Kapan Persatuan Sepak Bola Tulungagung didirikan?",
+   "answer": "1970",
+   "answer_start": 42,
+   "context": "Perseta kali pertama didirikan pada tahun 1970 dengan nama Persit Tulungagung dan memiliki julukan Kera Warek. Kera Warek (Macaca fascicularis) merupakan fauna identitas Kabupaten Tulungagung. Persit diberi julukan Kera Warek karena kera ini mempunyai kecerdikan, kelincahan, dan kecepatan, sehingga Persit Tulungagung diharapkan mempunyai karakter-karakter tersebut, yang akan menjadikan Persit sebagai klub yang produktif dan berprestasi."
+  },
+  {
+   "id": "qa_3479ab3cce29b4f43953",
+   "slot": "unanswerable-siapa",
+   "is_impossible": true,
+   "question": "Siapa pengarang Kitab Rosehas bin Eleazar?",
+   "answer": "",
+   "answer_start": -1,
+   "context": "Tradisi Yahudi mengatakan bahwa penulis kitab ini adalah Yosua bin Nun, abdi Musa, yang ditahbiskan menjadi penerusnya dan memimpin orang Israel memasuki dan menduduki tanah Kanaan. Talmud mengatakan bahwa kitab ini ditulis oleh Yosua kecuali ayat-ayat terakhirnya (24:29-33) yang ditambahkan oleh Imam Besar Pinehas bin Eleazar."
+  },
+  {
+   "id": "qa_c82fe4b2b4d8ef107b4c",
+   "slot": "answerable-berapa",
+   "is_impossible": false,
+   "question": "Berapa luas wilayah Pennsylvania?",
+   "answer": "116.024km²",
+   "answer_start": 244,
+   "context": "Pennsylvania adalah sebuah negara bagian di Amerika Serikat. Negara bagian ini terletak di pesisir timur Amerika Serikat (East Coast). Pada tahun 2008, negara bagian ini memiliki jumlah penduduk sebesar 3.642.361 jiwa dan memiliki luas wilayah 116.024km². Ibu kotanya adalah Harrisurg."
+  },
+  {
+   "id": "qa_53a362791db0abfa4aa4",
+   "slot": "unanswerable-apa",
+   "is_impossible": true,
+   "question": "Apa itu fonem vokal yang paling jarang digunakan?",
+   "answer": "",
+   "answer_start": -1,
+   "context": "Vokal adalah fonem yang dihasilkan dengan menggerakkan udara keluar tanpa rintangan. Dalam bahasa, khususnya bahasa Indonesia, terdapat huruf vokal. Huruf vokal merupakan huruf-huruf yang dapat berdiri tunggal dan menghasilkan bunyi sendiri. Huruf vokal terdiri atas: a, i, u, e, dan o. Huruf vokal sering pula disebut huruf hidup."
+  },
+  {
+   "id": "qa_1a3a0150a04f37d60c9c",
+   "slot": "answerable-apa",
+   "is_impossible": false,
+   "question": "Apa yang dimaksud dengan nama Kakawin?",
+   "answer": "karya seorang penyair",
+   "answer_start": 288,
+   "context": "Kakawin merupakan wacana puisi yang ditulis dalam bahasa Jawa kuna atau dengan kata lain semua wacana puisi berbahasa Jawa kuna disebut dengan kakawin.[1] Secara etimologi, kata kakawin sebagai campuran dari kata Sanskerta kawi 'penyair' serta afiks Jawa (kuna) ka- dan -n, yang berarti 'karya seorang penyair' atau 'syair (puisi) karya penyair'.[2] Beberapa contoh wacana kakawin misalnya Rãmãyana, Bhãratayudha, Arjunawiwãha, Smaradahana, Sutasoma, Nãgarakrtagãma, Sumanasãntaka, Kuñjarakarna, Hariwangsa, Pãrthayajña, dan Siwarãtrikalpa."
+  }
+ ]
+}

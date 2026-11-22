@@ -16,6 +16,7 @@ experiments/
   04-plm-indobert/              IndoBERT fine-tuned (Kaggle T4)
   05-llm-local-qwen/            local instruct LLM through the prompt and grounding harness
   06-llm-api-offtheshelf/       off-the-shelf API LLMs through the same harness
+  07-llm-offtheshelf-fewshot/   off-the-shelf LLMs with a task instruction and frozen few-shot demos (Kaggle/Colab GPU)
 report/
   latex/              main.tex, references.bib
   assets/             cross-model tables and figures used by the report
