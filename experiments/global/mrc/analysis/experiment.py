@@ -17,6 +17,10 @@ directories that differ only by seed, e.g. bidaf and bidaf_noattn in 03-nn-bidaf
 Threshold policy is the same as the cross-model table: the no-answer threshold is tuned per run on dev
 (dev-optimistic). Runs that cover only part of dev (API LLMs) are scored on the ids they cover; the tables
 show n so partial runs are visible. Never pass a test split: this module refuses file names containing "test".
+
+Other evaluation splits (split_file=data/processed/official_val.jsonl): runs are read from preds_<split>.jsonl, the
+outputs go to <experiment>/analysis/<split>/ and to a separate AUTO-RESULTS-<split> block in summary.md, and the
+threshold is tuned on that split. dev keeps preds_dev.jsonl, analysis/ and the plain AUTO-RESULTS block.
 """
 from __future__ import annotations
 
@@ -53,10 +57,10 @@ def outcome(ex, cat):
     return cat
 
 
-def load_variant(name, run_dirs, gold_by, sents, tune=True):
+def load_variant(name, run_dirs, gold_by, sents, tune=True, preds_name="preds_dev.jsonl"):
     runs = []
     for d in run_dirs:
-        p = Path(d) / "preds_dev.jsonl"
+        p = Path(d) / preds_name
         if not p.exists():
             continue
         preds = {x["id"]: x for x in load_jsonl(p) if x["id"] in gold_by}
@@ -99,11 +103,16 @@ def analyze(exp_dir, variants, *, reference=None, logit_na=(), untuned=(), n_boo
     split_file = Path(split_file or PROC / "dev.jsonl")
     if "test" in split_file.name:
         raise SystemExit("Refusing to analyse a test split.")
-    out = exp_dir / "analysis"
+    stem = split_file.stem
+    preds_name = f"preds_{stem}.jsonl"
+    out = exp_dir / "analysis" if stem == "dev" else exp_dir / "analysis" / stem
+    rel = out.relative_to(exp_dir).as_posix()  # links in summary.md
+    begin, end = (BEGIN, END) if stem == "dev" else (BEGIN.replace("AUTO-RESULTS", f"AUTO-RESULTS-{stem}"),
+                                                     END.replace("AUTO-RESULTS", f"AUTO-RESULTS-{stem}"))
     out.mkdir(parents=True, exist_ok=True)
     gold = load_jsonl(split_file)
     gold_by = {g["id"]: g for g in gold}
-    sl = {s["id"]: s for s in load_jsonl(PROC / "slices_dev.jsonl")}
+    sl = {s["id"]: s for s in load_jsonl(PROC / f"slices_{stem}.jsonl")}
     for i, s in sl.items():
         if i in gold_by:
             s["ends_space_qmark"] = str(gold_by[i]["question"].rstrip().endswith(" ?"))
@@ -112,11 +121,11 @@ def analyze(exp_dir, variants, *, reference=None, logit_na=(), untuned=(), n_boo
     V = {}
     for name, pattern in variants.items():
         dirs = sorted(glob.glob(str(exp_dir / pattern)))
-        rr = load_variant(name, dirs, gold_by, sents, tune=name not in untuned)
+        rr = load_variant(name, dirs, gold_by, sents, tune=name not in untuned, preds_name=preds_name)
         if rr:
             V[name] = rr
         else:
-            print(f"  skip {name}: no preds_dev.jsonl under {pattern}")
+            print(f"  skip {name}: no {preds_name} under {pattern}")
     if not V:
         raise SystemExit("no runs found")
     names = list(V)
@@ -134,7 +143,7 @@ def analyze(exp_dir, variants, *, reference=None, logit_na=(), untuned=(), n_boo
                      ms([r["agg"]["pred_noans_rate"] for r in rr]), ms(thr, "{:.3g}") if thr else "untuned"])
     hdr = ["variant", "runs", "n", "EM", "F1", "HasAns F1", "NoAns acc", "predicted no-answer %", "NA threshold"]
     sec["results"] = md_table(hdr, rows)
-    (out / "results.md").write_text("# Dev results (NA threshold tuned on dev, dev-optimistic)\n\n" + sec["results"] + "\n",
+    (out / "results.md").write_text(f"# {'Dev' if stem == 'dev' else stem} results (NA threshold tuned on {stem}, {stem}-optimistic)\n\n" + sec["results"] + "\n",
                                     encoding="utf-8")
 
     # outcomes (rows) x variants (columns), percent of the gold group, mean over seeds
@@ -229,7 +238,7 @@ def analyze(exp_dir, variants, *, reference=None, logit_na=(), untuned=(), n_boo
                                 "slices": {k: sl.get(i, {}).get(k) for k in SLICE_KEYS}}, ensure_ascii=False) + "\n")
     hard_imp = np.mean([gold_by[i]["is_impossible"] for i in hard]) if hard else float("nan")
     sec["hard"] = (f"{len(hard)} of {len(common)} questions are wrong (F1 < 0.5) in every run of every variant; "
-                   f"{100 * hard_imp:.0f}% of them are unanswerable (dev base rate "
+                   f"{100 * hard_imp:.0f}% of them are unanswerable ({stem} base rate "
                    f"{100 * np.mean([gold_by[i]['is_impossible'] for i in common]):.0f}%).")
 
     # error samples for manual labeling
@@ -304,21 +313,21 @@ def analyze(exp_dir, variants, *, reference=None, logit_na=(), untuned=(), n_boo
                 f.write(json.dumps({"id": i, "variants": rec}, ensure_ascii=False) + "\n")
 
     # summary block
-    block = [BEGIN, "", "### Results (dev, NA threshold tuned on dev)", "", sec["results"], "",
+    block = [begin, "", f"### Results ({stem}, NA threshold tuned on {stem})", "", sec["results"], "",
              "### Outcome types", "", "Share of each gold group; count (mean over seeds) in brackets. "
-             "Figure: [analysis/outcomes.png](analysis/outcomes.png).", "", sec["outcomes"], ""]
+             f"Figure: [{rel}/outcomes.png]({rel}/outcomes.png).", "", sec["outcomes"], ""]
     if sec["sig"]:
         block += [f"### Variants against `{ref}` (paired bootstrap)", "", sec["sig"], ""]
-    block += ["### Seed stability", "", sec["seed"], "", f"### Weakest slices for `{best}`, the best variant (n >= 30). All slices: [analysis/slices.md](analysis/slices.md)", "", sec["weak"], "",
-              "### Hard questions", "", sec["hard"] + " List: [analysis/hard_examples.jsonl](analysis/hard_examples.jsonl).", ""]
+    block += ["### Seed stability", "", sec["seed"], "", f"### Weakest slices for `{best}`, the best variant (n >= 30). All slices: [{rel}/slices.md]({rel}/slices.md)", "", sec["weak"], "",
+              "### Hard questions", "", sec["hard"] + f" List: [{rel}/hard_examples.jsonl]({rel}/hard_examples.jsonl).", ""]
     if cal:
         block += ["### Calibration", ""] + cal + [""]
     files = sorted(p.name for p in out.iterdir() if p.is_file())
-    block += ["### Analysis files", "", ", ".join(f"[{n}](analysis/{n})" for n in files), "", END]
+    block += ["### Analysis files", "", ", ".join(f"[{n}]({rel}/{n})" for n in files), "", end]
     summ = exp_dir / "summary.md"
     text = summ.read_text(encoding="utf-8") if summ.exists() else f"# {exp_dir.name}\n\n## Results and error analysis\n\n"
-    if BEGIN in text and END in text:
-        text = text[:text.index(BEGIN)] + "\n".join(block) + text[text.index(END) + len(END):]
+    if begin in text and end in text:
+        text = text[:text.index(begin)] + "\n".join(block) + text[text.index(end) + len(end):]
     else:
         text = text.rstrip() + "\n\n" + "\n".join(block) + "\n"
     summ.write_text(text, encoding="utf-8")

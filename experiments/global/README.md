@@ -12,7 +12,7 @@ comparison across experiments. Nothing in here is specific to one model.
 | `mrc/llm_qa.py`, `mrc/llm_api.py` | LLM harness: prompts, parsing, grounding, na_prob; local and API backends (used by 05 and 06) |
 | `mrc/eval_order.py` | One fixed question order per split (global seed 13, stratified by answerability) for partial and resumable runs |
 | `mrc/analysis/slices.py` | Slice tags for every question (`data/processed/slices_*.jsonl`) |
-| `mrc/analysis/experiment.py` | The error analysis every experiment's `analyze.py` runs |
+| `mrc/analysis/experiment.py` | The error analysis every experiment's `analyze.py` runs (dev by default; `split_file=` for official_val) |
 | `mrc/analysis/compare.py` | Cross-model comparison -> `report/assets/tables`, `report/assets/figures` |
 | `mrc/analysis/per_example.py` | One record per dev question with every model's prediction (feeds `eda/notebooks/model_errors.ipynb`) |
 | `mrc/final_test_eval.py` | The single sealed evaluation on itest (needs `--confirm`, checks the split hash) |

@@ -189,10 +189,12 @@ def load_model(name: str, device: str, load_4bit: bool, dtype: str = "auto"):
     return tok, model
 
 
-def generate_batch(tok, model, msgs_batch, max_new_tokens, no_tok_id):
-    """Greedy decode a batch. Returns list of (raw_text, na_prob, mean_logprob)."""
+def generate_batch(tok, model, msgs_batch, max_new_tokens, no_tok_id, template_kwargs=None):
+    """Greedy decode a batch. Returns list of (raw_text, na_prob, mean_logprob).
+    template_kwargs go to apply_chat_template (e.g. {"enable_thinking": False} for Qwen3-style templates)."""
     import torch
-    texts = [tok.apply_chat_template(m, tokenize=False, add_generation_prompt=True) for m in msgs_batch]
+    texts = [tok.apply_chat_template(m, tokenize=False, add_generation_prompt=True, **(template_kwargs or {}))
+             for m in msgs_batch]
     enc = tok(texts, return_tensors="pt", padding=True, add_special_tokens=False).to(model.device)
     with torch.no_grad():
         out = model.generate(**enc, max_new_tokens=max_new_tokens, do_sample=False, temperature=None,
@@ -301,11 +303,14 @@ def candidate_spans(question: str, context: str, k: int = 3) -> list[str]:
     return out
 
 
-def seq_na_scores(tok, model, prompt_text: str, no_ans: str, answer: str, question: str, context: str) -> dict:
+def seq_na_scores(tok, model, prompt_text: str, no_ans: str, answer: str, question: str, context: str,
+                  chunk: int | None = None) -> dict:
     """lp_noans / lp_ans (totals), length-normalized variants and na_prob_seq = sigmoid(lp_noans - lp_ans).
     `answer` is the final grounded pred; if empty (greedy was no-answer) the best of candidate_spans is used."""
     cands = [answer] if answer else candidate_spans(question, context)
-    res = score_continuations(tok, model, prompt_text, [no_ans] + cands)
+    conts = [no_ans] + cands
+    step = chunk or len(conts)  # chunk: score at most this many continuations per forward pass (less GPU memory)
+    res = [r for k in range(0, len(conts), step) for r in score_continuations(tok, model, prompt_text, conts[k:k + step])]
     (lp_no, n_no), rest = res[0], res[1:]
     if rest:
         j = max(range(len(rest)), key=lambda i: rest[i][0])
