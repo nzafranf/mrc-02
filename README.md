@@ -6,7 +6,7 @@ or abstain (44% of questions are unanswerable). The brief is in
 
 ## Layout
 ```
-data/                 raw/, processed/ (grouped split + slice tags), splits/ (ids + hashes)
+data/                 raw/, processed/ (grouped split, official_val, slice tags), splits/ (ids, hashes, fixed orders)
 eda/                  data EDA and the cross-model per-question error browser (README.md has the scope and findings)
 experiments/
   global/             shared code (package `mrc`), configs, cross-model comparison (README.md has the conventions)
@@ -53,6 +53,7 @@ if the console shows encoding errors. LaTeX (MiKTeX or TeX Live) is outside the 
 |---|---|---|
 | 1. Split (grouped by passage, seed 13; already done) | `python experiments/global/run.py mrc.prepare_data` | `data/processed/`, `data/splits/hashes.json` |
 | 2. Slice tags | `python experiments/global/run.py mrc.analysis.slices` | `data/processed/slices_*.jsonl` |
+| 2b. Fixed question order (global seed 13; already done) | `python experiments/global/run.py mrc.eval_order` | `data/splits/order_*.txt`, `order.json` |
 | 3. EDA | `python eda/scripts/eda.py` (also `leakage_audit.py`, `artifact_probe.py`, `tokenizer_analysis.py`) | `eda/outputs/` |
 | 4. Experiments | the commands in each `experiments/NN-*/summary.md`, section 2, ending with `analyze.py` | `runs/`, `analysis/`, `summary.md` |
 | 5. Cross-model comparison | `python experiments/global/run.py mrc.analysis.compare` and `... mrc.analysis.per_example` | `report/assets/`, then `eda/notebooks/model_errors.ipynb` |

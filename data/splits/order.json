@@ -1,0 +1,32 @@
+{
+  "dev": {
+    "seed": 13,
+    "method": "stratified by is_impossible; strata shuffled with GLOBAL_SEED; interleaved by largest deficit",
+    "n": 803,
+    "split_file": "data/processed/dev.jsonl",
+    "sha256_split_file": "e739a71086f2191aea9e14650d77242c2b9690d921eadddfaeab9dbc4e5ae918",
+    "sha256_order_file": "a94e5e5e08b1ba3be029070870212932e4e49f1d098c10d5662946580495de11",
+    "unanswerable_share_full": 0.462,
+    "unanswerable_share_prefix": {
+      "50": 0.46,
+      "100": 0.46,
+      "200": 0.46,
+      "400": 0.463
+    }
+  },
+  "official_val": {
+    "seed": 13,
+    "method": "stratified by is_impossible; strata shuffled with GLOBAL_SEED; interleaved by largest deficit",
+    "n": 2003,
+    "split_file": "data/processed/official_val.jsonl",
+    "sha256_split_file": "38a829e2b3a383128d127dd0bfda3f160e51409c44e4ed37f5a9ebb09813c12b",
+    "sha256_order_file": "b491b7d74ba5e67618bfd2d6bcee8b2d28fffbefb3df5b9d4105b30e8431ada0",
+    "unanswerable_share_full": 0.36,
+    "unanswerable_share_prefix": {
+      "50": 0.36,
+      "100": 0.36,
+      "200": 0.36,
+      "400": 0.36
+    }
+  }
+}

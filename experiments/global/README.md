@@ -10,6 +10,7 @@ comparison across experiments. Nothing in here is specific to one model.
 | `mrc/evaluate.py` | The SQuAD v2 evaluator (EM, F1, HasAns, NoAns, threshold search; refuses threshold search on test files) |
 | `mrc/qa_text.py` | Tokenizer, light stemmer, sentence splitter and question types (used by 01 and 02) |
 | `mrc/llm_qa.py`, `mrc/llm_api.py` | LLM harness: prompts, parsing, grounding, na_prob; local and API backends (used by 05 and 06) |
+| `mrc/eval_order.py` | One fixed question order per split (global seed 13, stratified by answerability) for partial and resumable runs |
 | `mrc/analysis/slices.py` | Slice tags for every question (`data/processed/slices_*.jsonl`) |
 | `mrc/analysis/experiment.py` | The error analysis every experiment's `analyze.py` runs |
 | `mrc/analysis/compare.py` | Cross-model comparison -> `report/assets/tables`, `report/assets/figures` |
