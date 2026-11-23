@@ -254,9 +254,9 @@ menjadi $64{,}3$. Kelemahan ini juga menjelaskan rendahnya EM Qwen pada pertanya
 IndoBERT), karena 24 dari 101 pertanyaan lokasi berakhir sebagai \texttt{boundary\_too\_long}.
 
 \paragraph{Keputusan abstain.}
-Skor \textit{no-answer} Qwen (\textit{sequence log-probability}) membedakan pertanyaan \textit{answerable} dan
+Skor \textit{no-answer} Qwen, yaitu selisih \textit{log-probability} antara jawaban dan \texttt{unanswerable}, membedakan pertanyaan \textit{answerable} dan
 \textit{unanswerable} sedikit lebih buruk daripada IndoBERT (AUC $0{,}898$ dibanding $0{,}935$). Pemeriksaan manual
-terhadap 16 sampel acak \texttt{false\_no\_answer} menunjukkan bahwa sebagian besar abstain tersebut tidak sepenuhnya
+terhadap 16 sampel acak \texttt{false\_\allowbreak no\_\allowbreak answer} menunjukkan bahwa sebagian besar abstain tersebut tidak sepenuhnya
 salah. Enam kasus memiliki gold yang tidak menjawab pertanyaan. Contohnya, gold untuk ``Kapan John meninggal?'' adalah
 tanggal kremasi, gold untuk ``Siapakah pendiri maskapai Air Asia?'' adalah pemilik awalnya, dan konteks untuk ``apakah
 ras kucing terkecil didunia?'' tidak menyebut ukuran sama sekali. Lima kasus lain ambigu karena entitas di pertanyaan dan
