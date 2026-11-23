@@ -1,0 +1,51 @@
+{
+  "run_name": "Qwen2.5-14B-Instruct_fs_id",
+  "fingerprint": {
+    "backend": "hf",
+    "model": "Qwen/Qwen2.5-14B-Instruct",
+    "variant": "fs_id",
+    "split": "official_val",
+    "prompt_sha256": "3ab0851062f130b34739ed798024a1b8e79a726241d104de9e2892c2e5ca353c",
+    "demos_sha256": "a1c89349036c73c89374a3d122236fc4d6a95c4506d0150251b8102b571c39ec",
+    "order_sha256": "b491b7d74ba5e67618bfd2d6bcee8b2d28fffbefb3df5b9d4105b30e8431ada0",
+    "max_new_tokens": 48,
+    "load_4bit": true,
+    "dtype": "auto",
+    "template_kwargs": {},
+    "na_method": "seqlogprob",
+    "system_role": true,
+    "reasoning_effort": null
+  },
+  "global_seed": 13,
+  "demo_ids": [
+    "qa_3227b8ba39a67d302b22",
+    "qa_aa373f818ff4e20e77bc",
+    "qa_1e01eff5b414c895748b",
+    "qa_3479ab3cce29b4f43953",
+    "qa_c82fe4b2b4d8ef107b4c",
+    "qa_53a362791db0abfa4aa4",
+    "qa_1a3a0150a04f37d60c9c"
+  ],
+  "no_answer_string": "unanswerable",
+  "snap_min_f1": 0.5,
+  "decoding": "greedy",
+  "model_revision": "cf98f3b3bbb457ad9e2bb7baf9a0125b6b88caa8",
+  "created": "2026-11-22T15:31:19",
+  "sessions": [
+    {
+      "start": "2026-11-22T15:31:19",
+      "host": "700ee4de6bf3",
+      "python": "3.13.16",
+      "batch_size": 1,
+      "limit": 1000,
+      "torch": "2.11.0+cu130",
+      "transformers": "5.4.0",
+      "gpu": "Tesla T4",
+      "bitsandbytes": "0.50.2",
+      "end": "2026-11-22T22:30:33",
+      "n_new": 1000,
+      "oom_retries": 0,
+      "n_done": 1000
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+ "run": "Qwen2.5-14B-Instruct_fs_id",
+ "split": "official_val",
+ "done": 1000,
+ "stop": 1000,
+ "split_size": 2003,
+ "percent": 100.0,
+ "sec_per_question": 25.15,
+ "elapsed_min_session": 419.2,
+ "eta_min": 0.0,
+ "eta_clock": "2026-11-22T22:30",
+ "grounding_so_far": {
+  "exact": 547,
+  "snapped": 60,
+  "ungrounded": 8,
+  "noans": 385
+ },
+ "updated": "2026-11-22T22:30:28"
+}

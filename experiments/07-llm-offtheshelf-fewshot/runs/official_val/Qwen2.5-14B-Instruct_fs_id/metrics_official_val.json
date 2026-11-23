@@ -1,0 +1,40 @@
+{
+  "n": 1000,
+  "exact": 63.0,
+  "f1": 75.08264164072632,
+  "HasAns_n": 640,
+  "HasAns_exact": 51.875,
+  "HasAns_f1": 70.75412756363487,
+  "NoAns_n": 360,
+  "NoAns_acc": 82.77777777777777,
+  "pred_noans_rate": 38.5,
+  "missing_preds": 0,
+  "best_na_threshold": 0.9999999999999154,
+  "at_best_threshold": {
+    "n": 1000,
+    "exact": 63.8,
+    "f1": 75.38392002666262,
+    "HasAns_n": 640,
+    "HasAns_exact": 51.875,
+    "HasAns_f1": 69.97487504166037,
+    "NoAns_n": 360,
+    "NoAns_acc": 85.0,
+    "pred_noans_rate": 40.9
+  },
+  "n_done": 1000,
+  "n_split": 2003,
+  "complete": false,
+  "covered": "first 1000 of the fixed order",
+  "grounding_counts": {
+    "exact": 547,
+    "snapped": 60,
+    "ungrounded": 8,
+    "noans": 385
+  },
+  "hallucination_rate_ungrounded": 0.008,
+  "format_failure_rate": 0.004,
+  "empty_output_rate": 0.0,
+  "na_prob_available": true,
+  "sec_per_question_last_session": 25.14913605427742,
+  "auc_na_prob": 0.8976974826388889
+}

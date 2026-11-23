@@ -198,6 +198,90 @@ presiden pertama. Akibatnya \textit{classical pipeline}, BiDAF-noattn, IndoBERT,
 Nemotron yang menjawab mendekati benar (\textit{Hammer DeRoburt (1922-1992)}, F1 $0{,}80$). Ini contoh kasus yang
 memerlukan penalaran struktur dokumen, bukan pencocokan leksikal antara pertanyaan dan konteks.
 
+\subsection{Analisis error Qwen2.5-14B-Instruct \textit{few-shot} pada \textit{official validation}}
+\label{sec:ea-qwen14b}
+% Sumber: experiments/07-llm-offtheshelf-fewshot/runs/official_val/Qwen2.5-14B-Instruct_fs_id/ (report_official_val.md)
+% dan experiments/07-llm-offtheshelf-fewshot/analysis/official_val/. IndoBERT memakai threshold yang di-tune pada dev.
+Qwen2.5-14B-Instruct (4-bit, prompt \texttt{fs\_id} dengan 7 demo, \textit{greedy decoding}) dijalankan pada 1000
+pertanyaan pertama dari urutan tetap \textit{official validation}, yaitu 640 pertanyaan \textit{answerable} dan 360
+\textit{unanswerable}. Keputusan menjawab atau abstain diambil langsung dari keluaran model tanpa \textit{threshold}.
+Pada 1000 pertanyaan yang sama, Qwen memperoleh EM $63{,}0$ dan F1 $75{,}1$, sedangkan IndoBERT dengan
+\textit{threshold} dari dev memperoleh EM $61{,}9$ dan F1 $68{,}6$ (rata-rata tiga \textit{seed}). Selisih F1 yang jauh
+lebih besar daripada selisih EM menunjukkan bahwa Qwen sering menemukan bagian konteks yang benar, tetapi jarang
+memotong \textit{span} tepat seperti gold. \textit{Threshold} yang di-tune langsung pada data ini hanya menaikkan EM Qwen
+menjadi $63{,}8$, sehingga ruang perbaikan utama tidak berada pada \textit{threshold}.
+
+Tabel~\ref{tab:qwen-outcomes} membandingkan jenis error kedua model. Kedua model gagal dengan cara yang berlawanan.
+Qwen unggul pada pertanyaan \textit{answerable} (EM $51{,}9$ dibanding $46{,}4$ untuk IndoBERT \textit{seed} 13), tetapi
+kalah pada pertanyaan \textit{unanswerable} (akurasi $82{,}8$ dibanding $88{,}1$). Kesalahan memilih kalimat
+(\texttt{wrong\_sentence}) turun dari 57 pada IndoBERT menjadi 17 pada Qwen. Sebaliknya, \texttt{boundary\_too\_long}
+naik dari 63 menjadi 128 dan menjadi jenis error terbesar Qwen.
+
+\begin{table}[t]
+  \centering
+  \caption{Jenis jawaban pada 1000 pertanyaan pertama \textit{official validation}. IndoBERT memakai \textit{seed} 13
+  dengan \textit{threshold} dari dev; Qwen memakai keputusan apa adanya.}
+  \label{tab:qwen-outcomes}
+  \begin{tabular}{lrr}
+    \toprule
+    Jenis & Qwen2.5-14B & IndoBERT \\
+    \midrule
+    \texttt{correct\_ans} & 332 & 297 \\
+    \texttt{correct\_no\_ans} & 298 & 317 \\
+    \texttt{boundary\_too\_long} & 128 & 63 \\
+    \texttt{false\_no\_answer} & 87 & 113 \\
+    \texttt{false\_answer\_on\_unanswerable} & 62 & 43 \\
+    \texttt{boundary\_too\_short} & 31 & 46 \\
+    \texttt{partial\_overlap} & 30 & 28 \\
+    \texttt{wrong\_sentence} & 17 & 57 \\
+    \texttt{wrong\_span\_same\_sentence} & 15 & 36 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\paragraph{Batas \textit{span} terlalu panjang.}
+Error \texttt{boundary\_too\_long} menyumbang $12{,}8$ dari $37{,}0$ poin EM yang hilang, tetapi hanya $4{,}4$ dari
+$24{,}9$ poin F1. Hal ini karena tambahannya pendek: median gold 3 token, median prediksi 7 token, dan median token berlebih
+2. Pada 67 dari 128 kasus, kelebihannya hanya berada di depan gold. Kata yang ditambahkan umumnya penanda takrif atau
+keterangan, misalnya \textit{suatu satuan dasar materi} (gold \textit{satuan dasar materi}), \textit{para pedagang Arab},
+\textit{bahasa Yunani Koine}, \textit{bulan Mei 1940}, dan \textit{Di sekitar tahun 1994}. Kelebihan di belakang gold
+biasanya berupa keterangan dalam kurung atau klausa lanjutan, misalnya \textit{3.062 delegasi dengan hak suara dan 158
+tanpa hak suara} untuk gold \textit{3.062}. Qwen menjawab dengan frasa yang lengkap secara gramatikal, sedangkan konvensi
+anotasi dataset ini memilih inti jawaban. Konvensi tersebut terlihat pada data latih: kurang dari $0{,}4\%$ gold
+\textit{answerable} di train diawali \textit{suatu}, \textit{sebuah}, \textit{seorang}, \textit{para}, \textit{di},
+\textit{pada}, atau \textit{sekitar}. Membuang kata-kata tersebut dari awal jawaban Qwen menaikkan EM dari $63{,}0$
+menjadi $64{,}3$. Kelemahan ini juga menjelaskan rendahnya EM Qwen pada pertanyaan lokasi ($48$ dibanding $63$ untuk
+IndoBERT), karena 24 dari 101 pertanyaan lokasi berakhir sebagai \texttt{boundary\_too\_long}.
+
+\paragraph{Keputusan abstain.}
+Skor \textit{no-answer} Qwen (\textit{sequence log-probability}) membedakan pertanyaan \textit{answerable} dan
+\textit{unanswerable} sedikit lebih buruk daripada IndoBERT (AUC $0{,}898$ dibanding $0{,}935$). Pemeriksaan manual
+terhadap 16 sampel acak \texttt{false\_no\_answer} menunjukkan bahwa sebagian besar abstain tersebut tidak sepenuhnya
+salah. Enam kasus memiliki gold yang tidak menjawab pertanyaan. Contohnya, gold untuk ``Kapan John meninggal?'' adalah
+tanggal kremasi, gold untuk ``Siapakah pendiri maskapai Air Asia?'' adalah pemilik awalnya, dan konteks untuk ``apakah
+ras kucing terkecil didunia?'' tidak menyebut ukuran sama sekali. Lima kasus lain ambigu karena entitas di pertanyaan dan
+konteks berbeda tipis, misalnya desa dan kecamatan Karangkancana. Hanya lima kasus yang merupakan kegagalan model:
+tiga kasus memerlukan pencocokan alias atau ejaan nama (``Kaisar Yuan'' dan \textit{Yuan Shikai}), satu kasus memerlukan
+relasi terbalik (``isteri'' dari frasa \textit{suami Fofo Fauzia}), dan satu kasus seharusnya terjawab langsung.
+
+Pada 16 sampel acak \texttt{false\_answer\_on\_unanswerable}, tujuh kasus muncul karena Qwen mengabaikan
+pewatas di pertanyaan, seperti \textit{menurut ensiklopedia}, \textit{menurut ahli}, \textit{mata uang logam}, dan
+\textit{Taekwondo yang modern}. Dua kasus mengandung negasi (``Siapa yang bukan bagian dari grup Guns N' Roses?''), tiga
+kasus dijawab dengan pengetahuan di luar konteks (misalnya \textit{Jumong} sebagai raja pertama Goguryeo, padahal
+konteks hanya menyebut ia mengungsi), dan empat kasus sebenarnya dapat dijawab dari konteks, misalnya tahun runtuhnya
+Dinasti Ming. Pola pewatas dan negasi ini sama dengan jebakan \textit{unanswerable} yang diuraikan pada taksonomi error.
+Delapan dari 615 jawaban Qwen tidak ditemukan di konteks, termasuk satu jawaban yang memuat komentar model.
+
+\paragraph{Komplementaritas dengan IndoBERT.}
+Kedua model benar pada sekitar 474 pertanyaan, hanya Qwen yang benar pada sekitar 156, dan hanya IndoBERT yang benar pada
+sekitar 145, sehingga \textit{oracle} yang selalu memilih model yang benar mencapai EM $77{,}5$. Dua aturan sederhana
+tanpa parameter memanfaatkan pola ini. Aturan pertama memakai \textit{span} IndoBERT jika \textit{span} tersebut berada
+di dalam jawaban Qwen, sehingga batas yang terlalu panjang terpotong. Aturan ini menaikkan EM menjadi $66{,}5$--$66{,}7$
+untuk ketiga \textit{seed} IndoBERT. Aturan kedua menambahkan keputusan ``jawab jika salah satu model menjawab'' dan
+mencapai EM $67{,}4$--$67{,}5$ serta F1 $76{,}6$--$77{,}0$. Kedua aturan dipilih setelah melihat data ini, sehingga
+angkanya masih optimistis dan perlu diuji pada 1003 pertanyaan \textit{official validation} lainnya sebelum dipakai
+untuk leaderboard.
+
 \todo{Correct and wrong examples, strengths and weaknesses of each model, error causes, reasoning challenges
 (manual labels from the error samples).}
 
