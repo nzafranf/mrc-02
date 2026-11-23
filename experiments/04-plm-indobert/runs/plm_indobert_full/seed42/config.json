@@ -24,7 +24,10 @@
   "freeze_encoder": false,
   "lora": false,
   "lora_r": 8,
-  "save_checkpoint": false,
+  "save_checkpoint": true,
+  "also_predict": [
+    "data/processed/official_val.jsonl"
+  ],
   "predict_only": false,
   "checkpoint": null,
   "split_file": null,
@@ -34,6 +37,6 @@
   "n_train_windows": 6545,
   "trainable_params": 123852290,
   "total_params": 123852290,
-  "timestamp": "2026-11-13T17:36:34",
+  "timestamp": "2026-11-23T01:19:13",
   "na_prob": "raw logit diff: null_score - best_span_score"
 }

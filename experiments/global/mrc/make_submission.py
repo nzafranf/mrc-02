@@ -9,6 +9,7 @@ Reads <run>/preds_<split stem>.jsonl (or --pred). The no-answer threshold:
                            (official_val is the selection set once it exists; dev before that)
   --na-threshold T         use T as given
   neither                  write `pred` as predicted (the model's own decision)
+Tuning maximises EM by default (--tune-metric exact), because the leaderboard ranks by EM first and F1 second.
 Rows follow the split file's order and cover every id in it; the script stops if a prediction is missing. If the split
 has gold answers, the CSV is scored back with the shared evaluator as a check. Thresholds are never tuned on a test
 split.
@@ -38,14 +39,14 @@ def load_preds(path) -> dict[str, dict]:
     return preds
 
 
-def tune_threshold(run_dir: Path, split: str) -> float | None:
+def tune_threshold(run_dir: Path, split: str, metric: str = "exact") -> float | None:
     if "test" in split:
         raise SystemExit("Refusing to tune a threshold on a test split.")
     gold = load_jsonl(PROC / f"{split}.jsonl")
     preds = load_preds(run_dir / f"preds_{split}.jsonl")
     for p in preds.values():
         p["pred"] = raw_span(p)
-    return best_na_threshold([g for g in gold if g["id"] in preds], preds)[0]
+    return best_na_threshold([g for g in gold if g["id"] in preds], preds, metric=metric)[0]
 
 
 def answers(rows, preds, thr):
@@ -68,6 +69,8 @@ def main():
     g = ap.add_mutually_exclusive_group()
     g.add_argument("--threshold-from", help="split to tune the no-answer threshold on, e.g. official_val or dev")
     g.add_argument("--na-threshold", type=float)
+    ap.add_argument("--tune-metric", choices=["exact", "f1"], default="exact",
+                    help="what --threshold-from maximises (leaderboard: EM first, then F1)")
     ap.add_argument("--out", required=True)
     a = ap.parse_args()
 
@@ -86,7 +89,7 @@ def main():
         raise SystemExit(f"{len(missing)} questions have no prediction in {pred_path}, e.g. {missing[:3]}")
     if len({ex['id'] for ex in rows}) != len(rows):
         raise SystemExit(f"duplicate ids in {split_file}")
-    thr = tune_threshold(run_dir, a.threshold_from) if a.threshold_from else a.na_threshold
+    thr = tune_threshold(run_dir, a.threshold_from, a.tune_metric) if a.threshold_from else a.na_threshold
 
     out_rows = answers(rows, preds, thr)
     out = Path(a.out)
@@ -98,6 +101,7 @@ def main():
 
     report = {"out": str(out), "pred": str(pred_path), "n": len(out_rows),
               "threshold": thr, "threshold_from": a.threshold_from or ("given" if thr is not None else "model"),
+              "tune_metric": a.tune_metric if a.threshold_from else None,
               "no_answer_rate": round(100 * sum(1 for _, x in out_rows if not x) / len(out_rows), 2)}
     if "answers" in rows[0]:
         sub = {i: {"id": i, "pred": x} for i, x in out_rows}

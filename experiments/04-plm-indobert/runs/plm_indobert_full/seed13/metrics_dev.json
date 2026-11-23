@@ -1,26 +1,26 @@
 {
   "n": 803,
-  "exact": 32.62764632627646,
-  "f1": 37.58423513798143,
+  "exact": 31.382316313823164,
+  "f1": 36.39677151588135,
   "HasAns_n": 432,
-  "HasAns_exact": 60.648148148148145,
-  "HasAns_f1": 69.861437073609,
+  "HasAns_exact": 58.333333333333336,
+  "HasAns_f1": 67.65418409086278,
   "NoAns_n": 371,
   "NoAns_acc": 0.0,
   "pred_noans_rate": 0.0,
   "missing_preds": 0,
-  "best_na_threshold": -1.09765625,
+  "best_na_threshold": -0.50830078125,
   "at_best_threshold": {
     "n": 803,
-    "exact": 69.7384806973848,
-    "f1": 73.16464438400024,
+    "exact": 69.48941469489415,
+    "f1": 73.3450390811931,
     "HasAns_n": 432,
-    "HasAns_exact": 51.851851851851855,
-    "HasAns_f1": 58.220392223037486,
+    "HasAns_exact": 52.31481481481482,
+    "HasAns_f1": 59.48163514397697,
     "NoAns_n": 371,
-    "NoAns_acc": 90.56603773584905,
-    "pred_noans_rate": 55.04358655043587
+    "NoAns_acc": 89.4878706199461,
+    "pred_noans_rate": 51.681195516811954
   },
-  "best_epoch": 2,
-  "train_seconds": 343.97438979148865
+  "best_epoch": 3,
+  "train_seconds": 337.3698265552521
 }
