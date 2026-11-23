@@ -245,7 +245,7 @@ def main():
     ap.add_argument("--out-dir", default=None, help="default experiments/<run-name>/runs/seed<seed>")
     ap.add_argument("--train-file", default="data/processed/train.jsonl")
     ap.add_argument("--dev-file", default="data/processed/dev.jsonl")
-    ap.add_argument("--device", choices=["cpu", "cuda"], default="cpu")
+    ap.add_argument("--device", choices=["cpu", "cuda", "mps"], default="cpu")
     ap.add_argument("--fp16", action="store_true")
     ap.add_argument("--epochs", type=int, default=3)
     ap.add_argument("--lr", type=float, default=3e-5)
@@ -266,6 +266,9 @@ def main():
     ap.add_argument("--lora", action="store_true")
     ap.add_argument("--lora-r", type=int, default=8)
     ap.add_argument("--save-checkpoint", action="store_true")
+    ap.add_argument("--also-predict", nargs="*", default=[],
+                    help="after training, predict these split files with the best epoch and write "
+                         "preds_<stem>.jsonl next to preds_dev.jsonl (no checkpoint needed)")
     ap.add_argument("--predict-only", action="store_true")
     ap.add_argument("--checkpoint", default=None)
     ap.add_argument("--split-file", default=None)
@@ -280,6 +283,8 @@ def main():
     device = torch.device(args.device)
     if device.type == "cuda" and not torch.cuda.is_available():
         raise SystemExit("--device cuda requested but CUDA is unavailable")
+    if device.type == "mps" and not torch.backends.mps.is_available():
+        raise SystemExit("--device mps requested but MPS is unavailable")
 
     if args.check_offsets:
         tok = AutoTokenizer.from_pretrained(args.model_name, use_fast=True)
@@ -395,6 +400,15 @@ def main():
         torch.save({"args": vars(args), "state": best_state, "na_threshold": best["na_threshold"]},
                    out_dir / "checkpoint.pt")
         log("saved checkpoint.pt (trainable params only)")
+    if args.also_predict:
+        model.load_state_dict(best_state, strict=False)
+        for sf in args.also_predict:
+            sf = Path(sf) if Path(sf).is_absolute() else ROOT / sf
+            if "test" in sf.name and "official" not in sf.name:
+                raise SystemExit(f"refusing to predict the sealed internal test split: {sf}")
+            rows = load_jsonl(sf)
+            write_preds(predict(model, tok, rows, args, device), rows, out_dir / f"preds_{sf.stem}.jsonl")
+            log(f"wrote preds_{sf.stem}.jsonl ({len(rows)} questions, best epoch {best['epoch']})")
 
 
 if __name__ == "__main__":

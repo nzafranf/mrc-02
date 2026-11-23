@@ -1,0 +1,22 @@
+# Official validation (2003 questions, 36% unanswerable), mean ± std over seeds. 'dev threshold' is tuned on the internal dev split; 'val threshold' is tuned on official_val itself (optimistic)
+
+| model | seeds | threshold | EM | F1 | HasAns_F1 | NoAns_acc | pred_noans_% | thr (mean) |
+|---|---|---|---|---|---|---|---|---|
+| no_answer | 1 | as predicted | 36.00 ± 0.00 | 36.00 ± 0.00 | 0.00 ± 0.00 | 100.00 ± 0.00 | 100.00 ± 0.00 |  |
+| no_answer | 1 | dev threshold | 36.00 ± 0.00 | 36.00 ± 0.00 | 0.00 ± 0.00 | 100.00 ± 0.00 | 100.00 ± 0.00 | -1000000000.000 |
+| no_answer | 1 | val threshold | 36.00 ± 0.00 | 36.00 ± 0.00 | 0.00 ± 0.00 | 100.00 ± 0.00 | 100.00 ± 0.00 | -1000000000.000 |
+| sliding_window | 1 | as predicted | 10.13 ± 0.00 | 15.44 ± 0.00 | 23.97 ± 0.00 | 0.28 ± 0.00 | 0.20 ± 0.00 |  |
+| sliding_window | 1 | dev threshold | 36.00 ± 0.00 | 36.00 ± 0.00 | 0.00 ± 0.00 | 100.00 ± 0.00 | 100.00 ± 0.00 | -1000000000.000 |
+| sliding_window | 1 | val threshold | 36.00 ± 0.00 | 36.00 ± 0.00 | 0.00 ± 0.00 | 100.00 ± 0.00 | 100.00 ± 0.00 | -1000000000.000 |
+| sliding_window_thr | 1 | as predicted | 36.45 ± 0.00 | 37.81 ± 0.00 | 5.72 ± 0.00 | 94.87 ± 0.00 | 84.87 ± 0.00 |  |
+| sliding_window_thr | 1 | dev threshold | 36.45 ± 0.00 | 37.81 ± 0.00 | 5.72 ± 0.00 | 94.87 ± 0.00 | 84.87 ± 0.00 | 0.094 |
+| sliding_window_thr | 1 | val threshold | 36.55 ± 0.00 | 37.91 ± 0.00 | 5.56 ± 0.00 | 95.42 ± 0.00 | 85.47 ± 0.00 | 0.000 |
+| classical_pipeline | 3 | as predicted | 43.68 ± 0.44 | 47.48 ± 0.32 | 29.20 ± 1.07 | 79.98 ± 2.13 | 55.07 ± 2.21 |  |
+| classical_pipeline | 3 | dev threshold | 43.68 ± 0.44 | 47.48 ± 0.32 | 29.20 ± 1.07 | 79.98 ± 2.13 | 55.07 ± 2.21 | 0.397 |
+| classical_pipeline | 3 | val threshold | 44.42 ± 0.06 | 47.92 ± 0.21 | 27.36 ± 2.86 | 84.47 ± 4.67 | 59.63 ± 5.99 | 0.357 |
+| bidaf_noattn | 3 | as predicted | 41.50 ± 0.64 | 47.00 ± 0.69 | 26.24 ± 1.17 | 83.91 ± 0.71 | 57.23 ± 1.82 |  |
+| bidaf_noattn | 3 | dev threshold | 41.67 ± 0.84 | 46.58 ± 0.86 | 24.23 ± 1.15 | 86.32 ± 1.30 | 61.42 ± 1.47 | 0.330 |
+| bidaf_noattn | 3 | val threshold | 41.72 ± 0.65 | 47.12 ± 0.70 | 25.77 ± 0.87 | 85.07 ± 0.43 | 58.68 ± 0.73 | 0.430 |
+| bidaf | 3 | as predicted | 41.77 ± 0.43 | 47.18 ± 0.31 | 26.81 ± 1.43 | 83.40 ± 2.47 | 56.83 ± 3.29 |  |
+| bidaf | 3 | dev threshold | 41.87 ± 0.38 | 46.47 ± 1.09 | 23.33 ± 3.53 | 87.61 ± 3.27 | 63.82 ± 5.90 | 0.314 |
+| bidaf | 3 | val threshold | 41.92 ± 0.45 | 47.22 ± 0.30 | 26.25 ± 2.17 | 84.51 ± 3.87 | 58.13 ± 4.94 | 0.424 |

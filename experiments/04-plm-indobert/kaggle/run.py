@@ -1,4 +1,6 @@
 # Kaggle GPU kernel: IndoBERT-base-p1 full fine-tune, seeds 13/42/87. Pushed by kaggle/README.md step 3.
+# Each seed also predicts the official validation set (preds_official_val.jsonl) and saves checkpoint.pt so the
+# official test set can be predicted later with --predict-only, without retraining.
 # The dataset (make_dataset.py) mirrors the project layout: experiments/global, this experiment, data/processed.
 import glob, json, os, shutil, subprocess, sys
 
@@ -13,7 +15,8 @@ subprocess.run([sys.executable, "-c", "import torch,transformers;print(torch.__v
 RUN = "plm_indobert_full"
 for seed in (13, 42, 87):
     cmd = [sys.executable, "experiments/04-plm-indobert/plm_qa.py", "--device", "cuda", "--fp16", "--run-name", RUN,
-           "--model-name", "indobenchmark/indobert-base-p1", "--seed", str(seed), "--epochs", "3", "--lr", "3e-5", "--batch-size", "16"]
+           "--model-name", "indobenchmark/indobert-base-p1", "--seed", str(seed), "--epochs", "3", "--lr", "3e-5", "--batch-size", "16",
+           "--save-checkpoint", "--also-predict", "data/processed/official_val.jsonl"]
     print(" ".join(cmd), flush=True)
     subprocess.run(cmd, check=True)
 out = "/kaggle/working/runs"

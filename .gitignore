@@ -18,9 +18,12 @@ report/*.pdf
 report/latex/*.pdf
 experiments/04-plm-indobert/kaggle/build/
 experiments/04-plm-indobert/kaggle/out/
+experiments/04-plm-indobert/kaggle/build_kernel/
 experiments/07-llm-offtheshelf-fewshot/gpu/build/
 
 # Models are pushed with git LFS, unless otherwise mentioned (ex. LLMs may just be loaded directly from their weight source)
+# IndoBERT checkpoints are about 500 MB each, too big for the LFS quota: keep them locally or as Kaggle outputs
+experiments/04-plm-indobert/runs/**/checkpoint.pt
 
 # Sealed internal test split: never committed. Rebuild with `python experiments/global/run.py mrc.prepare_data`
 # (deterministic, hash-checked against data/splits/hashes.json).

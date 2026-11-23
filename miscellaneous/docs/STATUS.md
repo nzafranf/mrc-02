@@ -1,4 +1,4 @@
-# Status (2026-11-21)
+# Status (2026-11-23)
 
 ## Done
 - M0: requirements checklist, contract, decisions log, grouped split with hashes, shared evaluator.
@@ -15,6 +15,24 @@
   browser: `eda/notebooks/model_errors.ipynb`.
 - 2026-11-21: repository reorganized into one folder per experiment (see `decisions.md`). LaTeX report skeleton in
   `report/latex`, rendered with `miscellaneous/scripts/render_latex.py`.
+- 2026-11-23: 01-03 predicted on the official validation set (`preds_official_val.jsonl` in every run dir).
+  `mrc.analysis.official_val` compares thresholds; `mrc.make_submission` writes the `id,answer` CSV (checked against the
+  sample submission: same ids, same order). 04 needs a GPU rerun because no checkpoint was saved: the Kaggle kernel
+  now saves `checkpoint.pt` and predicts official_val in the same job.
+
+## Official validation results (2003 questions, 36% unanswerable)
+| model | F1, dev threshold | F1, val threshold | dev F1 (for reference) |
+|---|---|---|---|
+| no_answer | 36.0 | 36.0 | 46.2 |
+| classical_pipeline | 47.5 ± 0.3 | 47.9 ± 0.2 | 53.4 |
+| bidaf_noattn | 46.6 ± 0.9 | 47.1 ± 0.7 | 56.5 |
+| bidaf | 46.5 ± 1.1 | 47.2 ± 0.3 | 56.6 |
+| plm_indobert_full | pending (Kaggle) | | 73.5 |
+
+Every model drops 6-10 F1 from dev, partly because the no-answer floor drops 10 points (36% vs 46% unanswerable).
+Measured above that floor (dev thresholds), classical improves (+11.5 vs +7.2 on dev) while BiDAF holds (+10.5 vs
++10.4), so the BiDAF > classical gap from dev is gone (47.2 vs 47.9 with val thresholds). Dev-tuned thresholds cost under 1 F1: BiDAF abstains on 64% of questions with them vs 58% with
+val-tuned ones. Full table: `report/assets/tables/official_val_table.md`.
 
 ## Dev results (threshold tuned on dev, optimistic)
 | model | EM | F1 | HasAns F1 | NoAns acc |
@@ -37,16 +55,16 @@ p = 0.07), attention vs no attention (+0.1, p = 0.88).
 - Leaderboard metric and submission format not yet confirmed (SCeLE).
 - Official validation set (2003 questions, 36% unanswerable, 968 passages) is in `data/raw/validation.jsonl`, copied to
   `data/processed/official_val.jsonl` with slice tags. Leakage audit: no passage overlap with train/dev/itest (max
-  char 5-gram similarity 0.59); 10 generic questions repeat train wording with different passages. No model has
-  predictions on it yet.
+  char 5-gram similarity 0.59); 10 generic questions repeat train wording with different passages.
+- Submission format taken from `contoh_submission_validation.csv` (course sample): `id,answer`, empty answer = no answer.
 
 ## Next (needs approval for GPU or API spend)
 1. LLM on full dev: Qwen2.5-7B-Instruct 4-bit and Sailor2-8B-Chat, with 0-shot, fixed 3-shot and retrieved 3-shot
    prompting. Then 5 prompts x 3 demo orders on the better model.
 2. More PLM experiments: XLM-R (3 seeds), IndoBERT frozen vs LoRA, train fractions 0.1, 0.25 and 0.5.
 3. Paid `google/gemma-4-31b-it` via OpenRouter (about USD 0.10, returns logprobs) for `06`.
-4. Official validation: predict it with the existing models (01-04 locally, then compare), switch model selection to
-   it, and write a submission script in `experiments/global/mrc`.
+4. Official validation: 01-03 done. 04: run the updated Kaggle kernel (`kaggle/README.md`), copy its runs back, rerun
+   `mrc.analysis.official_val`, and keep the checkpoints for the test set (3 Dec).
 6. `07-llm-offtheshelf-fewshot`: review `prompt_review.md` (instruction + 7 frozen demos), then run on Kaggle/Colab with
    `gpu/fewshot_gpu.ipynb` (fixed question order, resumable).
 5. Submission antara (25 Nov): short report built from `report/latex` and `report/assets/tables/main_table.md`.

@@ -15,6 +15,8 @@ comparison across experiments. Nothing in here is specific to one model.
 | `mrc/analysis/experiment.py` | The error analysis every experiment's `analyze.py` runs (dev by default; `split_file=` for official_val) |
 | `mrc/analysis/compare.py` | Cross-model comparison -> `report/assets/tables`, `report/assets/figures` |
 | `mrc/analysis/per_example.py` | One record per dev question with every model's prediction (feeds `eda/notebooks/model_errors.ipynb`) |
+| `mrc/make_submission.py` | Leaderboard CSV (`id,answer`, empty = no answer) from one run, threshold tuned on official_val |
+| `mrc/analysis/official_val.py` | Official validation table: as predicted vs dev-tuned vs val-tuned threshold -> `report/assets/tables/official_val_table.md` |
 | `mrc/final_test_eval.py` | The single sealed evaluation on itest (needs `--confirm`, checks the split hash) |
 | `configs/models_registry.yaml` | Which run folders the cross-model comparison reads |
 | `configs/llm_prompts.yaml` | LLM prompts `id1`..`id5` and `en1` |
@@ -29,6 +31,9 @@ python experiments/global/run.py mrc.analysis.slices               # slice tags
 python experiments/global/run.py mrc.analysis.compare              # cross-model tables and figures
 python experiments/global/run.py mrc.analysis.per_example          # per-question file for the error browser
 python experiments/global/run.py mrc.evaluate --gold data/processed/dev.jsonl --pred <preds.jsonl> --na-threshold-search
+python experiments/global/run.py mrc.analysis.official_val          # official validation table (needs preds_official_val.jsonl)
+python experiments/global/run.py mrc.make_submission --run <run dir> --split-file data/processed/official_test.jsonl \
+    --threshold-from official_val --out submissions/<model>_<seed>.csv
 ```
 Relative paths in arguments resolve from the project root, whatever the current folder is. On Windows set
 `PYTHONIOENCODING=utf-8` if the console shows encoding errors.
