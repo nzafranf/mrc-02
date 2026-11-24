@@ -221,7 +221,9 @@ def write_preds(preds: dict, rows, path: Path):
 
 # ----------------------------------------------------------------------------- model
 def build_model(args):
-    model = AutoModelForQuestionAnswering.from_pretrained(args.model_name, num_labels=2)
+    # float32 master weights: transformers 5 keeps a checkpoint's stored dtype (mdeberta-v3-base is stored in fp16),
+    # and GradScaler cannot unscale fp16 gradients. fp16 compute still comes from autocast.
+    model = AutoModelForQuestionAnswering.from_pretrained(args.model_name, num_labels=2, dtype=torch.float32)
     if args.lora:
         from peft import LoraConfig, TaskType, get_peft_model
         cfg = LoraConfig(task_type=TaskType.QUESTION_ANS, r=args.lora_r, lora_alpha=2 * args.lora_r,
@@ -271,6 +273,9 @@ def main():
     ap.add_argument("--split-file", default=None)
     ap.add_argument("--out", default=None, help="predict-only: output preds jsonl")
     ap.add_argument("--check-offsets", action="store_true")
+    ap.add_argument("--predict-file", action="append", default=[],
+                    help="after training, predict this split with the best-epoch weights -> <out-dir>/preds_<stem>.jsonl "
+                         "(repeatable; the na threshold to apply is metrics_dev.json best_na_threshold)")
     args = ap.parse_args()
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -391,6 +396,13 @@ def main():
     (out_dir / "metrics_dev.json").write_text(json.dumps(metrics, indent=2), encoding="utf-8")
     gold_dev_path.unlink()
     log(f"best epoch {best['epoch']}  dev at best threshold: {json.dumps(metrics['at_best_threshold'])}")
+    if args.predict_file:
+        model.load_state_dict(best_state, strict=False)
+        for pf in args.predict_file:
+            rows = load_jsonl(ROOT / pf)
+            dest = out_dir / f"preds_{Path(pf).stem}.jsonl"
+            write_preds(predict(model, tok, rows, args, device), rows, dest)
+            log(f"wrote {dest.name} ({len(rows)} examples, best epoch {best['epoch']})")
     if args.save_checkpoint:
         torch.save({"args": vars(args), "state": best_state, "na_threshold": best["na_threshold"]},
                    out_dir / "checkpoint.pt")
