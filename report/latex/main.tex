@@ -76,6 +76,30 @@ Diberikan konteks $C = \{c_0, \dots, c_k, \dots, c_{lc}\}$, pertanyaan $Q = \{q_
 \item coba cari literatur juga terkait pengaruh pergantian bahasa (FT BERT jadi IndoBERT) ke pengaruh model beserta error pointsnya. Mungkin juga refer ke paper yg datanya ada culture2nya, kita-kira weakpointnya di mana dan dibanding sm error analysis kita gimana, sama suggested improvements serta limitasi mereka di mana.
 \end{itemize}}
 
+\subseciton{Bahasa dan Penalaran Model}
+
+\paragraph{Kemampuan pemahaman model dalam \textit{task} multilngual.} \cite{Liu2026} menyugesti bahwa \textit{large reasoning models} memiliki pemahaman multilingual yang bias terhadap bahasa yang \textit{high-resource}, terlebih lagi bahasa Ingriss dan bahasa-bahasa yang satu rumpun (Jerman, Belanda, dll.). \cite{Tezuka2025} menunjukkan bahwa ada sekumpulan neuron yang berfungsi untuk mentranslasikan berbagai bahasa dari input menjadi representasi laten untuk \textit{reasoning} model kemudian terdapat sekumpulan neuron pula yang mentranslasikan dari representasi laten ke bahasa tujuan. Mereka menunjukkan bahwa terdapat sekumpulan neuron yang berbeda untuk setiap bahasa dalam mengenali fitur linguistik bahasa tersebut.
+
+Hal ini memotivasi kami untuk mengeksplorasi metode lain dalam menginkorporasi dan melatih model berbahasa Indonesia selain melalui melalui \textit{fine-tuning} secara penuh yang sering kali membuthukan banyak sumber daya untuk berhasil. Salah satu contohnya adalah seperti yang diusulkan \cite{Yoon2024}, yaitu menambahkan multilingual \textit{encoder} untuk 'menyelaraskan' berbagai macam bahasa ke representasi laten yang digunakan oleh LLM. Namun begitu, kami perlu melakukan \textit{error analysis} terkait untuk mengarahkan dan menjustifikasi keputusan teknis yang akan diambil.
+
+\subsection{Model}
+
+\subsubsection{Famili BERT}
+
+\paragraph{ALBERT \cite{Lan2019}.} Sebagai salah satu model dengan performa teratas pada \textit{leaderboard}, ALBERT memberikan beberapa pembaruan dari BERT, di antaranya:
+
+\begin{itemize}
+  \item Faktorisasi parameter embedding.  \cite{Lan2019} berargumen bahwa dimensi \textit{context-dependent embedding} seharusnya lebih besar dari \textit{context-independent embedding} sebab \textit{context-dependent embedding} memuat lebih banyak informasi. Namun, memiliki \textit{embedding table} sebesar $|V| \times |H|$ dengan $H$ adalah dimensi \textit{context-dependent embedding} sangat boros, sehingga \cite{Lan2019} menggunakan parameter tambahan untuk memproyeksikan \textit{context-dependent embedding table} ke \textit{context-independent embedding table}.
+  \item \textit{Cross-layer parameter sharing}. ALBERT melakukan \textit{parameter sharing} pada setiap layernya sebagai \textit{default}.
+  \item  \textit{Sentence-order prediction} (SOP) sebagai pengganti \textit{loss/task} NSP. \cite{Lan2019} berargumen bahwa \textit{NSP} yang digunakan dalam \textit{pre-training} mencampurkan \textit{task topic prediction} \textit{coherence prediction}, padahal \textit{topic prediction} pada NSP jauh lebih mudah dari \textit{coherence predction} dan bercampur juga dengan \textit{loss} yang dimodelkan oleh \textit{loss} MLM. Oleh karena itu \cite{Lan2019} menggunakan SOP yang menguji model untuk memprediksi apakah dua pasang kalimat memiliki urutan yang asli atau si-\textit{swap}. 
+\end{itemize}
+
+\subsubsection{Perkembangan Lanjut}
+
+\cite{Zhang2020} menambahkan metode baru di atas ALBERT dan ELECTRA dengan membuat model dapat melakukan 'skimming' dan '\textit{intensive reading}' layaknya manusia membaca atau menyelesaikan \textit{task} MRC ini dan mendapatkan nilai EM dan F1 sebesar 90{.}578	dan 92{.}978 berturut-turut. 
+
+Banyaknya literatur dan perkembangan model yang berangkat dari ALBERT dan ELECTRA memotivasi kami untuk mencoba kedua model ini beserta membangun metode selanjutnya di atas model ini. 
+
 \section{Data and exploratory analysis}
 \label{sec:data}
 % Source: eda/README.md, miscellaneous/docs/data_card.md, eda/outputs/

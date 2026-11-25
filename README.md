@@ -17,6 +17,7 @@ experiments/
   05-llm-local-qwen/            local instruct LLM through the prompt and grounding harness
   06-llm-api-offtheshelf/       off-the-shelf API LLMs through the same harness
   07-llm-offtheshelf-fewshot/   off-the-shelf LLMs with a task instruction and frozen few-shot demos (Kaggle/Colab GPU)
+  08-plm-encoder-screen/        other encoders in the 04 harness (m-BERT, mDeBERTa, XLM-R-large, ...), full train (Kaggle T4)
 report/
   latex/              main.tex, references.bib
   assets/             cross-model tables and figures used by the report

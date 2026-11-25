@@ -1,0 +1,26 @@
+{
+  "n": 2003,
+  "exact": 0.34947578632051923,
+  "f1": 9.897054845882847,
+  "HasAns_n": 1282,
+  "HasAns_exact": 0.5460218408736349,
+  "HasAns_f1": 15.463183195244417,
+  "NoAns_n": 721,
+  "NoAns_acc": 0.0,
+  "pred_noans_rate": 0.0,
+  "missing_preds": 0,
+  "best_na_threshold": 2.5546875,
+  "at_best_threshold": {
+    "n": 2003,
+    "exact": 35.99600599101348,
+    "f1": 36.11071138390454,
+    "HasAns_n": 1282,
+    "HasAns_exact": 0.0,
+    "HasAns_f1": 0.17921599216909853,
+    "NoAns_n": 721,
+    "NoAns_acc": 100.0,
+    "pred_noans_rate": 99.75037443834249
+  },
+  "best_epoch": 1,
+  "train_seconds": 2173.9469227790833
+}
