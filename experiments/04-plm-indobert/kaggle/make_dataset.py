@@ -24,8 +24,10 @@ shutil.copytree(ROOT / "experiments/global/configs", proj / "experiments/global/
 (proj / "experiments/04-plm-indobert").mkdir(parents=True)
 shutil.copy(ROOT / "experiments/04-plm-indobert/plm_qa.py", proj / "experiments/04-plm-indobert/")
 (proj / "data/processed").mkdir(parents=True)
-for f in ("train.jsonl", "dev.jsonl", "official_val.jsonl"):
+for f in ("train.jsonl", "dev.jsonl", "official_val.jsonl"):  # official_val: 2026-11-24, for validation predictions
     shutil.copy(ROOT / "data/processed" / f, proj / "data/processed" / f)
+(proj / "data/raw").mkdir(parents=True)  # 2026-11-24: full train (8042) for 08, which selects on official_val
+shutil.copy(ROOT / "data/raw/train.jsonl", proj / "data/raw/train.jsonl")
 shutil.copy(HERE / "dataset-metadata.json", a.out / "dataset-metadata.json")
 if a.owner:
     import json

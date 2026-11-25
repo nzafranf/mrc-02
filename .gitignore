@@ -19,6 +19,9 @@ report/latex/*.pdf
 experiments/04-plm-indobert/kaggle/build/
 experiments/04-plm-indobert/kaggle/out/
 experiments/04-plm-indobert/kaggle/build_kernel/
+experiments/08-plm-encoder-screen/kaggle/build/
+experiments/08-plm-encoder-screen/kaggle/out/
+experiments/08-plm-encoder-screen/colab/build/
 experiments/07-llm-offtheshelf-fewshot/gpu/build/
 
 # Models are pushed with git LFS, unless otherwise mentioned (ex. LLMs may just be loaded directly from their weight source)
@@ -36,3 +39,12 @@ experiments/global/final_test_eval_log.json
 Thumbs.db
 .vscode/
 .idea/
+# Leaderboard material stays local (2026-11-24): validation submissions, the course's sample file, and every
+# prediction on official_val (they are the submitted answers)
+experiments/global/submissions/
+data/val/
+**/preds_official_val*.jsonl
+**/analysis/official_val/per_example.jsonl
+**/analysis/official_val/hard_examples.jsonl
+**/predictions_official_val/
+experiments/07-llm-offtheshelf-fewshot/result/*official_val*

@@ -221,7 +221,9 @@ def write_preds(preds: dict, rows, path: Path):
 
 # ----------------------------------------------------------------------------- model
 def build_model(args):
-    model = AutoModelForQuestionAnswering.from_pretrained(args.model_name, num_labels=2)
+    # float32 master weights: transformers 5 keeps a checkpoint's stored dtype (mdeberta-v3-base is stored in fp16),
+    # and GradScaler cannot unscale fp16 gradients. fp16 compute still comes from autocast.
+    model = AutoModelForQuestionAnswering.from_pretrained(args.model_name, num_labels=2, dtype=torch.float32)
     if args.lora:
         from peft import LoraConfig, TaskType, get_peft_model
         cfg = LoraConfig(task_type=TaskType.QUESTION_ANS, r=args.lora_r, lora_alpha=2 * args.lora_r,
@@ -266,9 +268,10 @@ def main():
     ap.add_argument("--lora", action="store_true")
     ap.add_argument("--lora-r", type=int, default=8)
     ap.add_argument("--save-checkpoint", action="store_true")
-    ap.add_argument("--also-predict", nargs="*", default=[],
+    ap.add_argument("--also-predict", "--predict-file", dest="also_predict", nargs="+", action="extend", default=[],
                     help="after training, predict these split files with the best epoch and write "
-                         "preds_<stem>.jsonl next to preds_dev.jsonl (no checkpoint needed)")
+                         "preds_<stem>.jsonl next to preds_dev.jsonl (no checkpoint needed; repeatable). "
+                         "--predict-file is the name 08's Kaggle runner uses")
     ap.add_argument("--predict-only", action="store_true")
     ap.add_argument("--checkpoint", default=None)
     ap.add_argument("--split-file", default=None)
