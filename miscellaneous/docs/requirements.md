@@ -9,7 +9,7 @@
 | 5 | At least 1 NN/PLM/LLM (2.3.2b) | 03-nn-bidaf (NN), 04-plm-indobert (PLM), 05/06 (LLM) | done (dev) |
 | 6 | Explain architecture, components, input representation, prediction mechanism, config per model (2.3) | `experiments/NN-*/summary.md` section 3, `report/latex/main.tex` section 3 | partial |
 | 7 | Submission antara: short report + models (2.4), 25 Nov | `report/latex/` (or a short version of it) | todo |
-| 8 | Test predictions from at least 3 models in the official format (2.5) | `--predict-only` in every model, a submission script in `experiments/global/mrc` once the format is announced | todo |
+| 8 | Test predictions from at least 3 models in the official format (2.5) | `--predict-only` in every model (04: `--also-predict` + `checkpoint.pt`), `mrc.make_submission` writes the `id,answer` CSV (format from the sample submission) | partial: script done, 01-04 predicted on official_val, 04 checkpoints saved; test set on 3 Dec |
 | 9 | Source code to reproduce (2.5) | README and each `summary.md` section 2 (one command per step) | partial |
 | 10 | Final report (2.5, 4.4) | `report/latex/main.tex` (render with `miscellaneous/scripts/render_latex.py`) | skeleton |
 | 11 | Per-person log, reflection, peer review (2.5) | each member, outside this repo or `miscellaneous/docs/personal_logs/` | todo, human only |

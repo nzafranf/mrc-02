@@ -9,18 +9,18 @@
   "NoAns_acc": 0.0,
   "pred_noans_rate": 0.0,
   "missing_preds": 0,
-  "best_na_threshold": -3.154296875,
+  "best_na_threshold": -3.2197265625,
   "at_best_threshold": {
     "n": 803,
-    "exact": 68.99128268991282,
-    "f1": 73.27692735817554,
+    "exact": 68.8667496886675,
+    "f1": 73.15239435693022,
     "HasAns_n": 432,
-    "HasAns_exact": 49.76851851851852,
-    "HasAns_f1": 57.73465895512723,
+    "HasAns_exact": 49.53703703703704,
+    "HasAns_f1": 57.50317747364575,
     "NoAns_n": 371,
     "NoAns_acc": 91.37466307277629,
-    "pred_noans_rate": 53.673723536737235
+    "pred_noans_rate": 54.047322540473225
   },
   "best_epoch": 3,
-  "train_seconds": 350.14595341682434
+  "train_seconds": 340.36606073379517
 }

@@ -23,7 +23,7 @@
 \definecolor{enoans}{HTML}{FFCDD2}
 \usepackage[numbers]{natbib}
 \usepackage[hidelinks]{hyperref}
-% \usepackage[indonesian]{babel}  % uncomment for an Indonesian report
+\usepackage[indonesian]{babel}
 
 % Laporan ini bisa ditreat sbg log dan penemuan eksperimen kita seiring berjalan. Jadi, ketika kita nyoba model X, motivasinya, yang dituangkan ke dalam sutdi literatur, eda, error analysis, itu berkesinambungan dair perocbaan model sebelumnya yang sudah ada di laporan ini. Jadi, -- at least gw --  gw prefernya nyobain model itu hasilnya paralel buat studi ltieratur hingga error analysis etika dituangkan ke laporan.
 
@@ -44,13 +44,13 @@ Fernando Lawrence}
 \maketitle
 
 \begin{abstract}
-\todo{Task, data (Indonesian Wikipedia passages, 44\% unanswerable), the models, the headline result
-(IndoBERT 73.5 F1 on our dev split) and the main error-analysis finding.}
+Laporan ini menyajikan pengembangan dan evaluasi sistem \textit{extractive Machine Reading Comprehension} (MRC) berbahasa Indonesia bergaya SQuAD~2.0, di mana model harus mengekstrak \textit{span} jawaban literal dari paragraf konteks atau memilih abstain (\textit{no-answer}) apabila pertanyaan tidak dapat dijawab. Dataset terdiri atas paragraf Wikipedia berbahasa Indonesia dengan proporsi pertanyaan \textit{unanswerable} sebesar $43{,}9\%$ pada data latih ($6.435$ pertanyaan), $46{,}2\%$ pada \textit{dev} internal ($803$ pertanyaan), dan $36{,}0\%$ pada \textit{official validation} ($2.003$ pertanyaan). Kami membangun dan membandingkan spektrum pendekatan secara sistematis: \textit{baseline} trivial, \textit{pipeline} klasik berbasis \textit{feature engineering} dan LightGBM, arsitektur neural \textit{end-to-end} BiDAF-lite beserta ablasi tanpa \textit{attention}, \textit{fine-tuning} \textit{pre-trained language model} (IndoBERT, m-BERT, dan mDeBERTa-v3), serta \textit{few-shot prompting} pada \textit{large language model} (Qwen2.5-14B-Instruct). Pada \textit{dev} internal, IndoBERT mencapai F1 $73{,}55 \pm 0{,}43$ (EM $69{,}45$), unggul signifikan atas BiDAF ($56{,}61$) dan \textit{pipeline} klasik ($53{,}36$). Pada \textit{official validation}, Qwen2.5-14B-Instruct 7-\textit{shot} memperoleh EM $63{,}0$ / F1 $75{,}1$ pada $1.000$ pertanyaan pertama, sementara skrining awal \textit{encoder} pada seluruh data latih ($8.042$ pertanyaan) menunjukkan lonjakan performa pada mDeBERTa-v3-base (EM $72{,}6$ / F1 $80{,}3$). Analisis error menunjukkan bahwa model non-PLM didominasi oleh \textit{over-abstention} (\texttt{false\_no\_answer}), IndoBERT masih menyisakan kesalahan batas dan penentuan \textit{span}, sedangkan Qwen2.5-14B paling sering gagal akibat \texttt{boundary\_too\_long} karena menjawab dengan frasa lengkap yang melebihi inti jawaban \textit{gold}.
 \end{abstract}
 
-\section{Introduction}
-\todo{Task definition (span extraction or abstain, SQuAD v2 \citep{rajpurkar2018know}), why answerability is the
-hard part, and the contributions.}
+\section{Pendahuluan}
+\textit{Machine Reading Comprehension} (MRC) bertujuan mengukur kemampuan sistem pemrosesan bahasa alami dalam memahami teks bacaan dan menjawab pertanyaan berdasarkan informasi di dalamnya. Dalam proyek ini, kami menangani \textit{extractive} MRC bergaya SQuAD~2.0 \citep{rajpurkar2018know} berbahasa Indonesia: untuk setiap pasangan konteks dan pertanyaan, sistem harus mengekstrak potongan teks literal (\textit{span}) dari konteks atau memutuskan bahwa pertanyaan tidak dapat dijawab (\textit{unanswerable}). Keberadaan pertanyaan \textit{unanswerable} menjadikan tugas ini jauh lebih menantang dibandingkan ekstraksi \textit{span} semata, karena pertanyaan yang tidak dapat dijawab disusun melalui suntingan minimal dari pertanyaan yang dapat dijawab pada paragraf yang sama---sehingga tumpang tindih leksikalnya dengan konteks tetap tinggi dan model harus memverifikasi kecocokan entitas, relasi, serta pewatas secara tepat.
+
+Kontribusi utama proyek hingga tahap laporan antara ini mencakup: (1)~analisis data eksploratif (EDA), audit \textit{data leakage}, dan investigasi artefak dataset yang mengungkap bias tipografi pada pertanyaan; (2)~implementasi dan perbandingan sistematis empat famili pemodelan yang memenuhi pendekatan \textit{pipeline} maupun \textit{end-to-end}, dari \textit{machine learning} tradisional hingga PLM dan LLM; (3)~evaluasi terstandar dengan metrik Exact Match (EM) dan Token-level F1, kalibrasi \textit{threshold} abstain, serta uji signifikansi \textit{paired bootstrap}; dan (4)~analisis error kuantitatif serta kualitatif berbasis taksonomi error formal untuk memandu iterasi pengembangan model berikutnya.
 
 \subsection{Definisi Task}
 
@@ -72,15 +72,11 @@ Diberikan konteks $C = \{c_0, \dots, c_k, \dots, c_{lc}\}$, pertanyaan $Q = \{q_
   \label{fig:zeng_taxonomy}
 \end{figure}
 
-\todo{\begin{itemize}
-\item coba cari literatur juga terkait pengaruh pergantian bahasa (FT BERT jadi IndoBERT) ke pengaruh model beserta error pointsnya. Mungkin juga refer ke paper yg datanya ada culture2nya, kita-kira weakpointnya di mana dan dibanding sm error analysis kita gimana, sama suggested improvements serta limitasi mereka di mana.
-\end{itemize}}
+\subsection{Bahasa dan Penalaran Model}
 
-\subseciton{Bahasa dan Penalaran Model}
+\paragraph{Kemampuan pemahaman model dalam \textit{task} multilingual.} \cite{Liu2026} menyugesti bahwa \textit{large reasoning models} memiliki pemahaman multilingual yang bias terhadap bahasa yang \textit{high-resource}, terlebih lagi bahasa Inggris dan bahasa-bahasa yang satu rumpun (Jerman, Belanda, dll.). \cite{Tezuka2025} menunjukkan bahwa ada sekumpulan neuron yang berfungsi untuk mentranslasikan berbagai bahasa dari input menjadi representasi laten untuk \textit{reasoning} model kemudian terdapat sekumpulan neuron pula yang mentranslasikan dari representasi laten ke bahasa tujuan. Mereka menunjukkan bahwa terdapat sekumpulan neuron yang berbeda untuk setiap bahasa dalam mengenali fitur linguistik bahasa tersebut.
 
-\paragraph{Kemampuan pemahaman model dalam \textit{task} multilngual.} \cite{Liu2026} menyugesti bahwa \textit{large reasoning models} memiliki pemahaman multilingual yang bias terhadap bahasa yang \textit{high-resource}, terlebih lagi bahasa Ingriss dan bahasa-bahasa yang satu rumpun (Jerman, Belanda, dll.). \cite{Tezuka2025} menunjukkan bahwa ada sekumpulan neuron yang berfungsi untuk mentranslasikan berbagai bahasa dari input menjadi representasi laten untuk \textit{reasoning} model kemudian terdapat sekumpulan neuron pula yang mentranslasikan dari representasi laten ke bahasa tujuan. Mereka menunjukkan bahwa terdapat sekumpulan neuron yang berbeda untuk setiap bahasa dalam mengenali fitur linguistik bahasa tersebut.
-
-Hal ini memotivasi kami untuk mengeksplorasi metode lain dalam menginkorporasi dan melatih model berbahasa Indonesia selain melalui melalui \textit{fine-tuning} secara penuh yang sering kali membuthukan banyak sumber daya untuk berhasil. Salah satu contohnya adalah seperti yang diusulkan \cite{Yoon2024}, yaitu menambahkan multilingual \textit{encoder} untuk 'menyelaraskan' berbagai macam bahasa ke representasi laten yang digunakan oleh LLM. Namun begitu, kami perlu melakukan \textit{error analysis} terkait untuk mengarahkan dan menjustifikasi keputusan teknis yang akan diambil.
+Hal ini memotivasi kami untuk mengeksplorasi metode lain dalam menginkorporasi dan melatih model berbahasa Indonesia selain melalui \textit{fine-tuning} secara penuh yang sering kali membutuhkan banyak sumber daya untuk berhasil. Salah satu contohnya adalah seperti yang diusulkan \cite{Yoon2024}, yaitu menambahkan multilingual \textit{encoder} untuk 'menyelaraskan' berbagai macam bahasa ke representasi laten yang digunakan oleh LLM. Namun begitu, kami perlu melakukan \textit{error analysis} terkait untuk mengarahkan dan menjustifikasi keputusan teknis yang akan diambil.
 
 \subsection{Model}
 
@@ -91,7 +87,7 @@ Hal ini memotivasi kami untuk mengeksplorasi metode lain dalam menginkorporasi d
 \begin{itemize}
   \item Faktorisasi parameter embedding.  \cite{Lan2019} berargumen bahwa dimensi \textit{context-dependent embedding} seharusnya lebih besar dari \textit{context-independent embedding} sebab \textit{context-dependent embedding} memuat lebih banyak informasi. Namun, memiliki \textit{embedding table} sebesar $|V| \times |H|$ dengan $H$ adalah dimensi \textit{context-dependent embedding} sangat boros, sehingga \cite{Lan2019} menggunakan parameter tambahan untuk memproyeksikan \textit{context-dependent embedding table} ke \textit{context-independent embedding table}.
   \item \textit{Cross-layer parameter sharing}. ALBERT melakukan \textit{parameter sharing} pada setiap layernya sebagai \textit{default}.
-  \item  \textit{Sentence-order prediction} (SOP) sebagai pengganti \textit{loss/task} NSP. \cite{Lan2019} berargumen bahwa \textit{NSP} yang digunakan dalam \textit{pre-training} mencampurkan \textit{task topic prediction} \textit{coherence prediction}, padahal \textit{topic prediction} pada NSP jauh lebih mudah dari \textit{coherence predction} dan bercampur juga dengan \textit{loss} yang dimodelkan oleh \textit{loss} MLM. Oleh karena itu \cite{Lan2019} menggunakan SOP yang menguji model untuk memprediksi apakah dua pasang kalimat memiliki urutan yang asli atau si-\textit{swap}. 
+  \item  \textit{Sentence-order prediction} (SOP) sebagai pengganti \textit{loss/task} NSP. \cite{Lan2019} berargumen bahwa \textit{NSP} yang digunakan dalam \textit{pre-training} mencampurkan \textit{task topic prediction} \textit{coherence prediction}, padahal \textit{topic prediction} pada NSP jauh lebih mudah dari \textit{coherence prediction} dan bercampur juga dengan \textit{loss} yang dimodelkan oleh \textit{loss} MLM. Oleh karena itu \cite{Lan2019} menggunakan SOP yang menguji model untuk memprediksi apakah dua pasang kalimat memiliki urutan yang asli atau di-\textit{swap}. 
 \end{itemize}
 
 \subsubsection{Perkembangan Lanjut}
@@ -100,61 +96,110 @@ Hal ini memotivasi kami untuk mengeksplorasi metode lain dalam menginkorporasi d
 
 Banyaknya literatur dan perkembangan model yang berangkat dari ALBERT dan ELECTRA memotivasi kami untuk mencoba kedua model ini beserta membangun metode selanjutnya di atas model ini. 
 
-\section{Data and exploratory analysis}
+\section{Data dan Analisis Eksploratif}
 \label{sec:data}
 % Source: eda/README.md, miscellaneous/docs/data_card.md, eda/outputs/
-\todo{Split (grouped by passage: 6435/803/804 train/dev/internal test), passage, question and answer
-statistics, answer types and positions.}
+Dataset latih awal memuat $8.042$ pertanyaan pada $3.271$ paragraf konteks yang bersumber dari Wikipedia berbahasa Indonesia (terlihat dari penanda sitasi \texttt{[n]} pada $36{,}8\%$ konteks latih). Untuk mencegah kebocoran data lintas paragraf, kami membagi data latih awal secara berkelompok berdasarkan konteks yang dinormalisasi beserta prefiks $120$ karakter (rasio $80/10/10$, \textit{seed} $13$) menjadi \textit{train} ($6.435$ pertanyaan; $2.633$ konteks; $43{,}9\%$ \textit{unanswerable}), \textit{dev} internal ($803$ pertanyaan; $291$ konteks; $46{,}2\%$ \textit{unanswerable}), dan \textit{internal test} (\textit{itest}, $804$ pertanyaan; $347$ konteks). Setelah set validasi resmi (\textit{official validation}) dirilis, kami memasukkannya sebagai set seleksi utama dengan $2.003$ pertanyaan pada $968$ konteks dan proporsi \textit{unanswerable} yang lebih rendah ($36{,}0\%$; $1.282$ \textit{answerable}, $721$ \textit{unanswerable}).
+
+Pada gabungan \textit{train} dan \textit{dev}, panjang konteks rata-rata $82{,}6$ kata (median $71$, maksimum $2.798$), panjang pertanyaan rata-rata $5{,}6$ kata, dan panjang jawaban rata-rata $5{,}2$ kata (median $3$ kata; $23{,}5\%$ satu kata dan $36{,}0\%$ terdiri atas $2$--$3$ kata). Jawaban memiliki bias posisi awal yang kuat: $51{,}8\%$ dimulai pada kuartil pertama (Q1) konteks, $23{,}1\%$ pada Q2, $14{,}5\%$ pada Q3, dan hanya $10{,}5\%$ pada Q4. Berdasarkan tipe jawaban, distribusi didominasi oleh frasa huruf kecil ($30{,}8\%$), frasa kapital non-orang ($24{,}4\%$), tanggal/tahun ($17{,}9\%$), nama orang ($16{,}7\%$), dan angka ($10{,}3\%$).
+
+Audit \textit{data leakage} dengan pencocokan eksak dan \textit{cosine similarity} TF-IDF 5-gram karakter menunjukkan bahwa \textit{dev} terhadap \textit{train} sepenuhnya bersih ($0$ duplikat maupun \textit{near-duplicate} konteks dengan $\cos > 0{,}6$). Pada \textit{itest}, ditemukan $2$ dari $347$ konteks yang merupakan \textit{near-duplicate} dari \textit{train}/\textit{dev} karena perbedaan tanda kutip awal; keduanya dikecualikan pada evaluasi \textit{itest}. Untuk \textit{official validation}, audit memastikan tidak ada tumpang tindih konteks dengan \textit{train}/\textit{dev}/\textit{itest} (kemiripan 5-gram karakter maksimum $0{,}59$), dengan hanya $10$ pertanyaan generik yang berulang pada paragraf berbeda. Analisis fertilitas tokenizer pada $2.924$ konteks unik menunjukkan bahwa \texttt{indobert-base-p1} memerlukan rata-rata $1{,}46$ token per kata ($0{,}8\%$ konteks $>384$ token), \texttt{xlm-roberta-base} $1{,}58$ token per kata ($1{,}2\%$ $>384$), dan \texttt{Qwen2.5} $2{,}52$ token per kata ($4{,}6\%$ $>384$). Pemeriksaan kualitas label pada $60$ sampel acak \textit{train} \textit{answerable} juga menemukan $7$ kasus ($11{,}7\%$) dengan isu anotasi definitif (kesalahan batas, inkonsistensi satuan, atau jawaban ambigu), yang menjadi batas atas alami bagi capaian EM.
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=0.8\linewidth]{eda_unanswerable_rate.png}
-  \caption{Share of unanswerable questions. \todo{interpretation}}
+  \caption{Proporsi pertanyaan \textit{unanswerable} berdasarkan kata tanya dan karakteristik permukaan. Terlihat variasi tajam antar kata tanya awal---misalnya \textit{dimana}/\textit{dimanakah} ($<5\%$ \textit{unanswerable}) dibanding prefiks terpisah \textit{di} ($88\%$)---yang menandakan adanya artefak konstruksi dataset pada teks pertanyaan.}
   \label{fig:unans}
 \end{figure}
 
-\paragraph{Dataset artifacts.} \todo{A question-only classifier predicts answerability with AUC 0.90
-(eda/outputs/tables/artifact\_probe.json); unanswerable questions are minimal edits of answerable ones.}
+\paragraph{Artefak dataset dan struktur pertanyaan berpasangan.}
+Dari $1.631$ konteks dengan tepat dua pertanyaan pada \textit{train}+\textit{dev}, sebanyak $97{,}6\%$ ($1.592$ konteks) memiliki tepat satu pertanyaan \textit{answerable} dan satu pertanyaan \textit{unanswerable}. Pemeriksaan manual terhadap $40$ pasangan menunjukkan bahwa pertanyaan \textit{unanswerable} merupakan suntingan minimal dari kembarannya (penggantian entitas $11/40$, perubahan verba/atribut $9/40$, penambahan pewatas $6/40$, antonim $6/40$, fakta tidak ada $4/40$, salah eja nama $3/40$, dan negasi $1/40$), sehingga tumpang tindih leksikal terhadap konteks hampir identik ($0{,}47$ vs $0{,}50$). Lebih jauh, uji \textit{artifact probe} menggunakan regresi logistik TF-IDF pada teks pertanyaan saja (tanpa membaca konteks) mencapai akurasi $80{,}6\%$ dan AUC $0{,}901$ pada \textit{dev} (bandingkan dengan konteks saja: akurasi $53{,}8\%$, AUC $0{,}511$). Petunjuk tipografi semata menghasilkan akurasi $74{,}6\%$ (AUC $0{,}797$): pertanyaan yang diakhiri spasi sebelum tanda tanya (\texttt{" ?"}, $17{,}7\%$ data) hanya $2{,}6\%$ yang \textit{unanswerable} dibanding $53{,}1\%$ jika tidak ada, dan pertanyaan berawalan huruf kecil ($16{,}0\%$) hanya $11{,}5\%$ \textit{unanswerable} dibanding $50{,}4\%$. Temuan ini menjadi kontrol negatif penting agar skor akurasi \textit{NoAns} ditafsirkan secara kritis.
 
-\section{Models}
+\section{Model}
 \label{sec:models}
 % Each model maps to one experiment folder; its summary.md has architecture, input and prediction details.
-\subsection{Baselines (\expdir{01-baseline-trivial})}
-Always no-answer, and a sliding-window baseline \citep{richardson2013mctest}.
-\subsection{Classical pipeline with feature engineering (\expdir{02-classical-pipeline-lgbm})}
-\todo{Three stages: answerability (LightGBM \citep{ke2017lightgbm}), sentence retrieval (TF-IDF, BM25
-\citep{robertson2009probabilistic}, logistic regression), span ranking (LightGBM lambdarank). Features.}
-\subsection{BiDAF (\expdir{03-nn-bidaf})}
-\todo{BiDAF-lite \citep{seo2017bidirectional} trained from scratch with a NULL position; the no-attention ablation.}
-\subsection{Pretrained encoder (\expdir{04-plm-indobert})}
-\todo{IndoBERT-base-p1 \citep{wilie2020indonlu}, BERT-style QA head \citep{devlin2019bert}, sliding windows,
-no-answer score.}
-\subsection{Large language models (\expdir{05-llm-local-qwen}, \expdir{06-llm-api-offtheshelf})}
-\todo{Prompting, parsing and grounding to a passage span; local models and off-the-shelf API models.}
+Kami mengembangkan rangkaian model yang mencakup arsitektur \textit{pipeline} maupun \textit{end-to-end}, serta pendekatan \textit{machine learning} tradisional hingga neural, PLM, dan LLM.
 
-\section{Experimental setup}
-\todo{Metrics (EM, F1, HasAns F1, NoAns accuracy), the no-answer threshold tuned on dev (dev-optimistic),
-3 seeds, paired bootstrap for significance, hardware.}
+\subsection{Baseline (\expdir{01-baseline-trivial})}
+Tiga \textit{baseline} tanpa pembelajaran digunakan sebagai batas bawah: \texttt{no\_answer} yang selalu memprediksi kosong (memanfaatkan proporsi \textit{unanswerable} dataset), \texttt{sliding\_window} \citep{richardson2013mctest} yang memilih \textit{chunk} kandidat (entitas kapital, angka, atau tanggal) di dalam jendela teks dengan skor tumpang tindih kata berbobot IDF tertinggi, serta \texttt{sliding\_window\_thr} yang menambahkan skor abstain $1 - \text{overlap}$ dengan \textit{threshold} yang di-\textit{tune} pada \textit{dev}.
 
-\section{Results}
+\subsection{Pipeline Klasik dengan \textit{Feature Engineering} (\expdir{02-classical-pipeline-lgbm})}
+Model ini memenuhi ketentuan arsitektur \textit{pipeline} dan pendekatan \textit{machine learning} tradisional, terdiri atas tiga tahap yang dilatih terpisah di atas utilitas tokenisasi, \textit{light stemmer}, dan pemecah kalimat:
+\begin{enumerate}
+  \item \textbf{Stage A (Klasifikasi \textit{Answerability})}: LightGBM \citep{ke2017lightgbm} dengan $27$ fitur dalam $6$ kelompok (fitur pertanyaan, skor \textit{retrieval}, tumpang tindih leksikal, kecocokan tipe entitas, jendela overlap $5$/$10$ token, dan fitur konteks) untuk memprediksi probabilitas abstain \texttt{na\_prob}.
+  \item \textbf{Stage B (\textit{Sentence Retrieval})}: regresi logistik terstandardisasi dengan $16$ fitur per kalimat (TF-IDF \textit{cosine}, BM25 \citep{robertson2009probabilistic} dengan IDF tingkat kalimat dari data latih, overlap berbobot IDF, posisi dan panjang kalimat, serta skor relatif terhadap kalimat terbaik) untuk memilih $2$ kalimat teratas.
+  \item \textbf{Stage C (\textit{Span Ranking})}: LightGBM dengan objektif \texttt{lambdarank} (satu grup per pertanyaan) dengan $56$ fitur dalam $7$ kelompok (\textit{type\_match}, \textit{overlap}, \textit{proximity}, kata konteks kiri/kanan, \textit{shape\_boundary}, heuristik POS berbasis prefiks \textit{me-/ber-/ter-/di-}, dan fitur kalimat) yang memberi peringkat seluruh kandidat \textit{n-gram} kata ($\le 8$ kata, seimbang tanda kurungnya, rata-rata $\sim 152$ kandidat per pertanyaan) pada $2$ kalimat teratas.
+\end{enumerate}
+Prediksi akhir berupa string kosong apabila \texttt{na\_prob} melebihi \textit{threshold} yang di-\textit{tune}, dan selain itu mengambil \textit{span} peringkat teratas dari Stage~C.
+
+\subsection{BiDAF-lite dan Ablasi Tanpa Attention (\expdir{03-nn-bidaf})}
+Model neural \textit{end-to-end} yang dilatih dari awal tanpa \textit{pre-training}, mengadaptasi BiDAF \citep{seo2017bidirectional} dengan tokenizer regex berbasis \textit{offset} karakter (kosakata kata $25.047$ dengan \texttt{min\_freq=2}; konteks dipotong maksimal $400$ token) serta token khusus \texttt{<NULL>} pada indeks~$0$ sebagai target \textit{start}=\textit{end}=$0$ untuk pertanyaan \textit{unanswerable}. Representasi menggabungkan \textit{word embedding} ($100$ dimensi) dan CNN karakter ($50$ filter) melalui \textit{Highway Network}, diikuti \textit{encoder} BiLSTM ($h=64$), lapisan \textit{attention flow} (\textit{context-to-query} dan \textit{query-to-context}), dua lapis BiLSTM pemodelan, serta \textit{pointer head} untuk posisi awal dan akhir ($2{,}98$ juta parameter). Probabilitas abstain dihitung sebagai $\text{na\_prob} = p_0 / (p_0 + \text{best\_span})$ dengan $p_0 = p_s(0) p_e(0)$ dan panjang \textit{span} maksimum $30$ token. Sebagai ablasi (\texttt{bidaf\_noattn}, $2{,}97$ juta parameter), lapisan \textit{attention flow} diganti dengan rata-rata vektor pertanyaan yang di-\textit{broadcast} ke seluruh token konteks.
+
+\subsection{Pre-trained Language Model (\expdir{04-plm-indobert} dan \expdir{08-plm-encoder-screen})}
+Pada eksperimen \texttt{04-plm-indobert}, kami melakukan \textit{full fine-tuning} pada \texttt{indobenchmark/indobert-base-p1} \citep{wilie2020indonlu} ($124$ juta parameter) dengan \textit{QA head} linear bergaya BERT \citep{devlin2019bert} yang memprediksi \textit{logit} awal dan akhir per token. Input diformat sebagai \texttt{[CLS] question [SEP] context [SEP]} dengan jendela geser (\texttt{max\_len=384}, \texttt{doc\_stride=128}); pertanyaan \textit{unanswerable} dilabeli pada indeks \texttt{[CLS]} ($0$). Potongan jawaban diambil langsung dari teks asli memakai \textit{character offset} tokenizer sehingga \textit{lowercasing} tidak merusak kapitalisasi asli. Skor abstain dihitung sebagai selisih \textit{logit} $\text{null\_score} - \text{best\_span\_score}$ dengan $\text{null\_score} = \min_{\text{window}}(l_{\text{start}}[\text{CLS}] + l_{\text{end}}[\text{CLS}])$. Model dilatih selama $3$ \textit{epoch} (AdamW, \textit{learning rate} $3\times 10^{-5}$, \textit{batch size} $16$, \textit{warmup} $10\%$, FP16).
+
+Berdasarkan motivasi literatur mengenai keunggulan arsitektur modern dan \textit{encoder} multilingual, kami juga memulai skrining \textit{encoder} terpraregistrasi (\texttt{08-plm-encoder-screen}) yang melatih beberapa \textit{checkpoint} pada seluruh $8.042$ pertanyaan latih selama $10$ \textit{epoch} (\textit{seed}~$13$, seleksi \textit{epoch} dan \textit{threshold} pada \textit{official validation}). Hingga laporan antara ini disusun, tiga model ukuran \textit{base} telah selesai dijalankan: \texttt{indobenchmark/indobert-base-p1}, \texttt{google-bert/bert-base-multilingual-cased} (m-BERT), dan \texttt{microsoft/mdeberta-v3-base} (mDeBERTa-v3). \texttt{IndoELECTRA} dikecualikan karena ketidakcocokan ukuran tokenizer dan \textit{embedding}, sementara kandidat ukuran \textit{large} (\texttt{XLM-R-large}, \texttt{NusaBERT-large}, dan \texttt{indobert-lite-large-p2}) sedang dalam antrean eksekusi.
+
+\subsection{Large Language Models (\expdir{05-llm-local-qwen}, \expdir{06-llm-api-offtheshelf}, \expdir{07-llm-offtheshelf-fewshot})}
+Kami mengevaluasi LLM secara \textit{off-the-shelf} tanpa \textit{fine-tuning} melalui \textit{harness} bersama untuk \textit{prompting}, \textit{parsing} keluaran, dan \textit{grounding} ke teks konteks (\texttt{exact} \textit{substring}, \texttt{snapped} berbasis F1 token $\ge 0{,}5$, atau \texttt{ungrounded}). Eksperimen \texttt{05} melakukan uji jalur lokal dengan Qwen2.5-0.5B-Instruct (CPU, $60$--$100$ soal \textit{dev}), sedangkan \texttt{06} menguji model API (Gemini dan Nemotron) namun terhenti pada $22$--$25$ pertanyaan \textit{dev} akibat batas kuota harian gratis serta kecenderungan \textit{over-abstention} pada \textit{prompt} satu baris (\texttt{id1}).
+
+Untuk mengatasi hal tersebut, eksperimen \texttt{07-llm-offtheshelf-fewshot} merancang instruksi khusus \textit{span} MRC berbahasa Indonesia (\texttt{fs\_id}) beserta $7$ demonstrasi beku dari data latih ($4$ \textit{answerable}, $3$ \textit{unanswerable}, berselang-seling) dengan string abstain \texttt{unanswerable}. Evaluasi berjalan dalam urutan pertanyaan tetap yang terstratifikasi berdasarkan \textit{answerability} dan dapat dilanjutkan (\textit{resumable}), sehingga hasil parsial tetap dapat dibandingkan secara adil. Untuk skor abstain, digunakan metode \texttt{seqlogprob} berbasis \textit{teacher forcing}: $\sigma(\log p(\texttt{unanswerable}) - \log p(\text{span terbaik}))$. Model \texttt{Qwen2.5-14B-Instruct} (kuantisasi 4-bit, \textit{greedy decoding}) telah dijalankan pada $1.000$ pertanyaan pertama \textit{official validation}.
+
+\section{Pengaturan Eksperimen}
+Evaluasi mengikuti metrik resmi proyek, yaitu \textbf{Exact Match (EM)} (kriteria peringkat utama pada \textit{leaderboard}) dan \textbf{Token-level F1 Score} (sebagai \textit{tie-breaker}), dilengkapi metrik diagnostik \textbf{HasAns F1} (F1 khusus pertanyaan \textit{answerable}) dan \textbf{NoAns accuracy} (akurasi abstain pada pertanyaan \textit{unanswerable}). Normalisasi teks sebelum penilaian meliputi konversi ke huruf kecil, penghapusan penanda sitasi \texttt{[n]}, dan penghapusan tanda baca tanpa penghapusan artikel. Untuk pertanyaan dengan lebih dari satu jawaban \textit{gold}, diambil skor maksimum terhadap seluruh \textit{gold}.
+
+Eksperimen utama (\texttt{02}, \texttt{03}, dan \texttt{04}) dijalankan dengan tiga \textit{random seed} ($13$, $42$, dan $87$) dan dilaporkan sebagai rata-rata $\pm$ simpangan baku. \textit{Threshold} abstain (\textit{no-answer}) di-\textit{tune} pada \textit{dev} internal untuk evaluasi \textit{dev} (bersifat optimistis terhadap \textit{dev}) dan diterapkan tanpa perubahan pada \textit{official validation}; sebagai pembanding batas atas, kami juga melaporkan skor dengan \textit{threshold} yang di-\textit{tune} langsung pada \textit{official validation} (dimaksimalkan untuk EM pada skrip \textit{submission} sesuai aturan \textit{leaderboard}). Uji signifikansi antarmodel pada \textit{dev} menggunakan \textit{two-sided paired bootstrap} atas skor F1 rata-rata \textit{seed} per pertanyaan. Seluruh eksperimen \texttt{01}--\texttt{03} dijalankan pada CPU lokal, sedangkan \texttt{04}, \texttt{07}, dan \texttt{08} dijalankan pada GPU Kaggle T4 ($16$~GB).
+
+\section{Hasil Eksperimen}
 \begin{table}[t]
   \centering
   \small
   \input{../assets/tables/main_table.tex}
-  \caption{Dev results, mean $\pm$ std over seeds; the no-answer threshold is tuned on dev.
-  Generated by \texttt{mrc.analysis.compare}.}
+  \caption{Hasil evaluasi pada \textit{dev} internal ($n=803$, $46{,}2\%$ \textit{unanswerable}), rata-rata $\pm$ simpangan baku antar \textit{seed}; \textit{threshold} \textit{no-answer} di-\textit{tune} pada \textit{dev}. Dihasilkan oleh \texttt{mrc.analysis.compare}.}
   \label{tab:main}
 \end{table}
-\todo{Discuss table~\ref{tab:main} and the significance tests (report/assets/tables/significance.md).}
+
+\paragraph{Perbandingan pada \textit{dev} internal.}
+Tabel~\ref{tab:main} merangkum performa model pada \textit{dev} internal. Selalu abstain (\texttt{no\_answer}) sudah mencapai F1 $46{,}20$ karena tingginya proporsi pertanyaan \textit{unanswerable}, dan \texttt{sliding\_window\_thr} hanya menambah $+0{,}61$ F1 (tidak signifikan, $p=0{,}357$), menandakan bahwa tumpang tindih kata semata hampir tidak membawa sinyal \textit{answerability}. Uji \textit{paired bootstrap} menunjukkan bahwa \texttt{classical\_pipeline} ($53{,}36$ F1) unggul signifikan atas \texttt{no\_answer} ($\Delta\text{F1} = +7{,}16$, 95\% CI $[3{,}92;\,10{,}24]$, $p=0{,}001$). Sebaliknya, keunggulan \texttt{bidaf\_noattn} atas \texttt{classical\_pipeline} ($+3{,}11$ F1, CI $[-0{,}26;\,6{,}14]$, $p=0{,}067$) dan penambahan \textit{attention flow} pada \texttt{bidaf} terhadap \texttt{bidaf\_noattn} ($+0{,}14$ F1, CI $[-1{,}56;\,1{,}70]$, $p=0{,}879$) tidak signifikan secara statistik; keduanya masih lemah pada pertanyaan \textit{answerable} (HasAns F1 hanya $28{,}2$--$30{,}7$). Lompatan terbesar berasal dari \textit{pre-training}: \texttt{plm\_indobert\_full} mencapai EM $69{,}45 \pm 0{,}46$ dan F1 $73{,}55 \pm 0{,}43$, unggul sangat signifikan atas \texttt{bidaf} ($\Delta\text{F1} = +16{,}93$, CI $[14{,}06;\,19{,}59]$, $p=0{,}001$) dengan menggandakan HasAns F1 menjadi $59{,}16$.
+
+\begin{table}[t]
+  \centering
+  \small
+  \begin{tabular}{llrrrr}
+    \toprule
+    Model & Pengaturan & $n$ & EM & F1 & HasAns F1 / NoAns \\
+    \midrule
+    \texttt{no\_answer} & \textit{baseline} & 2003 & 36,0 & 36,0 & 0,0 / 100,0 \\
+    \texttt{sliding\_window\_thr} & \textit{dev thr} & 2003 & 36,5 & 37,8 & 5,7 / 94,9 \\
+    \texttt{classical\_pipeline} (3 seed) & \textit{dev thr} / \textit{val thr} & 2003 & 43,7 / 44,4 & 47,5 / 47,9 & 29,2 / 80,0$^\dagger$ \\
+    \texttt{bidaf\_noattn} (3 seed) & \textit{dev thr} / \textit{val thr} & 2003 & 41,7 / 41,7 & 46,6 / 47,1 & 24,2 / 86,3$^\dagger$ \\
+    \texttt{bidaf} (3 seed) & \textit{dev thr} / \textit{val thr} & 2003 & 41,9 / 41,9 & 46,5 / 47,2 & 23,3 / 87,6$^\dagger$ \\
+    \texttt{plm\_indobert\_full} (3 seed) & \textit{dev thr} / \textit{val thr} & 2003 & 62,0 / 62,3 & 68,7 / 69,9 & 56,5 / 90,5$^\dagger$ \\
+    \midrule
+    \texttt{Qwen2.5-14B-Instruct} (\texttt{fs\_id}) & \textit{as gen} / \textit{val thr} & 1000$^*$ & 63,0 / 63,8 & 75,1 / 75,4 & 70,0 / 85,0$^\ddagger$ \\
+    \midrule
+    \texttt{indobert\_base} (exp 08, 10 ep) & full train, \textit{val thr} & 2003 & 64,3 & 71,7 & 62,5 / 88,1 \\
+    \texttt{mbert\_base} (exp 08, 10 ep) & full train, \textit{val thr} & 2003 & 69,9 & 77,3 & 71,4 / 87,8 \\
+    \texttt{mdeberta\_v3\_base} (exp 08, 10 ep) & full train, \textit{val thr} & 2003 & \textbf{72,6} & \textbf{80,3} & 73,0 / 93,3 \\
+    \bottomrule
+  \end{tabular}
+  \caption{Hasil evaluasi pada \textit{official validation} ($36{,}0\%$ \textit{unanswerable}). $^\dagger$Nilai HasAns F1 / NoAns acc untuk pengaturan \textit{dev thr}; $^\ddagger$pada \textit{val thr}. $^*$Qwen2.5-14B baru mencakup $1.000$ pertanyaan pertama dari urutan tetap (pada $1.000$ soal yang sama, \texttt{plm\_indobert\_full} \textit{dev thr} meraih EM $61{,}9$ / F1 $68{,}6$). Baris eksperimen \texttt{08} dilatih pada seluruh $8.042$ data latih (\textit{seed}~$13$) dengan \textit{epoch} dan \textit{threshold} dipilih di \textit{official validation} sehingga angkanya bersifat optimistis.}
+  \label{tab:official-val}
+\end{table}
+
+\paragraph{Evaluasi pada \textit{official validation} dan skrining encoder awal.}
+Tabel~\ref{tab:official-val} menunjukkan penurunan $6$--$10$ poin F1 pada seluruh model \texttt{01}--\texttt{04} dari \textit{dev} ke \textit{official validation}, yang terutama disebabkan turunnya batas bawah \texttt{no\_answer} sebesar $10$ poin ($46{,}2\% \to 36{,}0\%$ \textit{unanswerable}). Di atas batas bawah tersebut, \texttt{classical\_pipeline} justru lebih stabil ($+11{,}5$ F1 di atas \texttt{no\_answer}) daripada \texttt{bidaf} ($+10{,}5$), sehingga keunggulan kecil BiDAF pada \textit{dev} menghilang. Penyesuaian \textit{threshold} pada \textit{official validation} memberi dampak paling besar pada IndoBERT ($68{,}7 \to 69{,}9$ F1) karena \textit{dev threshold} masih membuatnya abstain pada $46\%$ soal (vs $39\%$ pada \textit{val threshold}).
+
+Tanpa \textit{fine-tuning}, \texttt{Qwen2.5-14B-Instruct} 7-\textit{shot} (\texttt{fs\_id}) melampaui \texttt{plm\_indobert\_full} pada $1.000$ pertanyaan pertama dengan EM $63{,}0$ dan F1 $75{,}1$ (vs $61{,}9$ / $68{,}6$). Sementara itu, hasil awal skrining \textit{encoder} \texttt{08} (menggunakan $100\%$ data latih selama $10$ \textit{epoch}) menunjukkan potensi peningkatan yang besar pada arsitektur PLM: \texttt{indobert\_base} naik ke EM $64{,}3$ / F1 $71{,}7$, \texttt{mbert\_base} mencapai EM $69{,}9$ / F1 $77{,}3$, dan \texttt{mdeberta\_v3\_base} mencapai skor tertinggi sementara yakni EM $72{,}6$ / F1 $80{,}3$ (HasAns F1 $73{,}0$, NoAns acc $93{,}3\%$).
 
 \begin{figure}[t]
   \centering
   \includegraphics[width=\linewidth]{heatmap_q_type.png}
-  \caption{F1 by question type. \todo{interpretation}}
+  \caption{Skor F1 rata-rata \textit{seed} pada \textit{dev} berdasarkan tipe pertanyaan (\texttt{q\_type}). IndoBERT unggul merata di seluruh tipe, tertinggi pada pertanyaan waktu (\texttt{time}, $78{,}5$) dan angka (\texttt{number}, $73{,}8$). Menariknya, \texttt{classical\_pipeline} mengungguli BiDAF secara jelas pada pertanyaan angka ($62{,}7$ vs $52{,}4$) berkat fitur kecocokan tipe numerik dan satuan, sedangkan pertanyaan definisi/entitas (\texttt{entity\_or\_def}) dan orang (\texttt{person}) tetap menjadi kelompok yang relatif lebih sulit.}
   \label{fig:qtype}
 \end{figure}
 
-\section{Error analysis}
+\section{Analisis Error}
 % Per experiment: experiments/NN-*/analysis/ (outcomes, slices, error samples for manual labels).
 % Across models: eda/notebooks/model_errors.ipynb and report/assets/tables/.
 % Definitions mirror classify() in experiments/global/mrc/analysis/compare.py.
@@ -180,7 +225,7 @@ Jawaban dengan $\mathrm{EM} = 1$ disebut \textit{correct}. Dalam kode, jenis ini
 \begin{figure}[t]
   \centering
   \includegraphics[width=\linewidth]{error_taxonomy_stacked.png}
-  \caption{Error types per model (seed 13). \todo{interpretation}}
+  \caption{Distribusi jenis error tiap model pada \textit{dev} (\textit{seed}~$13$, $n=803$). \texttt{classical\_pipeline} dan \texttt{bidaf} didominasi \texttt{false\_no\_answer} ($204$ dan $248$ kasus), sementara \texttt{plm\_indobert\_full} memotongnya tajam menjadi $83$ kasus sehingga sisa error tersebar merata pada batas \textit{span} ($52$ kasus \texttt{boundary\_too\_long}/\texttt{short}) dan pemilihan kalimat atau \textit{span} yang keliru ($53$ kasus).}
   \label{fig:errors}
 \end{figure}
 \subsection{Analisis berdasarkan contoh jawaban model}
@@ -222,11 +267,119 @@ presiden pertama. Akibatnya \textit{classical pipeline}, BiDAF-noattn, IndoBERT,
 Nemotron yang menjawab mendekati benar (\textit{Hammer DeRoburt (1922-1992)}, F1 $0{,}80$). Ini contoh kasus yang
 memerlukan penalaran struktur dokumen, bukan pencocokan leksikal antara pertanyaan dan konteks.
 
-\todo{Correct and wrong examples, strengths and weaknesses of each model, error causes, reasoning challenges
-(manual labels from the error samples).}
+\subsection{Analisis error Qwen2.5-14B-Instruct \textit{few-shot} pada \textit{official validation}}
+\label{sec:ea-qwen14b}
+% Sumber: experiments/07-llm-offtheshelf-fewshot/runs/official_val/Qwen2.5-14B-Instruct_fs_id/ (report_official_val.md)
+% dan experiments/07-llm-offtheshelf-fewshot/analysis/official_val/. IndoBERT memakai threshold yang di-tune pada dev.
+Qwen2.5-14B-Instruct (4-bit, prompt \texttt{fs\_id} dengan 7 demo, \textit{greedy decoding}) dijalankan pada 1000
+pertanyaan pertama dari urutan tetap \textit{official validation}, yaitu 640 pertanyaan \textit{answerable} dan 360
+\textit{unanswerable}. Keputusan menjawab atau abstain diambil langsung dari keluaran model tanpa \textit{threshold}.
+Pada 1000 pertanyaan yang sama, Qwen memperoleh EM $63{,}0$ dan F1 $75{,}1$, sedangkan IndoBERT dengan
+\textit{threshold} dari dev memperoleh EM $61{,}9$ dan F1 $68{,}6$ (rata-rata tiga \textit{seed}). Selisih F1 yang jauh
+lebih besar daripada selisih EM menunjukkan bahwa Qwen sering menemukan bagian konteks yang benar, tetapi jarang
+memotong \textit{span} tepat seperti gold. \textit{Threshold} yang di-tune langsung pada data ini hanya menaikkan EM Qwen
+menjadi $63{,}8$, sehingga ruang perbaikan utama tidak berada pada \textit{threshold}.
 
-\section{Discussion and conclusion}
-\todo{What worked, limits (dev-tuned thresholds, partial LLM API runs), future work.}
+Tabel~\ref{tab:qwen-outcomes} membandingkan jenis error kedua model. Kedua model gagal dengan cara yang berlawanan.
+Qwen unggul pada pertanyaan \textit{answerable} (EM $51{,}9$ dibanding $46{,}4$ untuk IndoBERT \textit{seed} 13), tetapi
+kalah pada pertanyaan \textit{unanswerable} (akurasi $82{,}8$ dibanding $88{,}1$). Kesalahan memilih kalimat
+(\texttt{wrong\_sentence}) turun dari 57 pada IndoBERT menjadi 17 pada Qwen. Sebaliknya, \texttt{boundary\_too\_long}
+naik dari 63 menjadi 128 dan menjadi jenis error terbesar Qwen.
+
+\begin{table}[t]
+  \centering
+  \caption{Jenis jawaban pada 1000 pertanyaan pertama \textit{official validation}. IndoBERT memakai \textit{seed} 13
+  dengan \textit{threshold} dari dev; Qwen memakai keputusan apa adanya.}
+  \label{tab:qwen-outcomes}
+  \begin{tabular}{lrr}
+    \toprule
+    Jenis & Qwen2.5-14B & IndoBERT \\
+    \midrule
+    \texttt{correct\_ans} & 332 & 297 \\
+    \texttt{correct\_no\_ans} & 298 & 317 \\
+    \texttt{boundary\_too\_long} & 128 & 63 \\
+    \texttt{false\_no\_answer} & 87 & 113 \\
+    \texttt{false\_answer\_on\_unanswerable} & 62 & 43 \\
+    \texttt{boundary\_too\_short} & 31 & 46 \\
+    \texttt{partial\_overlap} & 30 & 28 \\
+    \texttt{wrong\_sentence} & 17 & 57 \\
+    \texttt{wrong\_span\_same\_sentence} & 15 & 36 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\paragraph{Batas \textit{span} terlalu panjang.}
+Error \texttt{boundary\_too\_long} menyumbang $12{,}8$ dari $37{,}0$ poin EM yang hilang, tetapi hanya $4{,}4$ dari
+$24{,}9$ poin F1. Hal ini karena tambahannya pendek: median gold 3 token, median prediksi 7 token, dan median token berlebih
+2. Pada 67 dari 128 kasus, kelebihannya hanya berada di depan gold. Kata yang ditambahkan umumnya penanda takrif atau
+keterangan, misalnya \textit{suatu satuan dasar materi} (gold \textit{satuan dasar materi}), \textit{para pedagang Arab},
+\textit{bahasa Yunani Koine}, \textit{bulan Mei 1940}, dan \textit{Di sekitar tahun 1994}. Kelebihan di belakang gold
+biasanya berupa keterangan dalam kurung atau klausa lanjutan, misalnya \textit{3.062 delegasi dengan hak suara dan 158
+tanpa hak suara} untuk gold \textit{3.062}. Qwen menjawab dengan frasa yang lengkap secara gramatikal, sedangkan konvensi
+anotasi dataset ini memilih inti jawaban. Konvensi tersebut terlihat pada data latih: kurang dari $0{,}4\%$ gold
+\textit{answerable} di train diawali \textit{suatu}, \textit{sebuah}, \textit{seorang}, \textit{para}, \textit{di},
+\textit{pada}, atau \textit{sekitar}. Membuang kata-kata tersebut dari awal jawaban Qwen menaikkan EM dari $63{,}0$
+menjadi $64{,}3$. Kelemahan ini juga menjelaskan rendahnya EM Qwen pada pertanyaan lokasi ($48$ dibanding $63$ untuk
+IndoBERT), karena 24 dari 101 pertanyaan lokasi berakhir sebagai \texttt{boundary\_too\_long}.
+
+\paragraph{Keputusan abstain.}
+Skor \textit{no-answer} Qwen, yaitu selisih \textit{log-probability} antara jawaban dan \texttt{unanswerable}, membedakan pertanyaan \textit{answerable} dan
+\textit{unanswerable} sedikit lebih buruk daripada IndoBERT (AUC $0{,}898$ dibanding $0{,}935$). Pemeriksaan manual
+terhadap 16 sampel acak \texttt{false\_\allowbreak no\_\allowbreak answer} menunjukkan bahwa sebagian besar abstain tersebut tidak sepenuhnya
+salah. Enam kasus memiliki gold yang tidak menjawab pertanyaan. Contohnya, gold untuk ``Kapan John meninggal?'' adalah
+tanggal kremasi, gold untuk ``Siapakah pendiri maskapai Air Asia?'' adalah pemilik awalnya, dan konteks untuk ``apakah
+ras kucing terkecil didunia?'' tidak menyebut ukuran sama sekali. Lima kasus lain ambigu karena entitas di pertanyaan dan
+konteks berbeda tipis, misalnya desa dan kecamatan Karangkancana. Hanya lima kasus yang merupakan kegagalan model:
+tiga kasus memerlukan pencocokan alias atau ejaan nama (``Kaisar Yuan'' dan \textit{Yuan Shikai}), satu kasus memerlukan
+relasi terbalik (``isteri'' dari frasa \textit{suami Fofo Fauzia}), dan satu kasus seharusnya terjawab langsung.
+
+Pada 16 sampel acak \texttt{false\_answer\_on\_unanswerable}, tujuh kasus muncul karena Qwen mengabaikan
+pewatas di pertanyaan, seperti \textit{menurut ensiklopedia}, \textit{menurut ahli}, \textit{mata uang logam}, dan
+\textit{Taekwondo yang modern}. Dua kasus mengandung negasi (``Siapa yang bukan bagian dari grup Guns N' Roses?''), tiga
+kasus dijawab dengan pengetahuan di luar konteks (misalnya \textit{Jumong} sebagai raja pertama Goguryeo, padahal
+konteks hanya menyebut ia mengungsi), dan empat kasus sebenarnya dapat dijawab dari konteks, misalnya tahun runtuhnya
+Dinasti Ming. Pola pewatas dan negasi ini sama dengan jebakan \textit{unanswerable} yang diuraikan pada taksonomi error.
+Delapan dari 615 jawaban Qwen tidak ditemukan di konteks, termasuk satu jawaban yang memuat komentar model.
+
+\paragraph{Komplementaritas dengan IndoBERT.}
+Kedua model benar pada sekitar 474 pertanyaan, hanya Qwen yang benar pada sekitar 156, dan hanya IndoBERT yang benar pada
+sekitar 145, sehingga \textit{oracle} yang selalu memilih model yang benar mencapai EM $77{,}5$. Dua aturan sederhana
+tanpa parameter memanfaatkan pola ini. Aturan pertama memakai \textit{span} IndoBERT jika \textit{span} tersebut berada
+di dalam jawaban Qwen, sehingga batas yang terlalu panjang terpotong. Aturan ini menaikkan EM menjadi $66{,}5$--$66{,}7$
+untuk ketiga \textit{seed} IndoBERT. Aturan kedua menambahkan keputusan ``jawab jika salah satu model menjawab'' dan
+mencapai EM $67{,}4$--$67{,}5$ serta F1 $76{,}6$--$77{,}0$. Kedua aturan dipilih setelah melihat data ini, sehingga
+angkanya masih optimistis dan perlu diuji pada 1003 pertanyaan \textit{official validation} lainnya sebelum dipakai
+untuk leaderboard.
+
+\subsection{Ringkasan Kekuatan dan Kelemahan Lintas Model}
+Perbandingan lintas eksperimen memperlihatkan transisi pola kesalahan yang jelas seiring meningkatnya kapasitas representasi model:
+\begin{itemize}
+  \item \textbf{Pipeline klasik (\texttt{02})}: cepat dilatih pada CPU, transparan secara fitur, dan relatif kuat pada pertanyaan numerik berkat fitur tipe jawaban eksplisit. Namun, setengah dari seluruh kesalahannya berasal dari Stage~A (\texttt{false\_no\_answer} mencapai $45{,}5\%$ dari soal \textit{answerable}) serta kesulitan menangani parafrasa dan frasa jawaban panjang ($>6$ kata).
+  \item \textbf{BiDAF-lite (\texttt{03})}: belajar \textit{end-to-end} tanpa fitur manual, tetapi karena dilatih dari awal pada data terbatas ($\sim 6.400$ soal), model mengalami \textit{over-abstention} parah (memprediksi abstain pada $65$--$68\%$ soal \textit{dev}) dan sensitif terhadap \textit{seed} ($22{,}3\%$ pertanyaan berubah benar/salah antar \textit{seed}).
+  \item \textbf{IndoBERT (\texttt{04})}: unggul jauh dalam pemahaman semantik dan kalibrasi \textit{answerability} (AUC $0{,}935$ pada \textit{official validation}), namun masih kesulitan pada jawaban yang terletak di akhir paragraf (Q3/Q4), jawaban panjang ($>6$ kata), serta kasus batas \textit{span} yang ambigu.
+  \item \textbf{Qwen2.5-14B-Instruct 7-\textit{shot} (\texttt{07})}: kuat dalam menemukan kalimat relevan (\texttt{wrong\_sentence} turun drastis dibanding IndoBERT) tanpa pelatihan ulang, tetapi sangat rentan terhadap \texttt{boundary\_too\_long} karena menyertakan determiner/preposisi di awal frasa dan sesekali mengabaikan pewatas pada pertanyaan \textit{unanswerable}.
+\end{itemize}
+
+\section{Diskusi, Kendala, dan Rencana Kerja}
+\paragraph{Temuan utama.}
+Hingga tahap laporan antara, seluruh persyaratan minimum pemodelan telah terpenuhi dan dievaluasi secara sistematis pada \textit{dev} maupun \textit{official validation}. Dua faktor yang terbukti paling menentukan lonjakan performa adalah (1)~representasi \textit{pre-trained} yang kuat---diperlihatkan oleh lompatan IndoBERT atas BiDAF ($+16{,}9$ F1) dan hasil awal \texttt{mdeberta\_v3\_base} ($80{,}3$ F1) pada skrining \textit{encoder} \texttt{08}---serta (2)~kalibrasi keputusan abstain yang mempertimbangkan pergeseran proporsi \textit{unanswerable} antar \textit{split} ($46\% \to 36\%$). Selain itu, analisis error Qwen2.5-14B dan IndoBERT mengungkap sifat saling melengkapi (\textit{oracle} EM $77{,}5$) yang membuka peluang \textit{ensembling} maupun \textit{post-processing} batas \textit{span}.
+
+\paragraph{Kendala dan keterbatasan saat ini.}
+Beberapa keterbatasan yang masih dihadapi dan menjadi bahan diskusi pada sesi mentoring meliputi:
+\begin{enumerate}
+  \item \textbf{Artefak pertanyaan dan ketidakstabilan \textit{threshold}}: tingginya sinyal tipografi pada pertanyaan (\textit{artifact probe} AUC $0{,}901$) berisiko membuat model mengandalkan jalan pintas gaya penulisan alih-alih pemahaman konteks, dan \textit{threshold} yang di-\textit{tune} pada \textit{dev} belum optimal di \textit{official validation}.
+  \item \textbf{Keterbatasan komputasi GPU dan kuota API}: inferensi LLM 14B memakan waktu sekitar $7$ jam di Kaggle T4 untuk $1.000$ soal sehingga separuh sisanya ($1.003$ soal) belum selesai, sedangkan eksperimen API gratis (\texttt{06}) terhenti pada $22$--$25$ soal.
+  \item \textbf{Evaluasi parsial pada eksperimen baru}: skrining \texttt{08} baru menggunakan satu \textit{seed} ($13$) dengan seleksi \textit{epoch} dan \textit{threshold} di \textit{official validation}, sehingga angka absolutnya masih optimistis dan memerlukan validasi multi-\textit{seed} serta pengujian akhir pada \textit{test set}.
+\end{enumerate}
+
+\paragraph{Rencana kerja selanjutnya.}
+Menuju \textit{final submission} (\textit{test set} dirilis 3 Desember, deadline \textit{leaderboard} 23 Desember, laporan akhir 30 Desember), tim merencanakan langkah-langkah berikut:
+\begin{enumerate}
+  \item Menyelesaikan skrining \textit{encoder} ukuran \textit{large} pada \texttt{08} (\texttt{XLM-R-large}, \texttt{NusaBERT-large}, dan \texttt{indobert-lite-large-p2}), lalu menjalankan multi-\textit{seed} ($13, 42, 87$) untuk model terbaik.
+  \item Menyelesaikan $1.003$ pertanyaan sisa \textit{official validation} pada \texttt{Qwen2.5-14B-Instruct} sekaligus memvalidasi aturan \textit{post-processing} pemotongan prefiks dan \textit{ensemble} Qwen+PLM pada $1.003$ soal yang belum pernah dilihat tersebut.
+  \item Melengkapi pelabelan error manual pada sampel error \texttt{02}--\texttt{04} serta uji ketahanan terhadap normalisasi tipografi pertanyaan.
+  \item Menghasilkan prediksi \textit{test set} dari minimal tiga keluarga model berbeda menggunakan \texttt{mrc.make\_submission} dengan \textit{threshold} yang di-\textit{tune} untuk EM, serta melengkapi bagian lampiran (sumber eksternal dan deklarasi penggunaan AI) untuk laporan akhir.
+\end{enumerate}
 
 \appendix
 \begin{landscape}

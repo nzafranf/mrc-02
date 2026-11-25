@@ -67,6 +67,8 @@ def load_variant(name, run_dirs, gold_by, sents, tune=True, preds_name="preds_de
         for x in preds.values():  # some runs store na_prob = null; the evaluator needs it absent instead
             if x.get("na_prob") is None:
                 x.pop("na_prob", None)
+            if tune and "span_pred" in x:  # 02 --predict-only thresholds pred; tune on the span before that
+                x["pred"] = x["span_pred"]
         gold = [gold_by[i] for i in gold_by if i in preds]
         has_na = any("na_prob" in x for x in preds.values())
         thr = best_na_threshold(gold, preds)[0] if has_na and tune else None

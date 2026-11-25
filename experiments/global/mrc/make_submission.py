@@ -1,21 +1,29 @@
-"""Turn one run's predictions on a split into a submission file.
+"""Write a leaderboard submission (`id,answer`, empty answer = no answer) from one run's predictions.
 
-The no-answer threshold comes from the run's own dev metrics
-(`--dev-metrics .../metrics_dev.json`, key `best_na_threshold`), is given explicitly (`--threshold`), is tuned
-on the submitted split itself (`--tune-on-split`, only for a split with gold such as official_val; its score is then
-optimistic and meta.json says so), or the predictions are taken as they are (`--as-is`).
+Two output modes (merged from the two versions of this script, 2026-11-25; both command styles still work):
+  --out FILE.csv    write only that CSV
+  --name NAME       write experiments/global/submissions/<split stem>/<NAME>/{submission.csv, answers.json,
+                    answers.jsonl, meta.json} (gitignored: submissions stay local)
 
-Usage:
-  python experiments/global/run.py mrc.make_submission --name bidaf_seed13 \
-      --preds experiments/03-nn-bidaf/runs/bidaf/seed13/preds_official_val.jsonl \
-      --dev-metrics experiments/03-nn-bidaf/runs/bidaf/seed13/metrics_dev.json
+  python experiments/global/run.py mrc.make_submission \
+      --run experiments/04-plm-indobert/runs/plm_indobert_full/seed13 --split-file data/processed/official_val.jsonl \
+      --threshold-from official_val --out submissions/plm_indobert_full_seed13_official_val.csv
+  python experiments/global/run.py mrc.make_submission --name 08_xlmr_large_seed13 \
+      --preds experiments/08-plm-encoder-screen/runs/xlmr_large/seed13/preds_official_val.jsonl --tune-on-split
 
-Writes experiments/global/submissions/<split>/<name>/:
-  submission.csv id,answer in the order of data/val/contoh_submission_validation.csv (course format, "" = no answer)
-  answers.json   {id: answer}, "" = no answer (SQuAD v2 official format)
-  answers.jsonl  one {"id", "answer"} per line
-  meta.json      sources, threshold, split hash, counts, and the metrics on the split if it has gold answers
+Predictions: --pred/--preds FILE, or --run DIR (reads DIR/preds_<split stem>.jsonl). The no-answer threshold:
+  --threshold-from SPLIT   tune it on <run>/preds_<SPLIT>.jsonl against data/processed/<SPLIT>.jsonl
+  --tune-on-split          tune it on the submitted split itself (needs gold; the score is then optimistic)
+  --dev-metrics FILE       use best_na_threshold from a run's metrics_dev.json
+  --na-threshold/--threshold T   use T as given
+  none of these (--as-is)  write `pred` as predicted (the model's own decision)
+Tuning maximises EM by default (--tune-metric exact), because the leaderboard ranks by EM first and F1 second.
+Thresholds are never tuned on a test split. Rows follow the split file's order (for official_val this equals the
+course sample file data/val/contoh_submission_validation.csv, which is checked when present). Every id must have a
+prediction. If the split has gold answers, the written answers are scored back with the shared evaluator.
 """
+from __future__ import annotations
+
 import argparse
 import csv
 import datetime
@@ -26,86 +34,124 @@ from pathlib import Path
 from mrc.evaluate import aggregate, best_na_threshold, load_jsonl, per_example_scores
 from mrc.paths import EXP, PROC, ROOT
 
+SAMPLE = ROOT / "data/val/contoh_submission_validation.csv"
+
+
+def raw_span(p: dict) -> str:
+    """The span before any no-answer decision. 02 writes it as span_pred; the others keep it in pred."""
+    return p.get("span_pred", p.get("pred", "")) or ""
+
+
+def load_preds(path) -> dict[str, dict]:
+    preds = {}
+    for p in load_jsonl(path):
+        if p.get("na_prob") is None:
+            p.pop("na_prob", None)
+        preds[p["id"]] = p
+    return preds
+
+
+def tune(gold: list[dict], preds: dict[str, dict], split_name: str, metric: str) -> float | None:
+    if "test" in split_name:
+        raise SystemExit("Refusing to tune a threshold on a test split.")
+    if not any("na_prob" in p for p in preds.values()):
+        raise SystemExit("tuning a threshold needs na_prob in the predictions")
+    raw = {i: {**p, "pred": raw_span(p)} for i, p in preds.items()}
+    return best_na_threshold([g for g in gold if g["id"] in raw], raw, metric=metric)[0]
+
+
+def decide(rows, preds, thr):
+    out = []
+    for ex in rows:
+        p = preds[ex["id"]]
+        if thr is None:
+            a = p.get("pred", "") or ""
+        else:
+            a = "" if p.get("na_prob", float("-inf")) > thr else raw_span(p)
+        out.append((ex["id"], " ".join(a.split())))  # one line per answer, no stray spaces
+    return out
+
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--name", required=True)
-    ap.add_argument("--preds", required=True)
-    ap.add_argument("--split-file", default=str(PROC / "official_val.jsonl"))
-    g = ap.add_mutually_exclusive_group(required=True)
-    g.add_argument("--dev-metrics")
-    g.add_argument("--threshold", type=float)
-    g.add_argument("--as-is", action="store_true")
-    g.add_argument("--tune-on-split", action="store_true")
-    ap.add_argument("--order-csv", default=str(ROOT / "data/val/contoh_submission_validation.csv"),
-                    help="sample submission whose id order submission.csv follows (ignored if missing)")
+    ap.add_argument("--split-file", default=str(PROC / "official_val.jsonl"),
+                    help="questions to answer (official_val.jsonl, official_test.jsonl)")
+    ap.add_argument("--run", help="run directory holding preds_<split>.jsonl")
+    ap.add_argument("--pred", "--preds", dest="pred", help="prediction file (default <run>/preds_<split stem>.jsonl)")
+    g = ap.add_mutually_exclusive_group()
+    g.add_argument("--threshold-from", help="split to tune the no-answer threshold on, e.g. official_val or dev")
+    g.add_argument("--tune-on-split", action="store_true", help="tune on the submitted split itself")
+    g.add_argument("--dev-metrics", help="metrics_dev.json whose best_na_threshold is used")
+    g.add_argument("--na-threshold", "--threshold", dest="na_threshold", type=float)
+    g.add_argument("--as-is", action="store_true", help="keep the model's own decision (the default)")
+    ap.add_argument("--tune-metric", choices=["exact", "f1"], default="exact",
+                    help="what tuning maximises (leaderboard: EM first, then F1)")
+    o = ap.add_mutually_exclusive_group(required=True)
+    o.add_argument("--out", help="CSV path to write")
+    o.add_argument("--name", help="write experiments/global/submissions/<split stem>/<name>/")
     a = ap.parse_args()
 
-    split_path = Path(a.split_file)
-    split = load_jsonl(split_path)
-    preds = {p["id"]: p for p in load_jsonl(a.preds)}
-    missing = [e["id"] for e in split if e["id"] not in preds]
-    if missing:
-        raise SystemExit(f"{len(missing)} ids of {split_path.name} have no prediction (first: {missing[0]})")
+    split_file = Path(a.split_file)
+    run_dir = Path(a.run) if a.run else None
+    pred_path = Path(a.pred) if a.pred else (run_dir / f"preds_{split_file.stem}.jsonl" if run_dir else None)
+    if pred_path is None:
+        raise SystemExit("give --run or --pred")
+    if a.threshold_from and run_dir is None:
+        raise SystemExit("--threshold-from needs --run")
 
-    # runs that already applied a dev threshold keep the raw span in span_pred; re-thresholding needs the raw span
-    for p in preds.values():
-        if "span_pred" in p and (a.tune_on_split or a.dev_metrics or a.threshold is not None):
-            p["pred"] = p["span_pred"]
-    thr = None
-    if a.tune_on_split:
-        if "na_prob" not in next(iter(preds.values())):
-            raise SystemExit("--tune-on-split needs na_prob in the predictions")
-        thr, _ = best_na_threshold(split, preds)
+    rows = load_jsonl(split_file)
+    if len({ex["id"] for ex in rows}) != len(rows):
+        raise SystemExit(f"duplicate ids in {split_file}")
+    preds = load_preds(pred_path)
+    missing = [ex["id"] for ex in rows if ex["id"] not in preds]
+    if missing:
+        raise SystemExit(f"{len(missing)} questions have no prediction in {pred_path}, e.g. {missing[:3]}")
+
+    if a.threshold_from:
+        thr = tune(load_jsonl(PROC / f"{a.threshold_from}.jsonl"),
+                   load_preds(run_dir / f"preds_{a.threshold_from}.jsonl"), a.threshold_from, a.tune_metric)
+        source = f"tuned on {a.threshold_from} ({a.tune_metric})"
+    elif a.tune_on_split:
+        thr = tune(rows, preds, split_file.stem, a.tune_metric)
+        source = f"tuned on this split ({a.tune_metric}; optimistic score)"
     elif a.dev_metrics:
         thr = json.loads(Path(a.dev_metrics).read_text(encoding="utf-8"))["best_na_threshold"]
-    elif a.threshold is not None:
-        thr = a.threshold
+        source = str(Path(a.dev_metrics))
+    else:
+        thr = a.na_threshold
+        source = "given" if thr is not None else "model"
 
-    answers = {}
-    for e in split:
-        p = preds[e["id"]]
-        ans = (p.get("pred", "") or "").strip()  # sentencepiece offsets can carry a leading space
-        if thr is not None and p.get("na_prob") is not None and p["na_prob"] > thr:
-            ans = ""
-        answers[e["id"]] = ans
+    out_rows = decide(rows, preds, thr)
+    if split_file.stem == "official_val" and SAMPLE.exists():
+        with open(SAMPLE, encoding="utf-8", newline="") as f:
+            if [r["id"] for r in csv.DictReader(f)] != [i for i, _ in out_rows]:
+                raise SystemExit(f"id order differs from {SAMPLE}")
 
-    out = EXP / "global/submissions" / split_path.stem / a.name
-    out.mkdir(parents=True, exist_ok=True)
-    (out / "answers.json").write_text(json.dumps(answers, ensure_ascii=False, indent=1), encoding="utf-8")
-    order = list(answers)
-    if Path(a.order_csv).exists():
-        with open(a.order_csv, encoding="utf-8", newline="") as f:
-            order = [r["id"] for r in csv.DictReader(f)]
-        if set(order) != set(answers):
-            raise SystemExit(f"{a.order_csv} ids differ from {split_path.name}")
-    with open(out / "submission.csv", "w", encoding="utf-8", newline="") as f:
-        w = csv.writer(f)
+    out_csv = Path(a.out) if a.out else EXP / "global/submissions" / split_file.stem / a.name / "submission.csv"
+    out_csv.parent.mkdir(parents=True, exist_ok=True)
+    with open(out_csv, "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f, lineterminator="\n")
         w.writerow(["id", "answer"])
-        w.writerows([i, answers[i]] for i in order)
-    with open(out / "answers.jsonl", "w", encoding="utf-8") as f:
-        for i, ans in answers.items():
-            f.write(json.dumps({"id": i, "answer": ans}, ensure_ascii=False) + "\n")
+        w.writerows(out_rows)
 
-    meta = {
-        "name": a.name,
-        "preds": str(Path(a.preds).resolve().relative_to(ROOT)),
-        "threshold_source": a.dev_metrics and str(Path(a.dev_metrics).resolve().relative_to(ROOT))
-        or ("tuned on this split (optimistic score)" if a.tune_on_split
-            else "explicit" if a.threshold is not None else "as-is"),
-        "na_threshold": thr,
-        "split": split_path.name,
-        "split_sha256": hashlib.sha256(split_path.read_bytes()).hexdigest(),
-        "n": len(answers),
-        "n_no_answer": sum(v == "" for v in answers.values()),
-        "created": datetime.datetime.now().isoformat(timespec="seconds"),
-    }
-    if all("answers" in e for e in split):
-        meta["metrics"] = aggregate(per_example_scores(split, {i: {"pred": v} for i, v in answers.items()}))
-    (out / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
-    m = meta.get("metrics", {})
-    print(f"{a.name}: n={meta['n']} no-answer={meta['n_no_answer']} thr={thr} "
-          f"EM={m.get('exact', float('nan')):.1f} F1={m.get('f1', float('nan')):.1f} -> {out.relative_to(ROOT)}")
+    report = {"out": str(out_csv), "pred": str(pred_path), "n": len(out_rows), "threshold": thr,
+              "threshold_from": source,
+              "no_answer_rate": round(100 * sum(1 for _, x in out_rows if not x) / len(out_rows), 2)}
+    if all("answers" in ex for ex in rows):
+        m = aggregate(per_example_scores(rows, {i: {"id": i, "pred": x} for i, x in out_rows}))
+        report["check"] = {k: round(m[k], 2) for k in ("exact", "f1", "HasAns_f1", "NoAns_acc")}
+    if a.name:
+        d = out_csv.parent
+        answers = dict(out_rows)
+        (d / "answers.json").write_text(json.dumps(answers, ensure_ascii=False, indent=1), encoding="utf-8")
+        with open(d / "answers.jsonl", "w", encoding="utf-8") as f:
+            for i, x in out_rows:
+                f.write(json.dumps({"id": i, "answer": x}, ensure_ascii=False) + "\n")
+        meta = {**report, "name": a.name, "split": split_file.name,
+                "split_sha256": hashlib.sha256(split_file.read_bytes()).hexdigest(),
+                "created": datetime.datetime.now().isoformat(timespec="seconds")}
+        (d / "meta.json").write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(json.dumps(report, indent=2))
 
 
 if __name__ == "__main__":

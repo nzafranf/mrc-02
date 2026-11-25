@@ -57,7 +57,7 @@ Gold text always matches `context[answer_start:...]` (0 inconsistent). Mismatche
 
 | variant | runs | n | EM | F1 | HasAns F1 | NoAns acc | predicted no-answer % | NA threshold |
 |---|---|---|---|---|---|---|---|---|
-| plm_indobert_full | 3 | 803 | 69.6 ± 0.4 | 73.5 ± 0.4 | 58.8 ± 1.2 | 90.7 ± 0.6 | 53.8 ± 1.0 | -2.15 ± 0.84 |
+| plm_indobert_full | 3 | 803 | 69.4 ± 0.5 | 73.5 ± 0.4 | 59.2 ± 1.2 | 90.3 ± 0.8 | 52.8 ± 1.0 | -1.98 ± 1.12 |
 
 ### Outcome types
 
@@ -65,42 +65,42 @@ Share of each gold group; count (mean over seeds) in brackets. Figure: [analysis
 
 | gold | outcome | plm_indobert_full |
 |---|---|---|
-| answerable | correct_ans | 51.5% (222) |
-| answerable | false_no_answer | 22.1% (95) |
-| answerable | wrong_sentence | 6.5% (28) |
-| answerable | wrong_span_same_sentence | 4.2% (18) |
-| answerable | boundary_too_long | 6.6% (29) |
-| answerable | boundary_too_short | 6.0% (26) |
-| answerable | partial_overlap | 3.2% (14) |
-| unanswerable | correct_no_ans | 90.7% (336) |
-| unanswerable | false_answer_on_unanswerable | 9.3% (35) |
+| answerable | correct_ans | 51.5% (223) |
+| answerable | false_no_answer | 20.5% (89) |
+| answerable | wrong_sentence | 6.6% (29) |
+| answerable | wrong_span_same_sentence | 4.9% (21) |
+| answerable | boundary_too_long | 6.8% (29) |
+| answerable | boundary_too_short | 6.2% (27) |
+| answerable | partial_overlap | 3.4% (15) |
+| unanswerable | correct_no_ans | 90.3% (335) |
+| unanswerable | false_answer_on_unanswerable | 9.7% (36) |
 
 ### Seed stability
 
 | variant | seeds | same outcome type (mean over seed pairs) | questions that flip right/wrong across seeds |
 |---|---|---|---|
-| plm_indobert_full | 3 | 87.1% | 13.9% |
+| plm_indobert_full | 3 | 87.0% | 14.7% |
 
 ### Weakest slices for `plm_indobert_full`, the best variant (n >= 30). All slices: [analysis/slices.md](analysis/slices.md)
 
 | slice | value | n | F1 (plm_indobert_full) |
 |---|---|---|---|
-| ans_rel_pos_bucket | Q3 | 48 | 48.7 |
-| ans_type | other_cap | 121 | 51.6 |
-| ans_len_bucket | >6 | 91 | 52.4 |
-| ans_rel_pos_bucket | Q4 | 51 | 54.8 |
-| ans_len_bucket | 4-6 | 46 | 56.2 |
-| ans_type | lowercase_phrase | 119 | 56.9 |
+| ans_rel_pos_bucket | Q3 | 48 | 49.5 |
+| ans_len_bucket | >6 | 91 | 53.2 |
+| ans_type | other_cap | 121 | 54.2 |
+| ans_rel_pos_bucket | Q4 | 51 | 55.4 |
+| ans_len_bucket | 4-6 | 46 | 56.4 |
+| ans_type | lowercase_phrase | 119 | 57.6 |
 
 ### Hard questions
 
-159 of 803 questions are wrong (F1 < 0.5) in every run of every variant; 12% of them are unanswerable (dev base rate 46%). List: [analysis/hard_examples.jsonl](analysis/hard_examples.jsonl).
+156 of 803 questions are wrong (F1 < 0.5) in every run of every variant; 13% of them are unanswerable (dev base rate 46%). List: [analysis/hard_examples.jsonl](analysis/hard_examples.jsonl).
 
 ### Calibration
 
-- plm_indobert_full seed13: ECE 0.1305, mean sigmoid(na_prob) 0.520, unanswerable rate 0.462, tuned threshold on the raw logit -1.098
-- plm_indobert_full seed42: ECE 0.1318, mean sigmoid(na_prob) 0.483, unanswerable rate 0.462, tuned threshold on the raw logit -2.191
-- plm_indobert_full seed87: ECE 0.1313, mean sigmoid(na_prob) 0.485, unanswerable rate 0.462, tuned threshold on the raw logit -3.154
+- plm_indobert_full seed13: ECE 0.1282, mean sigmoid(na_prob) 0.503, unanswerable rate 0.462, tuned threshold on the raw logit -0.508
+- plm_indobert_full seed42: ECE 0.1328, mean sigmoid(na_prob) 0.483, unanswerable rate 0.462, tuned threshold on the raw logit -2.199
+- plm_indobert_full seed87: ECE 0.1313, mean sigmoid(na_prob) 0.485, unanswerable rate 0.462, tuned threshold on the raw logit -3.220
 
 ### Analysis files
 
