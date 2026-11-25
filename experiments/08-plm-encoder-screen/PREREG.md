@@ -50,3 +50,14 @@ base 3e-5 (as 04), large 1.5e-5. Seed 13. Best epoch and NA threshold on officia
 - DeBERTa-v3 can overflow in fp16; a NaN loss is logged and the run reported as failed.
 - The data is IDK-MRC (Putri and Oh, 2022) re-split (about 94% of questions match exactly; see
   `miscellaneous/docs/decisions.md`). No checkpoint already fine-tuned on IDK-MRC or TyDiQA-ID is used here.
+
+## Outcome (added 2026-11-25, after all runs; nothing above was changed)
+Seed 13, official_val, threshold and epoch chosen on official_val. Details: `summary.md`, `analysis/results.md`.
+- H1 holds: mDeBERTa-v3-base 80.3 vs IndoBERT-base 71.7, +8.6 F1 [6.9, 10.3].
+- H2 holds: XLM-R-large 82.4 (+10.7 [9.0, 12.4]); NusaBERT-large 76.4 (+4.7 [3.1, 6.3]).
+- H3 holds trivially: the ALBERT run did not learn (loss about 2.9 throughout, no-answer on 1998 of 2003); reported
+  as failed, not retuned, as fixed above.
+- H4 holds against IndoBERT for every model (answerable +7.5 to +14.0); over m-BERT, mDeBERTa's gain is mostly on
+  unanswerable questions (+5.6).
+- H5 holds: m-BERT-base 77.3, +5.6 F1 [3.8, 7.3].
+- `electra_indo_base` was not run: the checkpoint is broken (tokenizer ids up to 35000, embeddings 30522).
